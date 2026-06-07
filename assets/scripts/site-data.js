@@ -18,7 +18,7 @@ window.siteData = {
   // Script web app — nothing is emailed. Paste your deployed web-app URL here
   // (see CONTACT_SETUP.md). While this is empty the form still validates and
   // shows the success state, but submissions are not stored anywhere yet.
-  contactEndpoint: "",
+  contactEndpoint: "https://script.google.com/macros/s/AKfycbzvzHpDx1CMopVkYzUMsQ7Fe_SDF1HIVdzyVPDo2yBXt-mYwcmEmv1rTAWFJY8FqLh1/exec",
   // Shared country dial codes for the phone field (Czech Republic default).
   countries: [
     { iso: "CZ", name: "Czech Republic", dial: "+420" },
