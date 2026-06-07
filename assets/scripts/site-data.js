@@ -140,7 +140,7 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/entrance-and-logo.jpg",
+              src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Turbová entrance lobby",
               caption: "Arrival framed in stone, light, and brass.",
             },
@@ -241,7 +241,7 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/entrance-and-logo.jpg",
+              src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Lobby Turbová",
               caption: "Příjezd rámovaný kamenem, světlem a mosazí.",
             },
@@ -342,7 +342,7 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/entrance-and-logo.jpg",
+              src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Лобби Turbová",
               caption: "Прибытие в обрамлении камня, света и латуни.",
             },
@@ -443,7 +443,7 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/entrance-and-logo.jpg",
+              src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Hall d'entrée Turbová",
               caption: "Une arrivée encadrée de pierre, de lumière et de laiton.",
             },
@@ -540,10 +540,12 @@ window.siteData = {
           media: [
             "assets/images/turbova-old.jpg",
             "assets/images/birds-eye-view.jpg",
+            "assets/images/birds-eye-view-2.jpg",
+            "assets/images/front-view.jpg",
           ],
           collage: [
             {
-              src: "assets/images/entrance-and-logo.jpg",
+              src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Turbová lobby",
               caption: "Arrival set in brass, stone, and quiet hospitality.",
               slot: "primary",
@@ -711,7 +713,7 @@ window.siteData = {
                 alt: "Two Turbová buildings beside the garden",
               },
               {
-                src: "assets/images/entrance-and-logo.jpg",
+                src: "assets/images/main-lobby-entrance-and-logo.jpg",
                 alt: "Turbová arrival lobby",
                 caption: "Hospitality-grade arrival sets the tone before the front door.",
               },
@@ -736,7 +738,7 @@ window.siteData = {
                 alt: "Decorative corridor at Turbová",
               },
               {
-                src: "assets/images/parking-garage.jpg",
+                src: "assets/images/garage-parking.jpg",
                 alt: "Curated underground parking at Turbová",
                 caption: "Even utility zones are composed as atmosphere.",
               },
@@ -761,7 +763,7 @@ window.siteData = {
                 alt: "Private Turbová pool",
               },
               {
-                src: "assets/images/pool-angle-2.jpg",
+                src: "assets/images/spa-sitting-pool.jpg",
                 alt: "Spa lounge at Turbová",
                 caption: "Warm light and still water turn wellness into daily ritual.",
               },
@@ -866,10 +868,12 @@ window.siteData = {
           media: [
             "assets/images/turbova-old.jpg",
             "assets/images/birds-eye-view.jpg",
+            "assets/images/birds-eye-view-2.jpg",
+            "assets/images/front-view.jpg",
           ],
           collage: [
             {
-              src: "assets/images/entrance-and-logo.jpg",
+              src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Lobby Turbová",
               caption: "Příjezd rámovaný mosazí, kamenem a tichou hospitality.",
               slot: "primary",
@@ -1037,7 +1041,7 @@ window.siteData = {
                 alt: "Dvě budovy Turbové vedle zahrady",
               },
               {
-                src: "assets/images/entrance-and-logo.jpg",
+                src: "assets/images/main-lobby-entrance-and-logo.jpg",
                 alt: "Lobby a příjezd Turbová",
                 caption: "Sekvence příjezdu nastavuje tón ještě před prahem bytu.",
               },
@@ -1062,7 +1066,7 @@ window.siteData = {
                 alt: "Dekorativní chodba Turbová",
               },
               {
-                src: "assets/images/parking-garage.jpg",
+                src: "assets/images/garage-parking.jpg",
                 alt: "Kurátorované podzemní parkování Turbová",
                 caption: "I utilitární zóny jsou zde komponovány jako atmosféra.",
               },
@@ -1087,7 +1091,7 @@ window.siteData = {
                 alt: "Soukromý bazén Turbová",
               },
               {
-                src: "assets/images/pool-angle-2.jpg",
+                src: "assets/images/spa-sitting-pool.jpg",
                 alt: "Spa lounge Turbová",
                 caption: "Teplé světlo a klidná voda mění wellness v každodenní rituál.",
               },
@@ -1192,10 +1196,12 @@ window.siteData = {
           media: [
             "assets/images/turbova-old.jpg",
             "assets/images/birds-eye-view.jpg",
+            "assets/images/birds-eye-view-2.jpg",
+            "assets/images/front-view.jpg",
           ],
           collage: [
             {
-              src: "assets/images/entrance-and-logo.jpg",
+              src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Лобби Turbová",
               caption: "Прибытие в латуни, камне и тихом гостеприимстве.",
               slot: "primary",
@@ -1363,7 +1369,7 @@ window.siteData = {
                 alt: "Два здания Turbová рядом с садом",
               },
               {
-                src: "assets/images/entrance-and-logo.jpg",
+                src: "assets/images/main-lobby-entrance-and-logo.jpg",
                 alt: "Лобби и прибытие Turbová",
                 caption: "Прибытие уровня гостеприимства задаёт тон ещё до входной двери.",
               },
@@ -1388,7 +1394,7 @@ window.siteData = {
                 alt: "Декоративный коридор Turbová",
               },
               {
-                src: "assets/images/parking-garage.jpg",
+                src: "assets/images/garage-parking.jpg",
                 alt: "Кураторская подземная парковка Turbová",
                 caption: "Даже утилитарные зоны выстроены как атмосфера.",
               },
@@ -1413,7 +1419,7 @@ window.siteData = {
                 alt: "Частный бассейн Turbová",
               },
               {
-                src: "assets/images/pool-angle-2.jpg",
+                src: "assets/images/spa-sitting-pool.jpg",
                 alt: "Спа-лаунж Turbová",
                 caption: "Тёплый свет и спокойная вода превращают велнес в ежедневный ритуал.",
               },
@@ -1518,10 +1524,12 @@ window.siteData = {
           media: [
             "assets/images/turbova-old.jpg",
             "assets/images/birds-eye-view.jpg",
+            "assets/images/birds-eye-view-2.jpg",
+            "assets/images/front-view.jpg",
           ],
           collage: [
             {
-              src: "assets/images/entrance-and-logo.jpg",
+              src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Hall Turbová",
               caption: "Une arrivée en laiton, pierre et hospitalité feutrée.",
               slot: "primary",
@@ -1689,7 +1697,7 @@ window.siteData = {
                 alt: "Deux bâtiments Turbová près du jardin",
               },
               {
-                src: "assets/images/entrance-and-logo.jpg",
+                src: "assets/images/main-lobby-entrance-and-logo.jpg",
                 alt: "Hall et arrivée Turbová",
                 caption: "Une arrivée digne de l'hôtellerie donne le ton avant même la porte d'entrée.",
               },
@@ -1714,7 +1722,7 @@ window.siteData = {
                 alt: "Couloir décoratif Turbová",
               },
               {
-                src: "assets/images/parking-garage.jpg",
+                src: "assets/images/garage-parking.jpg",
                 alt: "Parking souterrain soigné de Turbová",
                 caption: "Même les zones utilitaires sont composées comme une atmosphère.",
               },
@@ -1739,7 +1747,7 @@ window.siteData = {
                 alt: "Piscine privée de Turbová",
               },
               {
-                src: "assets/images/pool-angle-2.jpg",
+                src: "assets/images/spa-sitting-pool.jpg",
                 alt: "Salon spa de Turbová",
                 caption: "Lumière chaude et eau calme font du bien-être un rituel quotidien.",
               },
@@ -1843,6 +1851,7 @@ window.siteData = {
           media: [
             "assets/images/two-buildings-side-view.jpeg",
             "assets/images/corridor.jpg",
+            "assets/images/corridor-2.jpg",
           ],
         },
         metrics: [
@@ -1887,12 +1896,12 @@ window.siteData = {
             caption: "Common spaces use brass carving, terrazzo, and shadow as part of the identity.",
           },
           {
-            src: "assets/images/entrance-and-logo.jpg",
+            src: "assets/images/main-lobby-entrance-and-logo.jpg",
             alt: "Lobby entrance with Turbová logo",
             caption: "Arrival sequence designed as a hospitality-grade experience.",
           },
           {
-            src: "assets/images/parking-garage.jpg",
+            src: "assets/images/garage-parking.jpg",
             alt: "Parking gallery",
             caption: "Even the garage becomes a curated art object rather than a leftover utility zone.",
           },
@@ -1911,6 +1920,7 @@ window.siteData = {
           media: [
             "assets/images/two-buildings-side-view.jpeg",
             "assets/images/corridor.jpg",
+            "assets/images/corridor-2.jpg",
           ],
         },
         metrics: [
@@ -1955,12 +1965,12 @@ window.siteData = {
             caption: "Společné prostory používají mosazný reliéf, terazzo a stín jako součást identity.",
           },
           {
-            src: "assets/images/entrance-and-logo.jpg",
+            src: "assets/images/main-lobby-entrance-and-logo.jpg",
             alt: "Lobby se znakem Turbová",
             caption: "Sekvence příjezdu je navržena v kvalitě špičkové hospitality.",
           },
           {
-            src: "assets/images/parking-garage.jpg",
+            src: "assets/images/garage-parking.jpg",
             alt: "Parkovací galerie",
             caption: "I garáž se mění v kurátorovaný umělecký objekt místo čisté utility.",
           },
@@ -1979,6 +1989,7 @@ window.siteData = {
           media: [
             "assets/images/two-buildings-side-view.jpeg",
             "assets/images/corridor.jpg",
+            "assets/images/corridor-2.jpg",
           ],
         },
         metrics: [
@@ -2023,12 +2034,12 @@ window.siteData = {
             caption: "Общие пространства используют латунную резьбу, терраццо и тень как часть идентичности.",
           },
           {
-            src: "assets/images/entrance-and-logo.jpg",
+            src: "assets/images/main-lobby-entrance-and-logo.jpg",
             alt: "Вход в лобби с логотипом Turbová",
             caption: "Сценарий прибытия выстроен как опыт уровня гостеприимства.",
           },
           {
-            src: "assets/images/parking-garage.jpg",
+            src: "assets/images/garage-parking.jpg",
             alt: "Парковочная галерея",
             caption: "Даже гараж становится кураторским арт-объектом, а не остаточной утилитарной зоной.",
           },
@@ -2047,6 +2058,7 @@ window.siteData = {
           media: [
             "assets/images/two-buildings-side-view.jpeg",
             "assets/images/corridor.jpg",
+            "assets/images/corridor-2.jpg",
           ],
         },
         metrics: [
@@ -2091,12 +2103,12 @@ window.siteData = {
             caption: "Les espaces communs emploient le laiton ciselé, le terrazzo et l'ombre comme part de l'identité.",
           },
           {
-            src: "assets/images/entrance-and-logo.jpg",
+            src: "assets/images/main-lobby-entrance-and-logo.jpg",
             alt: "Entrée du hall avec le logo Turbová",
             caption: "La séquence d'arrivée est conçue comme une expérience digne de l'hôtellerie.",
           },
           {
-            src: "assets/images/parking-garage.jpg",
+            src: "assets/images/garage-parking.jpg",
             alt: "Galerie de stationnement",
             caption: "Même le garage devient un objet d'art soigné plutôt qu'une zone utilitaire résiduelle.",
           },
@@ -2116,7 +2128,9 @@ window.siteData = {
             "The internal wellness floor is designed as a slow, atmospheric sequence: heated pool, sauna, hammam, changing rooms, private kitchenette, and a terrace lounge.",
           media: [
             "assets/images/spa-pool.jpg",
-            "assets/images/pool-angle-2.jpg",
+            "assets/images/spa-sitting-pool.jpg",
+            "assets/images/spa-sitting.jpg",
+            "assets/images/spa-sitting-window.jpg",
           ],
         },
         metrics: [
@@ -2156,7 +2170,7 @@ window.siteData = {
             caption: "Still water and amber light create a cocooned atmosphere.",
           },
           {
-            src: "assets/images/pool-angle-2.jpg",
+            src: "assets/images/spa-sitting-pool.jpg",
             alt: "Spa lounge",
             caption: "Thermal relaxation framed by sculpted walls and low light.",
           },
@@ -2179,7 +2193,9 @@ window.siteData = {
             "Interní wellness patro je navrženo jako pomalá, atmosférická sekvence: vyhřívaný bazén, sauna, hammam, šatny, soukromá kuchyňka a odpočinková terasa.",
           media: [
             "assets/images/spa-pool.jpg",
-            "assets/images/pool-angle-2.jpg",
+            "assets/images/spa-sitting-pool.jpg",
+            "assets/images/spa-sitting.jpg",
+            "assets/images/spa-sitting-window.jpg",
           ],
         },
         metrics: [
@@ -2219,7 +2235,7 @@ window.siteData = {
             caption: "Klidná voda a jantarové světlo vytvářejí chráněnou atmosféru.",
           },
           {
-            src: "assets/images/pool-angle-2.jpg",
+            src: "assets/images/spa-sitting-pool.jpg",
             alt: "Spa lounge",
             caption: "Tepelná relaxace rámovaná tvarovanými stěnami a tlumeným světlem.",
           },
@@ -2242,7 +2258,9 @@ window.siteData = {
             "Внутренний велнес-этаж задуман как медленная атмосферная последовательность: подогреваемый бассейн, сауна, хаммам, раздевалки, приватная кухонька и лаунж-терраса.",
           media: [
             "assets/images/spa-pool.jpg",
-            "assets/images/pool-angle-2.jpg",
+            "assets/images/spa-sitting-pool.jpg",
+            "assets/images/spa-sitting.jpg",
+            "assets/images/spa-sitting-window.jpg",
           ],
         },
         metrics: [
@@ -2282,7 +2300,7 @@ window.siteData = {
             caption: "Спокойная вода и янтарный свет создают окутывающую атмосферу.",
           },
           {
-            src: "assets/images/pool-angle-2.jpg",
+            src: "assets/images/spa-sitting-pool.jpg",
             alt: "Спа-лаунж",
             caption: "Термальная релаксация в обрамлении скульптурных стен и приглушённого света.",
           },
@@ -2305,7 +2323,9 @@ window.siteData = {
             "L'étage bien-être intérieur est conçu comme une séquence lente et atmosphérique : piscine chauffée, sauna, hammam, vestiaires, kitchenette privée et salon-terrasse.",
           media: [
             "assets/images/spa-pool.jpg",
-            "assets/images/pool-angle-2.jpg",
+            "assets/images/spa-sitting-pool.jpg",
+            "assets/images/spa-sitting.jpg",
+            "assets/images/spa-sitting-window.jpg",
           ],
         },
         metrics: [
@@ -2345,7 +2365,7 @@ window.siteData = {
             caption: "Eau calme et lumière ambrée créent une atmosphère cocon.",
           },
           {
-            src: "assets/images/pool-angle-2.jpg",
+            src: "assets/images/spa-sitting-pool.jpg",
             alt: "Salon spa",
             caption: "Relaxation thermique encadrée de murs sculptés et de lumière tamisée.",
           },
@@ -2370,7 +2390,8 @@ window.siteData = {
             "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a playground for the youngest residents.",
           media: [
             "assets/images/terrace.jpg",
-            "assets/images/deco-wall.jpg",
+            "assets/images/terrace-2.jpg",
+            "assets/images/terrace-3.jpg",
           ],
         },
         metrics: [
@@ -2410,11 +2431,6 @@ window.siteData = {
             caption: "Water and brick introduce sound, texture, and calm at the garden edge.",
           },
           {
-            src: "assets/images/deco-wall.jpg",
-            alt: "Decorative planted wall",
-            caption: "The planted wall becomes both atmosphere and acoustic buffer.",
-          },
-          {
             src: "assets/images/terrace.jpg",
             alt: "Garden terrace",
             caption: "Private open-air rooms extend the living experience into the landscape.",
@@ -2433,7 +2449,8 @@ window.siteData = {
             "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, outdoor fitness, viničním domkem a hřištěm pro nejmladší rezidenty.",
           media: [
             "assets/images/terrace.jpg",
-            "assets/images/deco-wall.jpg",
+            "assets/images/terrace-2.jpg",
+            "assets/images/terrace-3.jpg",
           ],
         },
         metrics: [
@@ -2473,11 +2490,6 @@ window.siteData = {
             caption: "Voda a cihla přidávají zvuk, texturu a klid na okraji zahrady.",
           },
           {
-            src: "assets/images/deco-wall.jpg",
-            alt: "Dekorativní vegetační stěna",
-            caption: "Osázená stěna se stává atmosférou i akustickou bariérou.",
-          },
-          {
             src: "assets/images/terrace.jpg",
             alt: "Zahradní terasa",
             caption: "Soukromé venkovní pokoje rozšiřují bydlení do krajiny.",
@@ -2496,7 +2508,8 @@ window.siteData = {
             "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, открытым фитнесом, винным домом и площадкой для самых юных резидентов.",
           media: [
             "assets/images/terrace.jpg",
-            "assets/images/deco-wall.jpg",
+            "assets/images/terrace-2.jpg",
+            "assets/images/terrace-3.jpg",
           ],
         },
         metrics: [
@@ -2536,11 +2549,6 @@ window.siteData = {
             caption: "Вода и кирпич вносят звук, текстуру и спокойствие на краю сада.",
           },
           {
-            src: "assets/images/deco-wall.jpg",
-            alt: "Декоративная озеленённая стена",
-            caption: "Озеленённая стена становится и атмосферой, и акустическим барьером.",
-          },
-          {
             src: "assets/images/terrace.jpg",
             alt: "Садовая терраса",
             caption: "Частные открытые комнаты продолжают жизнь в ландшафт.",
@@ -2559,7 +2567,8 @@ window.siteData = {
             "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une maison du vin et une aire de jeu pour les plus jeunes résidents.",
           media: [
             "assets/images/terrace.jpg",
-            "assets/images/deco-wall.jpg",
+            "assets/images/terrace-2.jpg",
+            "assets/images/terrace-3.jpg",
           ],
         },
         metrics: [
@@ -2599,11 +2608,6 @@ window.siteData = {
             caption: "L'eau et la brique apportent son, texture et calme en lisière du jardin.",
           },
           {
-            src: "assets/images/deco-wall.jpg",
-            alt: "Mur végétal décoratif",
-            caption: "Le mur planté devient à la fois atmosphère et tampon acoustique.",
-          },
-          {
             src: "assets/images/terrace.jpg",
             alt: "Terrasse de jardin",
             caption: "Des pièces extérieures privées prolongent l'expérience de vie dans le paysage.",
@@ -2624,7 +2628,7 @@ window.siteData = {
             "Turbová sits within Prague 5, close to the Anděl district and key city routes, while remaining buffered by its own hillside garden world.",
           media: [
             "assets/images/birds-eye-view.jpg",
-            "assets/images/parking-entrance.jpg",
+            "assets/images/garage-entrance.jpg",
           ],
         },
         metrics: [
@@ -2669,7 +2673,7 @@ window.siteData = {
             caption: "Architecture remains connected to Prague while opening itself toward garden calm.",
           },
           {
-            src: "assets/images/parking-entrance.jpg",
+            src: "assets/images/garage-entrance.jpg",
             alt: "Parking entrance tunnel",
             caption: "Arrival sequences are treated as part of the residential experience, not leftover infrastructure.",
           },
@@ -2687,7 +2691,7 @@ window.siteData = {
             "Turbová leží na Praze 5, v blízkosti Anděla a klíčových městských tras, a přitom zůstává chráněna vlastním zahradním svahem.",
           media: [
             "assets/images/birds-eye-view.jpg",
-            "assets/images/parking-entrance.jpg",
+            "assets/images/garage-entrance.jpg",
           ],
         },
         metrics: [
@@ -2732,7 +2736,7 @@ window.siteData = {
             caption: "Architektura zůstává napojená na Prahu a zároveň se otevírá do zahradního klidu.",
           },
           {
-            src: "assets/images/parking-entrance.jpg",
+            src: "assets/images/garage-entrance.jpg",
             alt: "Tunel parkovacího příjezdu",
             caption: "Příjezdové sekvence jsou součástí rezidenční zkušenosti, nikoli zbytkové infrastruktury.",
           },
@@ -2750,7 +2754,7 @@ window.siteData = {
             "Turbová расположена в Праге 5, рядом с районом Андел и ключевыми городскими магистралями, оставаясь укрытой собственным садовым миром на склоне.",
           media: [
             "assets/images/birds-eye-view.jpg",
-            "assets/images/parking-entrance.jpg",
+            "assets/images/garage-entrance.jpg",
           ],
         },
         metrics: [
@@ -2795,7 +2799,7 @@ window.siteData = {
             caption: "Архитектура остаётся связанной с Прагой, открываясь к садовому спокойствию.",
           },
           {
-            src: "assets/images/parking-entrance.jpg",
+            src: "assets/images/garage-entrance.jpg",
             alt: "Тоннель парковочного въезда",
             caption: "Сценарии прибытия — часть жилого опыта, а не остаточная инфраструктура.",
           },
@@ -2813,7 +2817,7 @@ window.siteData = {
             "Turbová se situe à Prague 5, proche du quartier d'Anděl et des grands axes, tout en restant protégée par son propre monde de jardin sur le coteau.",
           media: [
             "assets/images/birds-eye-view.jpg",
-            "assets/images/parking-entrance.jpg",
+            "assets/images/garage-entrance.jpg",
           ],
         },
         metrics: [
@@ -2858,7 +2862,7 @@ window.siteData = {
             caption: "L'architecture reste reliée à Prague tout en s'ouvrant vers le calme du jardin.",
           },
           {
-            src: "assets/images/parking-entrance.jpg",
+            src: "assets/images/garage-entrance.jpg",
             alt: "Tunnel d'entrée du parking",
             caption: "Les séquences d'arrivée font partie de l'expérience résidentielle, non d'une infrastructure résiduelle.",
           },

@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Local dev server (not needed for deployment)
+serve.py
