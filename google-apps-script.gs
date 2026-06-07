@@ -25,7 +25,7 @@ function doPost(e) {
     }
 
     var sheet = getSheet_();
-    sheet.appendRow([
+    var values = [
       new Date(),
       data.firstName || '',
       data.lastName || '',
@@ -37,7 +37,15 @@ function doPost(e) {
       data.contactMethod || '',
       data.message || '',
       data.language || '',
-    ]);
+    ];
+
+    var targetRow = sheet.getLastRow() + 1;
+    var range = sheet.getRange(targetRow, 1, 1, values.length);
+    // The phone (column 5) can start with "+", which Sheets would otherwise
+    // treat as a formula ("Formula parse error"). Force that cell to plain
+    // text before writing so it's stored verbatim.
+    sheet.getRange(targetRow, 5).setNumberFormat('@');
+    range.setValues([values]);
 
     return json_({ result: 'success' });
   } catch (err) {
