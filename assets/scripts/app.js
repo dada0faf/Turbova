@@ -6,10 +6,39 @@
   const pageId = document.body.dataset.page || "home";
   const languageKey = "turbova-language";
   const transitionKey = "turbova-page-transition";
-  const lang = localStorage.getItem(languageKey) || "en";
+
+  const languages = (siteData.languages && siteData.languages.length)
+    ? siteData.languages
+    : [
+        { code: "en", label: "English", short: "EN" },
+        { code: "cs", label: "Čeština", short: "CZ" },
+        { code: "ru", label: "Русский", short: "RU" },
+        { code: "fr", label: "Français", short: "FR" },
+      ];
+  const validCodes = languages.map((item) => item.code);
+  const storedLang = localStorage.getItem(languageKey);
+  const lang = validCodes.includes(storedLang) ? storedLang : "en";
+
   const entering = sessionStorage.getItem(transitionKey) === "active";
-  let parallaxCleanup = null;
-  let revealCleanup = null;
+  let cleanups = [];
+
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Load Inter for the calm, contemporary sans typography of the reference site.
+  if (!document.querySelector('link[data-inter]')) {
+    const preconnect = document.createElement("link");
+    preconnect.rel = "preconnect";
+    preconnect.href = "https://fonts.gstatic.com";
+    preconnect.crossOrigin = "anonymous";
+    document.head.appendChild(preconnect);
+    const font = document.createElement("link");
+    font.rel = "stylesheet";
+    font.dataset.inter = "true";
+    font.href = "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap";
+    document.head.appendChild(font);
+  }
+
+  const arrow = '<span class="button__arrow" aria-hidden="true">&rarr;</span>';
 
   function getGlobal(locale) {
     return siteData.global[locale] || siteData.global.en;
@@ -19,14 +48,58 @@
     return siteData.pages[pageId][locale] || siteData.pages[pageId].en;
   }
 
+  // Wrap heading text in line-reveal masks (split on spaces into balanced lines is overkill;
+  // we mask the whole heading as a single rising line for a calm, controlled motion).
+  function heading(tag, text, className) {
+    const cls = className ? ` class="${className}"` : "";
+    return `<${tag}${cls}><span class="line-reveal"><span>${text}</span></span></${tag}>`;
+  }
+
   function renderNavLinks(locale, className) {
     const globalData = getGlobal(locale);
     return siteData.navigation
-      .map((item) => {
+      .map((item, index) => {
         const activeClass = item.slug === pageId ? " is-active" : "";
-        return `<a class="${className}${activeClass}" href="${item.href}">${globalData.menu[item.slug]}</a>`;
+        const indexAttr =
+          className === "mobile-nav-link"
+            ? ` data-index="0${index + 1}"`
+            : "";
+        return `<a class="${className}${activeClass}"${indexAttr} href="${item.href}">${globalData.menu[item.slug]}</a>`;
       })
       .join("");
+  }
+
+  function renderLanguageSelect(locale, globalData) {
+    const current = languages.find((item) => item.code === locale) || languages[0];
+    const globeIcon = `
+      <svg class="lang-globe__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"></circle>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <path d="M12 3c2.5 2.6 2.5 15.4 0 18c-2.5-2.6-2.5-15.4 0-18z"></path>
+      </svg>`;
+    return `
+      <div class="lang-select" data-lang-select>
+        <button class="lang-globe" type="button" aria-haspopup="true" aria-expanded="false" aria-label="${globalData.languageLabel}">
+          ${globeIcon}
+          <span class="lang-globe__code">${current.short}</span>
+          <span class="lang-globe__chevron" aria-hidden="true"></span>
+        </button>
+        <ul class="lang-menu" role="menu">
+          ${languages
+            .map(
+              (item) => `
+                <li role="none">
+                  <button class="lang-option ${item.code === locale ? "is-active" : ""}" type="button" role="menuitemradio" aria-checked="${item.code === locale}" data-lang="${item.code}">
+                    <span class="lang-option__label">${item.label}</span>
+                    <span class="lang-option__code">${item.short}</span>
+                  </button>
+                </li>
+              `
+            )
+            .join("")}
+        </ul>
+      </div>
+    `;
   }
 
   function renderNavigation(locale) {
@@ -41,11 +114,8 @@
           ${renderNavLinks(locale, "nav-link")}
         </nav>
         <div class="header-actions">
-          <div class="lang-toggle" aria-label="${globalData.languageLabel}">
-            <button class="lang-button ${locale === "en" ? "is-active" : ""}" data-lang="en">EN</button>
-            <button class="lang-button ${locale === "cs" ? "is-active" : ""}" data-lang="cs">CZ</button>
-          </div>
-          <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          ${renderLanguageSelect(locale, globalData)}
+          <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${globalData.menuLabel}">
             <span></span>
             <span></span>
           </button>
@@ -68,7 +138,7 @@
 
   function renderMetricStrip(items, className = "metric-strip") {
     return `
-      <section class="${className} reveal">
+      <section class="${className} reveal stagger">
         ${items
           .map(
             (item) => `
@@ -85,13 +155,12 @@
 
   function renderGallery(items) {
     return `
-      <div class="gallery-grid">
+      <div class="gallery-grid stagger">
         ${items
           .map(
             (item, index) => `
               <figure class="gallery-card ${index === 0 ? "gallery-card--wide" : ""}">
-                <img src="${item.src}" alt="${item.alt}" />
-                <figcaption>${item.caption}</figcaption>
+                <img src="${item.src}" alt="${item.alt}" loading="lazy" />
               </figure>
             `
           )
@@ -115,19 +184,37 @@
       .join("");
   }
 
+  function renderImageCarousel(items) {
+    // Duplicate the first slide at the end so the track can wrap seamlessly.
+    const slides = items.concat(items.length > 1 ? [items[0]] : []);
+    return `
+      <div class="img-carousel" data-carousel>
+        <div class="img-carousel__track">
+          ${slides
+            .map(
+              (item) => `
+                <figure class="img-carousel__slide">
+                  <img src="${item.src}" alt="${item.alt}" loading="lazy" />
+                </figure>
+              `
+            )
+            .join("")}
+        </div>
+        ${
+          items.length > 1
+            ? `<div class="img-carousel__dots">${items
+                .map((_, i) => `<span class="img-carousel__dot${i === 0 ? " is-active" : ""}"></span>`)
+                .join("")}</div>`
+            : ""
+        }
+      </div>
+    `;
+  }
+
   function renderCollage(items, variant, badges) {
     return `
       <div class="collage collage--${variant}">
-        ${items
-          .map(
-            (item) => `
-              <figure class="collage-card collage-card--${item.slot}" data-parallax="${item.speed || 1}">
-                <img src="${item.src}" alt="${item.alt}" />
-                ${item.caption ? `<figcaption>${item.caption}</figcaption>` : ""}
-              </figure>
-            `
-          )
-          .join("")}
+        ${renderImageCarousel(items)}
         ${renderFloatingBadges(badges)}
       </div>
     `;
@@ -149,20 +236,11 @@
         alt: data.hero.media[1].alt,
         caption: data.hero.media[1].caption,
         slot: "secondary",
-        speed: 0.8,
-      },
-      {
-        src: data.legacy.mediaLeft,
-        alt: data.legacy.title,
-        caption: data.legacy.title,
-        slot: "tertiary",
-        speed: 1.2,
+        speed: 0.78,
       },
     ];
     const collageBadges = [
       { label: "22", note: locale === "cs" ? "rezidencí" : "residences" },
-      { label: globalData.availableValue, note: locale === "cs" ? "dokončení" : "completion" },
-      { label: locale === "cs" ? "Praha 5" : "Prague 5", note: locale === "cs" ? "soukromý park" : "private park" },
     ];
 
     return `
@@ -170,11 +248,11 @@
         <section class="hero-shell hero-shell--home reveal is-visible">
           <div class="hero-shell__copy">
             <p class="eyebrow">${data.hero.eyebrow}</p>
-            <h1>${data.hero.title}</h1>
+            ${heading("h1", data.hero.title)}
             <p class="lead">${data.hero.lead}</p>
             <p class="description">${data.hero.description}</p>
             <div class="hero-actions">
-              <a class="button button-primary" href="${data.hero.primary.href}">${data.hero.primary.label}</a>
+              <a class="button button-primary" href="${data.hero.primary.href}">${data.hero.primary.label}${arrow}</a>
               <a class="button button-secondary" href="${data.hero.secondary.href}">${data.hero.secondary.label}</a>
             </div>
             <div class="hero-badge-row">
@@ -189,9 +267,9 @@
         <section class="chapter-rail reveal">
           <div class="section-heading">
             <p class="eyebrow">${globalData.chapterLabel}</p>
-            <h2>${data.chaptersTitle}</h2>
+            ${heading("h2", data.chaptersTitle)}
           </div>
-          <div class="chapter-list">
+          <div class="chapter-list stagger">
             ${data.chapters
               .map(
                 (chapter) => `
@@ -199,6 +277,7 @@
                     <span class="chapter-card__number">${chapter.number}</span>
                     <h3>${chapter.title}</h3>
                     <p>${chapter.text}</p>
+                    <span class="chapter-card__arrow" aria-hidden="true">&rarr;</span>
                   </a>
                 `
               )
@@ -208,20 +287,18 @@
 
         <section class="legacy-spotlight reveal">
           <div class="legacy-spotlight__media">
-            <figure class="frame frame--primary" data-parallax="1.12">
-              <img src="${data.legacy.mediaLeft}" alt="${data.legacy.title}" />
-            </figure>
-            <figure class="frame frame--secondary" data-parallax="0.82">
-              <img src="${data.legacy.mediaRight}" alt="${data.legacy.title}" />
-            </figure>
+            ${renderImageCarousel([
+              { src: data.legacy.mediaLeft, alt: data.legacy.title },
+              { src: data.legacy.mediaRight, alt: data.legacy.title },
+            ])}
           </div>
           <div class="legacy-spotlight__copy">
             <div class="section-heading">
               <p class="eyebrow">${globalData.strap}</p>
-              <h2>${data.legacy.title}</h2>
+              ${heading("h2", data.legacy.title)}
             </div>
             <p class="section-copy">${data.legacy.text}</p>
-            <div class="detail-card-grid">
+            <div class="detail-card-grid stagger">
               ${data.legacy.cards
                 .map(
                   (card) => `
@@ -243,18 +320,12 @@
     return `
       <section class="story-beat ${index % 2 === 1 ? "story-beat--reverse" : ""} reveal">
         <div class="story-beat__media">
-          <figure class="media-stack__primary" data-parallax="${index % 2 === 0 ? 1.04 : 0.86}">
-            <img src="${beat.media[0].src}" alt="${beat.media[0].alt}" />
-          </figure>
-          <figure class="media-stack__secondary" data-parallax="${index % 2 === 0 ? 0.74 : 1.12}">
-            <img src="${beat.media[1].src}" alt="${beat.media[1].alt}" />
-            <figcaption>${beat.media[1].caption}</figcaption>
-          </figure>
+          ${renderImageCarousel(beat.media)}
           <span class="media-stack__badge">${beat.badge}</span>
         </div>
         <div class="story-beat__copy">
           <span class="story-beat__number">${beat.number}</span>
-          <h2>${beat.title}</h2>
+          ${heading("h2", beat.title)}
           ${beat.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
           <div class="story-beat__chips">
             ${beat.points.map((point) => `<span>${point}</span>`).join("")}
@@ -271,11 +342,11 @@
         <section class="hero-shell hero-shell--story reveal is-visible">
           <div class="hero-shell__copy hero-shell__copy--story">
             <p class="eyebrow">${data.hero.eyebrow}</p>
-            <h1>${data.hero.title}</h1>
+            ${heading("h1", data.hero.title)}
             <p class="lead">${data.hero.lead}</p>
             <p class="description">${data.hero.description}</p>
             <div class="hero-actions">
-              <a class="button button-primary" href="${data.hero.button.href}">${data.hero.button.label}</a>
+              <a class="button button-primary" href="${data.hero.button.href}">${data.hero.button.label}${arrow}</a>
             </div>
           </div>
           ${renderCollage(data.hero.collage, "story", data.hero.badges)}
@@ -284,15 +355,15 @@
         <section class="story-introduction reveal" id="story-intro">
           <div class="section-heading section-heading--center">
             <p class="eyebrow">${data.intro.eyebrow}</p>
-            <h2>${data.intro.title}</h2>
+            ${heading("h2", data.intro.title)}
           </div>
-          <div class="story-introduction__grid">
+          <div class="story-introduction__grid stagger">
             ${data.intro.cards
               .map(
                 (card) => `
                   <article class="story-profile-card">
                     <figure class="story-profile-card__media">
-                      <img src="${card.image}" alt="${card.alt}" />
+                      <img src="${card.image}" alt="${card.alt}" loading="lazy" />
                     </figure>
                     <div class="story-profile-card__copy">
                       <p class="eyebrow">${card.subtitle}</p>
@@ -304,7 +375,7 @@
               )
               .join("")}
           </div>
-          <div class="timeline-strip">
+          <div class="timeline-strip stagger">
             ${data.timeline
               .map(
                 (item) => `
@@ -328,7 +399,7 @@
         <section class="mission-block reveal">
           <div class="section-heading section-heading--center">
             <p class="eyebrow">${data.mission.eyebrow}</p>
-            <h2>${data.mission.title}</h2>
+            ${heading("h2", data.mission.title)}
           </div>
           <div class="mission-block__copy">
             ${data.mission.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
@@ -339,10 +410,10 @@
         <section class="cta-panel reveal">
           <div class="section-heading">
             <p class="eyebrow">${data.cta.eyebrow}</p>
-            <h2>${data.cta.title}</h2>
+            ${heading("h2", data.cta.title)}
           </div>
           <p class="section-copy">${data.cta.text}</p>
-          <div class="cta-panel__cards">
+          <div class="cta-panel__cards stagger">
             ${data.cta.cards
               .map(
                 (card) => `
@@ -350,7 +421,7 @@
                     <p class="eyebrow">${card.eyebrow}</p>
                     <h3>${card.title}</h3>
                     <p>${card.text}</p>
-                    <span>${card.label}</span>
+                    <span>${card.label}${arrow}</span>
                   </a>
                 `
               )
@@ -372,20 +443,18 @@
         <section class="chapter-hero reveal is-visible">
           <div class="chapter-hero__copy">
             <p class="eyebrow">${data.hero.eyebrow}</p>
-            <h1>${data.hero.title}</h1>
+            ${heading("h1", data.hero.title)}
             <p class="lead">${data.hero.lead}</p>
             <div class="hero-actions">
-              <a class="button button-primary" href="${data.next.href}">${data.next.label}</a>
+              <a class="button button-primary" href="${data.next.href}">${data.next.label}${arrow}</a>
               <a class="button button-secondary" href="story.html">${globalData.menu.story}</a>
             </div>
           </div>
           <div class="chapter-hero__media">
-            <figure class="chapter-hero__frame chapter-hero__frame--primary" data-parallax="1.05">
-              <img src="${heroMedia[0]}" alt="${data.hero.title}" />
-            </figure>
-            <figure class="chapter-hero__frame chapter-hero__frame--secondary" data-parallax="0.78">
-              <img src="${secondaryMedia}" alt="${data.story.title}" />
-            </figure>
+            ${renderImageCarousel([
+              { src: heroMedia[0], alt: data.hero.title },
+              { src: secondaryMedia, alt: data.story.title },
+            ])}
             <div class="floating-badge floating-badge--1">
               <strong>${data.metrics[0].value}</strong>
               <span>${data.metrics[0].label}</span>
@@ -398,13 +467,13 @@
         <section class="chapter-story reveal">
           <div class="section-heading">
             <p class="eyebrow">${globalData.brand}</p>
-            <h2>${data.story.title}</h2>
+            ${heading("h2", data.story.title)}
           </div>
           <div class="chapter-story__layout">
             <div class="chapter-story__copy">
               ${data.story.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
             </div>
-            <div class="pillar-grid">
+            <div class="pillar-grid stagger">
               ${data.pillars
                 .map(
                   (pillar) => `
@@ -422,14 +491,14 @@
         <section class="gallery-section reveal">
           <div class="section-heading">
             <p class="eyebrow">${globalData.chapterLabel}</p>
-            <h2>${data.hero.title}</h2>
+            ${heading("h2", data.hero.title)}
           </div>
           ${renderGallery(data.gallery)}
         </section>
 
         <section class="quote-panel reveal">
           <p>${data.quote}</p>
-          <a class="button button-primary" href="${data.next.href}">${data.next.label}</a>
+          <a class="button button-primary" href="${data.next.href}">${data.next.label}${arrow}</a>
         </section>
       </main>
     `;
@@ -438,7 +507,7 @@
   function renderFooter(locale) {
     const globalData = getGlobal(locale);
     return `
-      <footer class="site-footer reveal">
+      <footer class="site-footer reveal stagger">
         <div class="footer-brand">
           <p class="eyebrow">${globalData.availableLabel} ${globalData.availableValue}</p>
           <h2>${globalData.footerTitle}</h2>
@@ -450,7 +519,7 @@
             .join("")}
         </nav>
         <div class="footer-actions">
-          <a class="button button-primary" href="residences.html">${globalData.footerPrimary}</a>
+          <a class="button button-primary" href="residences.html">${globalData.footerPrimary}${arrow}</a>
           <a class="button button-secondary" href="story.html">${globalData.footerSecondary}</a>
           <p class="footer-note">${globalData.footerNote}</p>
         </div>
@@ -462,6 +531,7 @@
     const pageMarkup =
       pageId === "home" ? renderHome(locale) : pageId === "story" ? renderStory(locale) : renderChapter(locale);
     shell.innerHTML = `
+      <div class="scroll-progress" aria-hidden="true"></div>
       <div class="ambient ambient--one"></div>
       <div class="ambient ambient--two"></div>
       <div class="ambient ambient--three"></div>
@@ -470,16 +540,46 @@
       ${renderFooter(locale)}
     `;
     document.title = getPage(locale).title;
-    document.documentElement.lang = locale === "cs" ? "cs" : "en";
+    document.documentElement.lang = locale;
   }
 
-  function bindLanguageToggle() {
-    shell.querySelectorAll(".lang-button").forEach((button) => {
+  function bindLanguageSelect() {
+    const select = shell.querySelector("[data-lang-select]");
+    if (!select) return;
+    const globe = select.querySelector(".lang-globe");
+
+    const setOpen = (open) => {
+      select.classList.toggle("is-open", open);
+      globe.setAttribute("aria-expanded", String(open));
+    };
+
+    globe.addEventListener("click", (event) => {
+      event.stopPropagation();
+      setOpen(!select.classList.contains("is-open"));
+    });
+
+    select.querySelectorAll(".lang-option").forEach((button) => {
       button.addEventListener("click", () => {
-        localStorage.setItem(languageKey, button.dataset.lang);
-        renderPage(button.dataset.lang);
+        const code = button.dataset.lang;
+        if (!validCodes.includes(code)) return;
+        localStorage.setItem(languageKey, code);
+        setOpen(false);
+        renderPage(code);
         bindInteractions();
       });
+    });
+
+    const onDocClick = (event) => {
+      if (!select.contains(event.target)) setOpen(false);
+    };
+    const onKey = (event) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("click", onDocClick);
+    document.addEventListener("keydown", onKey);
+    cleanups.push(() => {
+      document.removeEventListener("click", onDocClick);
+      document.removeEventListener("keydown", onKey);
     });
   }
 
@@ -513,7 +613,7 @@
         sessionStorage.setItem(transitionKey, "active");
         window.setTimeout(() => {
           window.location.href = href;
-        }, 420);
+        }, 480);
       });
     });
   }
@@ -528,52 +628,119 @@
           }
         });
       },
-      { threshold: 0.16 }
+      { threshold: 0.14, rootMargin: "0px 0px -8% 0px" }
     );
 
-    document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
-    revealCleanup = () => observer.disconnect();
+    document.querySelectorAll(".reveal, .stagger, .line-reveal").forEach((element) => observer.observe(element));
+    cleanups.push(() => observer.disconnect());
   }
 
-  function bindParallax() {
-    const elements = document.querySelectorAll("[data-parallax]");
-    if (!elements.length) return;
+  function bindScrollProgress() {
+    const bar = shell.querySelector(".scroll-progress");
+    const header = shell.querySelector(".site-header");
+    if (!bar) return;
 
     const update = () => {
-      const midpoint = window.innerHeight / 2;
-      elements.forEach((element) => {
-        const depth = Number(element.dataset.parallax || 1);
-        const rect = element.getBoundingClientRect();
-        const distance = (rect.top + rect.height / 2 - midpoint) * -0.024 * depth;
-        element.style.setProperty("--parallax-shift", `${distance.toFixed(1)}px`);
-      });
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = scrollable > 0 ? window.scrollY / scrollable : 0;
+      bar.style.setProperty("--progress", Math.min(1, Math.max(0, progress)).toFixed(4));
+      if (header) header.classList.toggle("is-stuck", window.scrollY > 40);
     };
 
     update();
     window.addEventListener("scroll", update, { passive: true });
     window.addEventListener("resize", update);
-
-    parallaxCleanup = () => {
+    cleanups.push(() => {
       window.removeEventListener("scroll", update);
       window.removeEventListener("resize", update);
+    });
+  }
+
+  function bindParallax() {
+    if (reduceMotion) return;
+    const elements = document.querySelectorAll("[data-parallax]");
+    if (!elements.length) return;
+
+    let ticking = false;
+    const apply = () => {
+      const midpoint = window.innerHeight / 2;
+      elements.forEach((element) => {
+        const depth = Number(element.dataset.parallax || 1);
+        const rect = element.getBoundingClientRect();
+        if (rect.bottom < -200 || rect.top > window.innerHeight + 200) return;
+        const distance = (rect.top + rect.height / 2 - midpoint) * -0.026 * depth;
+        element.style.setProperty("--parallax-shift", `${distance.toFixed(1)}px`);
+      });
+      ticking = false;
     };
+    const onScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(apply);
+        ticking = true;
+      }
+    };
+
+    apply();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    cleanups.push(() => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    });
+  }
+
+  function bindCarousels() {
+    document.querySelectorAll("[data-carousel]").forEach((carousel) => {
+      const track = carousel.querySelector(".img-carousel__track");
+      const dots = carousel.querySelectorAll(".img-carousel__dot");
+      const real = dots.length; // number of unique images
+      if (!track || real < 2) return;
+
+      // total slides = real + 1 (the appended clone of the first image)
+      let index = 0;
+      const transition = "transform 1.1s var(--ease-soft)";
+      track.style.transition = transition;
+
+      const advance = () => {
+        index += 1;
+        track.style.transition = transition;
+        track.style.transform = `translateX(-${index * 100}%)`;
+
+        const activeDot = index % real;
+        dots.forEach((dot, i) => dot.classList.toggle("is-active", i === activeDot));
+
+        // When we land on the cloned slide, snap back to the real first slide
+        // without animation once the slide transition has finished.
+        if (index === real) {
+          const reset = () => {
+            track.style.transition = "none";
+            index = 0;
+            track.style.transform = "translateX(0)";
+            // Force reflow so the next animated move is honored.
+            void track.offsetWidth;
+            track.style.transition = transition;
+            track.removeEventListener("transitionend", reset);
+          };
+          track.addEventListener("transitionend", reset);
+        }
+      };
+
+      const timer = setInterval(advance, 10000);
+      cleanups.push(() => clearInterval(timer));
+    });
   }
 
   function bindInteractions() {
-    if (parallaxCleanup) {
-      parallaxCleanup();
-      parallaxCleanup = null;
-    }
-    if (revealCleanup) {
-      revealCleanup();
-      revealCleanup = null;
-    }
+    cleanups.forEach((fn) => fn());
+    cleanups = [];
 
-    bindLanguageToggle();
+    bindLanguageSelect();
     bindMenu();
     bindTransitions();
     bindReveal();
+    bindScrollProgress();
     bindParallax();
+    bindCarousels();
   }
 
   if (entering) {
