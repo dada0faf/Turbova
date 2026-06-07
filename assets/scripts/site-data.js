@@ -12,6 +12,57 @@ window.siteData = {
     { slug: "wellness", href: "wellness.html" },
     { slug: "grounds", href: "grounds.html" },
     { slug: "location", href: "location.html" },
+    { slug: "contact", href: "contact.html" },
+  ],
+  // Where enquiries are delivered. Leave contactEndpoint empty to use the
+  // mailto fallback (works on static hosting); set it to a form endpoint
+  // (e.g. a Formspree URL) to capture submissions server-side instead.
+  contactEmail: "info@turbova.cz",
+  contactEndpoint: "",
+  // Shared country dial codes for the phone field (Czech Republic default).
+  countries: [
+    { iso: "CZ", name: "Czech Republic", dial: "+420" },
+    { iso: "SK", name: "Slovakia", dial: "+421" },
+    { iso: "DE", name: "Germany", dial: "+49" },
+    { iso: "AT", name: "Austria", dial: "+43" },
+    { iso: "PL", name: "Poland", dial: "+48" },
+    { iso: "GB", name: "United Kingdom", dial: "+44" },
+    { iso: "IE", name: "Ireland", dial: "+353" },
+    { iso: "FR", name: "France", dial: "+33" },
+    { iso: "ES", name: "Spain", dial: "+34" },
+    { iso: "IT", name: "Italy", dial: "+39" },
+    { iso: "PT", name: "Portugal", dial: "+351" },
+    { iso: "NL", name: "Netherlands", dial: "+31" },
+    { iso: "BE", name: "Belgium", dial: "+32" },
+    { iso: "CH", name: "Switzerland", dial: "+41" },
+    { iso: "LU", name: "Luxembourg", dial: "+352" },
+    { iso: "DK", name: "Denmark", dial: "+45" },
+    { iso: "SE", name: "Sweden", dial: "+46" },
+    { iso: "NO", name: "Norway", dial: "+47" },
+    { iso: "FI", name: "Finland", dial: "+358" },
+    { iso: "HU", name: "Hungary", dial: "+36" },
+    { iso: "RO", name: "Romania", dial: "+40" },
+    { iso: "GR", name: "Greece", dial: "+30" },
+    { iso: "HR", name: "Croatia", dial: "+385" },
+    { iso: "SI", name: "Slovenia", dial: "+386" },
+    { iso: "UA", name: "Ukraine", dial: "+380" },
+    { iso: "RU", name: "Russia", dial: "+7" },
+    { iso: "TR", name: "Türkiye", dial: "+90" },
+    { iso: "US", name: "United States", dial: "+1" },
+    { iso: "CA", name: "Canada", dial: "+1" },
+    { iso: "AE", name: "United Arab Emirates", dial: "+971" },
+    { iso: "SA", name: "Saudi Arabia", dial: "+966" },
+    { iso: "QA", name: "Qatar", dial: "+974" },
+    { iso: "IL", name: "Israel", dial: "+972" },
+    { iso: "CN", name: "China", dial: "+86" },
+    { iso: "HK", name: "Hong Kong", dial: "+852" },
+    { iso: "SG", name: "Singapore", dial: "+65" },
+    { iso: "JP", name: "Japan", dial: "+81" },
+    { iso: "KR", name: "South Korea", dial: "+82" },
+    { iso: "IN", name: "India", dial: "+91" },
+    { iso: "AU", name: "Australia", dial: "+61" },
+    { iso: "BR", name: "Brazil", dial: "+55" },
+    { iso: "ZA", name: "South Africa", dial: "+27" },
   ],
   global: {
     en: {
@@ -32,6 +83,7 @@ window.siteData = {
         wellness: "Wellness",
         grounds: "Grounds",
         location: "Location",
+        contact: "Contact",
       },
       footerTitle: "Private presentation by appointment",
       footerText:
@@ -58,6 +110,7 @@ window.siteData = {
         wellness: "Wellness",
         grounds: "Zahrady",
         location: "Lokalita",
+        contact: "Kontakt",
       },
       footerTitle: "Soukromá prezentace na vyžádání",
       footerText:
@@ -84,6 +137,7 @@ window.siteData = {
         wellness: "Велнес",
         grounds: "Сады",
         location: "Локация",
+        contact: "Контакты",
       },
       footerTitle: "Частная презентация по записи",
       footerText:
@@ -110,6 +164,7 @@ window.siteData = {
         wellness: "Bien-être",
         grounds: "Jardins",
         location: "Emplacement",
+        contact: "Contact",
       },
       footerTitle: "Présentation privée sur rendez-vous",
       footerText:
@@ -2870,6 +2925,248 @@ window.siteData = {
         quote:
           "L'adresse fonctionne parce qu'elle offre l'accès sur la carte et la retraite dans le corps.",
         next: { href: "index.html", label: "Retour à l'accueil" },
+      },
+    },
+    contact: {
+      en: {
+        title: "Turbová | Contact",
+        hero: {
+          eyebrow: "06 | Contact",
+          title: "Begin a private conversation.",
+          lead:
+            "Share a few details and our team will reach out to arrange a private presentation. Everything you send stays confidential.",
+        },
+        form: {
+          detailsLegend: "Your details",
+          interestLegend: "How can we help?",
+          firstName: { label: "First name", placeholder: "Jane" },
+          lastName: { label: "Last name", placeholder: "Doe" },
+          email: { label: "Email", placeholder: "you@example.com" },
+          country: { label: "Country" },
+          phone: { label: "Phone number", placeholder: "601 234 567" },
+          intent: {
+            label: "Are you looking to buy or rent?",
+            options: [
+              { value: "buy", label: "Buy" },
+              { value: "rent", label: "Rent" },
+              { value: "undecided", label: "Still deciding" },
+            ],
+          },
+          timeframe: {
+            label: "Ideal timeframe",
+            options: [
+              { value: "0-3m", label: "Within 3 months" },
+              { value: "3-6m", label: "3–6 months" },
+              { value: "6-12m", label: "6–12 months" },
+              { value: "exploring", label: "Just exploring" },
+            ],
+          },
+          contactMethod: {
+            label: "Preferred contact method",
+            options: [
+              { value: "email", label: "Email" },
+              { value: "phone", label: "Phone" },
+              { value: "either", label: "Either" },
+            ],
+          },
+          message: {
+            label: "Message (optional)",
+            placeholder: "Tell us anything that would help us prepare.",
+          },
+          consent:
+            "By submitting this form you agree to be contacted about Turbová residences. We never share your details.",
+          submit: "Send enquiry",
+          sending: "Sending…",
+          errors: {
+            required: "This field is required.",
+            email: "Please enter a valid email address.",
+            phone: "Please enter a valid phone number.",
+          },
+          success: {
+            title: "Thank you — your enquiry is on its way.",
+            text: "Our team will be in touch shortly to arrange your private presentation.",
+          },
+        },
+      },
+      cs: {
+        title: "Turbová | Kontakt",
+        hero: {
+          eyebrow: "06 | Kontakt",
+          title: "Začněte soukromý rozhovor.",
+          lead:
+            "Sdělte nám několik údajů a náš tým se vám ozve, aby domluvil soukromou prezentaci. Vše, co odešlete, zůstává důvěrné.",
+        },
+        form: {
+          detailsLegend: "Vaše údaje",
+          interestLegend: "Jak vám můžeme pomoci?",
+          firstName: { label: "Jméno", placeholder: "Jana" },
+          lastName: { label: "Příjmení", placeholder: "Nováková" },
+          email: { label: "E-mail", placeholder: "vy@example.com" },
+          country: { label: "Země" },
+          phone: { label: "Telefonní číslo", placeholder: "601 234 567" },
+          intent: {
+            label: "Chcete koupit, nebo pronajmout?",
+            options: [
+              { value: "buy", label: "Koupit" },
+              { value: "rent", label: "Pronajmout" },
+              { value: "undecided", label: "Stále se rozhoduji" },
+            ],
+          },
+          timeframe: {
+            label: "Ideální časový rámec",
+            options: [
+              { value: "0-3m", label: "Do 3 měsíců" },
+              { value: "3-6m", label: "3–6 měsíců" },
+              { value: "6-12m", label: "6–12 měsíců" },
+              { value: "exploring", label: "Jen se rozhlížím" },
+            ],
+          },
+          contactMethod: {
+            label: "Preferovaný způsob kontaktu",
+            options: [
+              { value: "email", label: "E-mail" },
+              { value: "phone", label: "Telefon" },
+              { value: "either", label: "Libovolný" },
+            ],
+          },
+          message: {
+            label: "Zpráva (nepovinné)",
+            placeholder: "Napište nám cokoli, co nám pomůže s přípravou.",
+          },
+          consent:
+            "Odesláním formuláře souhlasíte s tím, že vás budeme kontaktovat ohledně rezidencí Turbová. Vaše údaje nikdy nesdílíme.",
+          submit: "Odeslat poptávku",
+          sending: "Odesílání…",
+          errors: {
+            required: "Toto pole je povinné.",
+            email: "Zadejte prosím platnou e-mailovou adresu.",
+            phone: "Zadejte prosím platné telefonní číslo.",
+          },
+          success: {
+            title: "Děkujeme — vaše poptávka je na cestě.",
+            text: "Náš tým se vám brzy ozve a domluví vaši soukromou prezentaci.",
+          },
+        },
+      },
+      ru: {
+        title: "Turbová | Контакты",
+        hero: {
+          eyebrow: "06 | Контакты",
+          title: "Начните частный разговор.",
+          lead:
+            "Поделитесь несколькими данными, и наша команда свяжется с вами, чтобы организовать частную презентацию. Всё, что вы отправите, останется конфиденциальным.",
+        },
+        form: {
+          detailsLegend: "Ваши данные",
+          interestLegend: "Чем мы можем помочь?",
+          firstName: { label: "Имя", placeholder: "Анна" },
+          lastName: { label: "Фамилия", placeholder: "Иванова" },
+          email: { label: "Эл. почта", placeholder: "you@example.com" },
+          country: { label: "Страна" },
+          phone: { label: "Номер телефона", placeholder: "901 234 56 78" },
+          intent: {
+            label: "Вы хотите купить или арендовать?",
+            options: [
+              { value: "buy", label: "Купить" },
+              { value: "rent", label: "Арендовать" },
+              { value: "undecided", label: "Ещё думаю" },
+            ],
+          },
+          timeframe: {
+            label: "Идеальные сроки",
+            options: [
+              { value: "0-3m", label: "В течение 3 месяцев" },
+              { value: "3-6m", label: "3–6 месяцев" },
+              { value: "6-12m", label: "6–12 месяцев" },
+              { value: "exploring", label: "Просто присматриваюсь" },
+            ],
+          },
+          contactMethod: {
+            label: "Предпочтительный способ связи",
+            options: [
+              { value: "email", label: "Эл. почта" },
+              { value: "phone", label: "Телефон" },
+              { value: "either", label: "Любой" },
+            ],
+          },
+          message: {
+            label: "Сообщение (необязательно)",
+            placeholder: "Напишите всё, что поможет нам подготовиться.",
+          },
+          consent:
+            "Отправляя форму, вы соглашаетесь на то, что мы свяжемся с вами по поводу резиденций Turbová. Мы никогда не передаём ваши данные.",
+          submit: "Отправить запрос",
+          sending: "Отправка…",
+          errors: {
+            required: "Это поле обязательно для заполнения.",
+            email: "Введите действительный адрес эл. почты.",
+            phone: "Введите действительный номер телефона.",
+          },
+          success: {
+            title: "Спасибо — ваш запрос отправлен.",
+            text: "Наша команда скоро свяжется с вами, чтобы организовать частную презентацию.",
+          },
+        },
+      },
+      fr: {
+        title: "Turbová | Contact",
+        hero: {
+          eyebrow: "06 | Contact",
+          title: "Entamez une conversation privée.",
+          lead:
+            "Partagez quelques informations et notre équipe vous contactera pour organiser une présentation privée. Tout ce que vous envoyez reste confidentiel.",
+        },
+        form: {
+          detailsLegend: "Vos coordonnées",
+          interestLegend: "Comment pouvons-nous vous aider ?",
+          firstName: { label: "Prénom", placeholder: "Marie" },
+          lastName: { label: "Nom", placeholder: "Dupont" },
+          email: { label: "E-mail", placeholder: "vous@example.com" },
+          country: { label: "Pays" },
+          phone: { label: "Numéro de téléphone", placeholder: "6 12 34 56 78" },
+          intent: {
+            label: "Souhaitez-vous acheter ou louer ?",
+            options: [
+              { value: "buy", label: "Acheter" },
+              { value: "rent", label: "Louer" },
+              { value: "undecided", label: "Encore indécis" },
+            ],
+          },
+          timeframe: {
+            label: "Échéance idéale",
+            options: [
+              { value: "0-3m", label: "Sous 3 mois" },
+              { value: "3-6m", label: "3 à 6 mois" },
+              { value: "6-12m", label: "6 à 12 mois" },
+              { value: "exploring", label: "Simple exploration" },
+            ],
+          },
+          contactMethod: {
+            label: "Moyen de contact préféré",
+            options: [
+              { value: "email", label: "E-mail" },
+              { value: "phone", label: "Téléphone" },
+              { value: "either", label: "Peu importe" },
+            ],
+          },
+          message: {
+            label: "Message (facultatif)",
+            placeholder: "Dites-nous tout ce qui pourrait nous aider à préparer.",
+          },
+          consent:
+            "En soumettant ce formulaire, vous acceptez d'être contacté au sujet des résidences Turbová. Nous ne partageons jamais vos coordonnées.",
+          submit: "Envoyer la demande",
+          sending: "Envoi…",
+          errors: {
+            required: "Ce champ est obligatoire.",
+            email: "Veuillez saisir une adresse e-mail valide.",
+            phone: "Veuillez saisir un numéro de téléphone valide.",
+          },
+          success: {
+            title: "Merci — votre demande est en route.",
+            text: "Notre équipe vous contactera prochainement pour organiser votre présentation privée.",
+          },
+        },
       },
     },
   },

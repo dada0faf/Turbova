@@ -504,6 +504,116 @@
     `;
   }
 
+  function renderRadioGroup(name, field) {
+    return `
+      <fieldset class="field field--choice">
+        <legend class="field__label">${field.label}</legend>
+        <div class="choice-row">
+          ${field.options
+            .map(
+              (option, index) => `
+                <label class="choice-chip">
+                  <input type="radio" name="${name}" value="${option.value}"${index === 0 ? " checked" : ""} />
+                  <span>${option.label}</span>
+                </label>
+              `
+            )
+            .join("")}
+        </div>
+      </fieldset>
+    `;
+  }
+
+  function renderContact(locale) {
+    const data = getPage(locale);
+    const form = data.form;
+    const countries = siteData.countries || [];
+    const defaultCountry =
+      countries.find((country) => country.iso === "CZ") || countries[0] || { dial: "+420" };
+
+    const countryOptions = countries
+      .map(
+        (country) =>
+          `<option value="${country.dial}" data-iso="${country.iso}"${
+            country.iso === defaultCountry.iso ? " selected" : ""
+          }>${country.name} (${country.dial})</option>`
+      )
+      .join("");
+
+    return `
+      <main class="page page-contact">
+        <section class="contact-hero reveal is-visible">
+          <p class="eyebrow">${data.hero.eyebrow}</p>
+          ${heading("h1", data.hero.title)}
+          <p class="lead">${data.hero.lead}</p>
+        </section>
+
+        <section class="contact-shell reveal">
+          <form class="contact-form" data-contact-form novalidate>
+            <fieldset class="contact-form__group">
+              <legend class="contact-form__legend">${form.detailsLegend}</legend>
+              <div class="field-grid">
+                <label class="field">
+                  <span class="field__label">${form.firstName.label}</span>
+                  <input class="field__input" type="text" name="firstName" autocomplete="given-name" placeholder="${form.firstName.placeholder}" required />
+                  <span class="field__error" data-error-for="firstName"></span>
+                </label>
+                <label class="field">
+                  <span class="field__label">${form.lastName.label}</span>
+                  <input class="field__input" type="text" name="lastName" autocomplete="family-name" placeholder="${form.lastName.placeholder}" required />
+                  <span class="field__error" data-error-for="lastName"></span>
+                </label>
+                <label class="field field--full">
+                  <span class="field__label">${form.email.label}</span>
+                  <input class="field__input" type="email" name="email" autocomplete="email" placeholder="${form.email.placeholder}" required />
+                  <span class="field__error" data-error-for="email"></span>
+                </label>
+                <label class="field">
+                  <span class="field__label">${form.country.label}</span>
+                  <div class="field__select-wrap">
+                    <select class="field__input field__select" name="country" data-country>${countryOptions}</select>
+                  </div>
+                </label>
+                <label class="field">
+                  <span class="field__label">${form.phone.label}</span>
+                  <div class="phone-input">
+                    <span class="phone-input__prefix" data-dial-prefix>${defaultCountry.dial}</span>
+                    <input class="field__input phone-input__field" type="tel" name="phone" autocomplete="tel-national" inputmode="tel" placeholder="${form.phone.placeholder}" required />
+                  </div>
+                  <span class="field__error" data-error-for="phone"></span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="contact-form__group">
+              <legend class="contact-form__legend">${form.interestLegend}</legend>
+              <div class="choice-stack">
+                ${renderRadioGroup("intent", form.intent)}
+                ${renderRadioGroup("timeframe", form.timeframe)}
+                ${renderRadioGroup("contactMethod", form.contactMethod)}
+              </div>
+              <label class="field field--full">
+                <span class="field__label">${form.message.label}</span>
+                <textarea class="field__input field__textarea" name="message" rows="4" placeholder="${form.message.placeholder}"></textarea>
+              </label>
+            </fieldset>
+
+            <p class="contact-form__consent">${form.consent}</p>
+            <div class="contact-form__actions">
+              <button class="button button-primary" type="submit" data-submit>${form.submit}${arrow}</button>
+            </div>
+          </form>
+
+          <div class="contact-success" data-contact-success hidden>
+            <p class="eyebrow">${getGlobal(locale).brand}</p>
+            ${heading("h2", data.form.success.title)}
+            <p class="lead">${data.form.success.text}</p>
+          </div>
+        </section>
+      </main>
+    `;
+  }
+
   function renderFooter(locale) {
     const globalData = getGlobal(locale);
     return `
@@ -529,7 +639,13 @@
 
   function renderPage(locale) {
     const pageMarkup =
-      pageId === "home" ? renderHome(locale) : pageId === "story" ? renderStory(locale) : renderChapter(locale);
+      pageId === "home"
+        ? renderHome(locale)
+        : pageId === "story"
+          ? renderStory(locale)
+          : pageId === "contact"
+            ? renderContact(locale)
+            : renderChapter(locale);
     shell.innerHTML = `
       <div class="scroll-progress" aria-hidden="true"></div>
       <div class="ambient ambient--one"></div>
@@ -730,6 +846,184 @@
     });
   }
 
+  function bindContactForm() {
+    const form = shell.querySelector("[data-contact-form]");
+    if (!form) return;
+
+    const locale = document.documentElement.lang || lang;
+    const messages = getPage(locale).form.errors;
+    const sendingLabel = getPage(locale).form.sending;
+    const submitLabel = getPage(locale).form.submit;
+
+    const countrySelect = form.querySelector("[data-country]");
+    const dialPrefix = form.querySelector("[data-dial-prefix]");
+    const phoneField = form.querySelector('input[name="phone"]');
+    const submitButton = form.querySelector("[data-submit]");
+    const success = shell.querySelector("[data-contact-success]");
+
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    const getDial = () => (countrySelect ? countrySelect.value : "");
+
+    if (countrySelect && dialPrefix) {
+      countrySelect.addEventListener("change", () => {
+        dialPrefix.textContent = getDial();
+      });
+    }
+
+    // Keep the phone field to digits and spaces only.
+    if (phoneField) {
+      phoneField.addEventListener("input", () => {
+        const cleaned = phoneField.value.replace(/[^\d\s]/g, "");
+        if (cleaned !== phoneField.value) phoneField.value = cleaned;
+      });
+    }
+
+    const setError = (name, text) => {
+      const slot = form.querySelector(`[data-error-for="${name}"]`);
+      const input = form.querySelector(`[name="${name}"]`);
+      if (slot) slot.textContent = text || "";
+      if (input) input.classList.toggle("is-invalid", Boolean(text));
+    };
+
+    const validate = () => {
+      let valid = true;
+      const value = (name) => (form.querySelector(`[name="${name}"]`).value || "").trim();
+
+      ["firstName", "lastName"].forEach((name) => {
+        if (!value(name)) {
+          setError(name, messages.required);
+          valid = false;
+        } else {
+          setError(name, "");
+        }
+      });
+
+      const email = value("email");
+      if (!email) {
+        setError("email", messages.required);
+        valid = false;
+      } else if (!emailPattern.test(email)) {
+        setError("email", messages.email);
+        valid = false;
+      } else {
+        setError("email", "");
+      }
+
+      const phoneDigits = value("phone").replace(/\D/g, "");
+      if (!phoneDigits) {
+        setError("phone", messages.required);
+        valid = false;
+      } else if (phoneDigits.length < 6 || phoneDigits.length > 14) {
+        setError("phone", messages.phone);
+        valid = false;
+      } else {
+        setError("phone", "");
+      }
+
+      return valid;
+    };
+
+    // Re-validate a field as the visitor corrects it.
+    form.querySelectorAll("input, textarea").forEach((input) => {
+      input.addEventListener("blur", () => {
+        if (input.classList.contains("is-invalid")) validate();
+      });
+    });
+
+    const collect = () => {
+      const value = (name) => {
+        const node = form.querySelector(`[name="${name}"]`);
+        return node ? node.value.trim() : "";
+      };
+      const checked = (name) => {
+        const node = form.querySelector(`[name="${name}"]:checked`);
+        return node ? node.value : "";
+      };
+      const phoneDigits = value("phone").replace(/\D/g, "");
+      return {
+        firstName: value("firstName"),
+        lastName: value("lastName"),
+        email: value("email"),
+        phone: `${getDial()} ${phoneDigits}`.trim(),
+        country: countrySelect
+          ? countrySelect.options[countrySelect.selectedIndex].dataset.iso
+          : "",
+        intent: checked("intent"),
+        timeframe: checked("timeframe"),
+        contactMethod: checked("contactMethod"),
+        message: value("message"),
+      };
+    };
+
+    const showSuccess = () => {
+      if (success) {
+        form.hidden = true;
+        success.hidden = false;
+        success.classList.add("is-visible");
+        success.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+      }
+    };
+
+    const submitViaMailto = (payload) => {
+      const recipient = siteData.contactEmail || "";
+      const subject = `New enquiry — ${payload.firstName} ${payload.lastName}`;
+      const lines = [
+        `Name: ${payload.firstName} ${payload.lastName}`,
+        `Email: ${payload.email}`,
+        `Phone: ${payload.phone}`,
+        `Country: ${payload.country}`,
+        `Looking to: ${payload.intent}`,
+        `Timeframe: ${payload.timeframe}`,
+        `Preferred contact: ${payload.contactMethod}`,
+        "",
+        `Message: ${payload.message || "—"}`,
+      ];
+      const href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+        lines.join("\n")
+      )}`;
+      window.location.href = href;
+    };
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!validate()) {
+        const firstInvalid = form.querySelector(".is-invalid");
+        if (firstInvalid) firstInvalid.focus();
+        return;
+      }
+
+      const payload = collect();
+      const endpoint = siteData.contactEndpoint;
+
+      if (endpoint) {
+        submitButton.disabled = true;
+        submitButton.textContent = sendingLabel;
+        fetch(endpoint, {
+          method: "POST",
+          headers: { Accept: "application/json", "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        })
+          .then((response) => {
+            if (!response.ok) throw new Error("Request failed");
+            showSuccess();
+          })
+          .catch(() => {
+            // Fall back to the visitor's email client if the endpoint fails.
+            submitViaMailto(payload);
+            showSuccess();
+          })
+          .finally(() => {
+            submitButton.disabled = false;
+            submitButton.innerHTML = `${submitLabel}${arrow}`;
+          });
+      } else {
+        submitViaMailto(payload);
+        showSuccess();
+      }
+    });
+  }
+
   function bindInteractions() {
     cleanups.forEach((fn) => fn());
     cleanups = [];
@@ -741,6 +1035,7 @@
     bindScrollProgress();
     bindParallax();
     bindCarousels();
+    bindContactForm();
   }
 
   if (entering) {

@@ -3,3 +3,6 @@
 
 # Local dev server (not needed for deployment)
 serve.py
+
+# Local editor/agent tooling (machine-specific)
+.claude/
