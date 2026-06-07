@@ -202,7 +202,14 @@
         </div>
         ${
           items.length > 1
-            ? `<div class="img-carousel__dots">${items
+            ? `
+              <button class="img-carousel__arrow img-carousel__arrow--prev" type="button" aria-label="Previous image" data-carousel-prev>
+                <span aria-hidden="true">&larr;</span>
+              </button>
+              <button class="img-carousel__arrow img-carousel__arrow--next" type="button" aria-label="Next image" data-carousel-next>
+                <span aria-hidden="true">&rarr;</span>
+              </button>
+              <div class="img-carousel__dots">${items
                 .map((_, i) => `<span class="img-carousel__dot${i === 0 ? " is-active" : ""}"></span>`)
                 .join("")}</div>`
             : ""
@@ -224,23 +231,8 @@
     const data = getPage(locale);
     const globalData = getGlobal(locale);
     const collageItems = [
-      {
-        src: data.hero.media[0].src,
-        alt: data.hero.media[0].alt,
-        caption: data.hero.media[0].caption,
-        slot: "primary",
-        speed: 1.05,
-      },
-      {
-        src: data.hero.media[1].src,
-        alt: data.hero.media[1].alt,
-        caption: data.hero.media[1].caption,
-        slot: "secondary",
-        speed: 0.78,
-      },
-    ];
-    const collageBadges = [
-      { label: "22", note: locale === "cs" ? "rezidencí" : "residences" },
+      { src: data.hero.media[0].src, alt: data.hero.media[0].alt },
+      { src: data.hero.media[1].src, alt: data.hero.media[1].alt },
     ];
 
     return `
@@ -259,7 +251,7 @@
               ${data.hero.badges.map((badge) => `<span class="hero-badge">${badge}</span>`).join("")}
             </div>
           </div>
-          ${renderCollage(collageItems, "home", collageBadges)}
+          ${renderCollage(collageItems, "home", [])}
         </section>
 
         ${renderMetricStrip(data.stats)}
@@ -772,39 +764,6 @@
     });
   }
 
-  function bindParallax() {
-    if (reduceMotion) return;
-    const elements = document.querySelectorAll("[data-parallax]");
-    if (!elements.length) return;
-
-    let ticking = false;
-    const apply = () => {
-      const midpoint = window.innerHeight / 2;
-      elements.forEach((element) => {
-        const depth = Number(element.dataset.parallax || 1);
-        const rect = element.getBoundingClientRect();
-        if (rect.bottom < -200 || rect.top > window.innerHeight + 200) return;
-        const distance = (rect.top + rect.height / 2 - midpoint) * -0.026 * depth;
-        element.style.setProperty("--parallax-shift", `${distance.toFixed(1)}px`);
-      });
-      ticking = false;
-    };
-    const onScroll = () => {
-      if (!ticking) {
-        window.requestAnimationFrame(apply);
-        ticking = true;
-      }
-    };
-
-    apply();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
-    cleanups.push(() => {
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
-    });
-  }
-
   function bindCarousels() {
     document.querySelectorAll("[data-carousel]").forEach((carousel) => {
       const track = carousel.querySelector(".img-carousel__track");
@@ -812,28 +771,34 @@
       const real = dots.length; // number of unique images
       if (!track || real < 2) return;
 
-      // total slides = real + 1 (the appended clone of the first image)
+      // The track holds real + 1 slides — the trailing one is a clone of the
+      // first image so a forward wrap can animate seamlessly before snapping.
       let index = 0;
       const transition = "transform 1.1s var(--ease-soft)";
       track.style.transition = transition;
 
-      const advance = () => {
-        index += 1;
+      const syncDots = () => {
+        const activeDot = ((index % real) + real) % real;
+        dots.forEach((dot, i) => dot.classList.toggle("is-active", i === activeDot));
+      };
+
+      const moveTo = (next) => {
+        index = next;
         track.style.transition = transition;
         track.style.transform = `translateX(-${index * 100}%)`;
+        syncDots();
+      };
 
-        const activeDot = index % real;
-        dots.forEach((dot, i) => dot.classList.toggle("is-active", i === activeDot));
-
-        // When we land on the cloned slide, snap back to the real first slide
-        // without animation once the slide transition has finished.
+      const next = () => {
+        moveTo(index + 1);
+        // Landing on the cloned slide: snap back to the real first slide without
+        // animation once the transition finishes.
         if (index === real) {
           const reset = () => {
             track.style.transition = "none";
             index = 0;
             track.style.transform = "translateX(0)";
-            // Force reflow so the next animated move is honored.
-            void track.offsetWidth;
+            void track.offsetWidth; // force reflow so the next move animates
             track.style.transition = transition;
             track.removeEventListener("transitionend", reset);
           };
@@ -841,8 +806,48 @@
         }
       };
 
-      const timer = setInterval(advance, 10000);
-      cleanups.push(() => clearInterval(timer));
+      const prev = () => {
+        if (index === 0) {
+          // Jump (no animation) to the trailing clone, then animate to the last
+          // real slide so the backward wrap reads smoothly.
+          track.style.transition = "none";
+          index = real;
+          track.style.transform = `translateX(-${index * 100}%)`;
+          void track.offsetWidth;
+          moveTo(real - 1);
+        } else {
+          moveTo(index - 1);
+        }
+      };
+
+      let timer = null;
+      const start = () => {
+        if (!reduceMotion) timer = setInterval(next, 5000);
+      };
+      const restart = () => {
+        if (timer) clearInterval(timer);
+        start();
+      };
+
+      const prevButton = carousel.querySelector("[data-carousel-prev]");
+      const nextButton = carousel.querySelector("[data-carousel-next]");
+      if (prevButton) {
+        prevButton.addEventListener("click", () => {
+          prev();
+          restart();
+        });
+      }
+      if (nextButton) {
+        nextButton.addEventListener("click", () => {
+          next();
+          restart();
+        });
+      }
+
+      start();
+      cleanups.push(() => {
+        if (timer) clearInterval(timer);
+      });
     });
   }
 
@@ -1051,7 +1056,6 @@
     bindTransitions();
     bindReveal();
     bindScrollProgress();
-    bindParallax();
     bindCarousels();
     bindContactForm();
   }

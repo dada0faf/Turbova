@@ -648,6 +648,22 @@ p {
   margin-bottom: 4.5rem;
 }
 
+/* Story hero: sit the copy beside the image and cap the carousel so the whole
+   hero is visible at once instead of one oversized portrait image. */
+.hero-shell--story {
+  min-height: auto;
+  align-content: center;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  align-items: center;
+  gap: 5rem;
+}
+
+.collage--story .img-carousel {
+  aspect-ratio: 5 / 6;
+  max-width: 420px;
+  margin-inline: auto;
+}
+
 .hero-shell__copy {
   display: grid;
   gap: 1.8rem;
@@ -699,38 +715,9 @@ p {
   position: relative;
 }
 
-.collage {
-  /* height provided by inner .img-carousel aspect-ratio */
-}
-
-.collage-card,
-.frame,
-.chapter-hero__frame,
-.media-stack__primary,
-.media-stack__secondary {
-  position: absolute;
-  overflow: hidden;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
-  background: var(--paper-deep);
-}
-
-.collage-card img,
-.frame img,
-.chapter-hero__frame img,
-.media-stack__primary img,
-.media-stack__secondary img,
 .gallery-card img,
 .story-profile-card__media img {
   transition: transform 1.4s var(--ease);
-}
-
-.collage-card,
-.frame,
-.chapter-hero__frame,
-.media-stack__primary,
-.media-stack__secondary {
-  transform: translate3d(var(--tx, 0), calc(var(--ty, 0) + var(--parallax-shift, 0px)), 0);
 }
 
 /* ---------- Image Carousel (sliding) ---------- */
@@ -793,52 +780,53 @@ p {
   transform: scale(1.25);
 }
 
-.collage--home .collage-card--primary {
-  width: 64%;
-  aspect-ratio: 0.82;
-  --tx: 0%;
-  --ty: 6%;
-  z-index: 3;
+.img-carousel__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 6;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 1px solid rgba(244, 239, 231, 0.4);
+  background: rgba(28, 30, 24, 0.42);
+  color: var(--paper);
+  font-size: 1.05rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0;
+  transition:
+    opacity 0.4s var(--ease),
+    background 0.4s var(--ease),
+    border-color 0.4s var(--ease);
 }
 
-.collage--home .collage-card--secondary {
-  width: 40%;
-  aspect-ratio: 0.72;
-  --tx: 60%;
-  --ty: 40%;
-  z-index: 4;
+.img-carousel:hover .img-carousel__arrow,
+.img-carousel__arrow:focus-visible {
+  opacity: 1;
 }
 
-.collage--home .collage-card--tertiary {
-  display: none;
+.img-carousel__arrow:hover {
+  background: rgba(28, 30, 24, 0.68);
+  border-color: var(--paper);
 }
 
-.collage--story {
-  /* height provided by inner .img-carousel aspect-ratio */
+.img-carousel__arrow--prev {
+  left: 1rem;
 }
 
-.collage--story .collage-card--primary {
-  width: 58%;
-  aspect-ratio: 0.78;
-  --tx: 0%;
-  --ty: 4%;
-  z-index: 3;
+.img-carousel__arrow--next {
+  right: 1rem;
 }
 
-.collage--story .collage-card--secondary {
-  width: 38%;
-  aspect-ratio: 0.74;
-  --tx: 4%;
-  --ty: 64%;
-  z-index: 2;
-}
-
-.collage--story .collage-card--tertiary {
-  width: 42%;
-  aspect-ratio: 0.9;
-  --tx: 62%;
-  --ty: 26%;
-  z-index: 4;
+/* Touch devices can't hover — keep the arrows visible so they stay usable. */
+@media (hover: none) {
+  .img-carousel__arrow {
+    opacity: 1;
+  }
 }
 
 .floating-badge {
@@ -866,16 +854,6 @@ p {
   font-size: 0.64rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-}
-
-.collage--home .floating-badge--1 {
-  left: 1.4rem;
-  bottom: 1.4rem;
-}
-
-.collage--home .floating-badge--2,
-.collage--home .floating-badge--3 {
-  display: none;
 }
 
 .collage--story .floating-badge--1 {
@@ -1014,26 +992,6 @@ p {
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
 }
 
-.legacy-spotlight__media {
-  /* height provided by inner .img-carousel aspect-ratio */
-}
-
-.frame--primary {
-  width: 62%;
-  aspect-ratio: 0.72;
-  --tx: 0%;
-  --ty: 4%;
-  z-index: 3;
-}
-
-.frame--secondary {
-  width: 52%;
-  aspect-ratio: 0.82;
-  --tx: 56%;
-  --ty: 42%;
-  z-index: 2;
-}
-
 .legacy-spotlight__copy {
   display: grid;
   gap: 2rem;
@@ -1100,28 +1058,20 @@ p {
 /* ---------- Timeline ---------- */
 .timeline-strip {
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(180px, 1fr);
+  /* All milestones fit on the page at once — they wrap into rows instead of
+     scrolling horizontally. */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 0;
-  overflow-x: auto;
   border-top: 1px solid var(--line);
-  scrollbar-width: thin;
-}
-
-.timeline-strip::-webkit-scrollbar {
-  height: 4px;
-}
-
-.timeline-strip::-webkit-scrollbar-thumb {
-  background: var(--brass-soft);
 }
 
 .timeline-item {
   display: grid;
-  gap: 0.6rem;
+  gap: 0.5rem;
   align-content: start;
-  padding: 1.6rem 1.6rem;
+  padding: 1.4rem 1.4rem;
   border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .timeline-item:first-child {
@@ -1178,23 +1128,6 @@ p {
 
 .story-beat h2 {
   font-size: clamp(1.9rem, 3vw, 3rem);
-}
-
-.media-stack__primary {
-  width: 80%;
-  aspect-ratio: 0.96;
-  --tx: 0%;
-  --ty: 4%;
-  z-index: 3;
-}
-
-.media-stack__secondary {
-  width: 46%;
-  aspect-ratio: 0.78;
-  right: 0;
-  --tx: 0%;
-  --ty: 64%;
-  z-index: 4;
 }
 
 .media-stack__badge {
@@ -1344,26 +1277,6 @@ p {
 .chapter-hero__copy {
   display: grid;
   gap: 1.5rem;
-}
-
-.chapter-hero__media {
-  /* height provided by inner .img-carousel aspect-ratio */
-}
-
-.chapter-hero__frame--primary {
-  width: 74%;
-  aspect-ratio: 0.86;
-  --tx: 4%;
-  --ty: 4%;
-  z-index: 3;
-}
-
-.chapter-hero__frame--secondary {
-  width: 44%;
-  aspect-ratio: 0.72;
-  --tx: 56%;
-  --ty: 44%;
-  z-index: 4;
 }
 
 .chapter-hero__media {
@@ -1536,6 +1449,11 @@ p {
 .line-reveal {
   display: block;
   overflow: hidden;
+  /* The tight heading line-height lets descenders (p, g, y) fall below the
+     mask's clip edge. Pad the bottom so they show, and pull the same amount
+     back with a negative margin so surrounding spacing is unchanged. */
+  padding-bottom: 0.16em;
+  margin-bottom: -0.16em;
 }
 
 .line-reveal > span {
@@ -1595,6 +1513,7 @@ p {
 /* ---------- Responsive ---------- */
 @media (max-width: 1100px) {
   .hero-shell--home,
+  .hero-shell--story,
   .legacy-spotlight,
   .story-beat,
   .chapter-hero,

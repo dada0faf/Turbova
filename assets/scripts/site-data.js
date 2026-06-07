@@ -90,7 +90,7 @@ window.siteData = {
         "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov.",
       footerPrimary: "Explore residences",
       footerSecondary: "Read the story",
-      footerNote: "Two buildings. Twenty-two residences. One protected world.",
+      footerNote: "Two buildings, one protected world.",
     },
     cs: {
       brand: "Turbová",
@@ -117,7 +117,7 @@ window.siteData = {
         "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově.",
       footerPrimary: "Prozkoumat rezidence",
       footerSecondary: "Číst příběh",
-      footerNote: "Dvě budovy. Dvacet dva rezidencí. Jeden chráněný svět.",
+      footerNote: "Dvě budovy, jeden chráněný svět.",
     },
     ru: {
       brand: "Turbová",
@@ -144,7 +144,7 @@ window.siteData = {
         "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове.",
       footerPrimary: "Смотреть резиденции",
       footerSecondary: "Читать историю",
-      footerNote: "Два здания. Двадцать две резиденции. Один защищённый мир.",
+      footerNote: "Два здания, один защищённый мир.",
     },
     fr: {
       brand: "Turbová",
@@ -171,7 +171,7 @@ window.siteData = {
         "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov.",
       footerPrimary: "Découvrir les résidences",
       footerSecondary: "Lire l'histoire",
-      footerNote: "Deux bâtiments. Vingt-deux résidences. Un monde protégé.",
+      footerNote: "Deux bâtiments, un monde protégé.",
     },
   },
   pages: {
@@ -197,19 +197,12 @@ window.siteData = {
             {
               src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Turbová entrance lobby",
-              caption: "Arrival framed in stone, light, and brass.",
             },
             {
-              src: "assets/images/two-buildings-side-view.jpeg",
-              alt: "Exterior of the buildings",
-              caption: "Two quiet volumes stepping into the park.",
+              src: "assets/images/front-view.jpg",
+              alt: "Front view of the buildings",
             },
           ],
-        },
-        intro: {
-          title: "A new language of urban privacy",
-          text:
-            "The narrative begins with memory, moves through architecture, and resolves in wellness, landscape, and location. Each chapter has its own route, mood, and image atmosphere.",
         },
         stats: [
           { value: "18th", label: "century estate origins" },
@@ -298,19 +291,12 @@ window.siteData = {
             {
               src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Lobby Turbová",
-              caption: "Příjezd rámovaný kamenem, světlem a mosazí.",
             },
             {
-              src: "assets/images/two-buildings-side-view.jpeg",
-              alt: "Exteriér budov",
-              caption: "Dva klidné objemy vstupující do parku.",
+              src: "assets/images/front-view.jpg",
+              alt: "Čelní pohled na budovy",
             },
           ],
-        },
-        intro: {
-          title: "Nový jazyk městského soukromí",
-          text:
-            "Vyprávění začíná pamětí místa, pokračuje architekturou a vrcholí wellness, krajinou a lokalitou. Každá kapitola má vlastní trasu, náladu i obrazovou atmosféru.",
         },
         stats: [
           { value: "18.", label: "století původu areálu" },
@@ -399,19 +385,12 @@ window.siteData = {
             {
               src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Лобби Turbová",
-              caption: "Прибытие в обрамлении камня, света и латуни.",
             },
             {
-              src: "assets/images/two-buildings-side-view.jpeg",
-              alt: "Внешний вид зданий",
-              caption: "Два спокойных объёма, входящих в парк.",
+              src: "assets/images/front-view.jpg",
+              alt: "Вид зданий спереди",
             },
           ],
-        },
-        intro: {
-          title: "Новый язык городской приватности",
-          text:
-            "Повествование начинается с памяти места, проходит через архитектуру и завершается велнесом, ландшафтом и локацией. У каждой главы свой маршрут, настроение и образная атмосфера.",
         },
         stats: [
           { value: "XVIII", label: "век истоков поместья" },
@@ -500,19 +479,12 @@ window.siteData = {
             {
               src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Hall d'entrée Turbová",
-              caption: "Une arrivée encadrée de pierre, de lumière et de laiton.",
             },
             {
-              src: "assets/images/two-buildings-side-view.jpeg",
-              alt: "Extérieur des bâtiments",
-              caption: "Deux volumes paisibles qui s'avancent dans le parc.",
+              src: "assets/images/front-view.jpg",
+              alt: "Vue de face des bâtiments",
             },
           ],
-        },
-        intro: {
-          title: "Un nouveau langage de l'intimité urbaine",
-          text:
-            "Le récit commence par la mémoire du lieu, traverse l'architecture et s'achève dans le bien-être, le paysage et l'emplacement. Chaque chapitre a son propre parcours, son atmosphère et son univers visuel.",
         },
         stats: [
           { value: "XVIIIe", label: "origines du domaine" },
@@ -602,20 +574,14 @@ window.siteData = {
             {
               src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Turbová lobby",
-              caption: "Arrival set in brass, stone, and quiet hospitality.",
-              slot: "primary",
             },
             {
               src: "assets/images/turbova-old.jpg",
               alt: "Historic Turbová estate",
-              caption: "The memory of the estate still sets the tone.",
-              slot: "secondary",
             },
             {
               src: "assets/images/two-buildings-side-view.jpeg",
               alt: "Turbová residences in the garden",
-              caption: "Two limestone volumes step into the park.",
-              slot: "tertiary",
             },
           ],
           badges: [
@@ -654,17 +620,14 @@ window.siteData = {
           {
             src: "assets/images/turbova-old.jpg",
             alt: "Historic Turbová image",
-            caption: "Archive image of the original estate atmosphere.",
           },
           {
             src: "assets/images/waterfall.jpg",
             alt: "Contemporary waterfall courtyard",
-            caption: "Water, planting, and brick introduce a softer modern ritual.",
           },
           {
             src: "assets/images/birds-eye-view.jpg",
             alt: "Aerial view of the Turbová grounds",
-            caption: "The residence sits inside greenery while remaining connected to Prague.",
           },
         ],
         intro: {
@@ -720,7 +683,6 @@ window.siteData = {
               {
                 src: "assets/images/birds-eye-view.jpg",
                 alt: "Aerial view of Turbová",
-                caption: "The estate still sits inside a protected green fold of Prague 5.",
               },
             ],
             badge: "Origin",
@@ -745,7 +707,6 @@ window.siteData = {
               {
                 src: "assets/images/waterfall.jpg",
                 alt: "Waterfall courtyard at Turbová",
-                caption: "Landscape starts doing the work of privacy.",
               },
             ],
             badge: "Context",
@@ -770,7 +731,6 @@ window.siteData = {
               {
                 src: "assets/images/main-lobby-entrance-and-logo.jpg",
                 alt: "Turbová arrival lobby",
-                caption: "Hospitality-grade arrival sets the tone before the front door.",
               },
             ],
             badge: "22 Homes",
@@ -795,7 +755,6 @@ window.siteData = {
               {
                 src: "assets/images/garage-parking.jpg",
                 alt: "Curated underground parking at Turbová",
-                caption: "Even utility zones are composed as atmosphere.",
               },
             ],
             badge: "Stone + Brass",
@@ -820,7 +779,6 @@ window.siteData = {
               {
                 src: "assets/images/spa-sitting-pool.jpg",
                 alt: "Spa lounge at Turbová",
-                caption: "Warm light and still water turn wellness into daily ritual.",
               },
             ],
             badge: "Wellness",
@@ -845,7 +803,6 @@ window.siteData = {
               {
                 src: "assets/images/terrace.jpg",
                 alt: "Terrace overlooking the grounds",
-                caption: "Outdoor rooms continue the residence into greenery.",
               },
             ],
             badge: "Private Park",
@@ -870,7 +827,6 @@ window.siteData = {
               {
                 src: "assets/images/two-buildings-side-view.jpeg",
                 alt: "Turbová residences and terraces",
-                caption: "The address ends where the protected world begins.",
               },
             ],
             badge: "2026",
@@ -930,20 +886,14 @@ window.siteData = {
             {
               src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Lobby Turbová",
-              caption: "Příjezd rámovaný mosazí, kamenem a tichou hospitality.",
-              slot: "primary",
             },
             {
               src: "assets/images/turbova-old.jpg",
               alt: "Historické panství Turbová",
-              caption: "Paměť místa stále určuje tón celé rezidence.",
-              slot: "secondary",
             },
             {
               src: "assets/images/two-buildings-side-view.jpeg",
               alt: "Rezidence Turbová v zahradě",
-              caption: "Dva vápencové objemy vstupují do soukromého parku.",
-              slot: "tertiary",
             },
           ],
           badges: [
@@ -982,17 +932,14 @@ window.siteData = {
           {
             src: "assets/images/turbova-old.jpg",
             alt: "Historická fotografie Turbové",
-            caption: "Archivní obraz původní atmosféry areálu.",
           },
           {
             src: "assets/images/waterfall.jpg",
             alt: "Současné nádvoří s vodním prvkem",
-            caption: "Voda, výsadba a cihla zavádějí měkčí moderní rituál.",
           },
           {
             src: "assets/images/birds-eye-view.jpg",
             alt: "Letecký pohled na areál Turbová",
-            caption: "Rezidence je zasazena do zeleně a zároveň napojená na Prahu.",
           },
         ],
         intro: {
@@ -1048,7 +995,6 @@ window.siteData = {
               {
                 src: "assets/images/birds-eye-view.jpg",
                 alt: "Letecký pohled na Turbovou",
-                caption: "Areál dodnes zůstává usazen v chráněném zeleném záhybu Prahy 5.",
               },
             ],
             badge: "Původ",
@@ -1073,7 +1019,6 @@ window.siteData = {
               {
                 src: "assets/images/waterfall.jpg",
                 alt: "Vodní prvek v areálu Turbová",
-                caption: "Krajina zde začíná vykonávat práci soukromí.",
               },
             ],
             badge: "Kontext",
@@ -1098,7 +1043,6 @@ window.siteData = {
               {
                 src: "assets/images/main-lobby-entrance-and-logo.jpg",
                 alt: "Lobby a příjezd Turbová",
-                caption: "Sekvence příjezdu nastavuje tón ještě před prahem bytu.",
               },
             ],
             badge: "22 Domovů",
@@ -1123,7 +1067,6 @@ window.siteData = {
               {
                 src: "assets/images/garage-parking.jpg",
                 alt: "Kurátorované podzemní parkování Turbová",
-                caption: "I utilitární zóny jsou zde komponovány jako atmosféra.",
               },
             ],
             badge: "Kámen + Mosaz",
@@ -1148,7 +1091,6 @@ window.siteData = {
               {
                 src: "assets/images/spa-sitting-pool.jpg",
                 alt: "Spa lounge Turbová",
-                caption: "Teplé světlo a klidná voda mění wellness v každodenní rituál.",
               },
             ],
             badge: "Wellness",
@@ -1173,7 +1115,6 @@ window.siteData = {
               {
                 src: "assets/images/terrace.jpg",
                 alt: "Terasa nad parkem",
-                caption: "Venkovní pokoje prodlužují rezidenci do zeleně.",
               },
             ],
             badge: "Soukromý Park",
@@ -1198,7 +1139,6 @@ window.siteData = {
               {
                 src: "assets/images/two-buildings-side-view.jpeg",
                 alt: "Rezidence Turbová a terasy",
-                caption: "Adresa končí tam, kde začíná chráněný svět rezidence.",
               },
             ],
             badge: "2026",
@@ -1258,20 +1198,14 @@ window.siteData = {
             {
               src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Лобби Turbová",
-              caption: "Прибытие в латуни, камне и тихом гостеприимстве.",
-              slot: "primary",
             },
             {
               src: "assets/images/turbova-old.jpg",
               alt: "Историческое поместье Turbová",
-              caption: "Память места по-прежнему задаёт тон.",
-              slot: "secondary",
             },
             {
               src: "assets/images/two-buildings-side-view.jpeg",
               alt: "Резиденции Turbová в саду",
-              caption: "Два известняковых объёма входят в парк.",
-              slot: "tertiary",
             },
           ],
           badges: [
@@ -1310,17 +1244,14 @@ window.siteData = {
           {
             src: "assets/images/turbova-old.jpg",
             alt: "Историческое изображение Turbová",
-            caption: "Архивный снимок изначальной атмосферы поместья.",
           },
           {
             src: "assets/images/waterfall.jpg",
             alt: "Современный двор с водопадом",
-            caption: "Вода, посадки и кирпич вводят более мягкий современный ритуал.",
           },
           {
             src: "assets/images/birds-eye-view.jpg",
             alt: "Вид с высоты на территорию Turbová",
-            caption: "Резиденция расположена в зелени, оставаясь связанной с Прагой.",
           },
         ],
         intro: {
@@ -1376,7 +1307,6 @@ window.siteData = {
               {
                 src: "assets/images/birds-eye-view.jpg",
                 alt: "Вид с высоты на Turbová",
-                caption: "Поместье по-прежнему лежит в защищённой зелёной складке Праги 5.",
               },
             ],
             badge: "Истоки",
@@ -1401,7 +1331,6 @@ window.siteData = {
               {
                 src: "assets/images/waterfall.jpg",
                 alt: "Двор с водопадом в Turbová",
-                caption: "Ландшафт начинает выполнять работу приватности.",
               },
             ],
             badge: "Контекст",
@@ -1426,7 +1355,6 @@ window.siteData = {
               {
                 src: "assets/images/main-lobby-entrance-and-logo.jpg",
                 alt: "Лобби и прибытие Turbová",
-                caption: "Прибытие уровня гостеприимства задаёт тон ещё до входной двери.",
               },
             ],
             badge: "22 дома",
@@ -1451,7 +1379,6 @@ window.siteData = {
               {
                 src: "assets/images/garage-parking.jpg",
                 alt: "Кураторская подземная парковка Turbová",
-                caption: "Даже утилитарные зоны выстроены как атмосфера.",
               },
             ],
             badge: "Камень + латунь",
@@ -1476,7 +1403,6 @@ window.siteData = {
               {
                 src: "assets/images/spa-sitting-pool.jpg",
                 alt: "Спа-лаунж Turbová",
-                caption: "Тёплый свет и спокойная вода превращают велнес в ежедневный ритуал.",
               },
             ],
             badge: "Велнес",
@@ -1501,7 +1427,6 @@ window.siteData = {
               {
                 src: "assets/images/terrace.jpg",
                 alt: "Терраса над территорией",
-                caption: "Открытые комнаты продолжают резиденцию в зелень.",
               },
             ],
             badge: "Частный парк",
@@ -1526,7 +1451,6 @@ window.siteData = {
               {
                 src: "assets/images/two-buildings-side-view.jpeg",
                 alt: "Резиденции и террасы Turbová",
-                caption: "Адрес заканчивается там, где начинается защищённый мир.",
               },
             ],
             badge: "2026",
@@ -1586,20 +1510,14 @@ window.siteData = {
             {
               src: "assets/images/main-lobby-entrance-and-logo.jpg",
               alt: "Hall Turbová",
-              caption: "Une arrivée en laiton, pierre et hospitalité feutrée.",
-              slot: "primary",
             },
             {
               src: "assets/images/turbova-old.jpg",
               alt: "Domaine historique Turbová",
-              caption: "La mémoire du domaine donne encore le ton.",
-              slot: "secondary",
             },
             {
               src: "assets/images/two-buildings-side-view.jpeg",
               alt: "Les résidences Turbová dans le jardin",
-              caption: "Deux volumes de calcaire s'avancent dans le parc.",
-              slot: "tertiary",
             },
           ],
           badges: [
@@ -1638,17 +1556,14 @@ window.siteData = {
           {
             src: "assets/images/turbova-old.jpg",
             alt: "Image historique de Turbová",
-            caption: "Image d'archive de l'atmosphère originelle du domaine.",
           },
           {
             src: "assets/images/waterfall.jpg",
             alt: "Cour contemporaine avec cascade",
-            caption: "L'eau, les plantations et la brique introduisent un rituel moderne plus doux.",
           },
           {
             src: "assets/images/birds-eye-view.jpg",
             alt: "Vue aérienne du domaine Turbová",
-            caption: "La résidence s'inscrit dans la verdure tout en restant reliée à Prague.",
           },
         ],
         intro: {
@@ -1704,7 +1619,6 @@ window.siteData = {
               {
                 src: "assets/images/birds-eye-view.jpg",
                 alt: "Vue aérienne de Turbová",
-                caption: "Le domaine repose toujours dans un repli vert protégé de Prague 5.",
               },
             ],
             badge: "Origine",
@@ -1729,7 +1643,6 @@ window.siteData = {
               {
                 src: "assets/images/waterfall.jpg",
                 alt: "Cour à cascade à Turbová",
-                caption: "Le paysage commence à faire le travail de l'intimité.",
               },
             ],
             badge: "Contexte",
@@ -1754,7 +1667,6 @@ window.siteData = {
               {
                 src: "assets/images/main-lobby-entrance-and-logo.jpg",
                 alt: "Hall et arrivée Turbová",
-                caption: "Une arrivée digne de l'hôtellerie donne le ton avant même la porte d'entrée.",
               },
             ],
             badge: "22 logements",
@@ -1779,7 +1691,6 @@ window.siteData = {
               {
                 src: "assets/images/garage-parking.jpg",
                 alt: "Parking souterrain soigné de Turbová",
-                caption: "Même les zones utilitaires sont composées comme une atmosphère.",
               },
             ],
             badge: "Pierre + laiton",
@@ -1804,7 +1715,6 @@ window.siteData = {
               {
                 src: "assets/images/spa-sitting-pool.jpg",
                 alt: "Salon spa de Turbová",
-                caption: "Lumière chaude et eau calme font du bien-être un rituel quotidien.",
               },
             ],
             badge: "Bien-être",
@@ -1829,7 +1739,6 @@ window.siteData = {
               {
                 src: "assets/images/terrace.jpg",
                 alt: "Terrasse surplombant le domaine",
-                caption: "Les pièces extérieures prolongent la résidence dans la verdure.",
               },
             ],
             badge: "Parc privé",
@@ -1854,7 +1763,6 @@ window.siteData = {
               {
                 src: "assets/images/two-buildings-side-view.jpeg",
                 alt: "Résidences et terrasses de Turbová",
-                caption: "L'adresse s'achève là où commence le monde protégé.",
               },
             ],
             badge: "2026",
@@ -1943,22 +1851,18 @@ window.siteData = {
           {
             src: "assets/images/two-buildings-side-view.jpeg",
             alt: "Side view of the Turbová buildings",
-            caption: "The residence reads as a composed set of pale volumes against greenery.",
           },
           {
             src: "assets/images/corridor.jpg",
             alt: "Decorative corridor",
-            caption: "Common spaces use brass carving, terrazzo, and shadow as part of the identity.",
           },
           {
             src: "assets/images/main-lobby-entrance-and-logo.jpg",
             alt: "Lobby entrance with Turbová logo",
-            caption: "Arrival sequence designed as a hospitality-grade experience.",
           },
           {
             src: "assets/images/garage-parking.jpg",
             alt: "Parking gallery",
-            caption: "Even the garage becomes a curated art object rather than a leftover utility zone.",
           },
         ],
         quote:
@@ -2012,22 +1916,18 @@ window.siteData = {
           {
             src: "assets/images/two-buildings-side-view.jpeg",
             alt: "Boční pohled na budovy Turbová",
-            caption: "Rezidence působí jako kompozice světlých objemů zasazených do zeleně.",
           },
           {
             src: "assets/images/corridor.jpg",
             alt: "Dekorativní chodba",
-            caption: "Společné prostory používají mosazný reliéf, terazzo a stín jako součást identity.",
           },
           {
             src: "assets/images/main-lobby-entrance-and-logo.jpg",
             alt: "Lobby se znakem Turbová",
-            caption: "Sekvence příjezdu je navržena v kvalitě špičkové hospitality.",
           },
           {
             src: "assets/images/garage-parking.jpg",
             alt: "Parkovací galerie",
-            caption: "I garáž se mění v kurátorovaný umělecký objekt místo čisté utility.",
           },
         ],
         quote:
@@ -2081,22 +1981,18 @@ window.siteData = {
           {
             src: "assets/images/two-buildings-side-view.jpeg",
             alt: "Боковой вид зданий Turbová",
-            caption: "Резиденция читается как собранный набор светлых объёмов на фоне зелени.",
           },
           {
             src: "assets/images/corridor.jpg",
             alt: "Декоративный коридор",
-            caption: "Общие пространства используют латунную резьбу, терраццо и тень как часть идентичности.",
           },
           {
             src: "assets/images/main-lobby-entrance-and-logo.jpg",
             alt: "Вход в лобби с логотипом Turbová",
-            caption: "Сценарий прибытия выстроен как опыт уровня гостеприимства.",
           },
           {
             src: "assets/images/garage-parking.jpg",
             alt: "Парковочная галерея",
-            caption: "Даже гараж становится кураторским арт-объектом, а не остаточной утилитарной зоной.",
           },
         ],
         quote:
@@ -2150,22 +2046,18 @@ window.siteData = {
           {
             src: "assets/images/two-buildings-side-view.jpeg",
             alt: "Vue latérale des bâtiments Turbová",
-            caption: "La résidence se lit comme un ensemble composé de volumes pâles sur la verdure.",
           },
           {
             src: "assets/images/corridor.jpg",
             alt: "Couloir décoratif",
-            caption: "Les espaces communs emploient le laiton ciselé, le terrazzo et l'ombre comme part de l'identité.",
           },
           {
             src: "assets/images/main-lobby-entrance-and-logo.jpg",
             alt: "Entrée du hall avec le logo Turbová",
-            caption: "La séquence d'arrivée est conçue comme une expérience digne de l'hôtellerie.",
           },
           {
             src: "assets/images/garage-parking.jpg",
             alt: "Galerie de stationnement",
-            caption: "Même le garage devient un objet d'art soigné plutôt qu'une zone utilitaire résiduelle.",
           },
         ],
         quote:
@@ -2222,17 +2114,14 @@ window.siteData = {
           {
             src: "assets/images/spa-pool.jpg",
             alt: "Pool interior",
-            caption: "Still water and amber light create a cocooned atmosphere.",
           },
           {
             src: "assets/images/spa-sitting-pool.jpg",
             alt: "Spa lounge",
-            caption: "Thermal relaxation framed by sculpted walls and low light.",
           },
           {
             src: "assets/images/terrace.jpg",
             alt: "Terrace seating",
-            caption: "Soft outdoor living continues the wellness chapter above ground.",
           },
         ],
         quote:
@@ -2287,17 +2176,14 @@ window.siteData = {
           {
             src: "assets/images/spa-pool.jpg",
             alt: "Interiér bazénu",
-            caption: "Klidná voda a jantarové světlo vytvářejí chráněnou atmosféru.",
           },
           {
             src: "assets/images/spa-sitting-pool.jpg",
             alt: "Spa lounge",
-            caption: "Tepelná relaxace rámovaná tvarovanými stěnami a tlumeným světlem.",
           },
           {
             src: "assets/images/terrace.jpg",
             alt: "Terasové sezení",
-            caption: "Měkké venkovní bydlení pokračuje v kapitole wellness i nad terénem.",
           },
         ],
         quote:
@@ -2352,17 +2238,14 @@ window.siteData = {
           {
             src: "assets/images/spa-pool.jpg",
             alt: "Интерьер бассейна",
-            caption: "Спокойная вода и янтарный свет создают окутывающую атмосферу.",
           },
           {
             src: "assets/images/spa-sitting-pool.jpg",
             alt: "Спа-лаунж",
-            caption: "Термальная релаксация в обрамлении скульптурных стен и приглушённого света.",
           },
           {
             src: "assets/images/terrace.jpg",
             alt: "Сиденья на террасе",
-            caption: "Мягкая жизнь на открытом воздухе продолжает главу велнеса над землёй.",
           },
         ],
         quote:
@@ -2417,17 +2300,14 @@ window.siteData = {
           {
             src: "assets/images/spa-pool.jpg",
             alt: "Intérieur de la piscine",
-            caption: "Eau calme et lumière ambrée créent une atmosphère cocon.",
           },
           {
             src: "assets/images/spa-sitting-pool.jpg",
             alt: "Salon spa",
-            caption: "Relaxation thermique encadrée de murs sculptés et de lumière tamisée.",
           },
           {
             src: "assets/images/terrace.jpg",
             alt: "Assises de la terrasse",
-            caption: "Une douce vie extérieure prolonge le chapitre bien-être au-dessus du sol.",
           },
         ],
         quote:
@@ -2483,12 +2363,10 @@ window.siteData = {
           {
             src: "assets/images/waterfall.jpg",
             alt: "Waterfall courtyard",
-            caption: "Water and brick introduce sound, texture, and calm at the garden edge.",
           },
           {
             src: "assets/images/terrace.jpg",
             alt: "Garden terrace",
-            caption: "Private open-air rooms extend the living experience into the landscape.",
           },
         ],
         quote:
@@ -2542,12 +2420,10 @@ window.siteData = {
           {
             src: "assets/images/waterfall.jpg",
             alt: "Nádvoří s vodopádem",
-            caption: "Voda a cihla přidávají zvuk, texturu a klid na okraji zahrady.",
           },
           {
             src: "assets/images/terrace.jpg",
             alt: "Zahradní terasa",
-            caption: "Soukromé venkovní pokoje rozšiřují bydlení do krajiny.",
           },
         ],
         quote:
@@ -2601,12 +2477,10 @@ window.siteData = {
           {
             src: "assets/images/waterfall.jpg",
             alt: "Двор с водопадом",
-            caption: "Вода и кирпич вносят звук, текстуру и спокойствие на краю сада.",
           },
           {
             src: "assets/images/terrace.jpg",
             alt: "Садовая терраса",
-            caption: "Частные открытые комнаты продолжают жизнь в ландшафт.",
           },
         ],
         quote:
@@ -2660,12 +2534,10 @@ window.siteData = {
           {
             src: "assets/images/waterfall.jpg",
             alt: "Cour à cascade",
-            caption: "L'eau et la brique apportent son, texture et calme en lisière du jardin.",
           },
           {
             src: "assets/images/terrace.jpg",
             alt: "Terrasse de jardin",
-            caption: "Des pièces extérieures privées prolongent l'expérience de vie dans le paysage.",
           },
         ],
         quote:
@@ -2720,17 +2592,14 @@ window.siteData = {
           {
             src: "assets/images/birds-eye-view.jpg",
             alt: "Aerial overview of the site",
-            caption: "The estate occupies a rare green pocket inside the larger city fabric.",
           },
           {
             src: "assets/images/two-buildings-side-view.jpeg",
             alt: "View between the buildings",
-            caption: "Architecture remains connected to Prague while opening itself toward garden calm.",
           },
           {
             src: "assets/images/garage-entrance.jpg",
             alt: "Parking entrance tunnel",
-            caption: "Arrival sequences are treated as part of the residential experience, not leftover infrastructure.",
           },
         ],
         quote:
@@ -2783,17 +2652,14 @@ window.siteData = {
           {
             src: "assets/images/birds-eye-view.jpg",
             alt: "Letecký přehled lokality",
-            caption: "Areál zaujímá vzácnou zelenou kapsu uvnitř širší městské struktury.",
           },
           {
             src: "assets/images/two-buildings-side-view.jpeg",
             alt: "Pohled mezi budovami",
-            caption: "Architektura zůstává napojená na Prahu a zároveň se otevírá do zahradního klidu.",
           },
           {
             src: "assets/images/garage-entrance.jpg",
             alt: "Tunel parkovacího příjezdu",
-            caption: "Příjezdové sekvence jsou součástí rezidenční zkušenosti, nikoli zbytkové infrastruktury.",
           },
         ],
         quote:
@@ -2846,17 +2712,14 @@ window.siteData = {
           {
             src: "assets/images/birds-eye-view.jpg",
             alt: "Обзор участка с высоты",
-            caption: "Поместье занимает редкий зелёный карман внутри более крупной городской ткани.",
           },
           {
             src: "assets/images/two-buildings-side-view.jpeg",
             alt: "Вид между зданиями",
-            caption: "Архитектура остаётся связанной с Прагой, открываясь к садовому спокойствию.",
           },
           {
             src: "assets/images/garage-entrance.jpg",
             alt: "Тоннель парковочного въезда",
-            caption: "Сценарии прибытия — часть жилого опыта, а не остаточная инфраструктура.",
           },
         ],
         quote:
@@ -2909,17 +2772,14 @@ window.siteData = {
           {
             src: "assets/images/birds-eye-view.jpg",
             alt: "Vue aérienne du site",
-            caption: "Le domaine occupe une rare poche verte au sein du tissu urbain plus large.",
           },
           {
             src: "assets/images/two-buildings-side-view.jpeg",
             alt: "Vue entre les bâtiments",
-            caption: "L'architecture reste reliée à Prague tout en s'ouvrant vers le calme du jardin.",
           },
           {
             src: "assets/images/garage-entrance.jpg",
             alt: "Tunnel d'entrée du parking",
-            caption: "Les séquences d'arrivée font partie de l'expérience résidentielle, non d'une infrastructure résiduelle.",
           },
         ],
         quote:
@@ -2934,7 +2794,7 @@ window.siteData = {
           eyebrow: "06 | Contact",
           title: "Begin a private conversation.",
           lead:
-            "Share a few details and our team will reach out to arrange a private presentation. Everything you send stays confidential.",
+            "Share a few details and our team will reach out. Everything you send stays confidential.",
         },
         form: {
           detailsLegend: "Your details",
@@ -2976,7 +2836,7 @@ window.siteData = {
           submitError: "Something went wrong while sending. Please check your connection and try again.",
           success: {
             title: "Thank you — your enquiry is on its way.",
-            text: "Our team will be in touch shortly to arrange your private presentation.",
+            text: "Our team will be in contact with you soon.",
           },
         },
       },
@@ -2986,7 +2846,7 @@ window.siteData = {
           eyebrow: "06 | Kontakt",
           title: "Začněte soukromý rozhovor.",
           lead:
-            "Sdělte nám několik údajů a náš tým se vám ozve, aby domluvil soukromou prezentaci. Vše, co odešlete, zůstává důvěrné.",
+            "Sdělte nám několik údajů a náš tým se vám ozve. Vše, co odešlete, zůstává důvěrné.",
         },
         form: {
           detailsLegend: "Vaše údaje",
@@ -3028,7 +2888,7 @@ window.siteData = {
           submitError: "Při odesílání došlo k chybě. Zkontrolujte prosím připojení a zkuste to znovu.",
           success: {
             title: "Děkujeme — vaše poptávka je na cestě.",
-            text: "Náš tým se vám brzy ozve a domluví vaši soukromou prezentaci.",
+            text: "Náš tým se vám brzy ozve.",
           },
         },
       },
@@ -3038,7 +2898,7 @@ window.siteData = {
           eyebrow: "06 | Контакты",
           title: "Начните частный разговор.",
           lead:
-            "Поделитесь несколькими данными, и наша команда свяжется с вами, чтобы организовать частную презентацию. Всё, что вы отправите, останется конфиденциальным.",
+            "Поделитесь несколькими данными, и наша команда свяжется с вами. Всё, что вы отправите, останется конфиденциальным.",
         },
         form: {
           detailsLegend: "Ваши данные",
@@ -3080,7 +2940,7 @@ window.siteData = {
           submitError: "При отправке произошла ошибка. Проверьте подключение и попробуйте снова.",
           success: {
             title: "Спасибо — ваш запрос отправлен.",
-            text: "Наша команда скоро свяжется с вами, чтобы организовать частную презентацию.",
+            text: "Наша команда скоро свяжется с вами.",
           },
         },
       },
@@ -3090,7 +2950,7 @@ window.siteData = {
           eyebrow: "06 | Contact",
           title: "Entamez une conversation privée.",
           lead:
-            "Partagez quelques informations et notre équipe vous contactera pour organiser une présentation privée. Tout ce que vous envoyez reste confidentiel.",
+            "Partagez quelques informations et notre équipe vous contactera. Tout ce que vous envoyez reste confidentiel.",
         },
         form: {
           detailsLegend: "Vos coordonnées",
@@ -3132,7 +2992,7 @@ window.siteData = {
           submitError: "Une erreur s'est produite lors de l'envoi. Vérifiez votre connexion et réessayez.",
           success: {
             title: "Merci — votre demande est en route.",
-            text: "Notre équipe vous contactera prochainement pour organiser votre présentation privée.",
+            text: "Notre équipe vous contactera prochainement.",
           },
         },
       },
