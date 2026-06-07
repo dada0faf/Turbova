@@ -2952,15 +2952,6 @@ window.siteData = {
               { value: "undecided", label: "Still deciding" },
             ],
           },
-          timeframe: {
-            label: "Ideal timeframe",
-            options: [
-              { value: "0-3m", label: "Within 3 months" },
-              { value: "3-6m", label: "3–6 months" },
-              { value: "6-12m", label: "6–12 months" },
-              { value: "exploring", label: "Just exploring" },
-            ],
-          },
           contactMethod: {
             label: "Preferred contact method",
             options: [
@@ -3011,15 +3002,6 @@ window.siteData = {
               { value: "buy", label: "Koupit" },
               { value: "rent", label: "Pronajmout" },
               { value: "undecided", label: "Stále se rozhoduji" },
-            ],
-          },
-          timeframe: {
-            label: "Ideální časový rámec",
-            options: [
-              { value: "0-3m", label: "Do 3 měsíců" },
-              { value: "3-6m", label: "3–6 měsíců" },
-              { value: "6-12m", label: "6–12 měsíců" },
-              { value: "exploring", label: "Jen se rozhlížím" },
             ],
           },
           contactMethod: {
@@ -3074,15 +3056,6 @@ window.siteData = {
               { value: "undecided", label: "Ещё думаю" },
             ],
           },
-          timeframe: {
-            label: "Идеальные сроки",
-            options: [
-              { value: "0-3m", label: "В течение 3 месяцев" },
-              { value: "3-6m", label: "3–6 месяцев" },
-              { value: "6-12m", label: "6–12 месяцев" },
-              { value: "exploring", label: "Просто присматриваюсь" },
-            ],
-          },
           contactMethod: {
             label: "Предпочтительный способ связи",
             options: [
@@ -3133,15 +3106,6 @@ window.siteData = {
               { value: "buy", label: "Acheter" },
               { value: "rent", label: "Louer" },
               { value: "undecided", label: "Encore indécis" },
-            ],
-          },
-          timeframe: {
-            label: "Échéance idéale",
-            options: [
-              { value: "0-3m", label: "Sous 3 mois" },
-              { value: "3-6m", label: "3 à 6 mois" },
-              { value: "6-12m", label: "6 à 12 mois" },
-              { value: "exploring", label: "Simple exploration" },
             ],
           },
           contactMethod: {

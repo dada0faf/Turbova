@@ -589,7 +589,6 @@
               <legend class="contact-form__legend">${form.interestLegend}</legend>
               <div class="choice-stack">
                 ${renderRadioGroup("intent", form.intent)}
-                ${renderRadioGroup("timeframe", form.timeframe)}
                 ${renderRadioGroup("contactMethod", form.contactMethod)}
               </div>
               <label class="field field--full">
@@ -951,7 +950,6 @@
           ? countrySelect.options[countrySelect.selectedIndex].dataset.iso
           : "",
         intent: checked("intent"),
-        timeframe: checked("timeframe"),
         contactMethod: checked("contactMethod"),
         message: value("message"),
       };

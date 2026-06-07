@@ -1896,7 +1896,7 @@ p {
 .choice-stack {
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 2.2rem;
   margin-bottom: 1.6rem;
 }
 
@@ -1906,7 +1906,7 @@ p {
   border: none;
   display: flex;
   flex-direction: column;
-  gap: 0.85rem;
+  gap: 1.25rem;
 }
 
 .choice-row {
