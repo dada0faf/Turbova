@@ -1012,22 +1012,35 @@
 
       // Google Apps Script web apps don't return CORS headers, so we POST in
       // "no-cors" mode with a CORS-safelisted text/plain body. The script
-      // appends the row server-side; the response is opaque (can't be read),
-      // so a resolved request is treated as success and only an outright
-      // network failure surfaces an error.
+      // appends the row server-side; the response is opaque (can't be read)
+      // and its 302 redirect can be slow, so we settle the UI on whichever
+      // comes first — the request resolving or a short safety timeout — and
+      // never leave the button stuck on "Sending…". Only an outright network
+      // failure surfaces the error state.
+      let settled = false;
+      const succeed = () => {
+        if (settled) return;
+        settled = true;
+        window.clearTimeout(safety);
+        showSuccess();
+      };
+      const fail = () => {
+        if (settled) return;
+        settled = true;
+        window.clearTimeout(safety);
+        showError(getPage(locale).form.submitError);
+        resetButton();
+      };
+      const safety = window.setTimeout(succeed, 8000);
+
       fetch(endpoint, {
         method: "POST",
         mode: "no-cors",
         headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify(payload),
       })
-        .then(() => {
-          showSuccess();
-        })
-        .catch(() => {
-          showError(getPage(locale).form.submitError);
-          resetButton();
-        });
+        .then(succeed)
+        .catch(fail);
     });
   }
 
