@@ -45,9 +45,24 @@ function doPost(e) {
   }
 }
 
-// A friendly response if someone opens the URL directly in a browser.
+// Diagnostic response if someone opens the URL directly in a browser. Reports
+// whether the script can reach its spreadsheet and what tabs/rows exist, so
+// connectivity problems are easy to see. Safe to leave in place.
 function doGet() {
-  return json_({ result: 'ok', message: 'Turbová contact endpoint is live.' });
+  var info = { result: 'ok', message: 'Turbová contact endpoint is live.' };
+  try {
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    info.boundToSpreadsheet = !!ss;
+    if (ss) {
+      info.spreadsheetName = ss.getName();
+      info.tabs = ss.getSheets().map(function (s) { return s.getName(); });
+      var sh = ss.getSheetByName(SHEET_NAME);
+      info.enquiriesRows = sh ? Math.max(0, sh.getLastRow() - 1) : 0;
+    }
+  } catch (err) {
+    info.diagnosticError = String(err);
+  }
+  return json_(info);
 }
 
 function getSheet_() {
