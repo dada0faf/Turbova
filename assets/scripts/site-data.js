@@ -14,10 +14,10 @@ window.siteData = {
     { slug: "location", href: "location.html" },
     { slug: "contact", href: "contact.html" },
   ],
-  // Where enquiries are delivered. Leave contactEndpoint empty to use the
-  // mailto fallback (works on static hosting); set it to a form endpoint
-  // (e.g. a Formspree URL) to capture submissions server-side instead.
-  contactEmail: "info@turbova.cz",
+  // Enquiries are saved as rows in a private Google Sheet via a Google Apps
+  // Script web app — nothing is emailed. Paste your deployed web-app URL here
+  // (see CONTACT_SETUP.md). While this is empty the form still validates and
+  // shows the success state, but submissions are not stored anywhere yet.
   contactEndpoint: "",
   // Shared country dial codes for the phone field (Czech Republic default).
   countries: [
@@ -2982,6 +2982,7 @@ window.siteData = {
             email: "Please enter a valid email address.",
             phone: "Please enter a valid phone number.",
           },
+          submitError: "Something went wrong while sending. Please check your connection and try again.",
           success: {
             title: "Thank you — your enquiry is on its way.",
             text: "Our team will be in touch shortly to arrange your private presentation.",
@@ -3042,6 +3043,7 @@ window.siteData = {
             email: "Zadejte prosím platnou e-mailovou adresu.",
             phone: "Zadejte prosím platné telefonní číslo.",
           },
+          submitError: "Při odesílání došlo k chybě. Zkontrolujte prosím připojení a zkuste to znovu.",
           success: {
             title: "Děkujeme — vaše poptávka je na cestě.",
             text: "Náš tým se vám brzy ozve a domluví vaši soukromou prezentaci.",
@@ -3102,6 +3104,7 @@ window.siteData = {
             email: "Введите действительный адрес эл. почты.",
             phone: "Введите действительный номер телефона.",
           },
+          submitError: "При отправке произошла ошибка. Проверьте подключение и попробуйте снова.",
           success: {
             title: "Спасибо — ваш запрос отправлен.",
             text: "Наша команда скоро свяжется с вами, чтобы организовать частную презентацию.",
@@ -3162,6 +3165,7 @@ window.siteData = {
             email: "Veuillez saisir une adresse e-mail valide.",
             phone: "Veuillez saisir un numéro de téléphone valide.",
           },
+          submitError: "Une erreur s'est produite lors de l'envoi. Vérifiez votre connexion et réessayez.",
           success: {
             title: "Merci — votre demande est en route.",
             text: "Notre équipe vous contactera prochainement pour organiser votre présentation privée.",

@@ -602,6 +602,7 @@
             <div class="contact-form__actions">
               <button class="button button-primary" type="submit" data-submit>${form.submit}${arrow}</button>
             </div>
+            <p class="contact-form__status" data-form-status role="alert" hidden></p>
           </form>
 
           <div class="contact-success" data-contact-success hidden>
@@ -965,28 +966,25 @@
       }
     };
 
-    const submitViaMailto = (payload) => {
-      const recipient = siteData.contactEmail || "";
-      const subject = `New enquiry — ${payload.firstName} ${payload.lastName}`;
-      const lines = [
-        `Name: ${payload.firstName} ${payload.lastName}`,
-        `Email: ${payload.email}`,
-        `Phone: ${payload.phone}`,
-        `Country: ${payload.country}`,
-        `Looking to: ${payload.intent}`,
-        `Timeframe: ${payload.timeframe}`,
-        `Preferred contact: ${payload.contactMethod}`,
-        "",
-        `Message: ${payload.message || "—"}`,
-      ];
-      const href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-        lines.join("\n")
-      )}`;
-      window.location.href = href;
+    const status = form.querySelector("[data-form-status]");
+    const showError = (text) => {
+      if (!status) return;
+      status.textContent = text;
+      status.hidden = false;
+    };
+    const clearStatus = () => {
+      if (!status) return;
+      status.hidden = true;
+      status.textContent = "";
+    };
+    const resetButton = () => {
+      submitButton.disabled = false;
+      submitButton.innerHTML = `${submitLabel}${arrow}`;
     };
 
     form.addEventListener("submit", (event) => {
       event.preventDefault();
+      clearStatus();
       if (!validate()) {
         const firstInvalid = form.querySelector(".is-invalid");
         if (firstInvalid) firstInvalid.focus();
@@ -994,33 +992,42 @@
       }
 
       const payload = collect();
+      payload.submittedAt = new Date().toISOString();
+      payload.language = locale;
+
       const endpoint = siteData.contactEndpoint;
 
-      if (endpoint) {
-        submitButton.disabled = true;
-        submitButton.textContent = sendingLabel;
-        fetch(endpoint, {
-          method: "POST",
-          headers: { Accept: "application/json", "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
-        })
-          .then((response) => {
-            if (!response.ok) throw new Error("Request failed");
-            showSuccess();
-          })
-          .catch(() => {
-            // Fall back to the visitor's email client if the endpoint fails.
-            submitViaMailto(payload);
-            showSuccess();
-          })
-          .finally(() => {
-            submitButton.disabled = false;
-            submitButton.innerHTML = `${submitLabel}${arrow}`;
-          });
-      } else {
-        submitViaMailto(payload);
+      // No backend configured yet: keep the page usable but make it obvious to
+      // the developer that nothing was stored. See CONTACT_SETUP.md.
+      if (!endpoint) {
+        console.warn(
+          "[contact] siteData.contactEndpoint is empty — submission was NOT stored. See CONTACT_SETUP.md."
+        );
         showSuccess();
+        return;
       }
+
+      submitButton.disabled = true;
+      submitButton.textContent = sendingLabel;
+
+      // Google Apps Script web apps don't return CORS headers, so we POST in
+      // "no-cors" mode with a CORS-safelisted text/plain body. The script
+      // appends the row server-side; the response is opaque (can't be read),
+      // so a resolved request is treated as success and only an outright
+      // network failure surfaces an error.
+      fetch(endpoint, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(payload),
+      })
+        .then(() => {
+          showSuccess();
+        })
+        .catch(() => {
+          showError(getPage(locale).form.submitError);
+          resetButton();
+        });
     });
   }
 
