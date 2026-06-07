@@ -55,9 +55,11 @@ function doGet() {
     info.boundToSpreadsheet = !!ss;
     if (ss) {
       info.spreadsheetName = ss.getName();
+      info.spreadsheetUrl = ss.getUrl();
       info.tabs = ss.getSheets().map(function (s) { return s.getName(); });
       var sh = ss.getSheetByName(SHEET_NAME);
       info.enquiriesRows = sh ? Math.max(0, sh.getLastRow() - 1) : 0;
+      info.enquiriesGid = sh ? sh.getSheetId() : null;
     }
   } catch (err) {
     info.diagnosticError = String(err);
