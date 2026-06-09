@@ -24,19 +24,17 @@
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Load Inter for the calm, contemporary sans typography of the reference site.
-  if (!document.querySelector('link[data-inter]')) {
-    const preconnect = document.createElement("link");
-    preconnect.rel = "preconnect";
-    preconnect.href = "https://fonts.gstatic.com";
-    preconnect.crossOrigin = "anonymous";
-    document.head.appendChild(preconnect);
-    const font = document.createElement("link");
-    font.rel = "stylesheet";
-    font.dataset.inter = "true";
-    font.href = "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap";
-    document.head.appendChild(font);
-  }
+  // Clean up stuck transition state when the browser restores this page from bfcache
+  // (back/forward navigation). Without this, the green veil stays visible indefinitely.
+  window.addEventListener("pageshow", (event) => {
+    if (event.persisted) {
+      document.body.classList.remove("is-transition-out", "menu-open");
+      const menu = shell.querySelector(".mobile-menu");
+      const toggle = shell.querySelector(".menu-button");
+      if (menu) menu.classList.remove("is-open");
+      if (toggle) toggle.setAttribute("aria-expanded", "false");
+    }
+  });
 
   const arrow = '<span class="button__arrow" aria-hidden="true">&rarr;</span>';
 
@@ -114,6 +112,7 @@
           ${renderNavLinks(locale, "nav-link")}
         </nav>
         <div class="header-actions">
+          <a class="button button-enquire" href="contact.html">${globalData.enquireLabel}</a>
           ${renderLanguageSelect(locale, globalData)}
           <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${globalData.menuLabel}">
             <span></span>
@@ -132,6 +131,9 @@
         <nav class="mobile-links" aria-label="${globalData.menuLabel}">
           ${renderNavLinks(locale, "mobile-nav-link")}
         </nav>
+        <div class="mobile-menu__lang">
+          ${renderLanguageSelect(locale, globalData)}
+        </div>
       </aside>
     `;
   }
@@ -210,7 +212,7 @@
                 <span aria-hidden="true">&rarr;</span>
               </button>
               <div class="img-carousel__dots">${items
-                .map((_, i) => `<span class="img-carousel__dot${i === 0 ? " is-active" : ""}"></span>`)
+                .map((_, i) => `<button class="img-carousel__dot${i === 0 ? " is-active" : ""}" type="button" data-carousel-dot="${i}" aria-label="Go to image ${i + 1}"></button>`)
                 .join("")}</div>`
             : ""
         }
@@ -581,6 +583,7 @@
               <legend class="contact-form__legend">${form.interestLegend}</legend>
               <div class="choice-stack">
                 ${renderRadioGroup("intent", form.intent)}
+                ${renderRadioGroup("apartmentSize", form.apartmentSize)}
                 ${renderRadioGroup("contactMethod", form.contactMethod)}
               </div>
               <label class="field field--full">
@@ -629,6 +632,18 @@
     `;
   }
 
+  function setMeta(name, content) {
+    let el = document.head.querySelector(`meta[name="${name}"]`);
+    if (!el) { el = document.createElement("meta"); el.name = name; document.head.appendChild(el); }
+    el.content = content || "";
+  }
+
+  function setOgMeta(property, content) {
+    let el = document.head.querySelector(`meta[property="${property}"]`);
+    if (!el) { el = document.createElement("meta"); el.setAttribute("property", property); document.head.appendChild(el); }
+    el.content = content || "";
+  }
+
   function renderPage(locale) {
     const pageMarkup =
       pageId === "home"
@@ -647,41 +662,58 @@
       ${pageMarkup}
       ${renderFooter(locale)}
     `;
-    document.title = getPage(locale).title;
+    const pageData = getPage(locale);
+    const globalData = getGlobal(locale);
+    document.title = pageData.title;
     document.documentElement.lang = locale;
+    setMeta("description", pageData.metaDescription);
+    setOgMeta("og:title", pageData.title);
+    setOgMeta("og:description", pageData.metaDescription);
+    setOgMeta("og:type", "website");
+    setOgMeta("og:site_name", globalData.brand);
   }
 
   function bindLanguageSelect() {
-    const select = shell.querySelector("[data-lang-select]");
-    if (!select) return;
-    const globe = select.querySelector(".lang-globe");
+    const selects = shell.querySelectorAll("[data-lang-select]");
+    if (!selects.length) return;
 
-    const setOpen = (open) => {
-      select.classList.toggle("is-open", open);
-      globe.setAttribute("aria-expanded", String(open));
+    const closeAll = () => {
+      selects.forEach((s) => {
+        s.classList.remove("is-open");
+        s.querySelector(".lang-globe").setAttribute("aria-expanded", "false");
+      });
     };
 
-    globe.addEventListener("click", (event) => {
-      event.stopPropagation();
-      setOpen(!select.classList.contains("is-open"));
-    });
+    selects.forEach((select) => {
+      const globe = select.querySelector(".lang-globe");
 
-    select.querySelectorAll(".lang-option").forEach((button) => {
-      button.addEventListener("click", () => {
-        const code = button.dataset.lang;
-        if (!validCodes.includes(code)) return;
-        localStorage.setItem(languageKey, code);
-        setOpen(false);
-        renderPage(code);
-        bindInteractions();
+      globe.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const isOpen = select.classList.contains("is-open");
+        closeAll();
+        if (!isOpen) {
+          select.classList.add("is-open");
+          globe.setAttribute("aria-expanded", "true");
+        }
+      });
+
+      select.querySelectorAll(".lang-option").forEach((button) => {
+        button.addEventListener("click", () => {
+          const code = button.dataset.lang;
+          if (!validCodes.includes(code)) return;
+          localStorage.setItem(languageKey, code);
+          closeAll();
+          renderPage(code);
+          bindInteractions();
+        });
       });
     });
 
     const onDocClick = (event) => {
-      if (!select.contains(event.target)) setOpen(false);
+      if (![...selects].some((s) => s.contains(event.target))) closeAll();
     };
     const onKey = (event) => {
-      if (event.key === "Escape") setOpen(false);
+      if (event.key === "Escape") closeAll();
     };
     document.addEventListener("click", onDocClick);
     document.addEventListener("keydown", onKey);
@@ -844,6 +876,13 @@
         });
       }
 
+      dots.forEach((dot, i) => {
+        dot.addEventListener("click", () => {
+          moveTo(i);
+          restart();
+        });
+      });
+
       start();
       cleanups.push(() => {
         if (timer) clearInterval(timer);
@@ -955,6 +994,7 @@
           ? countrySelect.options[countrySelect.selectedIndex].dataset.iso
           : "",
         intent: checked("intent"),
+        apartmentSize: checked("apartmentSize"),
         contactMethod: checked("contactMethod"),
         message: value("message"),
       };

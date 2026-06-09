@@ -91,6 +91,7 @@ window.siteData = {
       footerPrimary: "Explore residences",
       footerSecondary: "Read the story",
       footerNote: "Two buildings, one protected world.",
+      enquireLabel: "Enquire",
     },
     cs: {
       brand: "Turbová",
@@ -118,6 +119,7 @@ window.siteData = {
       footerPrimary: "Prozkoumat rezidence",
       footerSecondary: "Číst příběh",
       footerNote: "Dvě budovy, jeden chráněný svět.",
+      enquireLabel: "Kontakt",
     },
     ru: {
       brand: "Turbová",
@@ -145,6 +147,7 @@ window.siteData = {
       footerPrimary: "Смотреть резиденции",
       footerSecondary: "Читать историю",
       footerNote: "Два здания, один защищённый мир.",
+      enquireLabel: "Связаться",
     },
     fr: {
       brand: "Turbová",
@@ -172,12 +175,14 @@ window.siteData = {
       footerPrimary: "Découvrir les résidences",
       footerSecondary: "Lire l'histoire",
       footerNote: "Deux bâtiments, un monde protégé.",
+      enquireLabel: "S'informer",
     },
   },
   pages: {
     home: {
       en: {
         title: "Turbová | Home",
+        metaDescription: "Turbová — 22 boutique residences in Prague 5. Private park, wellness, and limestone architecture. Urban estate completing 2026.",
         hero: {
           eyebrow: "Boutique Residence | Prague 5",
           title: "A quiet estate hidden inside the city.",
@@ -272,6 +277,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Domů",
+        metaDescription: "Turbová — 22 butikovích rezidencí v Praze 5. Soukromý park, wellness a architektura z vápence. Dokončení v roce 2026.",
         hero: {
           eyebrow: "Butiková rezidence | Praha 5",
           title: "Tiché sídlo ukryté uvnitř města.",
@@ -366,6 +372,7 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | Главная",
+        metaDescription: "Turbová — 22 бутиковые резиденции в Праге 5. Частный парк, велнес и архитектура из известняка. Завершение в 2026 году.",
         hero: {
           eyebrow: "Бутиковая резиденция | Прага 5",
           title: "Тихое поместье, скрытое в сердце города.",
@@ -460,6 +467,7 @@ window.siteData = {
       },
       fr: {
         title: "Turbová | Accueil",
+        metaDescription: "Turbová — 22 résidences boutique à Prague 5. Parc privé, bien-être et architecture en calcaire. Livraison en 2026.",
         hero: {
           eyebrow: "Résidence boutique | Prague 5",
           title: "Un domaine paisible caché au cœur de la ville.",
@@ -556,6 +564,7 @@ window.siteData = {
     story: {
       en: {
         title: "Turbová | Story",
+        metaDescription: "The story of Turbová: from an 18th-century estate of royal advisor František of Turba to the creative legacy of animator Jiří Trnka.",
         hero: {
           eyebrow: "Our story",
           title: "You'll be hearing less from the city.",
@@ -868,6 +877,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Příběh",
+        metaDescription: "Příběh Turbové: od panství královského rádce Františka z Turby přes tvůrčí odkaz animátora Jiřího Trnky po moderní rezidenci v Praze 5.",
         hero: {
           eyebrow: "Náš příběh",
           title: "Z města uslyšíte méně.",
@@ -1180,6 +1190,7 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | История",
+        metaDescription: "История Turbová: от поместья королевского советника Франтишека из Турбы до творческого наследия аниматора Иржи Тrnки и современной резиденции в Праге 5.",
         hero: {
           eyebrow: "Наша история",
           title: "Города вы будете слышать меньше.",
@@ -1492,6 +1503,7 @@ window.siteData = {
       },
       fr: {
         title: "Turbová | Histoire",
+        metaDescription: "L'histoire de Turbová : du domaine du conseiller royal František de Turba à l'héritage créatif de l'animateur Jiří Trnka, jusqu'à une résidence contemporaine à Prague 5.",
         hero: {
           eyebrow: "Notre histoire",
           title: "Vous entendrez moins la ville.",
@@ -1806,6 +1818,7 @@ window.siteData = {
     residences: {
       en: {
         title: "Turbová | Residences",
+        metaDescription: "22 exclusive apartments from 110 to 299 m² in two buildings. Shell & Core finish, panoramic glazing, private parking, and smart home. Prague 5.",
         hero: {
           eyebrow: "02 | Residences",
           title: "Two buildings. Twenty-two private worlds.",
@@ -1871,6 +1884,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Rezidence",
+        metaDescription: "22 exkluzivních apartmánů od 110 do 299 m² ve dvou budovách. Stav Shell & Core, panoramatické zasklení, soukromé parkování a smart home. Praha 5.",
         hero: {
           eyebrow: "02 | Rezidence",
           title: "Dvě budovy. Dvacet dva soukromých světů.",
@@ -1936,6 +1950,7 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | Резиденции",
+        metaDescription: "22 эксклюзивные апартаменты от 110 до 299 м² в двух зданиях. Отделка Shell & Core, панорамное остекление, частная парковка и умный дом. Прага 5.",
         hero: {
           eyebrow: "02 | Резиденции",
           title: "Два здания. Двадцать два частных мира.",
@@ -2001,6 +2016,7 @@ window.siteData = {
       },
       fr: {
         title: "Turbová | Résidences",
+        metaDescription: "22 appartements exclusifs de 110 à 299 m² dans deux bâtiments. Finition Shell & Core, vitrage panoramique, parking privé et maison connectée. Prague 5.",
         hero: {
           eyebrow: "02 | Résidences",
           title: "Deux bâtiments. Vingt-deux mondes privés.",
@@ -2068,6 +2084,7 @@ window.siteData = {
     wellness: {
       en: {
         title: "Turbová | Wellness",
+        metaDescription: "Residents-only wellness at Turbová: heated pool, hammam, sauna, and terrace lounge. Private wellbeing in the heart of Prague 5.",
         hero: {
           eyebrow: "03 | Wellness",
           title: "A ritual zone reserved for residents.",
@@ -2130,6 +2147,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Wellness",
+        metaDescription: "Wellness pouze pro rezidenty Turbové: vyhřívaný bazén, hammam, sauna a odpočinková terasa. Soukromé zdraví v srdci Prahy 5.",
         hero: {
           eyebrow: "03 | Wellness",
           title: "Rituální zóna vyhrazená rezidentům.",
@@ -2192,6 +2210,7 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | Велнес",
+        metaDescription: "Велнес только для резидентов Turbová: подогреваемый бассейн, хаммам, сауна и лаунж-терраса. Частный отдых в сердце Праги 5.",
         hero: {
           eyebrow: "03 | Велнес",
           title: "Ритуальная зона, отведённая резидентам.",
@@ -2254,6 +2273,7 @@ window.siteData = {
       },
       fr: {
         title: "Turbová | Bien-être",
+        metaDescription: "Bien-être exclusif à Turbová : piscine chauffée, hammam, sauna et terrasse lounge. Un espace privé au cœur de Prague 5.",
         hero: {
           eyebrow: "03 | Bien-être",
           title: "Une zone rituelle réservée aux résidents.",
@@ -2318,6 +2338,7 @@ window.siteData = {
     grounds: {
       en: {
         title: "Turbová | Grounds",
+        metaDescription: "Turbová's private park: cascading gardens, century-old trees, outdoor fitness, a wine house, and a children's playground in Smíchov, Prague 5.",
         hero: {
           eyebrow: "04 | Grounds",
           title: "A private park that absorbs the city.",
@@ -2375,6 +2396,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Zahrady",
+        metaDescription: "Soukromý park Turbové: kaskádovité zahrady, staletí stromy, outdoor fitness, vinný domek a dětské hřiště na Smíchově, Praha 5.",
         hero: {
           eyebrow: "04 | Zahrady",
           title: "Soukromý park, který pohlcuje město.",
@@ -2432,6 +2454,7 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | Сады",
+        metaDescription: "Частный парк Turbová: каскадные сады, вековые деревья, открытый фитнес, винный домик и детская площадка в Смихове, Прага 5.",
         hero: {
           eyebrow: "04 | Сады",
           title: "Частный парк, поглощающий город.",
@@ -2489,6 +2512,7 @@ window.siteData = {
       },
       fr: {
         title: "Turbová | Jardins",
+        metaDescription: "Le parc privé de Turbová : jardins en cascade, arbres centenaires, fitness extérieur, une cave à vin et une aire de jeux à Smíchov, Prague 5.",
         hero: {
           eyebrow: "04 | Jardins",
           title: "Un parc privé qui absorbe la ville.",
@@ -2548,6 +2572,7 @@ window.siteData = {
     location: {
       en: {
         title: "Turbová | Location",
+        metaDescription: "Turbová is located in the heart of Prague 5, close to Anděl, international schools, healthcare, and major city routes.",
         hero: {
           eyebrow: "05 | Location",
           title: "Connected to Prague. Withdrawn from its noise.",
@@ -2608,6 +2633,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Lokalita",
+        metaDescription: "Turbová leží v srdci Prahy 5, blízko Andělu, mezinárodních škol, zdravotní péče a hlavních městských tras.",
         hero: {
           eyebrow: "05 | Lokalita",
           title: "Napojena na Prahu. Odtažena od jejího hluku.",
@@ -2668,6 +2694,7 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | Локация",
+        metaDescription: "Turbová расположена в самом центре Праги 5, рядом с Анделом, международными школами, медицинскими учреждениями и основными городскими маршрутами.",
         hero: {
           eyebrow: "05 | Локация",
           title: "Связана с Прагой. Отдалена от её шума.",
@@ -2728,6 +2755,7 @@ window.siteData = {
       },
       fr: {
         title: "Turbová | Emplacement",
+        metaDescription: "Turbová est situé au cœur de Prague 5, proche d'Anděl, des écoles internationales, des soins de santé et des principales voies de circulation.",
         hero: {
           eyebrow: "05 | Emplacement",
           title: "Reliée à Prague. Retirée de son bruit.",
@@ -2790,6 +2818,7 @@ window.siteData = {
     contact: {
       en: {
         title: "Turbová | Contact",
+        metaDescription: "Arrange a private viewing of Turbová residences. 22 boutique apartments in Prague 5 — intimate, discreet, completing 2026.",
         hero: {
           eyebrow: "06 | Contact",
           title: "Begin a private conversation.",
@@ -2810,6 +2839,15 @@ window.siteData = {
               { value: "buy", label: "Buy" },
               { value: "rent", label: "Rent" },
               { value: "undecided", label: "Still deciding" },
+            ],
+          },
+          apartmentSize: {
+            label: "Preferred apartment size",
+            options: [
+              { value: "110-150", label: "110–150 m²" },
+              { value: "150-200", label: "150–200 m²" },
+              { value: "200-250", label: "200–250 m²" },
+              { value: "250-299", label: "250–299 m²" },
             ],
           },
           contactMethod: {
@@ -2842,6 +2880,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Kontakt",
+        metaDescription: "Domluvte si soukromou prohlídku rezidencí Turbová. 22 butikovích apartmánů v Praze 5 — komorní, diskrétní, dokončení 2026.",
         hero: {
           eyebrow: "06 | Kontakt",
           title: "Začněte soukromý rozhovor.",
@@ -2862,6 +2901,15 @@ window.siteData = {
               { value: "buy", label: "Koupit" },
               { value: "rent", label: "Pronajmout" },
               { value: "undecided", label: "Stále se rozhoduji" },
+            ],
+          },
+          apartmentSize: {
+            label: "Preferovaná velikost apartmánu",
+            options: [
+              { value: "110-150", label: "110–150 m²" },
+              { value: "150-200", label: "150–200 m²" },
+              { value: "200-250", label: "200–250 m²" },
+              { value: "250-299", label: "250–299 m²" },
             ],
           },
           contactMethod: {
@@ -2894,6 +2942,7 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | Контакты",
+        metaDescription: "Организуйте частный просмотр резиденций Turbová. 22 бутиковые апартаменты в Праге 5 — камерные, дискретные, завершение в 2026 году.",
         hero: {
           eyebrow: "06 | Контакты",
           title: "Начните частный разговор.",
@@ -2914,6 +2963,15 @@ window.siteData = {
               { value: "buy", label: "Купить" },
               { value: "rent", label: "Арендовать" },
               { value: "undecided", label: "Ещё думаю" },
+            ],
+          },
+          apartmentSize: {
+            label: "Предпочтительный размер апартаментов",
+            options: [
+              { value: "110-150", label: "110–150 м²" },
+              { value: "150-200", label: "150–200 м²" },
+              { value: "200-250", label: "200–250 м²" },
+              { value: "250-299", label: "250–299 м²" },
             ],
           },
           contactMethod: {
@@ -2946,6 +3004,7 @@ window.siteData = {
       },
       fr: {
         title: "Turbová | Contact",
+        metaDescription: "Organisez une visite privée des résidences Turbová. 22 appartements boutique à Prague 5 — intimes, discrets, livraison en 2026.",
         hero: {
           eyebrow: "06 | Contact",
           title: "Entamez une conversation privée.",
@@ -2966,6 +3025,15 @@ window.siteData = {
               { value: "buy", label: "Acheter" },
               { value: "rent", label: "Louer" },
               { value: "undecided", label: "Encore indécis" },
+            ],
+          },
+          apartmentSize: {
+            label: "Taille d'appartement souhaitée",
+            options: [
+              { value: "110-150", label: "110–150 m²" },
+              { value: "150-200", label: "150–200 m²" },
+              { value: "200-250", label: "200–250 m²" },
+              { value: "250-299", label: "250–299 m²" },
             ],
           },
           contactMethod: {

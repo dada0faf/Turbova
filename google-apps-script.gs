@@ -33,6 +33,7 @@ function doPost(e) {
       data.phone || '',
       data.country || '',
       data.intent || '',
+      data.apartmentSize || '',
       data.timeframe || '',
       data.contactMethod || '',
       data.message || '',
@@ -84,7 +85,7 @@ function getSheet_() {
   if (sheet.getLastRow() === 0) {
     sheet.appendRow([
       'Timestamp', 'First name', 'Last name', 'Email', 'Phone',
-      'Country', 'Looking to', 'Timeframe', 'Preferred contact', 'Message', 'Language',
+      'Country', 'Looking to', 'Apartment size', 'Timeframe', 'Preferred contact', 'Message', 'Language',
     ]);
   }
   return sheet;
