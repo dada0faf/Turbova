@@ -183,9 +183,13 @@ body.is-transition-enter .page-transition {
   z-index: 60;
 }
 
-.site-header,
 .page,
 .site-footer {
+  width: var(--container);
+  margin: 0 auto;
+}
+
+.site-header {
   width: var(--container);
   margin: 0 auto;
 }
@@ -211,9 +215,18 @@ body.is-transition-enter .page-transition {
   padding: 1rem 0;
   background: rgba(244, 239, 231, 0.86);
   backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border-bottom: 1px solid var(--line);
   width: 100%;
   padding-inline: var(--gutter);
+}
+
+.site-header.is-stuck::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(244, 239, 231, 0.86);
+  z-index: -1;
 }
 
 .brandmark {
@@ -1576,6 +1589,22 @@ p {
     --container: calc(100vw - 14vw);
   }
 
+  .site-header {
+    width: 100%;
+    padding-inline: var(--gutter);
+    flex-wrap: nowrap;
+  }
+
+  .site-header.is-stuck {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  .brandmark {
+    flex-shrink: 1;
+    min-width: 0;
+  }
+
   .desktop-nav {
     display: none;
   }
@@ -1586,6 +1615,47 @@ p {
 
   .menu-button {
     display: inline-flex;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  .menu-button span {
+    width: 26px;
+  }
+
+  .lang-globe {
+    padding: 12px 10px;
+    min-height: 44px;
+    min-width: 44px;
+    justify-content: center;
+  }
+
+  .lang-select {
+    flex-shrink: 0;
+  }
+
+  .header-actions {
+    flex-shrink: 0;
+  }
+
+  .mobile-menu {
+    padding: 2rem var(--gutter) 3rem;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mobile-nav-link {
+    padding: 1.4rem 0;
+    min-height: 56px;
+  }
+
+  .mobile-close {
+    padding: 12px 16px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
   }
 
   .collage,
@@ -1624,27 +1694,49 @@ p {
   .chapter-card__arrow {
     display: none;
   }
+
+  .img-carousel__arrow {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.15rem;
+  }
 }
 
 @media (max-width: 640px) {
   :root {
-    --gutter: 6vw;
-    --container: calc(100vw - 12vw);
+    --gutter: 5vw;
+    --container: calc(100vw - 10vw);
   }
 
   .page > section {
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
+  }
+
+  .page {
+    padding: 3rem 0 6rem;
   }
 
   .button {
     width: 100%;
+    min-height: 56px;
+    font-size: 0.72rem;
+    padding: 1rem 1.6rem;
+  }
+
+  .hero-actions {
+    gap: 0.7rem;
+    padding-top: 0.5rem;
   }
 
   .collage,
   .story-beat__media,
   .legacy-spotlight__media,
   .chapter-hero__media {
-    min-height: 24rem;
+    min-height: 20rem;
+  }
+
+  .img-carousel {
+    aspect-ratio: 3 / 4;
   }
 
   .metric-strip {
@@ -1655,8 +1747,6 @@ p {
     padding: 1.6rem 1.2rem;
   }
 
-  /* In the 2-column mobile grid the left column (odd cells) stays flush;
-     right column keeps its left padding so text clears the divider. */
   .metric-card:nth-child(odd) {
     padding-left: 0;
   }
@@ -1676,6 +1766,67 @@ p {
 
   .hero-badge:nth-child(odd) {
     padding-left: 0;
+  }
+
+  h1 {
+    font-size: clamp(2.2rem, 8vw, 3.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.8rem, 6vw, 2.6rem);
+  }
+
+  .lead {
+    font-size: clamp(1rem, 4vw, 1.2rem);
+  }
+
+  .brandmark-word {
+    font-size: 1rem;
+    letter-spacing: 0.28em;
+  }
+
+  .brandmark-sub {
+    font-size: 0.55rem;
+  }
+
+  .lang-globe__code {
+    display: none;
+  }
+
+  .lang-globe__chevron {
+    display: none;
+  }
+
+  .mobile-menu__head h2 {
+    font-size: 1.8rem;
+  }
+
+  .mobile-nav-link {
+    font-size: 1.5rem;
+    padding: 1.2rem 0;
+  }
+
+  .site-footer {
+    gap: 2.4rem;
+    padding: 3rem 0;
+  }
+
+  .footer-brand h2 {
+    font-size: clamp(1.4rem, 5vw, 2rem);
+  }
+
+  .choice-chip span {
+    min-height: 52px;
+    padding: 0.7rem 1.4rem;
+    font-size: 0.9rem;
+  }
+
+  .contact-form__legend {
+    font-size: clamp(1.15rem, 4vw, 1.4rem);
+  }
+
+  .timeline-strip {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -1946,5 +2097,14 @@ p {
 @media (max-width: 640px) {
   .field-grid {
     grid-template-columns: 1fr;
+  }
+
+  .field__input {
+    min-height: 52px;
+    font-size: 16px;
+  }
+
+  .contact-form__actions .button {
+    min-height: 58px;
   }
 }

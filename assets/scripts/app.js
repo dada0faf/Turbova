@@ -224,7 +224,6 @@
     return `
       <div class="collage collage--${variant}">
         ${renderImageCarousel(items)}
-        ${renderFloatingBadges(badges)}
       </div>
     `;
   }
@@ -315,7 +314,6 @@
       <section class="story-beat ${index % 2 === 1 ? "story-beat--reverse" : ""} reveal">
         <div class="story-beat__media">
           ${renderImageCarousel(beat.media)}
-          <span class="media-stack__badge">${beat.badge}</span>
         </div>
         <div class="story-beat__copy">
           <span class="story-beat__number">${beat.number}</span>
@@ -449,10 +447,6 @@
               { src: heroMedia[0], alt: data.hero.title },
               { src: secondaryMedia, alt: data.story.title },
             ])}
-            <div class="floating-badge floating-badge--1">
-              <strong>${data.metrics[0].value}</strong>
-              <span>${data.metrics[0].label}</span>
-            </div>
           </div>
         </section>
 

@@ -200,11 +200,11 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/main-lobby-entrance-and-logo.jpg",
+              src: "assets/images/lobby-wide.jpg",
               alt: "Turbová entrance lobby",
             },
             {
-              src: "assets/images/front-view.jpg",
+              src: "assets/images/garden-exterior.jpg",
               alt: "Front view of the buildings",
             },
           ],
@@ -295,11 +295,11 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/main-lobby-entrance-and-logo.jpg",
+              src: "assets/images/lobby-wide.jpg",
               alt: "Lobby Turbová",
             },
             {
-              src: "assets/images/front-view.jpg",
+              src: "assets/images/garden-exterior.jpg",
               alt: "Čelní pohled na budovy",
             },
           ],
@@ -390,11 +390,11 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/main-lobby-entrance-and-logo.jpg",
+              src: "assets/images/lobby-wide.jpg",
               alt: "Лобби Turbová",
             },
             {
-              src: "assets/images/front-view.jpg",
+              src: "assets/images/garden-exterior.jpg",
               alt: "Вид зданий спереди",
             },
           ],
@@ -485,11 +485,11 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/main-lobby-entrance-and-logo.jpg",
+              src: "assets/images/lobby-wide.jpg",
               alt: "Hall d'entrée Turbová",
             },
             {
-              src: "assets/images/front-view.jpg",
+              src: "assets/images/garden-exterior.jpg",
               alt: "Vue de face des bâtiments",
             },
           ],
@@ -577,11 +577,11 @@ window.siteData = {
             "assets/images/turbova-old.jpg",
             "assets/images/birds-eye-view.jpg",
             "assets/images/birds-eye-view-2.jpg",
-            "assets/images/front-view.jpg",
+            "assets/images/garden-exterior.jpg",
           ],
           collage: [
             {
-              src: "assets/images/main-lobby-entrance-and-logo.jpg",
+              src: "assets/images/lobby-wide.jpg",
               alt: "Turbová lobby",
             },
             {
@@ -738,7 +738,7 @@ window.siteData = {
                 alt: "Two Turbová buildings beside the garden",
               },
               {
-                src: "assets/images/main-lobby-entrance-and-logo.jpg",
+                src: "assets/images/lobby-wide.jpg",
                 alt: "Turbová arrival lobby",
               },
             ],
@@ -782,11 +782,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/spa-pool.jpg",
+                src: "assets/images/pool-dark.jpg",
                 alt: "Private Turbová pool",
               },
               {
-                src: "assets/images/spa-sitting-pool.jpg",
+                src: "assets/images/pool-sauna-view.jpg",
                 alt: "Spa lounge at Turbová",
               },
             ],
@@ -890,11 +890,11 @@ window.siteData = {
             "assets/images/turbova-old.jpg",
             "assets/images/birds-eye-view.jpg",
             "assets/images/birds-eye-view-2.jpg",
-            "assets/images/front-view.jpg",
+            "assets/images/garden-exterior.jpg",
           ],
           collage: [
             {
-              src: "assets/images/main-lobby-entrance-and-logo.jpg",
+              src: "assets/images/lobby-wide.jpg",
               alt: "Lobby Turbová",
             },
             {
@@ -1051,7 +1051,7 @@ window.siteData = {
                 alt: "Dvě budovy Turbové vedle zahrady",
               },
               {
-                src: "assets/images/main-lobby-entrance-and-logo.jpg",
+                src: "assets/images/lobby-wide.jpg",
                 alt: "Lobby a příjezd Turbová",
               },
             ],
@@ -1095,11 +1095,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/spa-pool.jpg",
+                src: "assets/images/pool-dark.jpg",
                 alt: "Soukromý bazén Turbová",
               },
               {
-                src: "assets/images/spa-sitting-pool.jpg",
+                src: "assets/images/pool-sauna-view.jpg",
                 alt: "Spa lounge Turbová",
               },
             ],
@@ -1203,11 +1203,11 @@ window.siteData = {
             "assets/images/turbova-old.jpg",
             "assets/images/birds-eye-view.jpg",
             "assets/images/birds-eye-view-2.jpg",
-            "assets/images/front-view.jpg",
+            "assets/images/garden-exterior.jpg",
           ],
           collage: [
             {
-              src: "assets/images/main-lobby-entrance-and-logo.jpg",
+              src: "assets/images/lobby-wide.jpg",
               alt: "Лобби Turbová",
             },
             {
@@ -1364,7 +1364,7 @@ window.siteData = {
                 alt: "Два здания Turbová рядом с садом",
               },
               {
-                src: "assets/images/main-lobby-entrance-and-logo.jpg",
+                src: "assets/images/lobby-wide.jpg",
                 alt: "Лобби и прибытие Turbová",
               },
             ],
@@ -1408,11 +1408,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/spa-pool.jpg",
+                src: "assets/images/pool-dark.jpg",
                 alt: "Частный бассейн Turbová",
               },
               {
-                src: "assets/images/spa-sitting-pool.jpg",
+                src: "assets/images/pool-sauna-view.jpg",
                 alt: "Спа-лаунж Turbová",
               },
             ],
@@ -1516,11 +1516,11 @@ window.siteData = {
             "assets/images/turbova-old.jpg",
             "assets/images/birds-eye-view.jpg",
             "assets/images/birds-eye-view-2.jpg",
-            "assets/images/front-view.jpg",
+            "assets/images/garden-exterior.jpg",
           ],
           collage: [
             {
-              src: "assets/images/main-lobby-entrance-and-logo.jpg",
+              src: "assets/images/lobby-wide.jpg",
               alt: "Hall Turbová",
             },
             {
@@ -1677,7 +1677,7 @@ window.siteData = {
                 alt: "Deux bâtiments Turbová près du jardin",
               },
               {
-                src: "assets/images/main-lobby-entrance-and-logo.jpg",
+                src: "assets/images/lobby-wide.jpg",
                 alt: "Hall et arrivée Turbová",
               },
             ],
@@ -1721,11 +1721,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/spa-pool.jpg",
+                src: "assets/images/pool-dark.jpg",
                 alt: "Piscine privée de Turbová",
               },
               {
-                src: "assets/images/spa-sitting-pool.jpg",
+                src: "assets/images/pool-sauna-view.jpg",
                 alt: "Salon spa de Turbová",
               },
             ],
@@ -1870,7 +1870,7 @@ window.siteData = {
             alt: "Decorative corridor",
           },
           {
-            src: "assets/images/main-lobby-entrance-and-logo.jpg",
+            src: "assets/images/lobby-wide.jpg",
             alt: "Lobby entrance with Turbová logo",
           },
           {
@@ -1936,7 +1936,7 @@ window.siteData = {
             alt: "Dekorativní chodba",
           },
           {
-            src: "assets/images/main-lobby-entrance-and-logo.jpg",
+            src: "assets/images/lobby-wide.jpg",
             alt: "Lobby se znakem Turbová",
           },
           {
@@ -2002,7 +2002,7 @@ window.siteData = {
             alt: "Декоративный коридор",
           },
           {
-            src: "assets/images/main-lobby-entrance-and-logo.jpg",
+            src: "assets/images/lobby-wide.jpg",
             alt: "Вход в лобби с логотипом Turbová",
           },
           {
@@ -2068,7 +2068,7 @@ window.siteData = {
             alt: "Couloir décoratif",
           },
           {
-            src: "assets/images/main-lobby-entrance-and-logo.jpg",
+            src: "assets/images/lobby-wide.jpg",
             alt: "Entrée du hall avec le logo Turbová",
           },
           {
@@ -2091,10 +2091,10 @@ window.siteData = {
           lead:
             "The internal wellness floor is designed as a slow, atmospheric sequence: heated pool, sauna, hammam, changing rooms, private kitchenette, and a terrace lounge.",
           media: [
-            "assets/images/spa-pool.jpg",
-            "assets/images/spa-sitting-pool.jpg",
-            "assets/images/spa-sitting.jpg",
-            "assets/images/spa-sitting-window.jpg",
+            "assets/images/pool-dark.jpg",
+            "assets/images/pool-sauna-view.jpg",
+            "assets/images/sauna-benches.jpg",
+            "assets/images/pool-wide.jpg",
           ],
         },
         metrics: [
@@ -2129,16 +2129,16 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/spa-pool.jpg",
+            src: "assets/images/pool-dark.jpg",
             alt: "Pool interior",
           },
           {
-            src: "assets/images/spa-sitting-pool.jpg",
+            src: "assets/images/pool-sauna-view.jpg",
             alt: "Spa lounge",
           },
           {
-            src: "assets/images/terrace.jpg",
-            alt: "Terrace seating",
+            src: "assets/images/hammam.png",
+            alt: "Hammam interior",
           },
         ],
         quote:
@@ -2154,10 +2154,10 @@ window.siteData = {
           lead:
             "Interní wellness patro je navrženo jako pomalá, atmosférická sekvence: vyhřívaný bazén, sauna, hammam, šatny, soukromá kuchyňka a odpočinková terasa.",
           media: [
-            "assets/images/spa-pool.jpg",
-            "assets/images/spa-sitting-pool.jpg",
-            "assets/images/spa-sitting.jpg",
-            "assets/images/spa-sitting-window.jpg",
+            "assets/images/pool-dark.jpg",
+            "assets/images/pool-sauna-view.jpg",
+            "assets/images/sauna-benches.jpg",
+            "assets/images/pool-wide.jpg",
           ],
         },
         metrics: [
@@ -2192,16 +2192,16 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/spa-pool.jpg",
+            src: "assets/images/pool-dark.jpg",
             alt: "Interiér bazénu",
           },
           {
-            src: "assets/images/spa-sitting-pool.jpg",
+            src: "assets/images/pool-sauna-view.jpg",
             alt: "Spa lounge",
           },
           {
-            src: "assets/images/terrace.jpg",
-            alt: "Terasové sezení",
+            src: "assets/images/hammam.png",
+            alt: "Interiér hammamu",
           },
         ],
         quote:
@@ -2217,10 +2217,10 @@ window.siteData = {
           lead:
             "Внутренний велнес-этаж задуман как медленная атмосферная последовательность: подогреваемый бассейн, сауна, хаммам, раздевалки, приватная кухонька и лаунж-терраса.",
           media: [
-            "assets/images/spa-pool.jpg",
-            "assets/images/spa-sitting-pool.jpg",
-            "assets/images/spa-sitting.jpg",
-            "assets/images/spa-sitting-window.jpg",
+            "assets/images/pool-dark.jpg",
+            "assets/images/pool-sauna-view.jpg",
+            "assets/images/sauna-benches.jpg",
+            "assets/images/pool-wide.jpg",
           ],
         },
         metrics: [
@@ -2255,16 +2255,16 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/spa-pool.jpg",
+            src: "assets/images/pool-dark.jpg",
             alt: "Интерьер бассейна",
           },
           {
-            src: "assets/images/spa-sitting-pool.jpg",
+            src: "assets/images/pool-sauna-view.jpg",
             alt: "Спа-лаунж",
           },
           {
-            src: "assets/images/terrace.jpg",
-            alt: "Сиденья на террасе",
+            src: "assets/images/hammam.png",
+            alt: "Интерьер хаммама",
           },
         ],
         quote:
@@ -2280,10 +2280,10 @@ window.siteData = {
           lead:
             "L'étage bien-être intérieur est conçu comme une séquence lente et atmosphérique : piscine chauffée, sauna, hammam, vestiaires, kitchenette privée et salon-terrasse.",
           media: [
-            "assets/images/spa-pool.jpg",
-            "assets/images/spa-sitting-pool.jpg",
-            "assets/images/spa-sitting.jpg",
-            "assets/images/spa-sitting-window.jpg",
+            "assets/images/pool-dark.jpg",
+            "assets/images/pool-sauna-view.jpg",
+            "assets/images/sauna-benches.jpg",
+            "assets/images/pool-wide.jpg",
           ],
         },
         metrics: [
@@ -2318,16 +2318,16 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/spa-pool.jpg",
+            src: "assets/images/pool-dark.jpg",
             alt: "Intérieur de la piscine",
           },
           {
-            src: "assets/images/spa-sitting-pool.jpg",
+            src: "assets/images/pool-sauna-view.jpg",
             alt: "Salon spa",
           },
           {
-            src: "assets/images/terrace.jpg",
-            alt: "Assises de la terrasse",
+            src: "assets/images/hammam.png",
+            alt: "Intérieur du hammam",
           },
         ],
         quote:
@@ -2346,8 +2346,8 @@ window.siteData = {
             "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a playground for the youngest residents.",
           media: [
             "assets/images/terrace.jpg",
-            "assets/images/terrace-2.jpg",
-            "assets/images/terrace-3.jpg",
+            "assets/images/terrace-hammock.jpg",
+            "assets/images/lobby-seating.jpg",
           ],
         },
         metrics: [
@@ -2386,8 +2386,8 @@ window.siteData = {
             alt: "Waterfall courtyard",
           },
           {
-            src: "assets/images/terrace.jpg",
-            alt: "Garden terrace",
+            src: "assets/images/terrace-hammock.jpg",
+            alt: "Garden terrace with hammock",
           },
         ],
         quote:
@@ -2404,8 +2404,8 @@ window.siteData = {
             "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, outdoor fitness, viničním domkem a hřištěm pro nejmladší rezidenty.",
           media: [
             "assets/images/terrace.jpg",
-            "assets/images/terrace-2.jpg",
-            "assets/images/terrace-3.jpg",
+            "assets/images/terrace-hammock.jpg",
+            "assets/images/lobby-seating.jpg",
           ],
         },
         metrics: [
@@ -2444,8 +2444,8 @@ window.siteData = {
             alt: "Nádvoří s vodopádem",
           },
           {
-            src: "assets/images/terrace.jpg",
-            alt: "Zahradní terasa",
+            src: "assets/images/terrace-hammock.jpg",
+            alt: "Zahradní terasa s houpací sítí",
           },
         ],
         quote:
@@ -2462,8 +2462,8 @@ window.siteData = {
             "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, открытым фитнесом, винным домом и площадкой для самых юных резидентов.",
           media: [
             "assets/images/terrace.jpg",
-            "assets/images/terrace-2.jpg",
-            "assets/images/terrace-3.jpg",
+            "assets/images/terrace-hammock.jpg",
+            "assets/images/lobby-seating.jpg",
           ],
         },
         metrics: [
@@ -2502,8 +2502,8 @@ window.siteData = {
             alt: "Двор с водопадом",
           },
           {
-            src: "assets/images/terrace.jpg",
-            alt: "Садовая терраса",
+            src: "assets/images/terrace-hammock.jpg",
+            alt: "Садовая терраса с гамаком",
           },
         ],
         quote:
@@ -2520,8 +2520,8 @@ window.siteData = {
             "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une maison du vin et une aire de jeu pour les plus jeunes résidents.",
           media: [
             "assets/images/terrace.jpg",
-            "assets/images/terrace-2.jpg",
-            "assets/images/terrace-3.jpg",
+            "assets/images/terrace-hammock.jpg",
+            "assets/images/lobby-seating.jpg",
           ],
         },
         metrics: [
@@ -2560,8 +2560,8 @@ window.siteData = {
             alt: "Cour à cascade",
           },
           {
-            src: "assets/images/terrace.jpg",
-            alt: "Terrasse de jardin",
+            src: "assets/images/terrace-hammock.jpg",
+            alt: "Terrasse de jardin avec hamac",
           },
         ],
         quote:
