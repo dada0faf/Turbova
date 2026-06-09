@@ -481,7 +481,7 @@
             <p class="eyebrow">${globalData.chapterLabel}</p>
             ${heading("h2", data.hero.title)}
           </div>
-          ${renderGallery(data.gallery)}
+          ${renderImageCarousel(data.gallery)}
         </section>
 
         <section class="quote-panel reveal">

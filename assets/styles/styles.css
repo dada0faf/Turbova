@@ -1826,7 +1826,16 @@ p {
   }
 
   .timeline-strip {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
+    padding: 1.2rem 0;
+    border-right: none;
+  }
+
+  .timeline-item:first-child {
+    padding-left: 0;
   }
 }
 
