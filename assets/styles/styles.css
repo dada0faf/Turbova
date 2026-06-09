@@ -491,6 +491,12 @@ body.is-transition-enter .page-transition {
   font-size: 0.7rem;
 }
 
+.mobile-menu__lang {
+  padding-top: 2rem;
+  border-top: 1px solid var(--line-soft);
+  margin-top: auto;
+}
+
 /* ---------- Typography ---------- */
 .page {
   padding: 4rem 0 8rem;
@@ -615,6 +621,26 @@ p {
 }
 
 .button-secondary:hover {
+  border-color: var(--brass);
+  color: var(--brass);
+}
+
+.button-enquire {
+  min-height: 36px;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  transition:
+    border-color 0.3s var(--ease),
+    color 0.3s var(--ease);
+}
+
+.button-enquire:hover {
   border-color: var(--brass);
   color: var(--brass);
 }
@@ -764,15 +790,22 @@ p {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  pointer-events: none;
 }
 
 .img-carousel__dot {
   width: 7px;
   height: 7px;
+  padding: 0;
+  border: none;
   border-radius: 50%;
   background: rgba(244, 239, 231, 0.55);
+  cursor: pointer;
   transition: background 0.5s var(--ease), transform 0.5s var(--ease);
+}
+
+.img-carousel__dot:focus-visible {
+  outline: 2px solid var(--paper);
+  outline-offset: 3px;
 }
 
 .img-carousel__dot.is-active {
@@ -1544,6 +1577,10 @@ p {
   }
 
   .desktop-nav {
+    display: none;
+  }
+
+  .button-enquire {
     display: none;
   }
 
