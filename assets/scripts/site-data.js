@@ -200,11 +200,11 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/lobby-wide.jpg",
+              src: "assets/images/lobby-wide.webp",
               alt: "Turbová entrance lobby",
             },
             {
-              src: "assets/images/garden-exterior.jpg",
+              src: "assets/images/garden-exterior.webp",
               alt: "Front view of the buildings",
             },
           ],
@@ -271,8 +271,8 @@ window.siteData = {
               text: "Centenary trees and cascading planting create a natural acoustic buffer around the estate.",
             },
           ],
-          mediaLeft: "assets/images/turbova-old.jpg",
-          mediaRight: "assets/images/waterfall.jpg",
+          mediaLeft: "assets/images/turbova-old.webp",
+          mediaRight: "assets/images/waterfall.webp",
         },
       },
       cs: {
@@ -295,11 +295,11 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/lobby-wide.jpg",
+              src: "assets/images/lobby-wide.webp",
               alt: "Lobby Turbová",
             },
             {
-              src: "assets/images/garden-exterior.jpg",
+              src: "assets/images/garden-exterior.webp",
               alt: "Čelní pohled na budovy",
             },
           ],
@@ -366,8 +366,8 @@ window.siteData = {
               text: "Stoleté stromy a kaskádová výsadba vytvářejí přirozený zvukový val kolem areálu.",
             },
           ],
-          mediaLeft: "assets/images/turbova-old.jpg",
-          mediaRight: "assets/images/waterfall.jpg",
+          mediaLeft: "assets/images/turbova-old.webp",
+          mediaRight: "assets/images/waterfall.webp",
         },
       },
       ru: {
@@ -390,11 +390,11 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/lobby-wide.jpg",
+              src: "assets/images/lobby-wide.webp",
               alt: "Лобби Turbová",
             },
             {
-              src: "assets/images/garden-exterior.jpg",
+              src: "assets/images/garden-exterior.webp",
               alt: "Вид зданий спереди",
             },
           ],
@@ -461,8 +461,8 @@ window.siteData = {
               text: "Столетние деревья и каскадные посадки создают естественный звуковой барьер вокруг поместья.",
             },
           ],
-          mediaLeft: "assets/images/turbova-old.jpg",
-          mediaRight: "assets/images/waterfall.jpg",
+          mediaLeft: "assets/images/turbova-old.webp",
+          mediaRight: "assets/images/waterfall.webp",
         },
       },
       fr: {
@@ -485,11 +485,11 @@ window.siteData = {
           ],
           media: [
             {
-              src: "assets/images/lobby-wide.jpg",
+              src: "assets/images/lobby-wide.webp",
               alt: "Hall d'entrée Turbová",
             },
             {
-              src: "assets/images/garden-exterior.jpg",
+              src: "assets/images/garden-exterior.webp",
               alt: "Vue de face des bâtiments",
             },
           ],
@@ -556,8 +556,8 @@ window.siteData = {
               text: "Des arbres centenaires et des plantations en cascade créent un tampon acoustique naturel autour du domaine.",
             },
           ],
-          mediaLeft: "assets/images/turbova-old.jpg",
-          mediaRight: "assets/images/waterfall.jpg",
+          mediaLeft: "assets/images/turbova-old.webp",
+          mediaRight: "assets/images/waterfall.webp",
         },
       },
     },
@@ -574,22 +574,22 @@ window.siteData = {
             "The story starts with a hillside retreat, passes through the creative legacy of Jiří Trnka, and arrives at two contemporary buildings, 22 residences, wellness rituals, and a park that feels more like a secluded estate than an address in the city.",
           button: { label: "Read our story", href: "#story-intro" },
           media: [
-            "assets/images/turbova-old.jpg",
-            "assets/images/birds-eye-view.jpg",
-            "assets/images/birds-eye-view-2.jpg",
-            "assets/images/garden-exterior.jpg",
+            "assets/images/turbova-old.webp",
+            "assets/images/birds-eye-view.webp",
+            "assets/images/birds-eye-view-2.webp",
+            "assets/images/garden-exterior.webp",
           ],
           collage: [
             {
-              src: "assets/images/lobby-wide.jpg",
+              src: "assets/images/lobby-wide.webp",
               alt: "Turbová lobby",
             },
             {
-              src: "assets/images/turbova-old.jpg",
+              src: "assets/images/turbova-old.webp",
               alt: "Historic Turbová estate",
             },
             {
-              src: "assets/images/two-buildings-side-view.jpeg",
+              src: "assets/images/two-buildings-side-view.webp",
               alt: "Turbová residences in the garden",
             },
           ],
@@ -627,15 +627,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/turbova-old.jpg",
+            src: "assets/images/turbova-old.webp",
             alt: "Historic Turbová image",
           },
           {
-            src: "assets/images/waterfall.jpg",
+            src: "assets/images/waterfall.webp",
             alt: "Contemporary waterfall courtyard",
           },
           {
-            src: "assets/images/birds-eye-view.jpg",
+            src: "assets/images/birds-eye-view.webp",
             alt: "Aerial view of the Turbová grounds",
           },
         ],
@@ -648,7 +648,7 @@ window.siteData = {
               subtitle: "18th-century origins",
               text:
                 "The site belonged to royal advisor František of Turba and developed the poise of a secluded hillside estate long before Prague expanded around it.",
-              image: "assets/images/turbova-old.jpg",
+              image: "assets/images/turbova-old.webp",
               alt: "Historic Turbová estate",
             },
             {
@@ -656,7 +656,7 @@ window.siteData = {
               subtitle: "Jiří Trnka's afterlife",
               text:
                 "Later, the grounds became part of the creative orbit of Jiří Trnka, reinforcing the idea that this address has always attracted private, imaginative lives.",
-              image: "assets/images/birds-eye-view.jpg",
+              image: "assets/images/birds-eye-view.webp",
               alt: "Aerial view of Turbová in Prague 5",
             },
           ],
@@ -686,11 +686,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/turbova-old.jpg",
+                src: "assets/images/turbova-old.webp",
                 alt: "Historic Turbová estate",
               },
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Aerial view of Turbová",
               },
             ],
@@ -710,11 +710,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Aerial view over Prague 5 and Turbová",
               },
               {
-                src: "assets/images/waterfall.jpg",
+                src: "assets/images/waterfall.webp",
                 alt: "Waterfall courtyard at Turbová",
               },
             ],
@@ -734,11 +734,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/two-buildings-side-view.jpeg",
+                src: "assets/images/two-buildings-side-view.webp",
                 alt: "Two Turbová buildings beside the garden",
               },
               {
-                src: "assets/images/lobby-wide.jpg",
+                src: "assets/images/lobby-wide.webp",
                 alt: "Turbová arrival lobby",
               },
             ],
@@ -758,11 +758,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/corridor.jpg",
+                src: "assets/images/corridor.webp",
                 alt: "Decorative corridor at Turbová",
               },
               {
-                src: "assets/images/garage-parking.jpg",
+                src: "assets/images/garage-parking.webp",
                 alt: "Curated underground parking at Turbová",
               },
             ],
@@ -782,11 +782,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/pool-dark.jpg",
+                src: "assets/images/pool-dark.webp",
                 alt: "Private Turbová pool",
               },
               {
-                src: "assets/images/pool-sauna-view.jpg",
+                src: "assets/images/pool-sauna-view.webp",
                 alt: "Spa lounge at Turbová",
               },
             ],
@@ -806,11 +806,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/waterfall.jpg",
+                src: "assets/images/waterfall.webp",
                 alt: "Waterfall and private garden at Turbová",
               },
               {
-                src: "assets/images/terrace.jpg",
+                src: "assets/images/terrace.webp",
                 alt: "Terrace overlooking the grounds",
               },
             ],
@@ -830,11 +830,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Aerial view of Turbová in Prague 5",
               },
               {
-                src: "assets/images/two-buildings-side-view.jpeg",
+                src: "assets/images/two-buildings-side-view.webp",
                 alt: "Turbová residences and terraces",
               },
             ],
@@ -887,22 +887,22 @@ window.siteData = {
             "Příběh začíná svahovým útočištěm, prochází tvůrčím odkazem Jiřího Trnky a ústí do dvou současných budov, 22 rezidencí, wellness rituálů a parku, který působí spíš jako skryté městské sídlo než další adresa ve městě.",
           button: { label: "Číst náš příběh", href: "#story-intro" },
           media: [
-            "assets/images/turbova-old.jpg",
-            "assets/images/birds-eye-view.jpg",
-            "assets/images/birds-eye-view-2.jpg",
-            "assets/images/garden-exterior.jpg",
+            "assets/images/turbova-old.webp",
+            "assets/images/birds-eye-view.webp",
+            "assets/images/birds-eye-view-2.webp",
+            "assets/images/garden-exterior.webp",
           ],
           collage: [
             {
-              src: "assets/images/lobby-wide.jpg",
+              src: "assets/images/lobby-wide.webp",
               alt: "Lobby Turbová",
             },
             {
-              src: "assets/images/turbova-old.jpg",
+              src: "assets/images/turbova-old.webp",
               alt: "Historické panství Turbová",
             },
             {
-              src: "assets/images/two-buildings-side-view.jpeg",
+              src: "assets/images/two-buildings-side-view.webp",
               alt: "Rezidence Turbová v zahradě",
             },
           ],
@@ -940,15 +940,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/turbova-old.jpg",
+            src: "assets/images/turbova-old.webp",
             alt: "Historická fotografie Turbové",
           },
           {
-            src: "assets/images/waterfall.jpg",
+            src: "assets/images/waterfall.webp",
             alt: "Současné nádvoří s vodním prvkem",
           },
           {
-            src: "assets/images/birds-eye-view.jpg",
+            src: "assets/images/birds-eye-view.webp",
             alt: "Letecký pohled na areál Turbová",
           },
         ],
@@ -961,7 +961,7 @@ window.siteData = {
               subtitle: "Původ v 18. století",
               text:
                 "Místo patřilo královskému rádci Františku z Turby a získalo klidnou noblesu svahového panství dávno předtím, než se Praha rozrostla až sem.",
-              image: "assets/images/turbova-old.jpg",
+              image: "assets/images/turbova-old.webp",
               alt: "Historické panství Turbová",
             },
             {
@@ -969,7 +969,7 @@ window.siteData = {
               subtitle: "Odkaz Jiřího Trnky",
               text:
                 "Později se areál stal součástí tvůrčího světa Jiřího Trnky a potvrdil, že tato adresa vždy přitahovala soukromé, imaginativní a kultivované životy.",
-              image: "assets/images/birds-eye-view.jpg",
+              image: "assets/images/birds-eye-view.webp",
               alt: "Letecký pohled na Turbovou na Praze 5",
             },
           ],
@@ -999,11 +999,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/turbova-old.jpg",
+                src: "assets/images/turbova-old.webp",
                 alt: "Historické panství Turbová",
               },
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Letecký pohled na Turbovou",
               },
             ],
@@ -1023,11 +1023,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Letecký pohled na Prahu 5 a Turbovou",
               },
               {
-                src: "assets/images/waterfall.jpg",
+                src: "assets/images/waterfall.webp",
                 alt: "Vodní prvek v areálu Turbová",
               },
             ],
@@ -1047,11 +1047,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/two-buildings-side-view.jpeg",
+                src: "assets/images/two-buildings-side-view.webp",
                 alt: "Dvě budovy Turbové vedle zahrady",
               },
               {
-                src: "assets/images/lobby-wide.jpg",
+                src: "assets/images/lobby-wide.webp",
                 alt: "Lobby a příjezd Turbová",
               },
             ],
@@ -1071,11 +1071,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/corridor.jpg",
+                src: "assets/images/corridor.webp",
                 alt: "Dekorativní chodba Turbová",
               },
               {
-                src: "assets/images/garage-parking.jpg",
+                src: "assets/images/garage-parking.webp",
                 alt: "Kurátorované podzemní parkování Turbová",
               },
             ],
@@ -1095,11 +1095,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/pool-dark.jpg",
+                src: "assets/images/pool-dark.webp",
                 alt: "Soukromý bazén Turbová",
               },
               {
-                src: "assets/images/pool-sauna-view.jpg",
+                src: "assets/images/pool-sauna-view.webp",
                 alt: "Spa lounge Turbová",
               },
             ],
@@ -1119,11 +1119,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/waterfall.jpg",
+                src: "assets/images/waterfall.webp",
                 alt: "Vodní prvek a soukromá zahrada Turbová",
               },
               {
-                src: "assets/images/terrace.jpg",
+                src: "assets/images/terrace.webp",
                 alt: "Terasa nad parkem",
               },
             ],
@@ -1143,11 +1143,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Letecký pohled na Turbovou na Praze 5",
               },
               {
-                src: "assets/images/two-buildings-side-view.jpeg",
+                src: "assets/images/two-buildings-side-view.webp",
                 alt: "Rezidence Turbová a terasy",
               },
             ],
@@ -1200,22 +1200,22 @@ window.siteData = {
             "История начинается с уединения на склоне, проходит через творческое наследие Иржи Трнки и приводит к двум современным зданиям, 22 резиденциям, велнес-ритуалам и парку, который ощущается скорее как укромное поместье, чем адрес в городе.",
           button: { label: "Читать нашу историю", href: "#story-intro" },
           media: [
-            "assets/images/turbova-old.jpg",
-            "assets/images/birds-eye-view.jpg",
-            "assets/images/birds-eye-view-2.jpg",
-            "assets/images/garden-exterior.jpg",
+            "assets/images/turbova-old.webp",
+            "assets/images/birds-eye-view.webp",
+            "assets/images/birds-eye-view-2.webp",
+            "assets/images/garden-exterior.webp",
           ],
           collage: [
             {
-              src: "assets/images/lobby-wide.jpg",
+              src: "assets/images/lobby-wide.webp",
               alt: "Лобби Turbová",
             },
             {
-              src: "assets/images/turbova-old.jpg",
+              src: "assets/images/turbova-old.webp",
               alt: "Историческое поместье Turbová",
             },
             {
-              src: "assets/images/two-buildings-side-view.jpeg",
+              src: "assets/images/two-buildings-side-view.webp",
               alt: "Резиденции Turbová в саду",
             },
           ],
@@ -1253,15 +1253,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/turbova-old.jpg",
+            src: "assets/images/turbova-old.webp",
             alt: "Историческое изображение Turbová",
           },
           {
-            src: "assets/images/waterfall.jpg",
+            src: "assets/images/waterfall.webp",
             alt: "Современный двор с водопадом",
           },
           {
-            src: "assets/images/birds-eye-view.jpg",
+            src: "assets/images/birds-eye-view.webp",
             alt: "Вид с высоты на территорию Turbová",
           },
         ],
@@ -1274,7 +1274,7 @@ window.siteData = {
               subtitle: "Истоки XVIII века",
               text:
                 "Участок принадлежал королевскому советнику Франтишеку из Турбы и обрёл осанку уединённого поместья на склоне задолго до того, как Прага разрослась вокруг.",
-              image: "assets/images/turbova-old.jpg",
+              image: "assets/images/turbova-old.webp",
               alt: "Историческое поместье Turbová",
             },
             {
@@ -1282,7 +1282,7 @@ window.siteData = {
               subtitle: "Наследие Иржи Трнки",
               text:
                 "Позже территория вошла в творческую орбиту Иржи Трнки, укрепив идею, что этот адрес всегда притягивал частные, наполненные воображением жизни.",
-              image: "assets/images/birds-eye-view.jpg",
+              image: "assets/images/birds-eye-view.webp",
               alt: "Вид с высоты на Turbová в Праге 5",
             },
           ],
@@ -1312,11 +1312,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/turbova-old.jpg",
+                src: "assets/images/turbova-old.webp",
                 alt: "Историческое поместье Turbová",
               },
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Вид с высоты на Turbová",
               },
             ],
@@ -1336,11 +1336,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Вид с высоты на Прагу 5 и Turbová",
               },
               {
-                src: "assets/images/waterfall.jpg",
+                src: "assets/images/waterfall.webp",
                 alt: "Двор с водопадом в Turbová",
               },
             ],
@@ -1360,11 +1360,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/two-buildings-side-view.jpeg",
+                src: "assets/images/two-buildings-side-view.webp",
                 alt: "Два здания Turbová рядом с садом",
               },
               {
-                src: "assets/images/lobby-wide.jpg",
+                src: "assets/images/lobby-wide.webp",
                 alt: "Лобби и прибытие Turbová",
               },
             ],
@@ -1384,11 +1384,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/corridor.jpg",
+                src: "assets/images/corridor.webp",
                 alt: "Декоративный коридор Turbová",
               },
               {
-                src: "assets/images/garage-parking.jpg",
+                src: "assets/images/garage-parking.webp",
                 alt: "Кураторская подземная парковка Turbová",
               },
             ],
@@ -1408,11 +1408,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/pool-dark.jpg",
+                src: "assets/images/pool-dark.webp",
                 alt: "Частный бассейн Turbová",
               },
               {
-                src: "assets/images/pool-sauna-view.jpg",
+                src: "assets/images/pool-sauna-view.webp",
                 alt: "Спа-лаунж Turbová",
               },
             ],
@@ -1432,11 +1432,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/waterfall.jpg",
+                src: "assets/images/waterfall.webp",
                 alt: "Водопад и частный сад Turbová",
               },
               {
-                src: "assets/images/terrace.jpg",
+                src: "assets/images/terrace.webp",
                 alt: "Терраса над территорией",
               },
             ],
@@ -1456,11 +1456,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Вид с высоты на Turbová в Праге 5",
               },
               {
-                src: "assets/images/two-buildings-side-view.jpeg",
+                src: "assets/images/two-buildings-side-view.webp",
                 alt: "Резиденции и террасы Turbová",
               },
             ],
@@ -1513,22 +1513,22 @@ window.siteData = {
             "L'histoire commence par une retraite sur le coteau, traverse l'héritage créatif de Jiří Trnka et aboutit à deux bâtiments contemporains, 22 résidences, des rituels de bien-être et un parc qui tient davantage du domaine retiré que d'une adresse en ville.",
           button: { label: "Lire notre histoire", href: "#story-intro" },
           media: [
-            "assets/images/turbova-old.jpg",
-            "assets/images/birds-eye-view.jpg",
-            "assets/images/birds-eye-view-2.jpg",
-            "assets/images/garden-exterior.jpg",
+            "assets/images/turbova-old.webp",
+            "assets/images/birds-eye-view.webp",
+            "assets/images/birds-eye-view-2.webp",
+            "assets/images/garden-exterior.webp",
           ],
           collage: [
             {
-              src: "assets/images/lobby-wide.jpg",
+              src: "assets/images/lobby-wide.webp",
               alt: "Hall Turbová",
             },
             {
-              src: "assets/images/turbova-old.jpg",
+              src: "assets/images/turbova-old.webp",
               alt: "Domaine historique Turbová",
             },
             {
-              src: "assets/images/two-buildings-side-view.jpeg",
+              src: "assets/images/two-buildings-side-view.webp",
               alt: "Les résidences Turbová dans le jardin",
             },
           ],
@@ -1566,15 +1566,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/turbova-old.jpg",
+            src: "assets/images/turbova-old.webp",
             alt: "Image historique de Turbová",
           },
           {
-            src: "assets/images/waterfall.jpg",
+            src: "assets/images/waterfall.webp",
             alt: "Cour contemporaine avec cascade",
           },
           {
-            src: "assets/images/birds-eye-view.jpg",
+            src: "assets/images/birds-eye-view.webp",
             alt: "Vue aérienne du domaine Turbová",
           },
         ],
@@ -1587,7 +1587,7 @@ window.siteData = {
               subtitle: "Origines du XVIIIe siècle",
               text:
                 "Le site appartenait au conseiller royal František de Turba et avait acquis l'allure d'un domaine retiré sur le coteau bien avant que Prague ne s'étende autour.",
-              image: "assets/images/turbova-old.jpg",
+              image: "assets/images/turbova-old.webp",
               alt: "Domaine historique Turbová",
             },
             {
@@ -1595,7 +1595,7 @@ window.siteData = {
               subtitle: "La postérité de Jiří Trnka",
               text:
                 "Plus tard, le domaine est entré dans l'orbite créative de Jiří Trnka, confirmant que cette adresse a toujours attiré des vies privées et imaginatives.",
-              image: "assets/images/birds-eye-view.jpg",
+              image: "assets/images/birds-eye-view.webp",
               alt: "Vue aérienne de Turbová à Prague 5",
             },
           ],
@@ -1625,11 +1625,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/turbova-old.jpg",
+                src: "assets/images/turbova-old.webp",
                 alt: "Domaine historique Turbová",
               },
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Vue aérienne de Turbová",
               },
             ],
@@ -1649,11 +1649,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Vue aérienne de Prague 5 et de Turbová",
               },
               {
-                src: "assets/images/waterfall.jpg",
+                src: "assets/images/waterfall.webp",
                 alt: "Cour à cascade à Turbová",
               },
             ],
@@ -1673,11 +1673,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/two-buildings-side-view.jpeg",
+                src: "assets/images/two-buildings-side-view.webp",
                 alt: "Deux bâtiments Turbová près du jardin",
               },
               {
-                src: "assets/images/lobby-wide.jpg",
+                src: "assets/images/lobby-wide.webp",
                 alt: "Hall et arrivée Turbová",
               },
             ],
@@ -1697,11 +1697,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/corridor.jpg",
+                src: "assets/images/corridor.webp",
                 alt: "Couloir décoratif Turbová",
               },
               {
-                src: "assets/images/garage-parking.jpg",
+                src: "assets/images/garage-parking.webp",
                 alt: "Parking souterrain soigné de Turbová",
               },
             ],
@@ -1721,11 +1721,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/pool-dark.jpg",
+                src: "assets/images/pool-dark.webp",
                 alt: "Piscine privée de Turbová",
               },
               {
-                src: "assets/images/pool-sauna-view.jpg",
+                src: "assets/images/pool-sauna-view.webp",
                 alt: "Salon spa de Turbová",
               },
             ],
@@ -1745,11 +1745,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/waterfall.jpg",
+                src: "assets/images/waterfall.webp",
                 alt: "Cascade et jardin privé de Turbová",
               },
               {
-                src: "assets/images/terrace.jpg",
+                src: "assets/images/terrace.webp",
                 alt: "Terrasse surplombant le domaine",
               },
             ],
@@ -1769,11 +1769,11 @@ window.siteData = {
             ],
             media: [
               {
-                src: "assets/images/birds-eye-view.jpg",
+                src: "assets/images/birds-eye-view.webp",
                 alt: "Vue aérienne de Turbová à Prague 5",
               },
               {
-                src: "assets/images/two-buildings-side-view.jpeg",
+                src: "assets/images/two-buildings-side-view.webp",
                 alt: "Résidences et terrasses de Turbová",
               },
             ],
@@ -1825,9 +1825,9 @@ window.siteData = {
           lead:
             "Each building holds 11 residences, all with terraces or balconies, panoramic glazing, and the freedom of Shell & Core handover.",
           media: [
-            "assets/images/two-buildings-side-view.jpeg",
-            "assets/images/corridor.jpg",
-            "assets/images/corridor-2.jpg",
+            "assets/images/two-buildings-side-view.webp",
+            "assets/images/corridor.webp",
+            "assets/images/corridor-2.webp",
           ],
         },
         metrics: [
@@ -1862,19 +1862,19 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/two-buildings-side-view.jpeg",
+            src: "assets/images/two-buildings-side-view.webp",
             alt: "Side view of the Turbová buildings",
           },
           {
-            src: "assets/images/corridor.jpg",
+            src: "assets/images/corridor.webp",
             alt: "Decorative corridor",
           },
           {
-            src: "assets/images/lobby-wide.jpg",
+            src: "assets/images/lobby-wide.webp",
             alt: "Lobby entrance with Turbová logo",
           },
           {
-            src: "assets/images/garage-parking.jpg",
+            src: "assets/images/garage-parking.webp",
             alt: "Parking gallery",
           },
         ],
@@ -1891,9 +1891,9 @@ window.siteData = {
           lead:
             "Každá budova obsahuje 11 rezidencí, všechny s terasou nebo balkonem, panoramatickým prosklením a svobodou předání ve standardu Shell & Core.",
           media: [
-            "assets/images/two-buildings-side-view.jpeg",
-            "assets/images/corridor.jpg",
-            "assets/images/corridor-2.jpg",
+            "assets/images/two-buildings-side-view.webp",
+            "assets/images/corridor.webp",
+            "assets/images/corridor-2.webp",
           ],
         },
         metrics: [
@@ -1928,19 +1928,19 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/two-buildings-side-view.jpeg",
+            src: "assets/images/two-buildings-side-view.webp",
             alt: "Boční pohled na budovy Turbová",
           },
           {
-            src: "assets/images/corridor.jpg",
+            src: "assets/images/corridor.webp",
             alt: "Dekorativní chodba",
           },
           {
-            src: "assets/images/lobby-wide.jpg",
+            src: "assets/images/lobby-wide.webp",
             alt: "Lobby se znakem Turbová",
           },
           {
-            src: "assets/images/garage-parking.jpg",
+            src: "assets/images/garage-parking.webp",
             alt: "Parkovací galerie",
           },
         ],
@@ -1957,9 +1957,9 @@ window.siteData = {
           lead:
             "Каждое здание вмещает 11 резиденций, все с террасами или балконами, панорамным остеклением и свободой передачи в формате Shell & Core.",
           media: [
-            "assets/images/two-buildings-side-view.jpeg",
-            "assets/images/corridor.jpg",
-            "assets/images/corridor-2.jpg",
+            "assets/images/two-buildings-side-view.webp",
+            "assets/images/corridor.webp",
+            "assets/images/corridor-2.webp",
           ],
         },
         metrics: [
@@ -1994,19 +1994,19 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/two-buildings-side-view.jpeg",
+            src: "assets/images/two-buildings-side-view.webp",
             alt: "Боковой вид зданий Turbová",
           },
           {
-            src: "assets/images/corridor.jpg",
+            src: "assets/images/corridor.webp",
             alt: "Декоративный коридор",
           },
           {
-            src: "assets/images/lobby-wide.jpg",
+            src: "assets/images/lobby-wide.webp",
             alt: "Вход в лобби с логотипом Turbová",
           },
           {
-            src: "assets/images/garage-parking.jpg",
+            src: "assets/images/garage-parking.webp",
             alt: "Парковочная галерея",
           },
         ],
@@ -2023,9 +2023,9 @@ window.siteData = {
           lead:
             "Chaque bâtiment compte 11 résidences, toutes avec terrasses ou balcons, baies panoramiques et la liberté d'une livraison Shell & Core.",
           media: [
-            "assets/images/two-buildings-side-view.jpeg",
-            "assets/images/corridor.jpg",
-            "assets/images/corridor-2.jpg",
+            "assets/images/two-buildings-side-view.webp",
+            "assets/images/corridor.webp",
+            "assets/images/corridor-2.webp",
           ],
         },
         metrics: [
@@ -2060,19 +2060,19 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/two-buildings-side-view.jpeg",
+            src: "assets/images/two-buildings-side-view.webp",
             alt: "Vue latérale des bâtiments Turbová",
           },
           {
-            src: "assets/images/corridor.jpg",
+            src: "assets/images/corridor.webp",
             alt: "Couloir décoratif",
           },
           {
-            src: "assets/images/lobby-wide.jpg",
+            src: "assets/images/lobby-wide.webp",
             alt: "Entrée du hall avec le logo Turbová",
           },
           {
-            src: "assets/images/garage-parking.jpg",
+            src: "assets/images/garage-parking.webp",
             alt: "Galerie de stationnement",
           },
         ],
@@ -2091,10 +2091,10 @@ window.siteData = {
           lead:
             "The internal wellness floor is designed as a slow, atmospheric sequence: heated pool, sauna, hammam, changing rooms, private kitchenette, and a terrace lounge.",
           media: [
-            "assets/images/pool-dark.jpg",
-            "assets/images/pool-sauna-view.jpg",
-            "assets/images/sauna-benches.jpg",
-            "assets/images/pool-wide.jpg",
+            "assets/images/pool-dark.webp",
+            "assets/images/pool-sauna-view.webp",
+            "assets/images/sauna-benches.webp",
+            "assets/images/pool-wide.webp",
           ],
         },
         metrics: [
@@ -2129,15 +2129,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/pool-dark.jpg",
+            src: "assets/images/pool-dark.webp",
             alt: "Pool interior",
           },
           {
-            src: "assets/images/pool-sauna-view.jpg",
+            src: "assets/images/pool-sauna-view.webp",
             alt: "Spa lounge",
           },
           {
-            src: "assets/images/hammam.png",
+            src: "assets/images/hammam.webp",
             alt: "Hammam interior",
           },
         ],
@@ -2154,10 +2154,10 @@ window.siteData = {
           lead:
             "Interní wellness patro je navrženo jako pomalá, atmosférická sekvence: vyhřívaný bazén, sauna, hammam, šatny, soukromá kuchyňka a odpočinková terasa.",
           media: [
-            "assets/images/pool-dark.jpg",
-            "assets/images/pool-sauna-view.jpg",
-            "assets/images/sauna-benches.jpg",
-            "assets/images/pool-wide.jpg",
+            "assets/images/pool-dark.webp",
+            "assets/images/pool-sauna-view.webp",
+            "assets/images/sauna-benches.webp",
+            "assets/images/pool-wide.webp",
           ],
         },
         metrics: [
@@ -2192,15 +2192,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/pool-dark.jpg",
+            src: "assets/images/pool-dark.webp",
             alt: "Interiér bazénu",
           },
           {
-            src: "assets/images/pool-sauna-view.jpg",
+            src: "assets/images/pool-sauna-view.webp",
             alt: "Spa lounge",
           },
           {
-            src: "assets/images/hammam.png",
+            src: "assets/images/hammam.webp",
             alt: "Interiér hammamu",
           },
         ],
@@ -2217,10 +2217,10 @@ window.siteData = {
           lead:
             "Внутренний велнес-этаж задуман как медленная атмосферная последовательность: подогреваемый бассейн, сауна, хаммам, раздевалки, приватная кухонька и лаунж-терраса.",
           media: [
-            "assets/images/pool-dark.jpg",
-            "assets/images/pool-sauna-view.jpg",
-            "assets/images/sauna-benches.jpg",
-            "assets/images/pool-wide.jpg",
+            "assets/images/pool-dark.webp",
+            "assets/images/pool-sauna-view.webp",
+            "assets/images/sauna-benches.webp",
+            "assets/images/pool-wide.webp",
           ],
         },
         metrics: [
@@ -2255,15 +2255,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/pool-dark.jpg",
+            src: "assets/images/pool-dark.webp",
             alt: "Интерьер бассейна",
           },
           {
-            src: "assets/images/pool-sauna-view.jpg",
+            src: "assets/images/pool-sauna-view.webp",
             alt: "Спа-лаунж",
           },
           {
-            src: "assets/images/hammam.png",
+            src: "assets/images/hammam.webp",
             alt: "Интерьер хаммама",
           },
         ],
@@ -2280,10 +2280,10 @@ window.siteData = {
           lead:
             "L'étage bien-être intérieur est conçu comme une séquence lente et atmosphérique : piscine chauffée, sauna, hammam, vestiaires, kitchenette privée et salon-terrasse.",
           media: [
-            "assets/images/pool-dark.jpg",
-            "assets/images/pool-sauna-view.jpg",
-            "assets/images/sauna-benches.jpg",
-            "assets/images/pool-wide.jpg",
+            "assets/images/pool-dark.webp",
+            "assets/images/pool-sauna-view.webp",
+            "assets/images/sauna-benches.webp",
+            "assets/images/pool-wide.webp",
           ],
         },
         metrics: [
@@ -2318,15 +2318,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/pool-dark.jpg",
+            src: "assets/images/pool-dark.webp",
             alt: "Intérieur de la piscine",
           },
           {
-            src: "assets/images/pool-sauna-view.jpg",
+            src: "assets/images/pool-sauna-view.webp",
             alt: "Salon spa",
           },
           {
-            src: "assets/images/hammam.png",
+            src: "assets/images/hammam.webp",
             alt: "Intérieur du hammam",
           },
         ],
@@ -2345,9 +2345,9 @@ window.siteData = {
           lead:
             "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a playground for the youngest residents.",
           media: [
-            "assets/images/terrace.jpg",
-            "assets/images/terrace-hammock.jpg",
-            "assets/images/lobby-seating.jpg",
+            "assets/images/terrace.webp",
+            "assets/images/terrace-hammock.webp",
+            "assets/images/lobby-seating.webp",
           ],
         },
         metrics: [
@@ -2382,11 +2382,11 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/waterfall.jpg",
+            src: "assets/images/waterfall.webp",
             alt: "Waterfall courtyard",
           },
           {
-            src: "assets/images/terrace-hammock.jpg",
+            src: "assets/images/terrace-hammock.webp",
             alt: "Garden terrace with hammock",
           },
         ],
@@ -2403,9 +2403,9 @@ window.siteData = {
           lead:
             "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, outdoor fitness, viničním domkem a hřištěm pro nejmladší rezidenty.",
           media: [
-            "assets/images/terrace.jpg",
-            "assets/images/terrace-hammock.jpg",
-            "assets/images/lobby-seating.jpg",
+            "assets/images/terrace.webp",
+            "assets/images/terrace-hammock.webp",
+            "assets/images/lobby-seating.webp",
           ],
         },
         metrics: [
@@ -2440,11 +2440,11 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/waterfall.jpg",
+            src: "assets/images/waterfall.webp",
             alt: "Nádvoří s vodopádem",
           },
           {
-            src: "assets/images/terrace-hammock.jpg",
+            src: "assets/images/terrace-hammock.webp",
             alt: "Zahradní terasa s houpací sítí",
           },
         ],
@@ -2461,9 +2461,9 @@ window.siteData = {
           lead:
             "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, открытым фитнесом, винным домом и площадкой для самых юных резидентов.",
           media: [
-            "assets/images/terrace.jpg",
-            "assets/images/terrace-hammock.jpg",
-            "assets/images/lobby-seating.jpg",
+            "assets/images/terrace.webp",
+            "assets/images/terrace-hammock.webp",
+            "assets/images/lobby-seating.webp",
           ],
         },
         metrics: [
@@ -2498,11 +2498,11 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/waterfall.jpg",
+            src: "assets/images/waterfall.webp",
             alt: "Двор с водопадом",
           },
           {
-            src: "assets/images/terrace-hammock.jpg",
+            src: "assets/images/terrace-hammock.webp",
             alt: "Садовая терраса с гамаком",
           },
         ],
@@ -2519,9 +2519,9 @@ window.siteData = {
           lead:
             "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une maison du vin et une aire de jeu pour les plus jeunes résidents.",
           media: [
-            "assets/images/terrace.jpg",
-            "assets/images/terrace-hammock.jpg",
-            "assets/images/lobby-seating.jpg",
+            "assets/images/terrace.webp",
+            "assets/images/terrace-hammock.webp",
+            "assets/images/lobby-seating.webp",
           ],
         },
         metrics: [
@@ -2556,11 +2556,11 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/waterfall.jpg",
+            src: "assets/images/waterfall.webp",
             alt: "Cour à cascade",
           },
           {
-            src: "assets/images/terrace-hammock.jpg",
+            src: "assets/images/terrace-hammock.webp",
             alt: "Terrasse de jardin avec hamac",
           },
         ],
@@ -2579,8 +2579,8 @@ window.siteData = {
           lead:
             "Turbová sits within Prague 5, close to the Anděl district and key city routes, while remaining buffered by its own hillside garden world.",
           media: [
-            "assets/images/birds-eye-view.jpg",
-            "assets/images/garage-entrance.jpg",
+            "assets/images/birds-eye-view.webp",
+            "assets/images/garage-entrance.webp",
           ],
         },
         metrics: [
@@ -2615,15 +2615,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/birds-eye-view.jpg",
+            src: "assets/images/birds-eye-view.webp",
             alt: "Aerial overview of the site",
           },
           {
-            src: "assets/images/two-buildings-side-view.jpeg",
+            src: "assets/images/two-buildings-side-view.webp",
             alt: "View between the buildings",
           },
           {
-            src: "assets/images/garage-entrance.jpg",
+            src: "assets/images/garage-entrance.webp",
             alt: "Parking entrance tunnel",
           },
         ],
@@ -2640,8 +2640,8 @@ window.siteData = {
           lead:
             "Turbová leží na Praze 5, v blízkosti Anděla a klíčových městských tras, a přitom zůstává chráněna vlastním zahradním svahem.",
           media: [
-            "assets/images/birds-eye-view.jpg",
-            "assets/images/garage-entrance.jpg",
+            "assets/images/birds-eye-view.webp",
+            "assets/images/garage-entrance.webp",
           ],
         },
         metrics: [
@@ -2676,15 +2676,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/birds-eye-view.jpg",
+            src: "assets/images/birds-eye-view.webp",
             alt: "Letecký přehled lokality",
           },
           {
-            src: "assets/images/two-buildings-side-view.jpeg",
+            src: "assets/images/two-buildings-side-view.webp",
             alt: "Pohled mezi budovami",
           },
           {
-            src: "assets/images/garage-entrance.jpg",
+            src: "assets/images/garage-entrance.webp",
             alt: "Tunel parkovacího příjezdu",
           },
         ],
@@ -2701,8 +2701,8 @@ window.siteData = {
           lead:
             "Turbová расположена в Праге 5, рядом с районом Андел и ключевыми городскими магистралями, оставаясь укрытой собственным садовым миром на склоне.",
           media: [
-            "assets/images/birds-eye-view.jpg",
-            "assets/images/garage-entrance.jpg",
+            "assets/images/birds-eye-view.webp",
+            "assets/images/garage-entrance.webp",
           ],
         },
         metrics: [
@@ -2737,15 +2737,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/birds-eye-view.jpg",
+            src: "assets/images/birds-eye-view.webp",
             alt: "Обзор участка с высоты",
           },
           {
-            src: "assets/images/two-buildings-side-view.jpeg",
+            src: "assets/images/two-buildings-side-view.webp",
             alt: "Вид между зданиями",
           },
           {
-            src: "assets/images/garage-entrance.jpg",
+            src: "assets/images/garage-entrance.webp",
             alt: "Тоннель парковочного въезда",
           },
         ],
@@ -2762,8 +2762,8 @@ window.siteData = {
           lead:
             "Turbová se situe à Prague 5, proche du quartier d'Anděl et des grands axes, tout en restant protégée par son propre monde de jardin sur le coteau.",
           media: [
-            "assets/images/birds-eye-view.jpg",
-            "assets/images/garage-entrance.jpg",
+            "assets/images/birds-eye-view.webp",
+            "assets/images/garage-entrance.webp",
           ],
         },
         metrics: [
@@ -2798,15 +2798,15 @@ window.siteData = {
         ],
         gallery: [
           {
-            src: "assets/images/birds-eye-view.jpg",
+            src: "assets/images/birds-eye-view.webp",
             alt: "Vue aérienne du site",
           },
           {
-            src: "assets/images/two-buildings-side-view.jpeg",
+            src: "assets/images/two-buildings-side-view.webp",
             alt: "Vue entre les bâtiments",
           },
           {
-            src: "assets/images/garage-entrance.jpg",
+            src: "assets/images/garage-entrance.webp",
             alt: "Tunnel d'entrée du parking",
           },
         ],
