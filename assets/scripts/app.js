@@ -753,6 +753,7 @@
   }
 
   function bindTransitions() {
+    const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
     document.querySelectorAll("a[href$='.html']").forEach((link) => {
       link.addEventListener("click", (event) => {
         const href = link.getAttribute("href");
@@ -768,7 +769,7 @@
         ) {
           return;
         }
-        if (prefersDirectNavigation) {
+        if (prefersDirectNavigation || isTouchDevice) {
           resetNavigationState(true);
           return;
         }
@@ -1134,6 +1135,8 @@
     document.body.classList.add("is-transition-enter");
     sessionStorage.removeItem(transitionKey);
   }
+
+  document.addEventListener("touchstart", function () {}, { passive: true });
 
   renderPage(lang);
   bindInteractions();
