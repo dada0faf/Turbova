@@ -180,7 +180,7 @@
           .map(
             (item, index) => `
               <figure class="gallery-card ${index === 0 ? "gallery-card--wide" : ""}">
-                <img src="${item.src}" alt="${item.alt}" loading="lazy" />
+                <img src="${item.src}" alt="${item.alt}" loading="lazy" decoding="async" />
               </figure>
             `
           )
@@ -214,7 +214,7 @@
             .map(
               (item) => `
                 <figure class="img-carousel__slide">
-                  <img src="${item.src}" alt="${item.alt}" loading="lazy" />
+                  <img src="${item.src}" alt="${item.alt}" loading="lazy" decoding="async" />
                 </figure>
               `
             )
@@ -373,7 +373,7 @@
                 (card) => `
                   <article class="story-profile-card">
                     <figure class="story-profile-card__media">
-                      <img src="${card.image}" alt="${card.alt}" loading="lazy" />
+                      <img src="${card.image}" alt="${card.alt}" loading="lazy" decoding="async" />
                     </figure>
                     <div class="story-profile-card__copy">
                       <p class="eyebrow">${card.subtitle}</p>
