@@ -102,6 +102,16 @@ button {
   color: inherit;
 }
 
+a,
+button,
+label,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
 #site-shell {
   position: relative;
   isolation: isolate;
@@ -443,7 +453,7 @@ body.is-transition-enter .page-transition {
   padding: 2rem var(--gutter);
   background: linear-gradient(180deg, var(--paper) 0%, var(--paper-deep) 100%);
   transform: translateY(-100%);
-  transition: transform 0.55s var(--ease);
+  transition: transform 0.32s var(--ease);
   display: flex;
   flex-direction: column;
 }
@@ -625,6 +635,18 @@ p {
 .button-primary:hover {
   background: var(--forest-deep);
   transform: translateY(-2px);
+}
+
+.button:active,
+.button-primary:active,
+.button-secondary:active,
+.button-enquire:active,
+.menu-button:active,
+.mobile-close:active,
+.mobile-nav-link:active,
+.lang-globe:active,
+.lang-option:active {
+  transform: scale(0.985);
 }
 
 .button-secondary {

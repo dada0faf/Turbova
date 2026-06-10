@@ -6,6 +6,11 @@
   const pageId = document.body.dataset.page || "home";
   const languageKey = "turbova-language";
   const transitionKey = "turbova-page-transition";
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const prefersDirectNavigation = reduceMotion || window.matchMedia("(hover: none), (pointer: coarse)").matches;
+  if (prefersDirectNavigation) sessionStorage.removeItem(transitionKey);
+  const entering = !prefersDirectNavigation && sessionStorage.getItem(transitionKey) === "active";
+  let transitionTimer = 0;
 
   const languages = (siteData.languages && siteData.languages.length)
     ? siteData.languages
@@ -18,23 +23,36 @@
   const validCodes = languages.map((item) => item.code);
   const storedLang = localStorage.getItem(languageKey);
   const lang = validCodes.includes(storedLang) ? storedLang : "en";
-
-  const entering = sessionStorage.getItem(transitionKey) === "active";
   let cleanups = [];
 
-  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function closeOpenMenu() {
+    document.body.classList.remove("menu-open");
+    const menu = shell.querySelector(".mobile-menu");
+    const toggle = shell.querySelector(".menu-button");
+    if (menu) menu.classList.remove("is-open");
+    if (toggle) toggle.setAttribute("aria-expanded", "false");
+  }
+
+  function resetNavigationState(clearStoredTransition = false) {
+    if (transitionTimer) {
+      window.clearTimeout(transitionTimer);
+      transitionTimer = 0;
+    }
+    document.body.classList.remove("is-transition-out", "is-transition-enter");
+    closeOpenMenu();
+    if (clearStoredTransition) sessionStorage.removeItem(transitionKey);
+  }
 
   // Clean up stuck transition state when the browser restores this page from bfcache
   // (back/forward navigation). Without this, the green veil stays visible indefinitely.
   window.addEventListener("pageshow", (event) => {
-    if (event.persisted) {
-      document.body.classList.remove("is-transition-out", "menu-open");
-      const menu = shell.querySelector(".mobile-menu");
-      const toggle = shell.querySelector(".menu-button");
-      if (menu) menu.classList.remove("is-open");
-      if (toggle) toggle.setAttribute("aria-expanded", "false");
+    const navEntry = window.performance.getEntriesByType("navigation")[0];
+    if (event.persisted || navEntry?.type === "back_forward") {
+      resetNavigationState(true);
     }
   });
+  window.addEventListener("pagehide", () => resetNavigationState(false));
+  window.addEventListener("popstate", () => resetNavigationState(true));
 
   const arrow = '<span class="button__arrow" aria-hidden="true">&rarr;</span>';
 
@@ -738,16 +756,30 @@
     document.querySelectorAll("a[href$='.html']").forEach((link) => {
       link.addEventListener("click", (event) => {
         const href = link.getAttribute("href");
-        if (!href || href.startsWith("http") || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+        if (
+          !href ||
+          href.startsWith("http") ||
+          event.defaultPrevented ||
+          event.metaKey ||
+          event.ctrlKey ||
+          event.shiftKey ||
+          event.altKey ||
+          event.button > 0
+        ) {
+          return;
+        }
+        if (prefersDirectNavigation) {
+          resetNavigationState(true);
           return;
         }
         event.preventDefault();
         if (document.body.classList.contains("is-transition-out")) return;
+        closeOpenMenu();
         document.body.classList.add("is-transition-out");
         sessionStorage.setItem(transitionKey, "active");
-        window.setTimeout(() => {
+        transitionTimer = window.setTimeout(() => {
           window.location.href = href;
-        }, 480);
+        }, 260);
       });
     });
   }
