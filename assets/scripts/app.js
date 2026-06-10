@@ -807,7 +807,7 @@
     if (!bar) return;
 
     const update = () => {
-      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollable = document.documentElement.scrollHeight - (window.visualViewport?.height || window.innerHeight);
       const progress = scrollable > 0 ? window.scrollY / scrollable : 0;
       bar.style.setProperty("--progress", Math.min(1, Math.max(0, progress)).toFixed(4));
       if (header) header.classList.toggle("is-stuck", window.scrollY > 40);
@@ -852,15 +852,19 @@
         // Landing on the cloned slide: snap back to the real first slide without
         // animation once the transition finishes.
         if (index === real) {
+          let fired = false;
           const reset = () => {
+            if (fired) return;
+            fired = true;
             track.style.transition = "none";
             index = 0;
             track.style.transform = "translateX(0)";
-            void track.offsetWidth; // force reflow so the next move animates
+            void track.offsetWidth;
             track.style.transition = transition;
             track.removeEventListener("transitionend", reset);
           };
           track.addEventListener("transitionend", reset);
+          setTimeout(reset, 1200);
         }
       };
 

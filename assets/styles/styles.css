@@ -38,6 +38,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   font-family: var(--sans);
   font-weight: 300;
   color: var(--ink);
@@ -152,6 +153,9 @@ body.is-transition-enter .page-transition {
   opacity: 0.4;
   z-index: -1;
   animation: drift 26s ease-in-out infinite alternate;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .ambient--one {
@@ -697,6 +701,7 @@ p {
 
 .hero-shell--home {
   min-height: min(86vh, 760px);
+  min-height: min(86dvh, 760px);
   align-content: center;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
   align-items: center;
@@ -1177,8 +1182,10 @@ p {
 }
 
 .story-beat__media {
+  position: -webkit-sticky;
   position: sticky;
   top: 14vh;
+  top: 14dvh;
 }
 
 .story-beat__copy {
@@ -1339,6 +1346,7 @@ p {
   align-items: center;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   min-height: min(80vh, 680px);
+  min-height: min(80dvh, 680px);
   align-content: center;
 }
 
