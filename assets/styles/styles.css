@@ -71,6 +71,15 @@ body::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
 }
 
+@supports (-webkit-touch-callout: none) {
+  body::after {
+    display: none;
+  }
+  body::before {
+    position: absolute;
+  }
+}
+
 body.menu-open {
   overflow: hidden;
 }
@@ -156,6 +165,14 @@ body.is-transition-enter .page-transition {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .ambient {
+    animation: none;
+    filter: blur(80px);
+    opacity: 0.25;
+  }
 }
 
 .ambient--one {
