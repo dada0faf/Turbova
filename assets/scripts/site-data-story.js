@@ -377,7 +377,7 @@ window.siteData = {
         "metaDescription": "The story of Turbová: from an 18th-century estate of royal advisor František of Turba to the creative legacy of animator Jiří Trnka.",
         "hero": {
           "eyebrow": "Our story",
-          "title": "You'll be hearing less from the city.",
+          "title": "A quieter world.",
           "lead": "Behind the gates of Turbová, an 18th-century estate is being recast as a private residence where history, greenery, and silence shape a rarer way of living in Prague 5.",
           "description": "The story starts with a hillside retreat, passes through the creative legacy of Jiří Trnka, and arrives at two contemporary buildings, 22 residences, wellness rituals, and a park that feels more like a secluded estate than an address in the city.",
           "button": {
@@ -733,8 +733,8 @@ window.siteData = {
         "metaDescription": "Příběh Turbové: od panství královského rádce Františka z Turby přes tvůrčí odkaz animátora Jiřího Trnky po moderní rezidenci v Praze 5.",
         "hero": {
           "eyebrow": "Náš příběh",
-          "title": "Z města uslyšíte méně.",
-          "lead": "Za branami Turbové se proměňuje panství z 18. století v soukromou rezidenci, kde historii, zeleň a ticho přetvářejí vzácnější způsob bydlení na Praze 5.",
+          "title": "Tišší svět.",
+          "lead": "Za branami Turbové se proměňuje panství z 18. století v soukromou rezidenci, kde historie, zeleň a ticho utvářejí vzácnější způsob bydlení na Praze 5.",
           "description": "Příběh začíná svahovým útočištěm, prochází tvůrčím odkazem Jiřího Trnky a ústí do dvou současných budov, 22 rezidencí, wellness rituálů a parku, který působí spíš jako skryté městské sídlo než další adresa ve městě.",
           "button": {
             "label": "Číst náš příběh",
@@ -1086,10 +1086,10 @@ window.siteData = {
       },
       "ru": {
         "title": "Turbová | История",
-        "metaDescription": "История Turbová: от поместья королевского советника Франтишека из Турбы до творческого наследия аниматора Иржи Тrnки и современной резиденции в Праге 5.",
+        "metaDescription": "История Turbová: от поместья королевского советника Франтишека из Турбы до творческого наследия аниматора Иржи Трнки и современной резиденции в Праге 5.",
         "hero": {
           "eyebrow": "Наша история",
-          "title": "Города вы будете слышать меньше.",
+          "title": "Более тихий мир.",
           "lead": "За воротами Turbová поместье XVIII века превращается в частную резиденцию, где история, зелень и тишина формируют более редкий образ жизни в Праге 5.",
           "description": "История начинается с уединения на склоне, проходит через творческое наследие Иржи Трнки и приводит к двум современным зданиям, 22 резиденциям, велнес-ритуалам и парку, который ощущается скорее как укромное поместье, чем адрес в городе.",
           "button": {
@@ -1434,7 +1434,7 @@ window.siteData = {
             }
           ]
         },
-        "quote": "Резиденция, сформированная меньше показным эффектом и больше привилегией услышать листву раньше, чем транспорт.",
+        "quote": "Резиденция, сформированная не столько эффектностью, сколько привилегией услышать листву прежде, чем транспорт.",
         "next": {
           "href": "residences.html",
           "label": "Продолжить к резиденциям"
@@ -1445,7 +1445,7 @@ window.siteData = {
         "metaDescription": "L'histoire de Turbová : du domaine du conseiller royal František de Turba à l'héritage créatif de l'animateur Jiří Trnka, jusqu'à une résidence contemporaine à Prague 5.",
         "hero": {
           "eyebrow": "Notre histoire",
-          "title": "Vous entendrez moins la ville.",
+          "title": "Un monde plus calme.",
           "lead": "Derrière les grilles de Turbová, un domaine du XVIIIe siècle se réinvente en résidence privée où l'histoire, la verdure et le silence façonnent une manière plus rare de vivre à Prague 5.",
           "description": "L'histoire commence par une retraite sur le coteau, traverse l'héritage créatif de Jiří Trnka et aboutit à deux bâtiments contemporains, 22 résidences, des rituels de bien-être et un parc qui tient davantage du domaine retiré que d'une adresse en ville.",
           "button": {
@@ -1673,7 +1673,7 @@ window.siteData = {
             "points": [
               "Façade en calcaire naturel",
               "Sols de circulation en terrazzo",
-              "Laiton ciselé et art de garage soigné"
+              "Laiton ciselé et art soigné dans le garage"
             ],
             "media": [
               {

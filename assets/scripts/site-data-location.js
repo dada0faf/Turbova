@@ -470,7 +470,7 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Okamžitá infrastruktura, opožděný stres",
+          "title": "Veškerá infrastruktura na dosah, bez stresu",
           "paragraphs": [
             "Rezidenti zůstávají blízko mezinárodního vzdělávání, každodenního retailu, zdravotních služeb i hlavních tahů, aniž by museli přijmout hluk, který s takovým komfortem obvykle přichází.",
             "Právě tato rovnováha mezi dostupností a ústupem mění adresu v životní výhodu, nikoli jen bod na mapě."
@@ -508,7 +508,7 @@ window.siteData = {
             "alt": "Tunel parkovacího příjezdu"
           }
         ],
-        "quote": "Tato adresa funguje, protože nabízí dostupnost na mapě a ústup v těle.",
+        "quote": "Tato adresa funguje, protože nabízí dostupnost na mapě a klid v prožitku.",
         "next": {
           "href": "index.html",
           "label": "Zpět domů"
@@ -541,7 +541,7 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Мгновенная инфраструктура, отложенный стресс",
+          "title": "Вся инфраструктура рядом — без суеты",
           "paragraphs": [
             "Резиденты остаются рядом с международным образованием, ежедневным ретейлом, медицинскими услугами и главными магистралями, не принимая шум, который обычно сопутствует такому удобству.",
             "Именно этот баланс между доступностью и уединением превращает адрес в преимущество образа жизни, а не просто точку на карте."
@@ -579,7 +579,7 @@ window.siteData = {
             "alt": "Тоннель парковочного въезда"
           }
         ],
-        "quote": "Этот адрес работает, потому что предлагает доступность на карте и уединение в теле.",
+        "quote": "Этот адрес работает, потому что предлагает доступность на карте и покой в ощущениях.",
         "next": {
           "href": "index.html",
           "label": "Вернуться на главную"
@@ -612,7 +612,7 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Infrastructure immédiate, stress différé",
+          "title": "Toute l'infrastructure à portée, sans le stress",
           "paragraphs": [
             "Les résidents restent proches de l'enseignement international, du commerce quotidien, des services médicaux et des grands axes, sans accepter le bruit habituellement attaché à une telle commodité.",
             "C'est cet équilibre entre accès et retrait qui transforme l'adresse en avantage de vie plutôt qu'en simple point sur la carte."
@@ -650,7 +650,7 @@ window.siteData = {
             "alt": "Tunnel d'entrée du parking"
           }
         ],
-        "quote": "L'adresse fonctionne parce qu'elle offre l'accès sur la carte et la retraite dans le corps.",
+        "quote": "L'adresse fonctionne parce qu'elle offre l'accès sur la carte et l'apaisement au quotidien.",
         "next": {
           "href": "index.html",
           "label": "Retour à l'accueil"

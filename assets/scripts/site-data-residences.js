@@ -472,7 +472,7 @@ window.siteData = {
           },
           {
             "value": "3",
-            "label": "parkovací místa každé"
+            "label": "parkovací místa na rezidenci"
           }
         ],
         "story": {
@@ -548,7 +548,7 @@ window.siteData = {
           },
           {
             "value": "3",
-            "label": "парковочных места каждой"
+            "label": "парковочных места на резиденцию"
           }
         ],
         "story": {
@@ -561,7 +561,7 @@ window.siteData = {
         "pillars": [
           {
             "title": "Передача Shell & Core",
-            "text": "Чистый холст для по-настоящему авторского жилья вместо готового luxury."
+            "text": "Чистый холст для по-настоящему авторского жилья вместо готовой роскоши."
           },
           {
             "title": "Палитра природных материалов",
@@ -624,7 +624,7 @@ window.siteData = {
           },
           {
             "value": "3",
-            "label": "places de parking chacune"
+            "label": "places de parking par résidence"
           }
         ],
         "story": {

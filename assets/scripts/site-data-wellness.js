@@ -466,11 +466,11 @@ window.siteData = {
           },
           {
             "value": "2",
-            "label": "hluboké tepelné rituály"
+            "label": "tepelné rituály"
           },
           {
             "value": "1",
-            "label": "terasový retreat"
+            "label": "terasové útočiště"
           }
         ],
         "story": {
@@ -535,15 +535,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "подогреваемый бассейн-святилище"
+            "label": "подогреваемый бассейн"
           },
           {
             "value": "2",
-            "label": "ритуала глубокого тепла"
+            "label": "термальных ритуала"
           },
           {
             "value": "1",
-            "label": "ретрит на террасе"
+            "label": "уединение на террасе"
           }
         ],
         "story": {
@@ -568,7 +568,7 @@ window.siteData = {
           },
           {
             "title": "Выход наружу",
-            "text": "Лаунж-терраса продолжает впечатление в озеленённый открытый воздух."
+            "text": "Лаунж-терраса продолжает этот опыт под открытым небом, среди зелени."
           }
         ],
         "gallery": [
@@ -608,15 +608,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "sanctuaire de piscine chauffée"
+            "label": "piscine chauffée"
           },
           {
             "value": "2",
-            "label": "rituels de chaleur profonde"
+            "label": "rituels thermiques"
           },
           {
             "value": "1",
-            "label": "retraite en salon-terrasse"
+            "label": "retraite sur la terrasse"
           }
         ],
         "story": {
@@ -641,7 +641,7 @@ window.siteData = {
           },
           {
             "title": "Échappée extérieure",
-            "text": "Le salon-terrasse prolonge l'expérience vers un plein air planté."
+            "text": "Le salon-terrasse prolonge l'expérience vers un extérieur verdoyant."
           }
         ],
         "gallery": [

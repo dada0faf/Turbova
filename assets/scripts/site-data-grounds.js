@@ -442,7 +442,7 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Zahrady",
-        "metaDescription": "Soukromý park Turbové: kaskádovité zahrady, staletí stromy, outdoor fitness, vinný domek a dětské hřiště na Smíchově, Praha 5.",
+        "metaDescription": "Soukromý park Turbové: kaskádovité zahrady, staleté stromy, outdoor fitness, vinný domek a dětské hřiště na Smíchově, Praha 5.",
         "hero": {
           "eyebrow": "04 | Zahrady",
           "title": "Soukromý park, který pohlcuje město.",
@@ -464,7 +464,7 @@ window.siteData = {
           },
           {
             "value": "4",
-            "label": "zahradní zkušenosti"
+            "label": "zahradní zážitky"
           }
         ],
         "story": {

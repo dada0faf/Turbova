@@ -277,7 +277,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Domů",
-        metaDescription: "Turbová — 22 butikovích rezidencí v Praze 5. Soukromý park, wellness a architektura z vápence. Dokončení v roce 2026.",
+        metaDescription: "Turbová — 22 butikových rezidencí v Praze 5. Soukromý park, wellness a architektura z vápence. Dokončení v roce 2026.",
         hero: {
           eyebrow: "Butiková rezidence | Praha 5",
           title: "Tiché sídlo ukryté uvnitř města.",
@@ -1190,10 +1190,10 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | История",
-        metaDescription: "История Turbová: от поместья королевского советника Франтишека из Турбы до творческого наследия аниматора Иржи Тrnки и современной резиденции в Праге 5.",
+        metaDescription: "История Turbová: от поместья королевского советника Франтишека из Турбы до творческого наследия аниматора Иржи Трнки и современной резиденции в Праге 5.",
         hero: {
           eyebrow: "Наша история",
-          title: "Города вы будете слышать меньше.",
+          title: "Город вы будете слышать меньше.",
           lead:
             "За воротами Turbová поместье XVIII века превращается в частную резиденцию, где история, зелень и тишина формируют более редкий образ жизни в Праге 5.",
           description:
@@ -2162,8 +2162,8 @@ window.siteData = {
         },
         metrics: [
           { value: "1", label: "vyhřívaný bazén" },
-          { value: "2", label: "hluboké tepelné rituály" },
-          { value: "1", label: "terasový retreat" },
+          { value: "2", label: "tepelné rituály" },
+          { value: "1", label: "terasový odpočinek" },
         ],
         story: {
           title: "Péče o sebe bez opuštění domova",
@@ -2224,9 +2224,9 @@ window.siteData = {
           ],
         },
         metrics: [
-          { value: "1", label: "подогреваемый бассейн-святилище" },
-          { value: "2", label: "ритуала глубокого тепла" },
-          { value: "1", label: "ретрит на террасе" },
+          { value: "1", label: "подогреваемый бассейн" },
+          { value: "2", label: "термальных ритуала" },
+          { value: "1", label: "лаунж-терраса для уединения" },
         ],
         story: {
           title: "Забота о себе, не покидая дома",
@@ -2396,7 +2396,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Zahrady",
-        metaDescription: "Soukromý park Turbové: kaskádovité zahrady, staletí stromy, outdoor fitness, vinný domek a dětské hřiště na Smíchově, Praha 5.",
+        metaDescription: "Soukromý park Turbové: kaskádovité zahrady, staleté stromy, outdoor fitness, vinný domek a dětské hřiště na Smíchově, Praha 5.",
         hero: {
           eyebrow: "04 | Zahrady",
           title: "Soukromý park, který pohlcuje město.",
@@ -2411,7 +2411,7 @@ window.siteData = {
         metrics: [
           { value: "1", label: "svět soukromého parku" },
           { value: "100+", label: "let přítomnosti stromů" },
-          { value: "4", label: "zahradní zkušenosti" },
+          { value: "4", label: "zahradní zážitky" },
         ],
         story: {
           title: "Krajina jako služba i ochrana",
@@ -2650,7 +2650,7 @@ window.siteData = {
           { value: "2026", label: "dokončení projektu" },
         ],
         story: {
-          title: "Okamžitá infrastruktura, opožděný stres",
+          title: "Veškerá infrastruktura na dosah, bez stresu",
           paragraphs: [
             "Rezidenti zůstávají blízko mezinárodního vzdělávání, každodenního retailu, zdravotních služeb i hlavních tahů, aniž by museli přijmout hluk, který s takovým komfortem obvykle přichází.",
             "Právě tato rovnováha mezi dostupností a ústupem mění adresu v životní výhodu, nikoli jen bod na mapě.",
@@ -2689,7 +2689,7 @@ window.siteData = {
           },
         ],
         quote:
-          "Tato adresa funguje, protože nabízí dostupnost na mapě a ústup v těle.",
+          "Tato adresa funguje, protože nabízí dostupnost na mapě a klid v prožitku.",
         next: { href: "index.html", label: "Zpět domů" },
       },
       ru: {
@@ -2711,7 +2711,7 @@ window.siteData = {
           { value: "2026", label: "завершение проекта" },
         ],
         story: {
-          title: "Мгновенная инфраструктура, отложенный стресс",
+          title: "Вся инфраструктура рядом — без суеты",
           paragraphs: [
             "Резиденты остаются рядом с международным образованием, ежедневным ретейлом, медицинскими услугами и главными магистралями, не принимая шум, который обычно сопутствует такому удобству.",
             "Именно этот баланс между доступностью и уединением превращает адрес в преимущество образа жизни, а не просто точку на карте.",
@@ -2750,7 +2750,7 @@ window.siteData = {
           },
         ],
         quote:
-          "Этот адрес работает, потому что предлагает доступность на карте и уединение в теле.",
+          "Этот адрес работает, потому что предлагает доступность на карте и покой в ощущениях.",
         next: { href: "index.html", label: "Вернуться на главную" },
       },
       fr: {
@@ -2811,7 +2811,7 @@ window.siteData = {
           },
         ],
         quote:
-          "L'adresse fonctionne parce qu'elle offre l'accès sur la carte et la retraite dans le corps.",
+          "L'adresse fonctionne parce qu'elle offre l'accès sur la carte et l'apaisement au quotidien.",
         next: { href: "index.html", label: "Retour à l'accueil" },
       },
     },
@@ -2880,7 +2880,7 @@ window.siteData = {
       },
       cs: {
         title: "Turbová | Kontakt",
-        metaDescription: "Domluvte si soukromou prohlídku rezidencí Turbová. 22 butikovích apartmánů v Praze 5 — komorní, diskrétní, dokončení 2026.",
+        metaDescription: "Domluvte si soukromou prohlídku rezidencí Turbová. 22 butikových apartmánů v Praze 5 — komorní, diskrétní, dokončení 2026.",
         hero: {
           eyebrow: "06 | Kontakt",
           title: "Začněte soukromý rozhovor.",
@@ -2942,7 +2942,7 @@ window.siteData = {
       },
       ru: {
         title: "Turbová | Контакты",
-        metaDescription: "Организуйте частный просмотр резиденций Turbová. 22 бутиковые апартаменты в Праге 5 — камерные, дискретные, завершение в 2026 году.",
+        metaDescription: "Организуйте частный просмотр резиденций Turbová. 22 бутиковые апартаменты в Праге 5 — камерные, приватные, завершение в 2026 году.",
         hero: {
           eyebrow: "06 | Контакты",
           title: "Начните частный разговор.",

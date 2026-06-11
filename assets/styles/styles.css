@@ -475,7 +475,7 @@ body.is-transition-enter .page-transition {
   background: linear-gradient(180deg, var(--paper) 0%, var(--paper-deep) 100%);
   transform: translateY(-100%);
   transition: transform 0.32s var(--ease);
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
@@ -1687,6 +1687,7 @@ p {
   }
 
   .mobile-menu {
+    display: flex;
     padding: 2rem var(--gutter) 3rem;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;

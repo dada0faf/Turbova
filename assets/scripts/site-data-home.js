@@ -479,7 +479,7 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Domů",
-        "metaDescription": "Turbová — 22 butikovích rezidencí v Praze 5. Soukromý park, wellness a architektura z vápence. Dokončení v roce 2026.",
+        "metaDescription": "Turbová — 22 butikových rezidencí v Praze 5. Soukromý park, wellness a architektura z vápence. Dokončení v roce 2026.",
         "hero": {
           "eyebrow": "Butiková rezidence | Praha 5",
           "title": "Tiché sídlo ukryté uvnitř města.",

@@ -478,7 +478,7 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Kontakt",
-        "metaDescription": "Domluvte si soukromou prohlídku rezidencí Turbová. 22 butikovích apartmánů v Praze 5 — komorní, diskrétní, dokončení 2026.",
+        "metaDescription": "Domluvte si soukromou prohlídku rezidencí Turbová. 22 butikových apartmánů v Praze 5 — komorní, diskrétní, dokončení 2026.",
         "hero": {
           "eyebrow": "06 | Kontakt",
           "title": "Začněte soukromý rozhovor.",
@@ -582,7 +582,7 @@ window.siteData = {
       },
       "ru": {
         "title": "Turbová | Контакты",
-        "metaDescription": "Организуйте частный просмотр резиденций Turbová. 22 бутиковые апартаменты в Праге 5 — камерные, дискретные, завершение в 2026 году.",
+        "metaDescription": "Организуйте частный просмотр резиденций Turbová. 22 бутиковые апартаменты в Праге 5 — камерные, приватные, завершение в 2026 году.",
         "hero": {
           "eyebrow": "06 | Контакты",
           "title": "Начните частный разговор.",
@@ -771,7 +771,7 @@ window.siteData = {
           },
           "message": {
             "label": "Message (facultatif)",
-            "placeholder": "Dites-nous tout ce qui pourrait nous aider à préparer."
+            "placeholder": "Dites-nous tout ce qui pourrait nous aider à préparer votre visite."
           },
           "consent": "En soumettant ce formulaire, vous acceptez d'être contacté au sujet des résidences Turbová. Nous ne partageons jamais vos coordonnées.",
           "submit": "Envoyer la demande",
