@@ -1361,7 +1361,7 @@ p {
   display: grid;
   gap: 3rem;
   align-items: center;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
   min-height: min(80vh, 680px);
   min-height: min(80dvh, 680px);
   align-content: center;
@@ -1370,6 +1370,12 @@ p {
 .chapter-hero__copy {
   display: grid;
   gap: 1.5rem;
+}
+
+/* Long single words (notably in Russian) must wrap inside the column
+   instead of spilling across the gap onto the adjacent image. */
+.chapter-hero__copy h1 {
+  overflow-wrap: break-word;
 }
 
 .chapter-hero__media {
