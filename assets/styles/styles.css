@@ -168,10 +168,12 @@ body.is-transition-enter .page-transition {
   will-change: transform;
 }
 
+/* On iOS the drift is disabled, so a frozen wash can pool behind content and
+   read as a dirty smudge. Hold it well below the threshold of notice. */
 @supports (-webkit-touch-callout: none) {
   .ambient {
     animation: none;
-    opacity: 0.4;
+    opacity: 0.28;
   }
 }
 
@@ -180,7 +182,7 @@ body.is-transition-enter .page-transition {
   right: -12rem;
   width: 48rem;
   height: 48rem;
-  background: radial-gradient(closest-side, rgba(184, 156, 106, 0.3), transparent);
+  background: radial-gradient(closest-side, rgba(184, 156, 106, 0.22), transparent);
 }
 
 .ambient--two {
@@ -193,11 +195,11 @@ body.is-transition-enter .page-transition {
 }
 
 .ambient--three {
-  top: 38%;
-  left: 52%;
+  top: 58%;
+  left: 58%;
   width: 26rem;
   height: 26rem;
-  background: radial-gradient(closest-side, rgba(156, 124, 70, 0.16), transparent);
+  background: radial-gradient(closest-side, rgba(156, 124, 70, 0.1), transparent);
   animation-duration: 22s;
 }
 
@@ -672,13 +674,16 @@ p {
 
 .button-secondary {
   color: var(--ink);
-  border-color: var(--line);
-  background: transparent;
+  border-color: var(--forest);
+  border-width: 1.5px;
+  font-weight: 600;
+  background: rgba(58, 64, 52, 0.05);
 }
 
 .button-secondary:hover {
   border-color: var(--brass);
   color: var(--brass);
+  background: rgba(156, 124, 70, 0.08);
 }
 
 .button-enquire {
@@ -1814,12 +1819,23 @@ p {
   }
 
   .hero-badge {
-    flex-basis: 50%;
-    border-bottom: 1px solid var(--line);
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 
+  /* Left column sits flush with the copy edge */
   .hero-badge:nth-child(odd) {
     padding-left: 0;
+  }
+
+  /* Right column: drop the divider so it never overflows the content edge */
+  .hero-badge:nth-child(even) {
+    border-right: 0;
+  }
+
+  /* Single horizontal rule between the two rows only — no border under the grid */
+  .hero-badge:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
   }
 
   h1 {
