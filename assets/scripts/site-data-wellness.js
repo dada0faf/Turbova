@@ -462,7 +462,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "vyhřívaný bazén"
+            "label": "bazénová oáza"
           },
           {
             "value": "2",
@@ -535,7 +535,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "подогреваемый бассейн"
+            "label": "водный оазис"
           },
           {
             "value": "2",
@@ -608,7 +608,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "piscine chauffée"
+            "label": "sanctuaire aquatique"
           },
           {
             "value": "2",

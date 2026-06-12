@@ -576,7 +576,7 @@ window.siteData = {
           "submitError": "Při odesílání došlo k chybě. Zkontrolujte prosím připojení a zkuste to znovu.",
           "success": {
             "title": "Děkujeme — vaše poptávka je na cestě.",
-            "text": "Náš tým se vám brzy ozve"
+            "text": "Brzy od nás uslyšíte"
           }
         }
       },
@@ -680,7 +680,7 @@ window.siteData = {
           "submitError": "При отправке произошла ошибка. Проверьте подключение и попробуйте снова.",
           "success": {
             "title": "Спасибо — ваш запрос отправлен.",
-            "text": "Наша команда скоро свяжется с вами"
+            "text": "Мы скоро выйдем на связь"
           }
         }
       },
@@ -784,7 +784,7 @@ window.siteData = {
           "submitError": "Une erreur s'est produite lors de l'envoi. Vérifiez votre connexion et réessayez.",
           "success": {
             "title": "Merci — votre demande est en route.",
-            "text": "Notre équipe vous contactera prochainement"
+            "text": "Nous reviendrons vers vous très prochainement"
           }
         }
       }

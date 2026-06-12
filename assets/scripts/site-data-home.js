@@ -378,7 +378,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "Boutique Residence | Prague 5",
           "title": "A quiet estate hidden inside the city.",
-          "lead": "A quiet estate hidden inside Prague 5, where privacy and stillness matter more than scale",
+          "lead": "Set on a green hillside in Prague 5, where privacy and stillness matter more than scale",
           "description": "An intimate boutique residence of just 22 homes, framed by limestone, brass, and a private park — an urban estate made for those who prefer peace and privacy",
           "primary": {
             "label": "Read our story",
@@ -483,7 +483,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "Butiková rezidence | Praha 5",
           "title": "Tiché sídlo ukryté uvnitř města.",
-          "lead": "Tiché sídlo ukryté uvnitř Prahy 5, kde mají soukromí a klid přednost před velikostí",
+          "lead": "Na zeleném svahu Prahy 5, kde mají soukromí a klid přednost před velikostí",
           "description": "Komorní butiková rezidence pouhých 22 domovů, rámovaná vápencem, mosazí a soukromým parkem — městský statek pro ty, kdo dávají přednost klidu a soukromí",
           "primary": {
             "label": "Číst náš příběh",
@@ -588,7 +588,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "Бутиковая резиденция | Прага 5",
           "title": "Тихое поместье, скрытое в сердце города.",
-          "lead": "Тихое поместье, скрытое в Праге 5, где приватность и тишина важнее масштаба",
+          "lead": "На зелёном склоне Праги 5, где приватность и тишина важнее масштаба",
           "description": "Камерная бутиковая резиденция всего из 22 домов в обрамлении известняка, латуни и собственного парка — городское поместье для тех, кто предпочитает покой и уединение",
           "primary": {
             "label": "Читать нашу историю",
@@ -693,7 +693,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "Résidence boutique | Prague 5",
           "title": "Un domaine paisible caché au cœur de la ville.",
-          "lead": "Un domaine paisible caché dans Prague 5, où l'intimité et le calme priment sur l'échelle",
+          "lead": "Sur un coteau vert de Prague 5, où l'intimité et le calme priment sur l'échelle",
           "description": "Une résidence boutique intime de seulement 22 logements, encadrée de pierre calcaire, de laiton et d'un parc privé — un domaine urbain pensé pour ceux qui privilégient le calme et l'intimité",
           "primary": {
             "label": "Lire notre histoire",
