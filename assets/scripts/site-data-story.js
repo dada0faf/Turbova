@@ -274,7 +274,7 @@ window.siteData = {
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate.",
+      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -285,10 +285,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov.",
+      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world.",
+      "footerNote": "Two buildings, one protected world",
       "enquireLabel": "Enquire"
     },
     "cs": {
@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek.",
+      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,10 +311,10 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově.",
+      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět.",
+      "footerNote": "Dvě budovy, jeden chráněný svět",
       "enquireLabel": "Kontakt"
     },
     "ru": {
@@ -326,7 +326,7 @@ window.siteData = {
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье.",
+      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -337,10 +337,10 @@ window.siteData = {
         "contact": "Контакты"
       },
       "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове.",
+      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир.",
+      "footerNote": "Два здания, один защищённый мир",
       "enquireLabel": "Связаться"
     },
     "fr": {
@@ -352,7 +352,7 @@ window.siteData = {
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain.",
+      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -363,10 +363,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov.",
+      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé.",
+      "footerNote": "Deux bâtiments, un monde protégé",
       "enquireLabel": "S'informer"
     }
   },
@@ -378,8 +378,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Our story",
           "title": "A quieter world.",
-          "lead": "Behind the gates of Turbová, an 18th-century estate is being recast as a private residence where history, greenery, and silence shape a rarer way of living in Prague 5.",
-          "description": "The story starts with a hillside retreat, passes through the creative legacy of Jiří Trnka, and arrives at two contemporary buildings, 22 residences, wellness rituals, and a park that feels more like a secluded estate than an address in the city.",
+          "lead": "Behind the gates of Turbová, an 18th-century estate is being recast as a private residence where history, greenery, and silence shape a rarer way of living in Prague 5",
+          "description": "The story starts with a hillside retreat, passes through the creative legacy of Jiří Trnka, and arrives at two contemporary buildings, 22 residences, wellness rituals, and a park that feels more like a secluded estate than an address in the city",
           "button": {
             "label": "Read our story",
             "href": "#story-intro"
@@ -443,15 +443,15 @@ window.siteData = {
         "pillars": [
           {
             "title": "History of the place",
-            "text": "A former estate with aristocratic provenance and a quiet artistic afterlife."
+            "text": "A former estate with aristocratic provenance and a quiet artistic afterlife"
           },
           {
             "title": "Project philosophy",
-            "text": "A rare address shaped by privacy and restraint rather than display."
+            "text": "A rare address shaped by privacy and restraint rather than display"
           },
           {
             "title": "Urban estate",
-            "text": "City energy on the outside, private park stillness on the inside."
+            "text": "City energy on the outside, private park stillness on the inside"
           }
         ],
         "gallery": [
@@ -475,14 +475,14 @@ window.siteData = {
             {
               "title": "Historic estate",
               "subtitle": "18th-century origins",
-              "text": "The site belonged to royal advisor František of Turba and developed the poise of a secluded hillside estate long before Prague expanded around it.",
+              "text": "The site belonged to royal advisor František of Turba and developed the poise of a secluded hillside estate long before Prague expanded around it",
               "image": "assets/images/turbova-old.webp",
               "alt": "Historic Turbová estate"
             },
             {
               "title": "Creative refuge",
               "subtitle": "Jiří Trnka's afterlife",
-              "text": "Later, the grounds became part of the creative orbit of Jiří Trnka, reinforcing the idea that this address has always attracted private, imaginative lives.",
+              "text": "Later, the grounds became part of the creative orbit of Jiří Trnka, reinforcing the idea that this address has always attracted private, imaginative lives",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Aerial view of Turbová in Prague 5"
             }
@@ -704,25 +704,25 @@ window.siteData = {
         "cta": {
           "eyebrow": "Next steps",
           "title": "Ready to experience Turbová?",
-          "text": "Choose how you want to continue the story.",
+          "text": "Choose how you want to continue the story",
           "cards": [
             {
               "eyebrow": "Chapter 02",
               "title": "Explore the residences",
-              "text": "Review the architecture, layouts, and material approach across the two buildings.",
+              "text": "Review the architecture, layouts, and material approach across the two buildings",
               "label": "Open residences",
               "href": "residences.html"
             },
             {
               "eyebrow": "Chapter 04",
               "title": "See the private grounds",
-              "text": "Discover the park, waterfall courtyard, outdoor fitness, and the slower rhythm around the estate.",
+              "text": "Discover the park, waterfall courtyard, outdoor fitness, and the slower rhythm around the estate",
               "label": "Open the grounds",
               "href": "grounds.html"
             }
           ]
         },
-        "quote": "A residence shaped less by display and more by the privilege of hearing leaves before traffic.",
+        "quote": "A residence shaped less by display and more by the privilege of hearing leaves before traffic",
         "next": {
           "href": "residences.html",
           "label": "Continue to residences"
@@ -734,8 +734,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Náš příběh",
           "title": "Tišší svět.",
-          "lead": "Za branami Turbové se proměňuje panství z 18. století v soukromou rezidenci, kde historie, zeleň a ticho utvářejí vzácnější způsob bydlení na Praze 5.",
-          "description": "Příběh začíná svahovým útočištěm, prochází tvůrčím odkazem Jiřího Trnky a ústí do dvou současných budov, 22 rezidencí, wellness rituálů a parku, který působí spíš jako skryté městské sídlo než další adresa ve městě.",
+          "lead": "Za branami Turbové se proměňuje panství z 18. století v soukromou rezidenci, kde historie, zeleň a ticho utvářejí vzácnější způsob bydlení na Praze 5",
+          "description": "Příběh začíná svahovým útočištěm, prochází tvůrčím odkazem Jiřího Trnky a ústí do dvou současných budov, 22 rezidencí, wellness rituálů a parku, který působí spíš jako skryté městské sídlo než další adresa ve městě",
           "button": {
             "label": "Číst náš příběh",
             "href": "#story-intro"
@@ -799,15 +799,15 @@ window.siteData = {
         "pillars": [
           {
             "title": "Historie místa",
-            "text": "Bývalé panství s aristokratickým původem a tichým uměleckým pokračováním."
+            "text": "Bývalé panství s aristokratickým původem a tichým uměleckým pokračováním"
           },
           {
             "title": "Filozofie projektu",
-            "text": "Vzácná adresa utvářená soukromím a zdrženlivostí, ne snahou zaujmout."
+            "text": "Vzácná adresa utvářená soukromím a zdrženlivostí, ne snahou zaujmout"
           },
           {
             "title": "Městský statek",
-            "text": "Městská energie venku, soukromý parkový klid uvnitř."
+            "text": "Městská energie venku, soukromý parkový klid uvnitř"
           }
         ],
         "gallery": [
@@ -831,14 +831,14 @@ window.siteData = {
             {
               "title": "Historické panství",
               "subtitle": "Původ v 18. století",
-              "text": "Místo patřilo královskému rádci Františku z Turby a získalo klidnou noblesu svahového panství dávno předtím, než se Praha rozrostla až sem.",
+              "text": "Místo patřilo královskému rádci Františku z Turby a získalo klidnou noblesu svahového panství dávno předtím, než se Praha rozrostla až sem",
               "image": "assets/images/turbova-old.webp",
               "alt": "Historické panství Turbová"
             },
             {
               "title": "Tvůrčí útočiště",
               "subtitle": "Odkaz Jiřího Trnky",
-              "text": "Později se areál stal součástí tvůrčího světa Jiřího Trnky a potvrdil, že tato adresa vždy přitahovala soukromé, imaginativní a kultivované životy.",
+              "text": "Později se areál stal součástí tvůrčího světa Jiřího Trnky a potvrdil, že tato adresa vždy přitahovala soukromé, imaginativní a kultivované životy",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Letecký pohled na Turbovou na Praze 5"
             }
@@ -1060,25 +1060,25 @@ window.siteData = {
         "cta": {
           "eyebrow": "Další kroky",
           "title": "Jste připraveni zažít Turbovou?",
-          "text": "Vyberte, jak chcete v příběhu pokračovat.",
+          "text": "Vyberte, jak chcete v příběhu pokračovat",
           "cards": [
             {
               "eyebrow": "Kapitola 02",
               "title": "Prozkoumat rezidence",
-              "text": "Podívejte se na architekturu, dispozice a materiálový přístup obou budov.",
+              "text": "Podívejte se na architekturu, dispozice a materiálový přístup obou budov",
               "label": "Otevřít rezidence",
               "href": "residences.html"
             },
             {
               "eyebrow": "Kapitola 04",
               "title": "Poznat soukromé zahrady",
-              "text": "Objevte park, vodní dvůr, outdoor fitness i pomalejší rytmus kolem celého areálu.",
+              "text": "Objevte park, vodní dvůr, outdoor fitness i pomalejší rytmus kolem celého areálu",
               "label": "Otevřít zahrady",
               "href": "grounds.html"
             }
           ]
         },
-        "quote": "Rezidence tvarovaná méně efektem a více privilegiem slyšet listí dříve než dopravu.",
+        "quote": "Rezidence tvarovaná méně efektem a více privilegiem slyšet listí dříve než dopravu",
         "next": {
           "href": "residences.html",
           "label": "Pokračovat k rezidencím"
@@ -1090,8 +1090,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Наша история",
           "title": "Более тихий мир.",
-          "lead": "За воротами Turbová поместье XVIII века превращается в частную резиденцию, где история, зелень и тишина формируют более редкий образ жизни в Праге 5.",
-          "description": "История начинается с уединения на склоне, проходит через творческое наследие Иржи Трнки и приводит к двум современным зданиям, 22 резиденциям, велнес-ритуалам и парку, который ощущается скорее как укромное поместье, чем адрес в городе.",
+          "lead": "За воротами Turbová поместье XVIII века превращается в частную резиденцию, где история, зелень и тишина формируют более редкий образ жизни в Праге 5",
+          "description": "История начинается с уединения на склоне, проходит через творческое наследие Иржи Трнки и приводит к двум современным зданиям, 22 резиденциям, велнес-ритуалам и парку, который ощущается скорее как укромное поместье, чем адрес в городе",
           "button": {
             "label": "Читать нашу историю",
             "href": "#story-intro"
@@ -1155,15 +1155,15 @@ window.siteData = {
         "pillars": [
           {
             "title": "История места",
-            "text": "Бывшее поместье с аристократическим происхождением и тихим художественным продолжением."
+            "text": "Бывшее поместье с аристократическим происхождением и тихим художественным продолжением"
           },
           {
             "title": "Философия проекта",
-            "text": "Редкий адрес, определяемый приватностью и сдержанностью, а не желанием впечатлить."
+            "text": "Редкий адрес, определяемый приватностью и сдержанностью, а не желанием впечатлить"
           },
           {
             "title": "Городское поместье",
-            "text": "Энергия города снаружи, тишина частного парка внутри."
+            "text": "Энергия города снаружи, тишина частного парка внутри"
           }
         ],
         "gallery": [
@@ -1187,14 +1187,14 @@ window.siteData = {
             {
               "title": "Историческое поместье",
               "subtitle": "Истоки XVIII века",
-              "text": "Участок принадлежал королевскому советнику Франтишеку из Турбы и обрёл осанку уединённого поместья на склоне задолго до того, как Прага разрослась вокруг.",
+              "text": "Участок принадлежал королевскому советнику Франтишеку из Турбы и обрёл осанку уединённого поместья на склоне задолго до того, как Прага разрослась вокруг",
               "image": "assets/images/turbova-old.webp",
               "alt": "Историческое поместье Turbová"
             },
             {
               "title": "Творческое убежище",
               "subtitle": "Наследие Иржи Трнки",
-              "text": "Позже территория вошла в творческую орбиту Иржи Трнки, укрепив идею, что этот адрес всегда притягивал частные, наполненные воображением жизни.",
+              "text": "Позже территория вошла в творческую орбиту Иржи Трнки, укрепив идею, что этот адрес всегда притягивал частные, наполненные воображением жизни",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Вид с высоты на Turbová в Праге 5"
             }
@@ -1416,25 +1416,25 @@ window.siteData = {
         "cta": {
           "eyebrow": "Дальнейшие шаги",
           "title": "Готовы почувствовать Turbová?",
-          "text": "Выберите, как продолжить историю.",
+          "text": "Выберите, как продолжить историю",
           "cards": [
             {
               "eyebrow": "Глава 02",
               "title": "Исследовать резиденции",
-              "text": "Рассмотрите архитектуру, планировки и материальный подход обоих зданий.",
+              "text": "Рассмотрите архитектуру, планировки и материальный подход обоих зданий",
               "label": "Открыть резиденции",
               "href": "residences.html"
             },
             {
               "eyebrow": "Глава 04",
               "title": "Увидеть частную территорию",
-              "text": "Откройте парк, двор с водопадом, открытый фитнес и более медленный ритм вокруг поместья.",
+              "text": "Откройте парк, двор с водопадом, открытый фитнес и более медленный ритм вокруг поместья",
               "label": "Открыть сады",
               "href": "grounds.html"
             }
           ]
         },
-        "quote": "Резиденция, сформированная не столько эффектностью, сколько привилегией услышать листву прежде, чем транспорт.",
+        "quote": "Резиденция, сформированная не столько эффектностью, сколько привилегией услышать листву прежде, чем транспорт",
         "next": {
           "href": "residences.html",
           "label": "Продолжить к резиденциям"
@@ -1446,8 +1446,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Notre histoire",
           "title": "Un monde plus calme.",
-          "lead": "Derrière les grilles de Turbová, un domaine du XVIIIe siècle se réinvente en résidence privée où l'histoire, la verdure et le silence façonnent une manière plus rare de vivre à Prague 5.",
-          "description": "L'histoire commence par une retraite sur le coteau, traverse l'héritage créatif de Jiří Trnka et aboutit à deux bâtiments contemporains, 22 résidences, des rituels de bien-être et un parc qui tient davantage du domaine retiré que d'une adresse en ville.",
+          "lead": "Derrière les grilles de Turbová, un domaine du XVIIIe siècle se réinvente en résidence privée où l'histoire, la verdure et le silence façonnent une manière plus rare de vivre à Prague 5",
+          "description": "L'histoire commence par une retraite sur le coteau, traverse l'héritage créatif de Jiří Trnka et aboutit à deux bâtiments contemporains, 22 résidences, des rituels de bien-être et un parc qui tient davantage du domaine retiré que d'une adresse en ville",
           "button": {
             "label": "Lire notre histoire",
             "href": "#story-intro"
@@ -1511,15 +1511,15 @@ window.siteData = {
         "pillars": [
           {
             "title": "Histoire du lieu",
-            "text": "Un ancien domaine à la provenance aristocratique et à la postérité artistique discrète."
+            "text": "Un ancien domaine à la provenance aristocratique et à la postérité artistique discrète"
           },
           {
             "title": "Philosophie du projet",
-            "text": "Une adresse rare, façonnée par l'intimité et la retenue plutôt que par l'ostentation."
+            "text": "Une adresse rare, façonnée par l'intimité et la retenue plutôt que par l'ostentation"
           },
           {
             "title": "Domaine urbain",
-            "text": "L'énergie de la ville à l'extérieur, la quiétude du parc privé à l'intérieur."
+            "text": "L'énergie de la ville à l'extérieur, la quiétude du parc privé à l'intérieur"
           }
         ],
         "gallery": [
@@ -1543,14 +1543,14 @@ window.siteData = {
             {
               "title": "Domaine historique",
               "subtitle": "Origines du XVIIIe siècle",
-              "text": "Le site appartenait au conseiller royal František de Turba et avait acquis l'allure d'un domaine retiré sur le coteau bien avant que Prague ne s'étende autour.",
+              "text": "Le site appartenait au conseiller royal František de Turba et avait acquis l'allure d'un domaine retiré sur le coteau bien avant que Prague ne s'étende autour",
               "image": "assets/images/turbova-old.webp",
               "alt": "Domaine historique Turbová"
             },
             {
               "title": "Refuge créatif",
               "subtitle": "La postérité de Jiří Trnka",
-              "text": "Plus tard, le domaine est entré dans l'orbite créative de Jiří Trnka, confirmant que cette adresse a toujours attiré des vies privées et imaginatives.",
+              "text": "Plus tard, le domaine est entré dans l'orbite créative de Jiří Trnka, confirmant que cette adresse a toujours attiré des vies privées et imaginatives",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Vue aérienne de Turbová à Prague 5"
             }
@@ -1772,25 +1772,25 @@ window.siteData = {
         "cta": {
           "eyebrow": "Prochaines étapes",
           "title": "Prêt à vivre Turbová ?",
-          "text": "Choisissez comment poursuivre l'histoire.",
+          "text": "Choisissez comment poursuivre l'histoire",
           "cards": [
             {
               "eyebrow": "Chapitre 02",
               "title": "Explorer les résidences",
-              "text": "Découvrez l'architecture, les plans et l'approche matérielle des deux bâtiments.",
+              "text": "Découvrez l'architecture, les plans et l'approche matérielle des deux bâtiments",
               "label": "Ouvrir les résidences",
               "href": "residences.html"
             },
             {
               "eyebrow": "Chapitre 04",
               "title": "Voir le parc privé",
-              "text": "Découvrez le parc, la cour à cascade, le fitness en plein air et le rythme plus lent autour du domaine.",
+              "text": "Découvrez le parc, la cour à cascade, le fitness en plein air et le rythme plus lent autour du domaine",
               "label": "Ouvrir les jardins",
               "href": "grounds.html"
             }
           ]
         },
-        "quote": "Une résidence façonnée moins par l'apparat que par le privilège d'entendre les feuilles avant la circulation.",
+        "quote": "Une résidence façonnée moins par l'apparat que par le privilège d'entendre les feuilles avant la circulation",
         "next": {
           "href": "residences.html",
           "label": "Continuer vers les résidences"

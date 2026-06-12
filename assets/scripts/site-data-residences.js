@@ -274,7 +274,7 @@ window.siteData = {
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate.",
+      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -285,10 +285,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov.",
+      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world.",
+      "footerNote": "Two buildings, one protected world",
       "enquireLabel": "Enquire"
     },
     "cs": {
@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek.",
+      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,10 +311,10 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově.",
+      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět.",
+      "footerNote": "Dvě budovy, jeden chráněný svět",
       "enquireLabel": "Kontakt"
     },
     "ru": {
@@ -326,7 +326,7 @@ window.siteData = {
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье.",
+      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -337,10 +337,10 @@ window.siteData = {
         "contact": "Контакты"
       },
       "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове.",
+      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир.",
+      "footerNote": "Два здания, один защищённый мир",
       "enquireLabel": "Связаться"
     },
     "fr": {
@@ -352,7 +352,7 @@ window.siteData = {
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain.",
+      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -363,10 +363,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov.",
+      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé.",
+      "footerNote": "Deux bâtiments, un monde protégé",
       "enquireLabel": "S'informer"
     }
   },
@@ -378,7 +378,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "02 | Residences",
           "title": "Two buildings. Twenty-two private worlds.",
-          "lead": "Each building holds 11 residences, all with terraces or balconies, panoramic glazing, and the freedom of Shell & Core handover.",
+          "lead": "Each building holds 11 residences, all with terraces or balconies, panoramic glazing, and the freedom of Shell & Core handover",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -409,19 +409,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Shell & Core delivery",
-            "text": "A blank canvas for fully bespoke living rather than pre-packaged luxury."
+            "text": "A blank canvas for fully bespoke living rather than pre-packaged luxury"
           },
           {
             "title": "Natural material palette",
-            "text": "Natural limestone façades, terrazzo circulation floors, and carved brass communal details."
+            "text": "Natural limestone façades, terrazzo circulation floors, and carved brass communal details"
           },
           {
             "title": "Smart living systems",
-            "text": "Loxone integration, contactless access, advanced heat recovery, and strong sound insulation."
+            "text": "Loxone integration, contactless access, advanced heat recovery, and strong sound insulation"
           },
           {
             "title": "Direct quiet movement",
-            "text": "Schindler elevators connect underground arrival with apartment entry in near silence."
+            "text": "Schindler elevators connect underground arrival with apartment entry in near silence"
           }
         ],
         "gallery": [
@@ -442,7 +442,7 @@ window.siteData = {
             "alt": "Parking gallery"
           }
         ],
-        "quote": "Private living here is not about excess. It is about authorship, calm proportions, and materials that age with dignity.",
+        "quote": "Private living here is not about excess — it is about authorship, calm proportions, and materials that age with dignity",
         "next": {
           "href": "wellness.html",
           "label": "Continue to wellness"
@@ -454,7 +454,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "02 | Rezidence",
           "title": "Dvě budovy. Dvacet dva soukromých světů.",
-          "lead": "Každá budova obsahuje 11 rezidencí, všechny s terasou nebo balkonem, panoramatickým prosklením a svobodou předání ve standardu Shell & Core.",
+          "lead": "Každá budova obsahuje 11 rezidencí, všechny s terasou nebo balkonem, panoramatickým prosklením a svobodou předání ve standardu Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -485,19 +485,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Předání Shell & Core",
-            "text": "Čisté plátno pro skutečně autorské bydlení místo předem zabaleného luxusu."
+            "text": "Čisté plátno pro skutečně autorské bydlení místo předem zabaleného luxusu"
           },
           {
             "title": "Přírodní materiály",
-            "text": "Fasády z přírodního vápence, terazzo ve společných prostorech a reliéfní mosazné detaily."
+            "text": "Fasády z přírodního vápence, terazzo ve společných prostorech a reliéfní mosazné detaily"
           },
           {
             "title": "Systémy chytrého bydlení",
-            "text": "Integrace Loxone, bezkontaktní vstup, pokročilá rekuperace a důsledná zvuková izolace."
+            "text": "Integrace Loxone, bezkontaktní vstup, pokročilá rekuperace a důsledná zvuková izolace"
           },
           {
             "title": "Tichý pohyb",
-            "text": "Výtahy Schindler propojují podzemní příjezd s bytem téměř beze zvuku."
+            "text": "Výtahy Schindler propojují podzemní příjezd s bytem téměř beze zvuku"
           }
         ],
         "gallery": [
@@ -518,7 +518,7 @@ window.siteData = {
             "alt": "Parkovací galerie"
           }
         ],
-        "quote": "Soukromé bydlení zde nestojí na přebytku. Stojí na autorství, klidných proporcích a materiálech, které stárnou s důstojností.",
+        "quote": "Soukromé bydlení zde nestojí na přebytku — stojí na autorství, klidných proporcích a materiálech, které stárnou s důstojností",
         "next": {
           "href": "wellness.html",
           "label": "Pokračovat k wellness"
@@ -530,7 +530,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "02 | Резиденции",
           "title": "Два здания. Двадцать два частных мира.",
-          "lead": "Каждое здание вмещает 11 резиденций, все с террасами или балконами, панорамным остеклением и свободой передачи в формате Shell & Core.",
+          "lead": "Каждое здание вмещает 11 резиденций, все с террасами или балконами, панорамным остеклением и свободой передачи в формате Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -561,19 +561,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Передача Shell & Core",
-            "text": "Чистый холст для по-настоящему авторского жилья вместо готовой роскоши."
+            "text": "Чистый холст для по-настоящему авторского жилья вместо готовой роскоши"
           },
           {
             "title": "Палитра природных материалов",
-            "text": "Фасады из природного известняка, полы из терраццо в коммуникациях и резные латунные детали общих зон."
+            "text": "Фасады из природного известняка, полы из терраццо в коммуникациях и резные латунные детали общих зон"
           },
           {
             "title": "Системы умного жилья",
-            "text": "Интеграция Loxone, бесконтактный доступ, продвинутая рекуперация тепла и сильная звукоизоляция."
+            "text": "Интеграция Loxone, бесконтактный доступ, продвинутая рекуперация тепла и сильная звукоизоляция"
           },
           {
             "title": "Прямое тихое движение",
-            "text": "Лифты Schindler соединяют подземное прибытие со входом в квартиру почти бесшумно."
+            "text": "Лифты Schindler соединяют подземное прибытие со входом в квартиру почти бесшумно"
           }
         ],
         "gallery": [
@@ -594,7 +594,7 @@ window.siteData = {
             "alt": "Парковочная галерея"
           }
         ],
-        "quote": "Частная жизнь здесь не про избыток. Она про авторство, спокойные пропорции и материалы, которые стареют достойно.",
+        "quote": "Частная жизнь здесь не про избыток — она про авторство, спокойные пропорции и материалы, которые стареют достойно",
         "next": {
           "href": "wellness.html",
           "label": "Продолжить к велнесу"
@@ -606,7 +606,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "02 | Résidences",
           "title": "Deux bâtiments. Vingt-deux mondes privés.",
-          "lead": "Chaque bâtiment compte 11 résidences, toutes avec terrasses ou balcons, baies panoramiques et la liberté d'une livraison Shell & Core.",
+          "lead": "Chaque bâtiment compte 11 résidences, toutes avec terrasses ou balcons, baies panoramiques et la liberté d'une livraison Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -637,19 +637,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Livraison Shell & Core",
-            "text": "Une toile vierge pour un habitat sur mesure plutôt qu'un luxe préemballé."
+            "text": "Une toile vierge pour un habitat sur mesure plutôt qu'un luxe préemballé"
           },
           {
             "title": "Palette de matériaux naturels",
-            "text": "Façades en calcaire naturel, sols de circulation en terrazzo et détails communs en laiton ciselé."
+            "text": "Façades en calcaire naturel, sols de circulation en terrazzo et détails communs en laiton ciselé"
           },
           {
             "title": "Systèmes de maison intelligente",
-            "text": "Intégration Loxone, accès sans contact, récupération de chaleur avancée et forte isolation phonique."
+            "text": "Intégration Loxone, accès sans contact, récupération de chaleur avancée et forte isolation phonique"
           },
           {
             "title": "Un déplacement direct et feutré",
-            "text": "Les ascenseurs Schindler relient l'arrivée souterraine à l'entrée de l'appartement dans un quasi-silence."
+            "text": "Les ascenseurs Schindler relient l'arrivée souterraine à l'entrée de l'appartement dans un quasi-silence"
           }
         ],
         "gallery": [
@@ -670,7 +670,7 @@ window.siteData = {
             "alt": "Galerie de stationnement"
           }
         ],
-        "quote": "L'habitat privé ici n'est pas affaire d'excès. Il est affaire d'écriture, de proportions calmes et de matériaux qui vieillissent avec dignité.",
+        "quote": "L'habitat privé ici n'est pas affaire d'excès — il est affaire d'écriture, de proportions calmes et de matériaux qui vieillissent avec dignité",
         "next": {
           "href": "wellness.html",
           "label": "Continuer vers le bien-être"

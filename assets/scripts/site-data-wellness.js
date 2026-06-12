@@ -274,7 +274,7 @@ window.siteData = {
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate.",
+      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -285,10 +285,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov.",
+      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world.",
+      "footerNote": "Two buildings, one protected world",
       "enquireLabel": "Enquire"
     },
     "cs": {
@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek.",
+      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,10 +311,10 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově.",
+      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět.",
+      "footerNote": "Dvě budovy, jeden chráněný svět",
       "enquireLabel": "Kontakt"
     },
     "ru": {
@@ -326,7 +326,7 @@ window.siteData = {
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье.",
+      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -337,10 +337,10 @@ window.siteData = {
         "contact": "Контакты"
       },
       "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове.",
+      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир.",
+      "footerNote": "Два здания, один защищённый мир",
       "enquireLabel": "Связаться"
     },
     "fr": {
@@ -352,7 +352,7 @@ window.siteData = {
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain.",
+      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -363,10 +363,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov.",
+      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé.",
+      "footerNote": "Deux bâtiments, un monde protégé",
       "enquireLabel": "S'informer"
     }
   },
@@ -378,7 +378,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "03 | Wellness",
           "title": "A ritual zone reserved for residents.",
-          "lead": "The internal wellness floor is designed as a slow, atmospheric sequence: heated pool, sauna, hammam, changing rooms, private kitchenette, and a terrace lounge.",
+          "lead": "The internal wellness floor is designed as a slow, atmospheric sequence: heated pool, sauna, hammam, changing rooms, private kitchenette, and a terrace lounge",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -410,19 +410,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Heated pool",
-            "text": "For morning laps, evening decompression, and year-round calm."
+            "text": "For morning laps, evening decompression, and year-round calm"
           },
           {
             "title": "Sauna and hammam",
-            "text": "A complete thermal ritual embedded inside the residence itself."
+            "text": "A complete thermal ritual embedded inside the residence itself"
           },
           {
             "title": "Private refreshments",
-            "text": "Changing rooms and a kitchenette support longer, more social stays."
+            "text": "Changing rooms and a kitchenette support longer, more social stays"
           },
           {
             "title": "Outdoor release",
-            "text": "The terrace lounge extends the experience into planted open air."
+            "text": "The terrace lounge extends the experience into planted open air"
           }
         ],
         "gallery": [
@@ -439,7 +439,7 @@ window.siteData = {
             "alt": "Hammam interior"
           }
         ],
-        "quote": "Luxury here is the ability to restore your energy inside the same protected world you call home.",
+        "quote": "Luxury here is the ability to restore your energy inside the same protected world you call home",
         "next": {
           "href": "grounds.html",
           "label": "Continue to grounds"
@@ -451,7 +451,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "03 | Wellness",
           "title": "Rituální zóna vyhrazená rezidentům.",
-          "lead": "Interní wellness patro je navrženo jako pomalá, atmosférická sekvence: vyhřívaný bazén, sauna, hammam, šatny, soukromá kuchyňka a odpočinková terasa.",
+          "lead": "Interní wellness patro je navrženo jako pomalá, atmosférická sekvence: vyhřívaný bazén, sauna, hammam, šatny, soukromá kuchyňka a odpočinková terasa",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -483,19 +483,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Vyhřívaný bazén",
-            "text": "Pro ranní plavání, večerní uvolnění i celoroční klid."
+            "text": "Pro ranní plavání, večerní uvolnění i celoroční klid"
           },
           {
             "title": "Sauna a hammam",
-            "text": "Kompletní tepelný rituál přímo uvnitř rezidence."
+            "text": "Kompletní tepelný rituál přímo uvnitř rezidence"
           },
           {
             "title": "Soukromé občerstvení",
-            "text": "Šatny a kuchyňka podporují delší a společenské pobyty."
+            "text": "Šatny a kuchyňka podporují delší a společenské pobyty"
           },
           {
             "title": "Venkovní uvolnění",
-            "text": "Odpočinková terasa přenáší wellness i do vysazeného exteriéru."
+            "text": "Odpočinková terasa přenáší wellness i do vysazeného exteriéru"
           }
         ],
         "gallery": [
@@ -512,7 +512,7 @@ window.siteData = {
             "alt": "Interiér hammamu"
           }
         ],
-        "quote": "Luxus zde znamená možnost obnovit energii uvnitř stejného chráněného světa, který nazýváte domovem.",
+        "quote": "Luxus zde znamená možnost obnovit energii uvnitř stejného chráněného světa, který nazýváte domovem",
         "next": {
           "href": "grounds.html",
           "label": "Pokračovat k zahradám"
@@ -524,7 +524,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "03 | Велнес",
           "title": "Ритуальная зона, отведённая резидентам.",
-          "lead": "Внутренний велнес-этаж задуман как медленная атмосферная последовательность: подогреваемый бассейн, сауна, хаммам, раздевалки, приватная кухонька и лаунж-терраса.",
+          "lead": "Внутренний велнес-этаж задуман как медленная атмосферная последовательность: подогреваемый бассейн, сауна, хаммам, раздевалки, приватная кухонька и лаунж-терраса",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -556,19 +556,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Подогреваемый бассейн",
-            "text": "Для утренних заплывов, вечерней разгрузки и круглогодичного спокойствия."
+            "text": "Для утренних заплывов, вечерней разгрузки и круглогодичного спокойствия"
           },
           {
             "title": "Сауна и хаммам",
-            "text": "Полный термальный ритуал, встроенный в саму резиденцию."
+            "text": "Полный термальный ритуал, встроенный в саму резиденцию"
           },
           {
             "title": "Приватное угощение",
-            "text": "Раздевалки и кухонька поддерживают более долгие и общительные визиты."
+            "text": "Раздевалки и кухонька поддерживают более долгие и общительные визиты"
           },
           {
             "title": "Выход наружу",
-            "text": "Лаунж-терраса продолжает этот опыт под открытым небом, среди зелени."
+            "text": "Лаунж-терраса продолжает этот опыт под открытым небом, среди зелени"
           }
         ],
         "gallery": [
@@ -585,7 +585,7 @@ window.siteData = {
             "alt": "Интерьер хаммама"
           }
         ],
-        "quote": "Роскошь здесь — это возможность восстановить силы внутри того же защищённого мира, который вы называете домом.",
+        "quote": "Роскошь здесь — это возможность восстановить силы внутри того же защищённого мира, который вы называете домом",
         "next": {
           "href": "grounds.html",
           "label": "Продолжить к садам"
@@ -597,7 +597,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "03 | Bien-être",
           "title": "Une zone rituelle réservée aux résidents.",
-          "lead": "L'étage bien-être intérieur est conçu comme une séquence lente et atmosphérique : piscine chauffée, sauna, hammam, vestiaires, kitchenette privée et salon-terrasse.",
+          "lead": "L'étage bien-être intérieur est conçu comme une séquence lente et atmosphérique : piscine chauffée, sauna, hammam, vestiaires, kitchenette privée et salon-terrasse",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -629,19 +629,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Piscine chauffée",
-            "text": "Pour les longueurs du matin, la décompression du soir et le calme toute l'année."
+            "text": "Pour les longueurs du matin, la décompression du soir et le calme toute l'année"
           },
           {
             "title": "Sauna et hammam",
-            "text": "Un rituel thermique complet intégré à la résidence elle-même."
+            "text": "Un rituel thermique complet intégré à la résidence elle-même"
           },
           {
             "title": "Rafraîchissements privés",
-            "text": "Vestiaires et kitchenette permettent des séjours plus longs et conviviaux."
+            "text": "Vestiaires et kitchenette permettent des séjours plus longs et conviviaux"
           },
           {
             "title": "Échappée extérieure",
-            "text": "Le salon-terrasse prolonge l'expérience vers un extérieur verdoyant."
+            "text": "Le salon-terrasse prolonge l'expérience vers un extérieur verdoyant"
           }
         ],
         "gallery": [
@@ -658,7 +658,7 @@ window.siteData = {
             "alt": "Intérieur du hammam"
           }
         ],
-        "quote": "Le luxe ici, c'est de pouvoir restaurer son énergie dans le même monde protégé que l'on appelle foyer.",
+        "quote": "Le luxe ici, c'est de pouvoir restaurer son énergie dans le même monde protégé que l'on appelle foyer",
         "next": {
           "href": "grounds.html",
           "label": "Continuer vers les jardins"

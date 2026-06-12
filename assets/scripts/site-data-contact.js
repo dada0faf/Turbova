@@ -274,7 +274,7 @@ window.siteData = {
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate.",
+      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -285,10 +285,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov.",
+      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world.",
+      "footerNote": "Two buildings, one protected world",
       "enquireLabel": "Enquire"
     },
     "cs": {
@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek.",
+      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,10 +311,10 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově.",
+      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět.",
+      "footerNote": "Dvě budovy, jeden chráněný svět",
       "enquireLabel": "Kontakt"
     },
     "ru": {
@@ -326,7 +326,7 @@ window.siteData = {
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье.",
+      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -337,10 +337,10 @@ window.siteData = {
         "contact": "Контакты"
       },
       "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове.",
+      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир.",
+      "footerNote": "Два здания, один защищённый мир",
       "enquireLabel": "Связаться"
     },
     "fr": {
@@ -352,7 +352,7 @@ window.siteData = {
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain.",
+      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -363,10 +363,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov.",
+      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé.",
+      "footerNote": "Deux bâtiments, un monde protégé",
       "enquireLabel": "S'informer"
     }
   },
@@ -378,7 +378,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "06 | Contact",
           "title": "Begin a private conversation.",
-          "lead": "Share a few details and our team will reach out. Everything you send stays confidential."
+          "lead": "Share a few details and our team will reach out — everything you send stays confidential"
         },
         "form": {
           "detailsLegend": "Your details",
@@ -472,7 +472,7 @@ window.siteData = {
           "submitError": "Something went wrong while sending. Please check your connection and try again.",
           "success": {
             "title": "Thank you — your enquiry is on its way.",
-            "text": "Our team will be in touch shortly."
+            "text": "Our team will be in touch shortly"
           }
         }
       },
@@ -482,7 +482,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "06 | Kontakt",
           "title": "Začněte soukromý rozhovor.",
-          "lead": "Sdělte nám několik údajů a náš tým se vám ozve. Vše, co odešlete, zůstává důvěrné."
+          "lead": "Sdělte nám několik údajů a náš tým se vám ozve — vše, co odešlete, zůstává důvěrné"
         },
         "form": {
           "detailsLegend": "Vaše údaje",
@@ -576,7 +576,7 @@ window.siteData = {
           "submitError": "Při odesílání došlo k chybě. Zkontrolujte prosím připojení a zkuste to znovu.",
           "success": {
             "title": "Děkujeme — vaše poptávka je na cestě.",
-            "text": "Náš tým se vám brzy ozve."
+            "text": "Náš tým se vám brzy ozve"
           }
         }
       },
@@ -586,7 +586,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "06 | Контакты",
           "title": "Начните частный разговор.",
-          "lead": "Поделитесь несколькими данными, и наша команда свяжется с вами. Всё, что вы отправите, останется конфиденциальным."
+          "lead": "Поделитесь несколькими данными, и наша команда свяжется с вами — всё, что вы отправите, останется конфиденциальным"
         },
         "form": {
           "detailsLegend": "Ваши данные",
@@ -680,7 +680,7 @@ window.siteData = {
           "submitError": "При отправке произошла ошибка. Проверьте подключение и попробуйте снова.",
           "success": {
             "title": "Спасибо — ваш запрос отправлен.",
-            "text": "Наша команда скоро свяжется с вами."
+            "text": "Наша команда скоро свяжется с вами"
           }
         }
       },
@@ -690,7 +690,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "06 | Contact",
           "title": "Entamez une conversation privée.",
-          "lead": "Partagez quelques informations et notre équipe vous contactera. Tout ce que vous envoyez reste confidentiel."
+          "lead": "Partagez quelques informations et notre équipe vous contactera — tout ce que vous envoyez reste confidentiel"
         },
         "form": {
           "detailsLegend": "Vos coordonnées",
@@ -784,7 +784,7 @@ window.siteData = {
           "submitError": "Une erreur s'est produite lors de l'envoi. Vérifiez votre connexion et réessayez.",
           "success": {
             "title": "Merci — votre demande est en route.",
-            "text": "Notre équipe vous contactera prochainement."
+            "text": "Notre équipe vous contactera prochainement"
           }
         }
       }

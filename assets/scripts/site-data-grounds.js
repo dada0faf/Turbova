@@ -274,7 +274,7 @@ window.siteData = {
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate.",
+      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -285,10 +285,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov.",
+      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world.",
+      "footerNote": "Two buildings, one protected world",
       "enquireLabel": "Enquire"
     },
     "cs": {
@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek.",
+      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,10 +311,10 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově.",
+      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět.",
+      "footerNote": "Dvě budovy, jeden chráněný svět",
       "enquireLabel": "Kontakt"
     },
     "ru": {
@@ -326,7 +326,7 @@ window.siteData = {
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье.",
+      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -337,10 +337,10 @@ window.siteData = {
         "contact": "Контакты"
       },
       "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове.",
+      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир.",
+      "footerNote": "Два здания, один защищённый мир",
       "enquireLabel": "Связаться"
     },
     "fr": {
@@ -352,7 +352,7 @@ window.siteData = {
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain.",
+      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -363,10 +363,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov.",
+      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé.",
+      "footerNote": "Deux bâtiments, un monde protégé",
       "enquireLabel": "S'informer"
     }
   },
@@ -378,7 +378,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "04 | Grounds",
           "title": "A private park that absorbs the city.",
-          "lead": "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a playground for the youngest residents.",
+          "lead": "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a playground for the youngest residents",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -409,19 +409,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Cascading private garden",
-            "text": "Layered topography and mature planting form a natural envelope around the residence."
+            "text": "Layered topography and mature planting form a natural envelope around the residence"
           },
           {
             "title": "Outdoor fitness",
-            "text": "Equipment placed in greenery for open-air training with privacy."
+            "text": "Equipment placed in greenery for open-air training with privacy"
           },
           {
             "title": "Wine house",
-            "text": "A social node for residents' gatherings and small private events."
+            "text": "A social node for residents' gatherings and small private events"
           },
           {
             "title": "Children's play space",
-            "text": "A calm and secure outdoor setting removed from the city bustle."
+            "text": "A calm and secure outdoor setting removed from the city bustle"
           }
         ],
         "gallery": [
@@ -434,7 +434,7 @@ window.siteData = {
             "alt": "Garden terrace with hammock"
           }
         ],
-        "quote": "The rarest amenity may simply be stepping outside to hear leaves instead of traffic.",
+        "quote": "The rarest amenity may simply be stepping outside to hear leaves instead of traffic",
         "next": {
           "href": "location.html",
           "label": "Continue to location"
@@ -446,7 +446,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "04 | Zahrady",
           "title": "Soukromý park, který pohlcuje město.",
-          "lead": "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, outdoor fitness, viničním domkem a hřištěm pro nejmladší rezidenty.",
+          "lead": "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, outdoor fitness, viničním domkem a hřištěm pro nejmladší rezidenty",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -477,19 +477,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Kaskádová soukromá zahrada",
-            "text": "Vrstvená topografie a vzrostlá zeleň tvoří přirozený obal kolem rezidence."
+            "text": "Vrstvená topografie a vzrostlá zeleň tvoří přirozený obal kolem rezidence"
           },
           {
             "title": "Outdoor fitness",
-            "text": "Vybavení zasazené do zeleně pro soukromý trénink na čerstvém vzduchu."
+            "text": "Vybavení zasazené do zeleně pro soukromý trénink na čerstvém vzduchu"
           },
           {
             "title": "Viniční domek",
-            "text": "Společenský uzel pro setkávání rezidentů a malé soukromé akce."
+            "text": "Společenský uzel pro setkávání rezidentů a malé soukromé akce"
           },
           {
             "title": "Dětské hřiště",
-            "text": "Klidné a bezpečné venkovní prostředí vzdálené městskému ruchu."
+            "text": "Klidné a bezpečné venkovní prostředí vzdálené městskému ruchu"
           }
         ],
         "gallery": [
@@ -502,7 +502,7 @@ window.siteData = {
             "alt": "Zahradní terasa s houpací sítí"
           }
         ],
-        "quote": "Nejvzácnější službou může být prostě možnost vyjít ven a slyšet listí místo dopravy.",
+        "quote": "Nejvzácnější službou může být prostě možnost vyjít ven a slyšet listí místo dopravy",
         "next": {
           "href": "location.html",
           "label": "Pokračovat k lokalitě"
@@ -514,7 +514,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "04 | Сады",
           "title": "Частный парк, поглощающий город.",
-          "lead": "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, открытым фитнесом, винным домом и площадкой для самых юных резидентов.",
+          "lead": "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, открытым фитнесом, винным домом и площадкой для самых юных резидентов",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -545,19 +545,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Каскадный частный сад",
-            "text": "Слоистый рельеф и зрелые посадки образуют естественную оболочку вокруг резиденции."
+            "text": "Слоистый рельеф и зрелые посадки образуют естественную оболочку вокруг резиденции"
           },
           {
             "title": "Открытый фитнес",
-            "text": "Оборудование размещено в зелени для тренировок на воздухе в приватности."
+            "text": "Оборудование размещено в зелени для тренировок на воздухе в приватности"
           },
           {
             "title": "Винный дом",
-            "text": "Социальный узел для встреч резидентов и небольших частных событий."
+            "text": "Социальный узел для встреч резидентов и небольших частных событий"
           },
           {
             "title": "Детская площадка",
-            "text": "Спокойная и безопасная открытая среда вдали от городской суеты."
+            "text": "Спокойная и безопасная открытая среда вдали от городской суеты"
           }
         ],
         "gallery": [
@@ -570,7 +570,7 @@ window.siteData = {
             "alt": "Садовая терраса с гамаком"
           }
         ],
-        "quote": "Самой редкой услугой может быть просто возможность выйти наружу и слышать листву вместо транспорта.",
+        "quote": "Самой редкой услугой может быть просто возможность выйти наружу и слышать листву вместо транспорта",
         "next": {
           "href": "location.html",
           "label": "Продолжить к локации"
@@ -582,7 +582,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "04 | Jardins",
           "title": "Un parc privé qui absorbe la ville.",
-          "lead": "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une maison du vin et une aire de jeu pour les plus jeunes résidents.",
+          "lead": "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une maison du vin et une aire de jeu pour les plus jeunes résidents",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -613,19 +613,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Jardin privé en cascade",
-            "text": "Une topographie en strates et des plantations matures forment une enveloppe naturelle autour de la résidence."
+            "text": "Une topographie en strates et des plantations matures forment une enveloppe naturelle autour de la résidence"
           },
           {
             "title": "Fitness en plein air",
-            "text": "Des équipements placés dans la verdure pour s'entraîner au grand air en toute intimité."
+            "text": "Des équipements placés dans la verdure pour s'entraîner au grand air en toute intimité"
           },
           {
             "title": "Maison du vin",
-            "text": "Un point social pour les rassemblements de résidents et les petits événements privés."
+            "text": "Un point social pour les rassemblements de résidents et les petits événements privés"
           },
           {
             "title": "Espace de jeu pour enfants",
-            "text": "Un cadre extérieur calme et sûr, à l'écart de l'agitation de la ville."
+            "text": "Un cadre extérieur calme et sûr, à l'écart de l'agitation de la ville"
           }
         ],
         "gallery": [
@@ -638,7 +638,7 @@ window.siteData = {
             "alt": "Terrasse de jardin avec hamac"
           }
         ],
-        "quote": "L'agrément le plus rare est peut-être simplement de pouvoir sortir et entendre les feuilles plutôt que la circulation.",
+        "quote": "L'agrément le plus rare est peut-être simplement de pouvoir sortir et entendre les feuilles plutôt que la circulation",
         "next": {
           "href": "location.html",
           "label": "Continuer vers l'emplacement"

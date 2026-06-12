@@ -274,7 +274,7 @@ window.siteData = {
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate.",
+      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -285,10 +285,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov.",
+      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world.",
+      "footerNote": "Two buildings, one protected world",
       "enquireLabel": "Enquire"
     },
     "cs": {
@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek.",
+      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,10 +311,10 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově.",
+      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět.",
+      "footerNote": "Dvě budovy, jeden chráněný svět",
       "enquireLabel": "Kontakt"
     },
     "ru": {
@@ -326,7 +326,7 @@ window.siteData = {
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье.",
+      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -337,10 +337,10 @@ window.siteData = {
         "contact": "Контакты"
       },
       "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове.",
+      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир.",
+      "footerNote": "Два здания, один защищённый мир",
       "enquireLabel": "Связаться"
     },
     "fr": {
@@ -352,7 +352,7 @@ window.siteData = {
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain.",
+      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -363,10 +363,10 @@ window.siteData = {
         "contact": "Contact"
       },
       "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov.",
+      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé.",
+      "footerNote": "Deux bâtiments, un monde protégé",
       "enquireLabel": "S'informer"
     }
   },
@@ -378,7 +378,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "05 | Location",
           "title": "Connected to Prague. Withdrawn from its noise.",
-          "lead": "Turbová sits within Prague 5, close to the Anděl district and key city routes, while remaining buffered by its own hillside garden world.",
+          "lead": "Turbová sits within Prague 5, close to the Anděl district and key city routes, while remaining buffered by its own hillside garden world",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -408,19 +408,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Prestigious schools",
-            "text": "Lycée Français de Prague, Deutsche Schule Prag, and Park Lane International School are all within easy reach."
+            "text": "Lycée Français de Prague, Deutsche Schule Prag, and Park Lane International School are all within easy reach"
           },
           {
             "title": "Fast access",
-            "text": "Major road connections and the Anděl district keep business and culture close."
+            "text": "Major road connections and the Anděl district keep business and culture close"
           },
           {
             "title": "Daily essentials",
-            "text": "Healthcare, shopping, supermarkets, and dining sit within the immediate urban radius."
+            "text": "Healthcare, shopping, supermarkets, and dining sit within the immediate urban radius"
           },
           {
             "title": "Protected arrival",
-            "text": "Private parking, EV charging, and smooth building access turn convenience into a composed arrival ritual."
+            "text": "Private parking, EV charging, and smooth building access turn convenience into a composed arrival ritual"
           }
         ],
         "gallery": [
@@ -437,7 +437,7 @@ window.siteData = {
             "alt": "Parking entrance tunnel"
           }
         ],
-        "quote": "The address works because it offers access on the map and retreat in the body.",
+        "quote": "The address works because it offers access on the map and retreat in the body",
         "next": {
           "href": "index.html",
           "label": "Return home"
@@ -449,7 +449,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "05 | Lokalita",
           "title": "Napojena na Prahu. Odtažena od jejího hluku.",
-          "lead": "Turbová leží na Praze 5, v blízkosti Anděla a klíčových městských tras, a přitom zůstává chráněna vlastním zahradním svahem.",
+          "lead": "Turbová leží na Praze 5, v blízkosti Anděla a klíčových městských tras, a přitom zůstává chráněna vlastním zahradním svahem",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -479,19 +479,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Prestižní školy",
-            "text": "Lycée Français de Prague, Deutsche Schule Prag a Park Lane International School jsou snadno dosažitelné."
+            "text": "Lycée Français de Prague, Deutsche Schule Prag a Park Lane International School jsou snadno dosažitelné"
           },
           {
             "title": "Rychlá dostupnost",
-            "text": "Hlavní komunikace i čtvrť Anděl drží byznys i kulturu nablízku."
+            "text": "Hlavní komunikace i čtvrť Anděl drží byznys i kulturu nablízku"
           },
           {
             "title": "Každodenní služby",
-            "text": "Zdravotnictví, nákupy, supermarkety i gastronomie leží v bezprostředním městském okruhu."
+            "text": "Zdravotnictví, nákupy, supermarkety i gastronomie leží v bezprostředním městském okruhu"
           },
           {
             "title": "Chráněný příjezd",
-            "text": "Soukromé parkování, nabíjení EV a hladký vstup do budovy mění pohodlí v kultivovaný rituál příjezdu."
+            "text": "Soukromé parkování, nabíjení EV a hladký vstup do budovy mění pohodlí v kultivovaný rituál příjezdu"
           }
         ],
         "gallery": [
@@ -508,7 +508,7 @@ window.siteData = {
             "alt": "Tunel parkovacího příjezdu"
           }
         ],
-        "quote": "Tato adresa funguje, protože nabízí dostupnost na mapě a klid v prožitku.",
+        "quote": "Tato adresa funguje, protože nabízí dostupnost na mapě a klid v prožitku",
         "next": {
           "href": "index.html",
           "label": "Zpět domů"
@@ -520,7 +520,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "05 | Локация",
           "title": "Связана с Прагой. Отдалена от её шума.",
-          "lead": "Turbová расположена в Праге 5, рядом с районом Андел и ключевыми городскими магистралями, оставаясь укрытой собственным садовым миром на склоне.",
+          "lead": "Turbová расположена в Праге 5, рядом с районом Андел и ключевыми городскими магистралями, оставаясь укрытой собственным садовым миром на склоне",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -550,19 +550,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Престижные школы",
-            "text": "Lycée Français de Prague, Deutsche Schule Prag и Park Lane International School легко достижимы."
+            "text": "Lycée Français de Prague, Deutsche Schule Prag и Park Lane International School легко достижимы"
           },
           {
             "title": "Быстрая доступность",
-            "text": "Главные дорожные связи и район Андел держат бизнес и культуру рядом."
+            "text": "Главные дорожные связи и район Андел держат бизнес и культуру рядом"
           },
           {
             "title": "Повседневное необходимое",
-            "text": "Медицина, шопинг, супермаркеты и гастрономия — в непосредственном городском радиусе."
+            "text": "Медицина, шопинг, супермаркеты и гастрономия — в непосредственном городском радиусе"
           },
           {
             "title": "Защищённое прибытие",
-            "text": "Частная парковка, зарядка EV и плавный доступ в здание превращают удобство в выверенный ритуал прибытия."
+            "text": "Частная парковка, зарядка EV и плавный доступ в здание превращают удобство в выверенный ритуал прибытия"
           }
         ],
         "gallery": [
@@ -579,7 +579,7 @@ window.siteData = {
             "alt": "Тоннель парковочного въезда"
           }
         ],
-        "quote": "Этот адрес работает, потому что предлагает доступность на карте и покой в ощущениях.",
+        "quote": "Этот адрес работает, потому что предлагает доступность на карте и покой в ощущениях",
         "next": {
           "href": "index.html",
           "label": "Вернуться на главную"
@@ -591,7 +591,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "05 | Emplacement",
           "title": "Reliée à Prague. Retirée de son bruit.",
-          "lead": "Turbová se situe à Prague 5, proche du quartier d'Anděl et des grands axes, tout en restant protégée par son propre monde de jardin sur le coteau.",
+          "lead": "Turbová se situe à Prague 5, proche du quartier d'Anděl et des grands axes, tout en restant protégée par son propre monde de jardin sur le coteau",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -621,19 +621,19 @@ window.siteData = {
         "pillars": [
           {
             "title": "Écoles prestigieuses",
-            "text": "Le Lycée Français de Prague, la Deutsche Schule Prag et la Park Lane International School sont aisément accessibles."
+            "text": "Le Lycée Français de Prague, la Deutsche Schule Prag et la Park Lane International School sont aisément accessibles"
           },
           {
             "title": "Accès rapide",
-            "text": "Les grandes liaisons routières et le quartier d'Anděl gardent les affaires et la culture à proximité."
+            "text": "Les grandes liaisons routières et le quartier d'Anděl gardent les affaires et la culture à proximité"
           },
           {
             "title": "Essentiels du quotidien",
-            "text": "Santé, commerces, supermarchés et restauration se trouvent dans le rayon urbain immédiat."
+            "text": "Santé, commerces, supermarchés et restauration se trouvent dans le rayon urbain immédiat"
           },
           {
             "title": "Une arrivée protégée",
-            "text": "Parking privé, recharge VE et accès fluide au bâtiment font de la commodité un rituel d'arrivée maîtrisé."
+            "text": "Parking privé, recharge VE et accès fluide au bâtiment font de la commodité un rituel d'arrivée maîtrisé"
           }
         ],
         "gallery": [
@@ -650,7 +650,7 @@ window.siteData = {
             "alt": "Tunnel d'entrée du parking"
           }
         ],
-        "quote": "L'adresse fonctionne parce qu'elle offre l'accès sur la carte et l'apaisement au quotidien.",
+        "quote": "L'adresse fonctionne parce qu'elle offre l'accès sur la carte et l'apaisement au quotidien",
         "next": {
           "href": "index.html",
           "label": "Retour à l'accueil"
