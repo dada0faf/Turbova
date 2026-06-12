@@ -153,13 +153,14 @@ body.is-transition-enter .page-transition {
   transform: translateY(-100%);
 }
 
-/* Ambient washes kept very subtle for calm */
+/* Ambient washes kept very subtle for calm.
+   Painted as radial gradients (not blurred circles) so the soft edges
+   never get clipped to a hard rectangle — a known iOS Safari bug with
+   filter: blur() on position: fixed layers — and to stay light on the GPU. */
 .ambient {
   position: fixed;
-  border-radius: 50%;
   pointer-events: none;
-  filter: blur(120px);
-  opacity: 0.4;
+  opacity: 0.5;
   z-index: -1;
   animation: drift 26s ease-in-out infinite alternate;
   -webkit-transform: translateZ(0);
@@ -170,34 +171,33 @@ body.is-transition-enter .page-transition {
 @supports (-webkit-touch-callout: none) {
   .ambient {
     animation: none;
-    filter: blur(80px);
-    opacity: 0.25;
+    opacity: 0.4;
   }
 }
 
 .ambient--one {
   top: -16rem;
   right: -12rem;
-  width: 38rem;
-  height: 38rem;
-  background: rgba(184, 156, 106, 0.22);
+  width: 48rem;
+  height: 48rem;
+  background: radial-gradient(closest-side, rgba(184, 156, 106, 0.3), transparent);
 }
 
 .ambient--two {
   bottom: 6rem;
   left: -14rem;
-  width: 32rem;
-  height: 32rem;
-  background: rgba(58, 64, 52, 0.16);
+  width: 42rem;
+  height: 42rem;
+  background: radial-gradient(closest-side, rgba(58, 64, 52, 0.22), transparent);
   animation-duration: 32s;
 }
 
 .ambient--three {
   top: 38%;
   left: 52%;
-  width: 18rem;
-  height: 18rem;
-  background: rgba(156, 124, 70, 0.12);
+  width: 26rem;
+  height: 26rem;
+  background: radial-gradient(closest-side, rgba(156, 124, 70, 0.16), transparent);
   animation-duration: 22s;
 }
 

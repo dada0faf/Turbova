@@ -378,8 +378,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Boutique Residence | Prague 5",
           "title": "A quiet estate hidden inside the city.",
-          "lead": "A quiet estate hidden inside Prague 5, where status meets intimacy and silence becomes the rarest luxury of all.",
-          "description": "An intimate boutique residence of just 22 homes, framed by limestone, brass, and a private park — an urban estate composed for those who value calm above spectacle.",
+          "lead": "A quiet estate hidden inside Prague 5, where privacy and stillness matter more than scale.",
+          "description": "An intimate boutique residence of just 22 homes, framed by limestone, brass, and a private park — an urban estate made for those who prefer peace and privacy.",
           "primary": {
             "label": "Read our story",
             "href": "story.html"
@@ -446,7 +446,7 @@ window.siteData = {
           {
             "number": "04",
             "title": "Grounds",
-            "text": "A cascading private garden, outdoor fitness, a wine house, and landscape that shields the city away.",
+            "text": "A cascading private garden, outdoor fitness, a wine house, and a landscape that keeps the city at bay.",
             "href": "grounds.html"
           },
           {
@@ -483,8 +483,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Butiková rezidence | Praha 5",
           "title": "Tiché sídlo ukryté uvnitř města.",
-          "lead": "Tiché sídlo ukryté uvnitř Prahy 5, kde se status setkává s komorností a ticho se stává tím nejvzácnějším luxusem.",
-          "description": "Komorní butiková rezidence pouhých 22 domovů, rámovaná vápencem, mosazí a soukromým parkem — městský statek pro ty, kdo cení klid nad okázalostí.",
+          "lead": "Tiché sídlo ukryté uvnitř Prahy 5, kde mají soukromí a klid přednost před velikostí.",
+          "description": "Komorní butiková rezidence pouhých 22 domovů, rámovaná vápencem, mosazí a soukromým parkem — městský statek pro ty, kdo dávají přednost klidu a soukromí.",
           "primary": {
             "label": "Číst náš příběh",
             "href": "story.html"
@@ -588,8 +588,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Бутиковая резиденция | Прага 5",
           "title": "Тихое поместье, скрытое в сердце города.",
-          "lead": "Тихое поместье, скрытое в Праге 5, где статус встречается с камерностью, а тишина становится самой редкой роскошью.",
-          "description": "Камерная бутиковая резиденция всего из 22 домов в обрамлении известняка, латуни и собственного парка — городское поместье для тех, кто ценит покой выше зрелищности.",
+          "lead": "Тихое поместье, скрытое в Праге 5, где приватность и тишина важнее масштаба.",
+          "description": "Камерная бутиковая резиденция всего из 22 домов в обрамлении известняка, латуни и собственного парка — городское поместье для тех, кто предпочитает покой и уединение.",
           "primary": {
             "label": "Читать нашу историю",
             "href": "story.html"
@@ -693,8 +693,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Résidence boutique | Prague 5",
           "title": "Un domaine paisible caché au cœur de la ville.",
-          "lead": "Un domaine paisible caché dans Prague 5, où le statut rencontre l'intimité et où le silence devient le plus rare des luxes.",
-          "description": "Une résidence boutique intime de seulement 22 logements, encadrée de pierre calcaire, de laiton et d'un parc privé — un domaine urbain composé pour ceux qui valorisent le calme plutôt que le spectacle.",
+          "lead": "Un domaine paisible caché dans Prague 5, où l'intimité et le calme priment sur l'échelle.",
+          "description": "Une résidence boutique intime de seulement 22 logements, encadrée de pierre calcaire, de laiton et d'un parc privé — un domaine urbain pensé pour ceux qui privilégient le calme et l'intimité.",
           "primary": {
             "label": "Lire notre histoire",
             "href": "story.html"

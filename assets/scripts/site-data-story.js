@@ -447,7 +447,7 @@ window.siteData = {
           },
           {
             "title": "Project philosophy",
-            "text": "Status without noise. A rare asset defined by intimacy rather than spectacle."
+            "text": "A rare address shaped by privacy and restraint rather than display."
           },
           {
             "title": "Urban estate",
@@ -573,14 +573,14 @@ window.siteData = {
           },
           {
             "number": "03",
-            "title": "Two buildings. No spectacle.",
+            "title": "Two buildings. Nothing for show.",
             "paragraphs": [
               "The architecture refuses overstatement. Two buildings, 11 residences each, step into the site with calm proportions, natural limestone façades, and terraces that keep every apartment connected to the park.",
               "The scale is deliberate. Turbová behaves more like a private estate than a conventional development, where intimacy becomes the real marker of status."
             ],
             "points": [
               "22 residences total",
-              "110-299 m² homes",
+              "110–299 m² homes",
               "Balcony or terrace for every residence"
             ],
             "media": [
@@ -694,7 +694,7 @@ window.siteData = {
         ],
         "mission": {
           "eyebrow": "Mission",
-          "title": "Mission",
+          "title": "To shelter, not to overwhelm.",
           "paragraphs": [
             "Turbová translates historic memory into a contemporary form of prestige: quiet, authorship, and private greenery at the center of Prague 5.",
             "Its mission is not to overwhelm, but to shelter. To offer a residence where status is expressed through calm materials, controlled scale, and the daily privilege of silence."
@@ -803,7 +803,7 @@ window.siteData = {
           },
           {
             "title": "Filozofie projektu",
-            "text": "Status bez hluku. Vzácné aktivum definované komorností namísto okázalosti."
+            "text": "Vzácná adresa utvářená soukromím a zdrženlivostí, ne snahou zaujmout."
           },
           {
             "title": "Městský statek",
@@ -929,7 +929,7 @@ window.siteData = {
           },
           {
             "number": "03",
-            "title": "Dvě budovy. Žádná okázalost.",
+            "title": "Dvě budovy. Nic na efekt.",
             "paragraphs": [
               "Architektura odmítá přehnaná gesta. Dvě budovy po jedenácti rezidencích vstupují do místa klidnou proporcí, fasádou z přírodního kamene a terasami, které drží každý byt v přímém kontaktu s parkem.",
               "Měřítko je záměrně komorní. Turbová se chová spíš jako soukromé městské sídlo než běžný developerský projekt, kde se právě intimita stává skutečným znakem statusu."
@@ -1050,7 +1050,7 @@ window.siteData = {
         ],
         "mission": {
           "eyebrow": "Mise",
-          "title": "Mise",
+          "title": "Chránit, ne ohromovat.",
           "paragraphs": [
             "Turbová převádí historickou paměť do současné podoby prestiže: ticha, autorství a soukromé zeleně v samém srdci Prahy 5.",
             "Její ambicí není ohromovat, ale chránit. Nabídnout rezidenci, kde se status vyjadřuje klidnými materiály, kontrolovaným měřítkem a každodenním privilegiem ticha."
@@ -1078,7 +1078,7 @@ window.siteData = {
             }
           ]
         },
-        "quote": "Rezidence tvarovaná méně efektem a více privilegiem slyšet dříve listí než dopravu.",
+        "quote": "Rezidence tvarovaná méně efektem a více privilegiem slyšet listí dříve než dopravu.",
         "next": {
           "href": "residences.html",
           "label": "Pokračovat k rezidencím"
@@ -1159,7 +1159,7 @@ window.siteData = {
           },
           {
             "title": "Философия проекта",
-            "text": "Статус без шума. Редкий актив, определяемый камерностью, а не зрелищностью."
+            "text": "Редкий адрес, определяемый приватностью и сдержанностью, а не желанием впечатлить."
           },
           {
             "title": "Городское поместье",
@@ -1285,7 +1285,7 @@ window.siteData = {
           },
           {
             "number": "03",
-            "title": "Два здания. Без зрелищности.",
+            "title": "Два здания. Ничего напоказ.",
             "paragraphs": [
               "Архитектура отказывается от преувеличений. Два здания по 11 резиденций входят в участок спокойными пропорциями, фасадами из природного известняка и террасами, удерживающими каждую квартиру в связи с парком.",
               "Масштаб выбран намеренно. Turbová ведёт себя скорее как частное поместье, чем как обычный девелопмент, где именно камерность становится подлинным маркером статуса."
@@ -1406,7 +1406,7 @@ window.siteData = {
         ],
         "mission": {
           "eyebrow": "Миссия",
-          "title": "Миссия",
+          "title": "Укрывать, не поражать.",
           "paragraphs": [
             "Turbová переводит историческую память в современную форму престижа: тишину, авторство и частную зелень в самом сердце Праги 5.",
             "Её миссия — не поражать, а укрывать. Предложить резиденцию, где статус выражается спокойными материалами, выверенным масштабом и ежедневной привилегией тишины."
@@ -1515,7 +1515,7 @@ window.siteData = {
           },
           {
             "title": "Philosophie du projet",
-            "text": "Le statut sans le bruit. Un bien rare défini par l'intimité plutôt que par le spectacle."
+            "text": "Une adresse rare, façonnée par l'intimité et la retenue plutôt que par l'ostentation."
           },
           {
             "title": "Domaine urbain",
@@ -1641,7 +1641,7 @@ window.siteData = {
           },
           {
             "number": "03",
-            "title": "Deux bâtiments. Aucun spectacle.",
+            "title": "Deux bâtiments. Rien d'ostentatoire.",
             "paragraphs": [
               "L'architecture refuse l'emphase. Deux bâtiments, 11 résidences chacun, s'inscrivent dans le site avec des proportions calmes, des façades de calcaire naturel et des terrasses qui gardent chaque appartement relié au parc.",
               "L'échelle est délibérée. Turbová se comporte davantage comme un domaine privé que comme un projet classique, où l'intimité devient le véritable marqueur du statut."
@@ -1668,7 +1668,7 @@ window.siteData = {
             "title": "Puis les matériaux se sont mis à parler.",
             "paragraphs": [
               "Le prestige se construit ici par la retenue plutôt que par la décoration. Calcaire, terrazzo, laiton ciselé et lumière maîtrisée donnent aux espaces communs une identité tactile et soignée.",
-              "Même le garage est traité comme une partie de l'expérience. L'art, le motif et le détail artisanal portent le récit là où la plupart des projets laissent l'anonymat."
+              "Même le garage est traité comme une partie de l'expérience. L'art, le motif et le détail artisanal portent le récit là où la plupart des projets laissent régner l'anonymat."
             ],
             "points": [
               "Façade en calcaire naturel",
@@ -1762,7 +1762,7 @@ window.siteData = {
         ],
         "mission": {
           "eyebrow": "Mission",
-          "title": "Mission",
+          "title": "Abriter, non impressionner.",
           "paragraphs": [
             "Turbová traduit la mémoire historique en une forme contemporaine de prestige : le silence, l'écriture personnelle et la verdure privée au cœur de Prague 5.",
             "Sa mission n'est pas d'impressionner, mais d'abriter. Offrir une résidence où le statut s'exprime par des matériaux calmes, une échelle maîtrisée et le privilège quotidien du silence."

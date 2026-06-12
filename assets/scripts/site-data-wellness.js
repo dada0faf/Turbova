@@ -622,7 +622,7 @@ window.siteData = {
         "story": {
           "title": "Le bien-être sans quitter son foyer",
           "paragraphs": [
-            "La couche bien-être est pensée moins comme une annexe de salle de sport que comme une retraite privée de club. La lumière est chaude, les surfaces tactiles, et la séquence aquatique devient part de l'identité.",
+            "La couche bien-être est pensée moins comme une annexe de salle de sport que comme une retraite privée de club. La lumière est chaude, les surfaces tactiles, et la séquence aquatique fait partie de l'identité.",
             "Les résidents peuvent passer de la nage à la vapeur puis à la terrasse sans traverser d'espace public, faisant de la récupération une habitude quotidienne plutôt qu'une sortie planifiée."
           ]
         },

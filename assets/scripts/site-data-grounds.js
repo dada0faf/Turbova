@@ -434,7 +434,7 @@ window.siteData = {
             "alt": "Garden terrace with hammock"
           }
         ],
-        "quote": "The rarest amenity may simply be being able to step outside and hear leaves instead of traffic.",
+        "quote": "The rarest amenity may simply be stepping outside to hear leaves instead of traffic.",
         "next": {
           "href": "location.html",
           "label": "Continue to location"

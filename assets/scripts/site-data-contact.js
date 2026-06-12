@@ -472,7 +472,7 @@ window.siteData = {
           "submitError": "Something went wrong while sending. Please check your connection and try again.",
           "success": {
             "title": "Thank you — your enquiry is on its way.",
-            "text": "Our team will be in contact with you soon."
+            "text": "Our team will be in touch shortly."
           }
         }
       },
