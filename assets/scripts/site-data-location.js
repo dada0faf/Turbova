@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
+      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,7 +311,7 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
       "footerNote": "Dvě budovy, jeden chráněný svět",
@@ -445,11 +445,11 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Lokalita",
-        "metaDescription": "Turbová leží v srdci Prahy 5, blízko Andělu, mezinárodních škol, zdravotní péče a hlavních městských tras.",
+        "metaDescription": "Turbová leží v srdci Prahy 5, blízko Anděla, mezinárodních škol, zdravotní péče a hlavních městských tras.",
         "hero": {
           "eyebrow": "05 | Lokalita",
           "title": "Napojena na Prahu, odtažena od jejího hluku",
-          "lead": "Turbová leží na Praze 5, v blízkosti Anděla a klíčových městských tras, a přitom zůstává chráněna vlastním zahradním svahem",
+          "lead": "Turbová leží v Praze 5, v blízkosti Anděla a klíčových městských tras, a přitom zůstává chráněna vlastním zahradním svahem",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -472,7 +472,7 @@ window.siteData = {
         "story": {
           "title": "Veškerá infrastruktura na dosah, bez stresu",
           "paragraphs": [
-            "Rezidenti zůstávají blízko mezinárodního vzdělávání, každodenního retailu, zdravotních služeb i hlavních tahů, aniž by museli přijmout hluk, který s takovým komfortem obvykle přichází.",
+            "Rezidenti zůstávají blízko mezinárodního vzdělávání, každodenních nákupů, zdravotních služeb i hlavních tahů, aniž by museli přijmout hluk, který s takovým komfortem obvykle přichází.",
             "Právě tato rovnováha mezi dostupností a ústupem mění adresu v životní výhodu, nikoli jen bod na mapě."
           ]
         },
@@ -491,7 +491,7 @@ window.siteData = {
           },
           {
             "title": "Chráněný příjezd",
-            "text": "Soukromé parkování, nabíjení EV a hladký vstup do budovy mění pohodlí v kultivovaný rituál příjezdu"
+            "text": "Soukromé parkování, nabíjení elektromobilů a hladký vstup do budovy mění pohodlí v kultivovaný rituál příjezdu"
           }
         ],
         "gallery": [
@@ -516,7 +516,7 @@ window.siteData = {
       },
       "ru": {
         "title": "Turbová | Локация",
-        "metaDescription": "Turbová расположена в самом центре Праги 5, рядом с Анделом, международными школами, медицинскими учреждениями и основными городскими маршрутами.",
+        "metaDescription": "Turbová расположена в самом центре Праги 5, рядом с Анделом, международными школами, медицинскими учреждениями и основными городскими магистралями.",
         "hero": {
           "eyebrow": "05 | Локация",
           "title": "Связана с Прагой, отдалена от её шума",
@@ -543,7 +543,7 @@ window.siteData = {
         "story": {
           "title": "Вся инфраструктура рядом — без суеты",
           "paragraphs": [
-            "Резиденты остаются рядом с международным образованием, ежедневным ретейлом, медицинскими услугами и главными магистралями, не принимая шум, который обычно сопутствует такому удобству.",
+            "Резиденты остаются рядом с международным образованием, ежедневными покупками, медицинскими услугами и главными магистралями, не принимая шум, который обычно сопутствует такому удобству.",
             "Именно этот баланс между доступностью и уединением превращает адрес в преимущество образа жизни, а не просто точку на карте."
           ]
         },
@@ -554,15 +554,15 @@ window.siteData = {
           },
           {
             "title": "Быстрая доступность",
-            "text": "Главные дорожные связи и район Андел держат бизнес и культуру рядом"
+            "text": "Основные магистрали и район Андел держат бизнес и культуру рядом"
           },
           {
-            "title": "Повседневное необходимое",
-            "text": "Медицина, шопинг, супермаркеты и гастрономия — в непосредственном городском радиусе"
+            "title": "Повседневные нужды",
+            "text": "Клиники, магазины, супермаркеты и рестораны — в непосредственном городском радиусе"
           },
           {
             "title": "Защищённое прибытие",
-            "text": "Частная парковка, зарядка EV и плавный доступ в здание превращают удобство в выверенный ритуал прибытия"
+            "text": "Частная парковка, зарядка для электромобилей и плавный доступ в здание превращают удобство в выверенный ритуал прибытия"
           }
         ],
         "gallery": [

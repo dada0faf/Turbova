@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
+      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,7 +311,7 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
       "footerNote": "Dvě budovy, jeden chráněný svět",
@@ -388,7 +388,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "22",
-            "label": "apartments in total"
+            "label": "residences in total"
           },
           {
             "value": "110–299",
@@ -464,7 +464,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "22",
-            "label": "apartmánů celkem"
+            "label": "rezidencí celkem"
           },
           {
             "value": "110–299",
@@ -489,7 +489,7 @@ window.siteData = {
           },
           {
             "title": "Přírodní materiály",
-            "text": "Fasády z přírodního vápence, terazzo ve společných prostorech a reliéfní mosazné detaily"
+            "text": "Fasády z přírodního vápence, terrazzo ve společných prostorech a reliéfní mosazné detaily"
           },
           {
             "title": "Systémy chytrého bydlení",
@@ -540,7 +540,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "22",
-            "label": "апартамента всего"
+            "label": "резиденции всего"
           },
           {
             "value": "110–299",
@@ -569,11 +569,11 @@ window.siteData = {
           },
           {
             "title": "Системы умного жилья",
-            "text": "Интеграция Loxone, бесконтактный доступ, продвинутая рекуперация тепла и сильная звукоизоляция"
+            "text": "Интеграция Loxone, бесконтактный доступ, эффективная рекуперация тепла и высокая звукоизоляция"
           },
           {
-            "title": "Прямое тихое движение",
-            "text": "Лифты Schindler соединяют подземное прибытие со входом в квартиру почти бесшумно"
+            "title": "Бесшумные перемещения",
+            "text": "Лифты Schindler соединяют подземный паркинг со входом в квартиру почти бесшумно"
           }
         ],
         "gallery": [
@@ -616,7 +616,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "22",
-            "label": "appartements au total"
+            "label": "résidences au total"
           },
           {
             "value": "110–299",

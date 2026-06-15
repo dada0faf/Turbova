@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
+      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,7 +311,7 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
       "footerNote": "Dvě budovy, jeden chráněný svět",
@@ -447,7 +447,7 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Wellness",
-        "metaDescription": "Wellness pouze pro rezidenty Turbové: vyhřívaný bazén, hammam, sauna a odpočinková terasa. Soukromé zdraví v srdci Prahy 5.",
+        "metaDescription": "Wellness pouze pro rezidenty Turbové: vyhřívaný bazén, hammam, sauna a odpočinková terasa. Soukromý wellness v srdci Prahy 5.",
         "hero": {
           "eyebrow": "03 | Wellness",
           "title": "Rituální zóna vyhrazená rezidentům",
@@ -474,9 +474,9 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Péče o sebe bez opuštění domova",
+          "title": "Péče o sebe bez nutnosti opouštět domov",
           "paragraphs": [
-            "Wellness vrstva není pojata jako doplněk ke cvičení, ale jako soukromý klubový retreat. Osvětlení je teplé, povrchy hmatové a vodní sekvence se stává součástí identity projektu.",
+            "Wellness zde není doplňkem k posilovně, ale spíš soukromým klubovým útočištěm. Osvětlení je teplé, povrchy hmatové a vodní sekvence se stává součástí identity projektu.",
             "Rezidenti mohou přejít z plavání do páry a na terasu bez průchodu veřejným prostorem, takže obnova sil se mění v denní návyk místo plánovaného výletu."
           ]
         },
@@ -495,7 +495,7 @@ window.siteData = {
           },
           {
             "title": "Venkovní uvolnění",
-            "text": "Odpočinková terasa přenáší wellness i do vysazeného exteriéru"
+            "text": "Odpočinková terasa přenáší wellness i ven, do zeleně"
           }
         ],
         "gallery": [
@@ -549,7 +549,7 @@ window.siteData = {
         "story": {
           "title": "Забота о себе, не покидая дома",
           "paragraphs": [
-            "Велнес-слой задуман не как пристройка к спортзалу, а как частный клубный ретрит. Свет тёплый, поверхности тактильны, а водная последовательность становится частью идентичности.",
+            "Велнес здесь задуман не как пристройка к спортзалу, а как частный клубный ретрит. Свет тёплый, поверхности тактильны, а водная последовательность становится частью идентичности.",
             "Резиденты могут переходить от плавания к пару и к террасе, не пересекая общественных зон, превращая восстановление в ежедневную привычку, а не запланированный выход."
           ]
         },
@@ -567,7 +567,7 @@ window.siteData = {
             "text": "Раздевалки и кухонька поддерживают более долгие и общительные визиты"
           },
           {
-            "title": "Выход наружу",
+            "title": "Выход на воздух",
             "text": "Лаунж-терраса продолжает этот опыт под открытым небом, среди зелени"
           }
         ],
@@ -622,7 +622,7 @@ window.siteData = {
         "story": {
           "title": "Le bien-être sans quitter son foyer",
           "paragraphs": [
-            "La couche bien-être est pensée moins comme une annexe de salle de sport que comme une retraite privée de club. La lumière est chaude, les surfaces tactiles, et la séquence aquatique fait partie de l'identité.",
+            "Le bien-être est ici pensé moins comme une annexe de salle de sport que comme une retraite privée réservée aux résidents. La lumière est chaude, les surfaces tactiles, et la séquence aquatique fait partie de l'identité.",
             "Les résidents peuvent passer de la nage à la vapeur puis à la terrasse sans traverser d'espace public, faisant de la récupération une habitude quotidienne plutôt qu'une sortie planifiée."
           ]
         },

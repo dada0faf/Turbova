@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
+      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,7 +311,7 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
       "footerNote": "Dvě budovy, jeden chráněný svět",
@@ -412,12 +412,12 @@ window.siteData = {
             "text": "Layered topography and mature planting form a natural envelope around the residence"
           },
           {
-            "title": "Outdoor fitness",
+            "title": "Venkovní fitness",
             "text": "Equipment placed in greenery for open-air training with privacy"
           },
           {
             "title": "Wine house",
-            "text": "A social node for residents' gatherings and small private events"
+            "text": "A social hub for residents' gatherings and small private events"
           },
           {
             "title": "Children's play space",
@@ -442,11 +442,11 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Zahrady",
-        "metaDescription": "Soukromý park Turbové: kaskádovité zahrady, staleté stromy, outdoor fitness, vinný domek a dětské hřiště na Smíchově, Praha 5.",
+        "metaDescription": "Soukromý park Turbové: kaskádovité zahrady, staleté stromy, venkovní fitness, vinotéka a dětské hřiště na Smíchově, Praha 5.",
         "hero": {
           "eyebrow": "04 | Zahrady",
           "title": "Soukromý park, který pohlcuje město",
-          "lead": "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, outdoor fitness, viničním domkem a hřištěm pro nejmladší rezidenty",
+          "lead": "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, venkovním fitness, vinotékou a hřištěm pro nejmladší rezidenty",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -468,10 +468,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Krajina jako služba i ochrana",
+          "title": "Krajina jako přednost i ochrana",
           "paragraphs": [
-            "Zahrada zde není dekorativním zbytkem. Funguje akusticky, vizuálně i společensky. Chrání rezidenci před okolním hlukem a zároveň vytváří místa pro setkávání, trénink nebo prosté zmizení na chvíli o samotě.",
-            "Výsledkem je měkčí forma luxusu: ne maximální program, ale svoboda volby mezi pohybem, samotou, rodinným časem a večerními rituály venku."
+            "Zahrada zde není samoúčelnou dekorací. Funguje akusticky, vizuálně i společensky. Chrání rezidenci před okolním hlukem a zároveň vytváří místa pro setkávání, trénink nebo prosté zmizení na chvíli o samotě.",
+            "Výsledkem je měkčí forma luxusu: ne přemíra vybavení, ale svoboda volby mezi pohybem, samotou, rodinným časem a večerními rituály venku."
           ]
         },
         "pillars": [
@@ -480,12 +480,12 @@ window.siteData = {
             "text": "Vrstvená topografie a vzrostlá zeleň tvoří přirozený obal kolem rezidence"
           },
           {
-            "title": "Outdoor fitness",
+            "title": "Venkovní fitness",
             "text": "Vybavení zasazené do zeleně pro soukromý trénink na čerstvém vzduchu"
           },
           {
-            "title": "Viniční domek",
-            "text": "Společenský uzel pro setkávání rezidentů a malé soukromé akce"
+            "title": "Vinotéka",
+            "text": "Společenské místo pro setkávání rezidentů a menší soukromé akce"
           },
           {
             "title": "Dětské hřiště",
@@ -510,11 +510,11 @@ window.siteData = {
       },
       "ru": {
         "title": "Turbová | Сады",
-        "metaDescription": "Частный парк Turbová: каскадные сады, вековые деревья, открытый фитнес, винный домик и детская площадка в Смихове, Прага 5.",
+        "metaDescription": "Частный парк Turbová: каскадные сады, вековые деревья, фитнес на открытом воздухе, винотека и детская площадка в Смихове, Прага 5.",
         "hero": {
           "eyebrow": "04 | Сады",
           "title": "Частный парк, поглощающий город",
-          "lead": "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, открытым фитнесом, винным домом и площадкой для самых юных резидентов",
+          "lead": "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, фитнесом на открытом воздухе, винотекой и площадкой для самых юных резидентов",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -536,10 +536,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Ландшафт как услуга и как щит",
+          "title": "Ландшафт как удобство и как щит",
           "paragraphs": [
-            "Сад здесь не декоративный остаток. Он работает акустически, визуально и социально. Он защищает резиденцию от окружающего шума, создавая места для встреч, тренировок или чтобы просто на время исчезнуть.",
-            "В итоге — более мягкая форма роскоши: не максимум программы, а свобода выбора между движением, уединением, семейным временем и вечерними ритуалами на воздухе."
+            "Сад здесь не декоративное излишество. Он работает акустически, визуально и социально. Он защищает резиденцию от окружающего шума, создавая места для встреч, тренировок или чтобы просто на время исчезнуть.",
+            "В итоге — более мягкая форма роскоши: не обилие функций, а свобода выбора между движением, уединением, семейным временем и вечерними ритуалами на воздухе."
           ]
         },
         "pillars": [
@@ -548,12 +548,12 @@ window.siteData = {
             "text": "Слоистый рельеф и зрелые посадки образуют естественную оболочку вокруг резиденции"
           },
           {
-            "title": "Открытый фитнес",
+            "title": "Фитнес на открытом воздухе",
             "text": "Оборудование размещено в зелени для тренировок на воздухе в приватности"
           },
           {
-            "title": "Винный дом",
-            "text": "Социальный узел для встреч резидентов и небольших частных событий"
+            "title": "Винотека",
+            "text": "Место для встреч резидентов и небольших частных событий"
           },
           {
             "title": "Детская площадка",
@@ -582,7 +582,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "04 | Jardins",
           "title": "Un parc privé qui absorbe la ville",
-          "lead": "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une maison du vin et une aire de jeu pour les plus jeunes résidents",
+          "lead": "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une cave à vin et une aire de jeu pour les plus jeunes résidents",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -606,7 +606,7 @@ window.siteData = {
         "story": {
           "title": "Le paysage comme agrément et comme bouclier",
           "paragraphs": [
-            "Le jardin n'est pas un résidu ornemental. Il agit sur le plan acoustique, visuel et social. Il protège la résidence du bruit environnant tout en créant des lieux pour se réunir, s'entraîner ou simplement disparaître un moment.",
+            "Le jardin n'est pas un simple ornement. Il agit sur le plan acoustique, visuel et social. Il protège la résidence du bruit environnant tout en créant des lieux pour se réunir, s'entraîner ou simplement disparaître un moment.",
             "Il en résulte une forme plus douce de luxe : non pas une programmation maximale, mais la liberté de choisir entre le mouvement, la solitude, le temps en famille et les rituels du soir en plein air."
           ]
         },
@@ -620,8 +620,8 @@ window.siteData = {
             "text": "Des équipements placés dans la verdure pour s'entraîner au grand air en toute intimité"
           },
           {
-            "title": "Maison du vin",
-            "text": "Un point social pour les rassemblements de résidents et les petits événements privés"
+            "title": "Cave à vin",
+            "text": "Un lieu de convivialité pour les rassemblements de résidents et les petits événements privés"
           },
           {
             "title": "Espace de jeu pour enfants",

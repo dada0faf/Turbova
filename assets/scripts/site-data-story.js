@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
+      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,7 +311,7 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
       "footerNote": "Dvě budovy, jeden chráněný svět",
@@ -793,7 +793,7 @@ window.siteData = {
           "title": "Skrytý svět s veřejnou pamětí",
           "paragraphs": [
             "Místo odjakživa přitahovalo ty, kdo chtěli ústraní bez odtržení od světa. Nejprve svah formovaly vinice, později mu další život dali umělci a mecenáši.",
-            "Tento pocit selektivního soukromí určuje i filozofii projektu: městský statek pro rezidenty, kteří chtějí mít rytmus Prahy nablízku, ale doma cítit především ticho."
+            "Tento pocit selektivního soukromí určuje i filozofii projektu: městské sídlo pro rezidenty, kteří chtějí mít rytmus Prahy nablízku, ale doma cítit především ticho."
           ]
         },
         "pillars": [
@@ -806,7 +806,7 @@ window.siteData = {
             "text": "Vzácná adresa utvářená soukromím a zdrženlivostí, ne snahou zaujmout"
           },
           {
-            "title": "Městský statek",
+            "title": "Městské sídlo",
             "text": "Městská energie venku, soukromý parkový klid uvnitř"
           }
         ],
@@ -838,7 +838,7 @@ window.siteData = {
             {
               "title": "Tvůrčí útočiště",
               "subtitle": "Odkaz Jiřího Trnky",
-              "text": "Později se areál stal součástí tvůrčího světa Jiřího Trnky a potvrdil, že tato adresa vždy přitahovala soukromé, imaginativní a kultivované životy",
+              "text": "Později se areál stal součástí tvůrčího světa Jiřího Trnky a potvrdil, že tato adresa vždy přitahovala soukromé, tvořivé a kultivované životy",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Letecký pohled na Turbovou na Praze 5"
             }
@@ -955,13 +955,13 @@ window.siteData = {
             "number": "04",
             "title": "A pak začaly mluvit materiály",
             "paragraphs": [
-              "Prestige se zde staví na zdrženlivosti, ne na dekoru. Vápenec, terrazzo, reliéfní mosaz a precizně vedené světlo dávají společným prostorům hmatovou, kultivovanou identitu.",
+              "Prestiž se zde buduje zdrženlivostí, ne dekorem. Vápenec, terrazzo, reliéfní mosaz a precizně vedené světlo dávají společným prostorům hmatovou, kultivovanou identitu.",
               "Dokonce i garáž je součástí zážitku. Umění, vzor a řemeslný detail nesou vyprávění i do míst, která většina projektů nechává anonymní."
             ],
             "points": [
               "Fasáda z přírodního kamene",
               "Terrazzo v komunikačních prostorách",
-              "Reliéfní mosaz a kurátorovaná garáž"
+              "Reliéfní mosaz a umělecky pojatá garáž"
             ],
             "media": [
               {
@@ -970,7 +970,7 @@ window.siteData = {
               },
               {
                 "src": "assets/images/garage-parking.webp",
-                "alt": "Kurátorované podzemní parkování Turbová"
+                "alt": "Umělecky pojaté podzemní parkování Turbová"
               }
             ],
             "badge": "Kámen + Mosaz"
@@ -979,7 +979,7 @@ window.siteData = {
             "number": "05",
             "title": "Rituální patro uvnitř rezidence",
             "paragraphs": [
-              "Wellness úroveň je navržena jako soukromý rituál, nikoli jako doplňková služba: vyhřívaný bazén, sauna, hammam, šatny, kuchyňka a terasa lounge.",
+              "Wellness úroveň je navržena jako soukromý rituál, nikoli jako doplňková služba: vyhřívaný bazén, sauna, hammam, šatny, kuchyňka a terasový lounge.",
               "Rezidenti mohou přecházet z vody do tepla a na čerstvý vzduch, aniž by opustili chráněný svět areálu. Celý zážitek působí pomalu, niterně a kompletně."
             ],
             "points": [
@@ -1003,12 +1003,12 @@ window.siteData = {
             "number": "06",
             "title": "Park, který mění prestiž v soukromí",
             "paragraphs": [
-              "Venku pokračuje stejná logika. Kaskádová výsadba, vzrostlé stromy, outdoor fitness, viniční domek a dětská zóna mění krajinu v něco, co skutečně obýváte, ne jen sledujete z okna.",
+              "Venku pokračuje stejná logika. Kaskádová výsadba, vzrostlé stromy, venkovní fitness, vinotéka a dětská zóna mění krajinu v něco, co skutečně obýváte, ne jen sledujete z okna.",
               "Park není ornament. Je to vrstva, která činí rezidenci emocionálně jedinečnou a dodává každému dni pomalejší rytmus i tišší rámec."
             ],
             "points": [
               "Soukromá zahrada jen pro rezidenty",
-              "Outdoor fitness a viniční domek",
+              "Venkovní fitness a vinotéka",
               "Bezpečný a chráněný svět pro rodiny"
             ],
             "media": [
@@ -1033,7 +1033,7 @@ window.siteData = {
             "points": [
               "Svoboda Shell & Core",
               "Smart home a bezkontaktní přístup",
-              "Concierge, sklady a EV-ready parkování"
+              "Concierge, sklady a parkování pro elektromobily"
             ],
             "media": [
               {
@@ -1072,7 +1072,7 @@ window.siteData = {
             {
               "eyebrow": "Kapitola 04",
               "title": "Poznat soukromé zahrady",
-              "text": "Objevte park, vodní dvůr, outdoor fitness i pomalejší rytmus kolem celého areálu",
+              "text": "Objevte park, vodní dvůr, venkovní fitness i pomalejší rytmus kolem celého areálu",
               "label": "Otevřít zahrady",
               "href": "grounds.html"
             }
@@ -1187,7 +1187,7 @@ window.siteData = {
             {
               "title": "Историческое поместье",
               "subtitle": "Истоки XVIII века",
-              "text": "Участок принадлежал королевскому советнику Франтишеку из Турбы и обрёл осанку уединённого поместья на склоне задолго до того, как Прага разрослась вокруг",
+              "text": "Участок принадлежал королевскому советнику Франтишеку из Турбы и обрёл стать уединённого поместья на склоне задолго до того, как Прага разрослась вокруг",
               "image": "assets/images/turbova-old.webp",
               "alt": "Историческое поместье Turbová"
             },
@@ -1264,7 +1264,7 @@ window.siteData = {
             "title": "Город приблизился, тишина осталась",
             "paragraphs": [
               "Смихов стал одним из самых связанных районов Праги, и всё же территория Turbová сохранила иной ритм. Частный парк фильтрует звук, смягчает виды и превращает близость в преимущество, а не давление.",
-              "В этом главный парадокс резиденции: вы в минутах от школ, медицины, Андела и ключевых магистралей, тогда как дом ощущается отстранённым от городской спешки."
+              "В этом главный парадокс резиденции: вы в минутах от школ, клиник, Андела и ключевых магистралей, тогда как дом ощущается отстранённым от городской спешки."
             ],
             "points": [
               "Связь с Прагой 5",
@@ -1317,7 +1317,7 @@ window.siteData = {
             "points": [
               "Фасад из природного известняка",
               "Полы из терраццо в коммуникациях",
-              "Резная латунь и кураторское искусство в гараже"
+              "Резная латунь и художественное оформление гаража"
             ],
             "media": [
               {
@@ -1326,7 +1326,7 @@ window.siteData = {
               },
               {
                 "src": "assets/images/garage-parking.webp",
-                "alt": "Кураторская подземная парковка Turbová"
+                "alt": "Художественно оформленная подземная парковка Turbová"
               }
             ],
             "badge": "Камень + латунь"
@@ -1359,12 +1359,12 @@ window.siteData = {
             "number": "06",
             "title": "Парк, превращающий престиж в приватность",
             "paragraphs": [
-              "Снаружи территория продолжает ту же логику. Каскадные посадки, зрелые деревья, открытый фитнес, винный дом и детская площадка превращают ландшафт в то, что обживаешь, а не просто разглядываешь.",
+              "Снаружи территория продолжает ту же логику. Каскадные посадки, зрелые деревья, фитнес на открытом воздухе, винотека и детская площадка превращают ландшафт в то, что обживаешь, а не просто разглядываешь.",
               "Парк не декоративен. Именно он делает резиденцию эмоционально особенной, придавая каждому дню более медленный темп и более тихую рамку."
             ],
             "points": [
               "Частный сад только для резидентов",
-              "Открытый фитнес и винный дом",
+              "Фитнес на открытом воздухе и винотека",
               "Безопасный, укрытый мир для семей"
             ],
             "media": [
@@ -1383,13 +1383,13 @@ window.siteData = {
             "number": "07",
             "title": "22 частных мира в Праге 5",
             "paragraphs": [
-              "Каждая резиденция передаётся в формате Shell & Core, оставляя место для авторства. Высокие потолки, панорамное остекление, бесконтактный доступ, интеграция Loxone, лифты Schindler, мощная изоляция и консьерж-сервис делают техническую часть столь же продуманной, сколь и эстетическую.",
+              "Каждая резиденция передаётся в формате Shell & Core, оставляя место для авторства. Высокие потолки, панорамное остекление, бесконтактный доступ, интеграция Loxone, лифты Schindler, качественная изоляция и консьерж-сервис делают техническую часть столь же продуманной, сколь и эстетическую.",
               "В результате возникает не просто покупка квартиры, а редкое городское поместье для людей, которые хотят, чтобы Прага была рядом, но никогда — внутри дома."
             ],
             "points": [
               "Свобода Shell & Core",
               "Умный дом и бесконтактный доступ",
-              "Консьерж, кладовые, парковка с зарядкой EV"
+              "Консьерж, кладовые, парковка с зарядкой для электромобилей"
             ],
             "media": [
               {
@@ -1428,7 +1428,7 @@ window.siteData = {
             {
               "eyebrow": "Глава 04",
               "title": "Увидеть частную территорию",
-              "text": "Откройте парк, двор с водопадом, открытый фитнес и более медленный ритм вокруг поместья",
+              "text": "Откройте парк, двор с водопадом, фитнес на открытом воздухе и более медленный ритм вокруг поместья",
               "label": "Открыть сады",
               "href": "grounds.html"
             }
@@ -1715,12 +1715,12 @@ window.siteData = {
             "number": "06",
             "title": "Un parc qui transforme le prestige en intimité",
             "paragraphs": [
-              "À l'extérieur, le domaine prolonge la même logique. Plantations en cascade, arbres matures, fitness en plein air, maison du vin et espace de jeu transforment le paysage en quelque chose que l'on habite plutôt qu'on ne regarde.",
+              "À l'extérieur, le domaine prolonge la même logique. Plantations en cascade, arbres matures, fitness en plein air, cave à vin et espace de jeu transforment le paysage en quelque chose que l'on habite plutôt qu'on ne regarde.",
               "Le parc n'est pas ornemental. C'est lui qui rend la résidence émotionnellement singulière, donnant à chaque journée un rythme plus lent et un cadre plus calme."
             ],
             "points": [
               "Jardin privé réservé aux résidents",
-              "Fitness en plein air et maison du vin",
+              "Fitness en plein air et cave à vin",
               "Un monde sûr et abrité pour les familles"
             ],
             "media": [

@@ -300,7 +300,7 @@ window.siteData = {
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence na Praze 5, kde vápenec, mosaz, zahrady a ticho vytvářejí nový městský statek",
+      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -311,7 +311,7 @@ window.siteData = {
         "contact": "Kontakt"
       },
       "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Intimní kolekce 22 rezidencí, soukromý park, kurátorované wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
       "footerNote": "Dvě budovy, jeden chráněný svět",
@@ -462,11 +462,11 @@ window.siteData = {
           "cards": [
             {
               "title": "Natural limestone",
-              "text": "A pale, calm façade language that catches changing Prague light with restraint"
+              "text": "A pale, calm façade that catches the shifting Prague light with restraint"
             },
             {
               "title": "Brass details",
-              "text": "Warm metallic carving and paneling that turn communal circulation into a signature ritual"
+              "text": "Warm metallic carving and panelling that turn shared spaces into a signature ritual"
             },
             {
               "title": "Garden acoustics",
@@ -482,9 +482,9 @@ window.siteData = {
         "metaDescription": "Turbová — 22 butikových rezidencí v Praze 5. Soukromý park, wellness a architektura z vápence. Dokončení v roce 2026.",
         "hero": {
           "eyebrow": "Butiková rezidence | Praha 5",
-          "title": "Tiché sídlo ukryté uvnitř města",
-          "lead": "Na zeleném svahu Prahy 5, kde mají soukromí a klid přednost před velikostí",
-          "description": "22 rezidencí rámovaných vápencem, mosazí a soukromým parkem — městský statek pro ty, kdo cení klid nad okázalostí",
+          "title": "Tiché sídlo skryté uprostřed města",
+          "lead": "Na zeleném svahu Prahy 5, kde soukromí a klid znamenají víc než měřítko",
+          "description": "22 rezidencí zasazených do vápence, mosazi a soukromého parku — městské sídlo pro ty, kdo si cení klidu víc než okázalosti",
           "primary": {
             "label": "Číst náš příběh",
             "href": "story.html"
@@ -551,7 +551,7 @@ window.siteData = {
           {
             "number": "04",
             "title": "Zahrady",
-            "text": "Kaskádová zahrada, outdoor fitness, viniční domek a krajina, kde město zůstává za hranicí",
+            "text": "Kaskádová zahrada, venkovní fitness, vinotéka a krajina, kde město zůstává za jeho hranicí",
             "href": "grounds.html"
           },
           {
@@ -567,7 +567,7 @@ window.siteData = {
           "cards": [
             {
               "title": "Přírodní vápenec",
-              "text": "Světlý a klidný fasádní jazyk, který s jemností zachycuje proměnlivé pražské světlo"
+              "text": "Světlá, klidná fasáda, která s jemností zachycuje proměnlivé pražské světlo"
             },
             {
               "title": "Mosazné detaily",
@@ -575,7 +575,7 @@ window.siteData = {
             },
             {
               "title": "Akustika zahrady",
-              "text": "Stoleté stromy a kaskádová výsadba vytvářejí přirozený zvukový val kolem areálu"
+              "text": "Stoleté stromy a kaskádová výsadba vytvářejí kolem areálu přirozenou zvukovou clonu"
             }
           ],
           "mediaLeft": "assets/images/turbova-old.webp",
@@ -589,7 +589,7 @@ window.siteData = {
           "eyebrow": "Бутиковая резиденция | Прага 5",
           "title": "Тихое поместье, скрытое в сердце города",
           "lead": "На зелёном склоне Праги 5, где приватность и тишина важнее масштаба",
-          "description": "22 резиденции в обрамлении известняка, латуни и собственного парка — городское поместье для тех, кто ценит покой выше зрелищности",
+          "description": "22 резиденции в обрамлении известняка, латуни и собственного парка — городское поместье для тех, кому покой дороже показного блеска",
           "primary": {
             "label": "Читать нашу историю",
             "href": "story.html"
@@ -656,7 +656,7 @@ window.siteData = {
           {
             "number": "04",
             "title": "Сады",
-            "text": "Каскадный сад, открытый фитнес, винный дом и ландшафт, где город остаётся за пределами",
+            "text": "Каскадный сад, фитнес на открытом воздухе, винотека и ландшафт, который оставляет город за своими пределами",
             "href": "grounds.html"
           },
           {
@@ -668,11 +668,11 @@ window.siteData = {
         ],
         "legacy": {
           "title": "Прошлое и будущее занимают один и тот же склон",
-          "text": "Историческая память здесь не декорация — она становится эмоциональной основой резиденции, современной, сдержанной и материально укоренённой",
+          "text": "Историческая память здесь не декорация — она становится эмоциональной основой резиденции — современной, сдержанной и укоренённой в материале",
           "cards": [
             {
               "title": "Природный известняк",
-              "text": "Светлый, спокойный язык фасада, сдержанно улавливающий переменчивый пражский свет"
+              "text": "Светлый, спокойный фасад, сдержанно улавливающий переменчивый пражский свет"
             },
             {
               "title": "Латунные детали",
@@ -693,7 +693,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "Résidence boutique | Prague 5",
           "title": "Un domaine paisible caché au cœur de la ville",
-          "lead": "Sur un coteau vert de Prague 5, où l'intimité et le calme priment sur l'échelle",
+          "lead": "Sur un coteau verdoyant de Prague 5, où l'intimité et le calme comptent plus que l'ampleur",
           "description": "22 résidences encadrées de pierre calcaire, de laiton et d'un parc privé — un domaine urbain pour ceux qui préfèrent le calme à l'apparat",
           "primary": {
             "label": "Lire notre histoire",
@@ -735,7 +735,7 @@ window.siteData = {
           },
           {
             "value": "24/7",
-            "label": "présence de conciergerie"
+            "label": "service de conciergerie"
           }
         ],
         "chaptersTitle": "Ouvrez votre chapitre",
@@ -761,7 +761,7 @@ window.siteData = {
           {
             "number": "04",
             "title": "Jardins",
-            "text": "Un jardin en cascade, du fitness en plein air, une maison du vin et un paysage où la ville reste hors de vue",
+            "text": "Un jardin en cascade, du fitness en plein air, une cave à vin et un paysage qui tient la ville hors de vue",
             "href": "grounds.html"
           },
           {
@@ -777,11 +777,11 @@ window.siteData = {
           "cards": [
             {
               "title": "Pierre calcaire naturelle",
-              "text": "Un langage de façade pâle et calme qui capte avec retenue la lumière changeante de Prague"
+              "text": "Une façade pâle et sereine qui capte avec retenue la lumière changeante de Prague"
             },
             {
               "title": "Détails en laiton",
-              "text": "Une ciselure et des panneaux métalliques chaleureux qui font des circulations communes un rituel signature"
+              "text": "Une ciselure et des panneaux de laiton chaleureux qui font des espaces communs un rituel à part entière"
             },
             {
               "title": "Acoustique du jardin",
