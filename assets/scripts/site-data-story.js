@@ -377,7 +377,7 @@ window.siteData = {
         "metaDescription": "The story of Turbová: from an 18th-century estate of royal advisor František of Turba to the creative legacy of animator Jiří Trnka.",
         "hero": {
           "eyebrow": "Our story",
-          "title": "A quieter world.",
+          "title": "A quieter world",
           "lead": "Behind the gates of Turbová, an 18th-century estate is being recast as a private residence where history, greenery, and silence shape a rarer way of living in Prague 5",
           "description": "The story starts with a hillside retreat, passes through the creative legacy of Jiří Trnka, and arrives at two contemporary buildings, 22 residences, wellness rituals, and a park that feels more like a secluded estate than an address in the city",
           "button": {
@@ -392,8 +392,8 @@ window.siteData = {
           ],
           "collage": [
             {
-              "src": "assets/images/lobby-wide.webp",
-              "alt": "Turbová lobby"
+              "src": "assets/images/garden-terrace.webp",
+              "alt": "Turbová garden terrace"
             },
             {
               "src": "assets/images/turbova-old.webp",
@@ -470,7 +470,7 @@ window.siteData = {
         ],
         "intro": {
           "eyebrow": "Legacy",
-          "title": "František of Turba and Jiří Trnka, two chapters in the estate's legacy. This is where the story begins.",
+          "title": "František of Turba and Jiří Trnka, two chapters in the estate's legacy, this is where the story begins",
           "cards": [
             {
               "title": "Historic estate",
@@ -549,7 +549,7 @@ window.siteData = {
           },
           {
             "number": "02",
-            "title": "The city grew around it. The quiet held.",
+            "title": "The city grew around it, the quiet held",
             "paragraphs": [
               "Smíchov became one of Prague's most connected districts, yet the Turbová grounds kept a different pace. The private park filters sound, softens views, and turns proximity into advantage rather than pressure.",
               "This is the central paradox of the residence: you remain minutes from schools, healthcare, Anděl, and key routes, while home feels detached from the city's urgency."
@@ -573,7 +573,7 @@ window.siteData = {
           },
           {
             "number": "03",
-            "title": "Two buildings. Nothing for show.",
+            "title": "Two buildings, nothing for show",
             "paragraphs": [
               "The architecture refuses overstatement. Two buildings, 11 residences each, step into the site with calm proportions, natural limestone façades, and terraces that keep every apartment connected to the park.",
               "The scale is deliberate. Turbová behaves more like a private estate than a conventional development, where intimacy becomes the real marker of status."
@@ -589,15 +589,15 @@ window.siteData = {
                 "alt": "Two Turbová buildings beside the garden"
               },
               {
-                "src": "assets/images/lobby-wide.webp",
-                "alt": "Turbová arrival lobby"
+                "src": "assets/images/garden-terrace.webp",
+                "alt": "Turbová garden terrace"
               }
             ],
             "badge": "22 Homes"
           },
           {
             "number": "04",
-            "title": "Then the materials started to speak.",
+            "title": "Then the materials started to speak",
             "paragraphs": [
               "Prestige here is built through restraint rather than decoration. Limestone, terrazzo, carved brass, and carefully managed light give the shared spaces a tactile, collected identity.",
               "Even the garage is treated as part of the experience. Art, pattern, and crafted detail carry the narrative into places that most projects leave anonymous."
@@ -694,7 +694,7 @@ window.siteData = {
         ],
         "mission": {
           "eyebrow": "Mission",
-          "title": "To shelter, not to overwhelm.",
+          "title": "To shelter, not to overwhelm",
           "paragraphs": [
             "Turbová translates historic memory into a contemporary form of prestige: quiet, authorship, and private greenery at the center of Prague 5.",
             "Its mission is not to overwhelm, but to shelter. To offer a residence where status is expressed through calm materials, controlled scale, and the daily privilege of silence."
@@ -733,7 +733,7 @@ window.siteData = {
         "metaDescription": "Příběh Turbové: od panství královského rádce Františka z Turby přes tvůrčí odkaz animátora Jiřího Trnky po moderní rezidenci v Praze 5.",
         "hero": {
           "eyebrow": "Náš příběh",
-          "title": "Tišší svět.",
+          "title": "Tišší svět",
           "lead": "Za branami Turbové se proměňuje panství z 18. století v soukromou rezidenci, kde historie, zeleň a ticho utvářejí vzácnější způsob bydlení na Praze 5",
           "description": "Příběh začíná svahovým útočištěm, prochází tvůrčím odkazem Jiřího Trnky a ústí do dvou současných budov, 22 rezidencí, wellness rituálů a parku, který působí spíš jako skryté městské sídlo než další adresa ve městě",
           "button": {
@@ -748,8 +748,8 @@ window.siteData = {
           ],
           "collage": [
             {
-              "src": "assets/images/lobby-wide.webp",
-              "alt": "Lobby Turbová"
+              "src": "assets/images/garden-terrace.webp",
+              "alt": "Zahradní terasa Turbová"
             },
             {
               "src": "assets/images/turbova-old.webp",
@@ -826,7 +826,7 @@ window.siteData = {
         ],
         "intro": {
           "eyebrow": "Odkaz",
-          "title": "František z Turby a Jiří Trnka, dvě kapitoly v odkazu tohoto areálu. Tady příběh začíná.",
+          "title": "František z Turby a Jiří Trnka, dvě kapitoly v odkazu tohoto areálu, tady příběh začíná",
           "cards": [
             {
               "title": "Historické panství",
@@ -905,7 +905,7 @@ window.siteData = {
           },
           {
             "number": "02",
-            "title": "Město se přiblížilo. Ticho zůstalo.",
+            "title": "Město se přiblížilo, ticho zůstalo",
             "paragraphs": [
               "Smíchov se stal jednou z nejlépe napojených částí Prahy, přesto si areál Turbová zachoval jiné tempo. Soukromý park filtruje zvuk, změkčuje výhledy a mění blízkost města ve výhodu, nikoli tlak.",
               "Právě v tom spočívá hlavní paradox rezidence: školy, zdravotnictví, Anděl i hlavní trasy máte na dosah, zatímco domov působí odpojeně od městské naléhavosti."
@@ -929,7 +929,7 @@ window.siteData = {
           },
           {
             "number": "03",
-            "title": "Dvě budovy. Nic na efekt.",
+            "title": "Dvě budovy, nic na efekt",
             "paragraphs": [
               "Architektura odmítá přehnaná gesta. Dvě budovy po jedenácti rezidencích vstupují do místa klidnou proporcí, fasádou z přírodního kamene a terasami, které drží každý byt v přímém kontaktu s parkem.",
               "Měřítko je záměrně komorní. Turbová se chová spíš jako soukromé městské sídlo než běžný developerský projekt, kde se právě intimita stává skutečným znakem statusu."
@@ -945,15 +945,15 @@ window.siteData = {
                 "alt": "Dvě budovy Turbové vedle zahrady"
               },
               {
-                "src": "assets/images/lobby-wide.webp",
-                "alt": "Lobby a příjezd Turbová"
+                "src": "assets/images/garden-terrace.webp",
+                "alt": "Zahradní terasa Turbová"
               }
             ],
             "badge": "22 Domovů"
           },
           {
             "number": "04",
-            "title": "A pak začaly mluvit materiály.",
+            "title": "A pak začaly mluvit materiály",
             "paragraphs": [
               "Prestige se zde staví na zdrženlivosti, ne na dekoru. Vápenec, terrazzo, reliéfní mosaz a precizně vedené světlo dávají společným prostorům hmatovou, kultivovanou identitu.",
               "Dokonce i garáž je součástí zážitku. Umění, vzor a řemeslný detail nesou vyprávění i do míst, která většina projektů nechává anonymní."
@@ -1050,7 +1050,7 @@ window.siteData = {
         ],
         "mission": {
           "eyebrow": "Mise",
-          "title": "Chránit, ne ohromovat.",
+          "title": "Chránit, ne ohromovat",
           "paragraphs": [
             "Turbová převádí historickou paměť do současné podoby prestiže: ticha, autorství a soukromé zeleně v samém srdci Prahy 5.",
             "Její ambicí není ohromovat, ale chránit. Nabídnout rezidenci, kde se status vyjadřuje klidnými materiály, kontrolovaným měřítkem a každodenním privilegiem ticha."
@@ -1089,7 +1089,7 @@ window.siteData = {
         "metaDescription": "История Turbová: от поместья королевского советника Франтишека из Турбы до творческого наследия аниматора Иржи Трнки и современной резиденции в Праге 5.",
         "hero": {
           "eyebrow": "Наша история",
-          "title": "Более тихий мир.",
+          "title": "Более тихий мир",
           "lead": "За воротами Turbová поместье XVIII века превращается в частную резиденцию, где история, зелень и тишина формируют более редкий образ жизни в Праге 5",
           "description": "История начинается с уединения на склоне, проходит через творческое наследие Иржи Трнки и приводит к двум современным зданиям, 22 резиденциям, велнес-ритуалам и парку, который ощущается скорее как укромное поместье, чем адрес в городе",
           "button": {
@@ -1104,8 +1104,8 @@ window.siteData = {
           ],
           "collage": [
             {
-              "src": "assets/images/lobby-wide.webp",
-              "alt": "Лобби Turbová"
+              "src": "assets/images/garden-terrace.webp",
+              "alt": "Садовая терраса Turbová"
             },
             {
               "src": "assets/images/turbova-old.webp",
@@ -1182,7 +1182,7 @@ window.siteData = {
         ],
         "intro": {
           "eyebrow": "Наследие",
-          "title": "Франтишек из Турбы и Иржи Трнка — две главы в наследии поместья. Здесь начинается история.",
+          "title": "Франтишек из Турбы и Иржи Трнка — две главы в наследии поместья, здесь начинается история",
           "cards": [
             {
               "title": "Историческое поместье",
@@ -1261,7 +1261,7 @@ window.siteData = {
           },
           {
             "number": "02",
-            "title": "Город приблизился. Тишина осталась.",
+            "title": "Город приблизился, тишина осталась",
             "paragraphs": [
               "Смихов стал одним из самых связанных районов Праги, и всё же территория Turbová сохранила иной ритм. Частный парк фильтрует звук, смягчает виды и превращает близость в преимущество, а не давление.",
               "В этом главный парадокс резиденции: вы в минутах от школ, медицины, Андела и ключевых магистралей, тогда как дом ощущается отстранённым от городской спешки."
@@ -1285,7 +1285,7 @@ window.siteData = {
           },
           {
             "number": "03",
-            "title": "Два здания. Ничего напоказ.",
+            "title": "Два здания, ничего напоказ",
             "paragraphs": [
               "Архитектура отказывается от преувеличений. Два здания по 11 резиденций входят в участок спокойными пропорциями, фасадами из природного известняка и террасами, удерживающими каждую квартиру в связи с парком.",
               "Масштаб выбран намеренно. Turbová ведёт себя скорее как частное поместье, чем как обычный девелопмент, где именно камерность становится подлинным маркером статуса."
@@ -1301,15 +1301,15 @@ window.siteData = {
                 "alt": "Два здания Turbová рядом с садом"
               },
               {
-                "src": "assets/images/lobby-wide.webp",
-                "alt": "Лобби и прибытие Turbová"
+                "src": "assets/images/garden-terrace.webp",
+                "alt": "Садовая терраса Turbová"
               }
             ],
             "badge": "22 дома"
           },
           {
             "number": "04",
-            "title": "А затем заговорили материалы.",
+            "title": "А затем заговорили материалы",
             "paragraphs": [
               "Престиж здесь строится сдержанностью, а не декором. Известняк, терраццо, резная латунь и тщательно выверенный свет придают общим пространствам тактильную, собранную идентичность.",
               "Даже гараж воспринимается как часть впечатления. Искусство, узор и ремесленная деталь несут повествование туда, где большинство проектов оставляет анонимность."
@@ -1406,7 +1406,7 @@ window.siteData = {
         ],
         "mission": {
           "eyebrow": "Миссия",
-          "title": "Укрывать, не поражать.",
+          "title": "Укрывать, не поражать",
           "paragraphs": [
             "Turbová переводит историческую память в современную форму престижа: тишину, авторство и частную зелень в самом сердце Праги 5.",
             "Её миссия — не поражать, а укрывать. Предложить резиденцию, где статус выражается спокойными материалами, выверенным масштабом и ежедневной привилегией тишины."
@@ -1445,7 +1445,7 @@ window.siteData = {
         "metaDescription": "L'histoire de Turbová : du domaine du conseiller royal František de Turba à l'héritage créatif de l'animateur Jiří Trnka, jusqu'à une résidence contemporaine à Prague 5.",
         "hero": {
           "eyebrow": "Notre histoire",
-          "title": "Un monde plus calme.",
+          "title": "Un monde plus calme",
           "lead": "Derrière les grilles de Turbová, un domaine du XVIIIe siècle se réinvente en résidence privée où l'histoire, la verdure et le silence façonnent une manière plus rare de vivre à Prague 5",
           "description": "L'histoire commence par une retraite sur le coteau, traverse l'héritage créatif de Jiří Trnka et aboutit à deux bâtiments contemporains, 22 résidences, des rituels de bien-être et un parc qui tient davantage du domaine retiré que d'une adresse en ville",
           "button": {
@@ -1460,8 +1460,8 @@ window.siteData = {
           ],
           "collage": [
             {
-              "src": "assets/images/lobby-wide.webp",
-              "alt": "Hall Turbová"
+              "src": "assets/images/garden-terrace.webp",
+              "alt": "Terrasse-jardin Turbová"
             },
             {
               "src": "assets/images/turbova-old.webp",
@@ -1538,7 +1538,7 @@ window.siteData = {
         ],
         "intro": {
           "eyebrow": "Héritage",
-          "title": "František de Turba et Jiří Trnka, deux chapitres de l'héritage du domaine. C'est ici que l'histoire commence.",
+          "title": "František de Turba et Jiří Trnka, deux chapitres de l'héritage du domaine, c'est ici que l'histoire commence",
           "cards": [
             {
               "title": "Domaine historique",
@@ -1617,7 +1617,7 @@ window.siteData = {
           },
           {
             "number": "02",
-            "title": "La ville s'est approchée. Le calme est resté.",
+            "title": "La ville s'est approchée, le calme est resté",
             "paragraphs": [
               "Smíchov est devenu l'un des quartiers les mieux reliés de Prague, et pourtant le domaine de Turbová a gardé un autre rythme. Le parc privé filtre le son, adoucit les vues et transforme la proximité en avantage plutôt qu'en pression.",
               "C'est le paradoxe central de la résidence : vous restez à quelques minutes des écoles, des soins, d'Anděl et des grands axes, tandis que le foyer semble détaché de l'urgence de la ville."
@@ -1641,7 +1641,7 @@ window.siteData = {
           },
           {
             "number": "03",
-            "title": "Deux bâtiments. Rien d'ostentatoire.",
+            "title": "Deux bâtiments, rien d'ostentatoire",
             "paragraphs": [
               "L'architecture refuse l'emphase. Deux bâtiments, 11 résidences chacun, s'inscrivent dans le site avec des proportions calmes, des façades de calcaire naturel et des terrasses qui gardent chaque appartement relié au parc.",
               "L'échelle est délibérée. Turbová se comporte davantage comme un domaine privé que comme un projet classique, où l'intimité devient le véritable marqueur du statut."
@@ -1657,15 +1657,15 @@ window.siteData = {
                 "alt": "Deux bâtiments Turbová près du jardin"
               },
               {
-                "src": "assets/images/lobby-wide.webp",
-                "alt": "Hall et arrivée Turbová"
+                "src": "assets/images/garden-terrace.webp",
+                "alt": "Terrasse-jardin Turbová"
               }
             ],
             "badge": "22 logements"
           },
           {
             "number": "04",
-            "title": "Puis les matériaux se sont mis à parler.",
+            "title": "Puis les matériaux se sont mis à parler",
             "paragraphs": [
               "Le prestige se construit ici par la retenue plutôt que par la décoration. Calcaire, terrazzo, laiton ciselé et lumière maîtrisée donnent aux espaces communs une identité tactile et soignée.",
               "Même le garage est traité comme une partie de l'expérience. L'art, le motif et le détail artisanal portent le récit là où la plupart des projets laissent régner l'anonymat."
@@ -1762,7 +1762,7 @@ window.siteData = {
         ],
         "mission": {
           "eyebrow": "Mission",
-          "title": "Abriter, non impressionner.",
+          "title": "Abriter, non impressionner",
           "paragraphs": [
             "Turbová traduit la mémoire historique en une forme contemporaine de prestige : le silence, l'écriture personnelle et la verdure privée au cœur de Prague 5.",
             "Sa mission n'est pas d'impressionner, mais d'abriter. Offrir une résidence où le statut s'exprime par des matériaux calmes, une échelle maîtrisée et le privilège quotidien du silence."

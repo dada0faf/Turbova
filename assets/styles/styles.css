@@ -474,7 +474,7 @@ body.is-transition-enter .page-transition {
   inset: 0;
   z-index: 70;
   padding: 2rem var(--gutter);
-  background: linear-gradient(180deg, var(--paper) 0%, var(--paper-deep) 100%);
+  background: var(--paper);
   transform: translateY(-100%);
   transition: transform 0.32s var(--ease);
   display: none;

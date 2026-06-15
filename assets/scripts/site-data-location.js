@@ -377,7 +377,7 @@ window.siteData = {
         "metaDescription": "Turbová is located in the heart of Prague 5, close to Anděl, international schools, healthcare, and major city routes.",
         "hero": {
           "eyebrow": "05 | Location",
-          "title": "Connected to Prague. Withdrawn from its noise.",
+          "title": "Connected to Prague, withdrawn from its noise",
           "lead": "Turbová sits within Prague 5, close to the Anděl district and key city routes, while remaining buffered by its own hillside garden world",
           "media": [
             "assets/images/birds-eye-view.webp",
@@ -448,7 +448,7 @@ window.siteData = {
         "metaDescription": "Turbová leží v srdci Prahy 5, blízko Andělu, mezinárodních škol, zdravotní péče a hlavních městských tras.",
         "hero": {
           "eyebrow": "05 | Lokalita",
-          "title": "Napojena na Prahu. Odtažena od jejího hluku.",
+          "title": "Napojena na Prahu, odtažena od jejího hluku",
           "lead": "Turbová leží na Praze 5, v blízkosti Anděla a klíčových městských tras, a přitom zůstává chráněna vlastním zahradním svahem",
           "media": [
             "assets/images/birds-eye-view.webp",
@@ -519,7 +519,7 @@ window.siteData = {
         "metaDescription": "Turbová расположена в самом центре Праги 5, рядом с Анделом, международными школами, медицинскими учреждениями и основными городскими маршрутами.",
         "hero": {
           "eyebrow": "05 | Локация",
-          "title": "Связана с Прагой. Отдалена от её шума.",
+          "title": "Связана с Прагой, отдалена от её шума",
           "lead": "Turbová расположена в Праге 5, рядом с районом Андел и ключевыми городскими магистралями, оставаясь укрытой собственным садовым миром на склоне",
           "media": [
             "assets/images/birds-eye-view.webp",
@@ -590,7 +590,7 @@ window.siteData = {
         "metaDescription": "Turbová est situé au cœur de Prague 5, proche d'Anděl, des écoles internationales, des soins de santé et des principales voies de circulation.",
         "hero": {
           "eyebrow": "05 | Emplacement",
-          "title": "Reliée à Prague. Retirée de son bruit.",
+          "title": "Reliée à Prague, retirée de son bruit",
           "lead": "Turbová se situe à Prague 5, proche du quartier d'Anděl et des grands axes, tout en restant protégée par son propre monde de jardin sur le coteau",
           "media": [
             "assets/images/birds-eye-view.webp",

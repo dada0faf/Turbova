@@ -377,12 +377,12 @@ window.siteData = {
         "metaDescription": "Turbová's private park: cascading gardens, century-old trees, outdoor fitness, a wine house, and a children's playground in Smíchov, Prague 5.",
         "hero": {
           "eyebrow": "04 | Grounds",
-          "title": "A private park that absorbs the city.",
+          "title": "A private park that absorbs the city",
           "lead": "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a playground for the youngest residents",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
-            "assets/images/lobby-seating.webp"
+            "assets/images/garden-terrace.webp"
           ]
         },
         "metrics": [
@@ -445,12 +445,12 @@ window.siteData = {
         "metaDescription": "Soukromý park Turbové: kaskádovité zahrady, staleté stromy, outdoor fitness, vinný domek a dětské hřiště na Smíchově, Praha 5.",
         "hero": {
           "eyebrow": "04 | Zahrady",
-          "title": "Soukromý park, který pohlcuje město.",
+          "title": "Soukromý park, který pohlcuje město",
           "lead": "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, outdoor fitness, viničním domkem a hřištěm pro nejmladší rezidenty",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
-            "assets/images/lobby-seating.webp"
+            "assets/images/garden-terrace.webp"
           ]
         },
         "metrics": [
@@ -513,12 +513,12 @@ window.siteData = {
         "metaDescription": "Частный парк Turbová: каскадные сады, вековые деревья, открытый фитнес, винный домик и детская площадка в Смихове, Прага 5.",
         "hero": {
           "eyebrow": "04 | Сады",
-          "title": "Частный парк, поглощающий город.",
+          "title": "Частный парк, поглощающий город",
           "lead": "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, открытым фитнесом, винным домом и площадкой для самых юных резидентов",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
-            "assets/images/lobby-seating.webp"
+            "assets/images/garden-terrace.webp"
           ]
         },
         "metrics": [
@@ -581,12 +581,12 @@ window.siteData = {
         "metaDescription": "Le parc privé de Turbová : jardins en cascade, arbres centenaires, fitness extérieur, une cave à vin et une aire de jeux à Smíchov, Prague 5.",
         "hero": {
           "eyebrow": "04 | Jardins",
-          "title": "Un parc privé qui absorbe la ville.",
+          "title": "Un parc privé qui absorbe la ville",
           "lead": "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une maison du vin et une aire de jeu pour les plus jeunes résidents",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
-            "assets/images/lobby-seating.webp"
+            "assets/images/garden-terrace.webp"
           ]
         },
         "metrics": [

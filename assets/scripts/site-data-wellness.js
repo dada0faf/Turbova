@@ -377,7 +377,7 @@ window.siteData = {
         "metaDescription": "Residents-only wellness at Turbová: heated pool, hammam, sauna, and terrace lounge. Private wellbeing in the heart of Prague 5.",
         "hero": {
           "eyebrow": "03 | Wellness",
-          "title": "A ritual zone reserved for residents.",
+          "title": "A ritual zone reserved for residents",
           "lead": "The internal wellness floor is designed as a slow, atmospheric sequence: heated pool, sauna, hammam, changing rooms, private kitchenette, and a terrace lounge",
           "media": [
             "assets/images/pool-dark.webp",
@@ -450,7 +450,7 @@ window.siteData = {
         "metaDescription": "Wellness pouze pro rezidenty Turbové: vyhřívaný bazén, hammam, sauna a odpočinková terasa. Soukromé zdraví v srdci Prahy 5.",
         "hero": {
           "eyebrow": "03 | Wellness",
-          "title": "Rituální zóna vyhrazená rezidentům.",
+          "title": "Rituální zóna vyhrazená rezidentům",
           "lead": "Interní wellness patro je navrženo jako pomalá, atmosférická sekvence: vyhřívaný bazén, sauna, hammam, šatny, soukromá kuchyňka a odpočinková terasa",
           "media": [
             "assets/images/pool-dark.webp",
@@ -523,7 +523,7 @@ window.siteData = {
         "metaDescription": "Велнес только для резидентов Turbová: подогреваемый бассейн, хаммам, сауна и лаунж-терраса. Частный отдых в сердце Праги 5.",
         "hero": {
           "eyebrow": "03 | Велнес",
-          "title": "Ритуальная зона, отведённая резидентам.",
+          "title": "Ритуальная зона, отведённая резидентам",
           "lead": "Внутренний велнес-этаж задуман как медленная атмосферная последовательность: подогреваемый бассейн, сауна, хаммам, раздевалки, приватная кухонька и лаунж-терраса",
           "media": [
             "assets/images/pool-dark.webp",
@@ -596,7 +596,7 @@ window.siteData = {
         "metaDescription": "Bien-être exclusif à Turbová : piscine chauffée, hammam, sauna et terrasse lounge. Un espace privé au cœur de Prague 5.",
         "hero": {
           "eyebrow": "03 | Bien-être",
-          "title": "Une zone rituelle réservée aux résidents.",
+          "title": "Une zone rituelle réservée aux résidents",
           "lead": "L'étage bien-être intérieur est conçu comme une séquence lente et atmosphérique : piscine chauffée, sauna, hammam, vestiaires, kitchenette privée et salon-terrasse",
           "media": [
             "assets/images/pool-dark.webp",

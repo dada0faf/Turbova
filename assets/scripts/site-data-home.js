@@ -377,9 +377,9 @@ window.siteData = {
         "metaDescription": "Turbová — 22 boutique residences in Prague 5. Private park, wellness, and limestone architecture. Urban estate completing 2026.",
         "hero": {
           "eyebrow": "Boutique Residence | Prague 5",
-          "title": "A quiet estate hidden inside the city.",
+          "title": "A quiet estate hidden inside the city",
           "lead": "Set on a green hillside in Prague 5, where privacy and stillness matter more than scale",
-          "description": "An intimate boutique residence of just 22 homes, framed by limestone, brass, and a private park — an urban estate made for those who prefer peace and privacy",
+          "description": "22 residences framed by limestone, brass, and a private park — an urban estate for those who value peace over spectacle",
           "primary": {
             "label": "Read our story",
             "href": "story.html"
@@ -396,8 +396,8 @@ window.siteData = {
           ],
           "media": [
             {
-              "src": "assets/images/lobby-wide.webp",
-              "alt": "Turbová entrance lobby"
+              "src": "assets/images/garden-terrace.webp",
+              "alt": "Turbová garden terrace"
             },
             {
               "src": "assets/images/garden-exterior.webp",
@@ -412,7 +412,7 @@ window.siteData = {
           },
           {
             "value": "22",
-            "label": "exclusive apartments"
+            "label": "residences"
           },
           {
             "value": "3",
@@ -423,7 +423,7 @@ window.siteData = {
             "label": "concierge presence"
           }
         ],
-        "chaptersTitle": "Choose a chapter",
+        "chaptersTitle": "Open your chapter",
         "chapters": [
           {
             "number": "01",
@@ -434,30 +434,30 @@ window.siteData = {
           {
             "number": "02",
             "title": "Residences",
-            "text": "Two buildings, intimate proportions, panoramic glazing, and authorial interiors on a blank canvas",
+            "text": "Two buildings, intimate proportions, panoramic glazing — and a blank canvas for your interior",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Wellness",
-            "text": "A heated pool, hammam, sauna, terrace lounge, and calm ritual space for residents only",
+            "text": "A heated pool, hammam, sauna, and terrace lounge — a private wellness club for residents only",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Grounds",
-            "text": "A cascading private garden, outdoor fitness, a wine house, and a landscape that keeps the city at bay",
+            "text": "A cascading garden, outdoor fitness, a wine house, and a landscape where the city stays out of view",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Location",
-            "text": "At the heart of Prague 5, close to schools, Anděl, healthcare, and major city routes",
+            "text": "In the heart of Prague 5 — steps from Anděl, leading schools, clinics, and the city's arteries",
             "href": "location.html"
           }
         ],
         "legacy": {
-          "title": "Past and future occupy the same hillside.",
+          "title": "Past and future occupy the same hillside",
           "text": "Historic memory is not treated as décor — it becomes the emotional groundwork for a residence that is contemporary, discreet, and materially grounded",
           "cards": [
             {
@@ -482,9 +482,9 @@ window.siteData = {
         "metaDescription": "Turbová — 22 butikových rezidencí v Praze 5. Soukromý park, wellness a architektura z vápence. Dokončení v roce 2026.",
         "hero": {
           "eyebrow": "Butiková rezidence | Praha 5",
-          "title": "Tiché sídlo ukryté uvnitř města.",
+          "title": "Tiché sídlo ukryté uvnitř města",
           "lead": "Na zeleném svahu Prahy 5, kde mají soukromí a klid přednost před velikostí",
-          "description": "Komorní butiková rezidence pouhých 22 domovů, rámovaná vápencem, mosazí a soukromým parkem — městský statek pro ty, kdo dávají přednost klidu a soukromí",
+          "description": "22 rezidencí rámovaných vápencem, mosazí a soukromým parkem — městský statek pro ty, kdo cení klid nad okázalostí",
           "primary": {
             "label": "Číst náš příběh",
             "href": "story.html"
@@ -501,8 +501,8 @@ window.siteData = {
           ],
           "media": [
             {
-              "src": "assets/images/lobby-wide.webp",
-              "alt": "Lobby Turbová"
+              "src": "assets/images/garden-terrace.webp",
+              "alt": "Zahradní terasa Turbová"
             },
             {
               "src": "assets/images/garden-exterior.webp",
@@ -517,7 +517,7 @@ window.siteData = {
           },
           {
             "value": "22",
-            "label": "exkluzivních apartmánů"
+            "label": "rezidencí"
           },
           {
             "value": "3",
@@ -528,7 +528,7 @@ window.siteData = {
             "label": "concierge servis"
           }
         ],
-        "chaptersTitle": "Vyberte kapitolu",
+        "chaptersTitle": "Otevřete svou kapitolu",
         "chapters": [
           {
             "number": "01",
@@ -539,30 +539,30 @@ window.siteData = {
           {
             "number": "02",
             "title": "Rezidence",
-            "text": "Dvě budovy, komorní měřítko, panoramatické prosklení a autorské interiéry na čistém plátně",
+            "text": "Dvě budovy, komorní měřítko, panoramatické prosklení — a čisté plátno pro váš interiér",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Wellness",
-            "text": "Vyhřívaný bazén, hammam, sauna, terasa a klidný rituální prostor pouze pro rezidenty",
+            "text": "Vyhřívaný bazén, hammam, sauna a terasa — soukromý wellness klub jen pro rezidenty",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Zahrady",
-            "text": "Kaskádová soukromá zahrada, outdoor fitness, viniční domek a krajina, která odfiltruje město",
+            "text": "Kaskádová zahrada, outdoor fitness, viniční domek a krajina, kde město zůstává za hranicí",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Lokalita",
-            "text": "V centru Prahy 5, blízko škol, Anděla, zdravotnictví i hlavních městských tras",
+            "text": "V srdci Prahy 5 — pár kroků od Anděla, předních škol, klinik a městských tepen",
             "href": "location.html"
           }
         ],
         "legacy": {
-          "title": "Minulost a budoucnost obývají stejný svah.",
+          "title": "Minulost a budoucnost obývají stejný svah",
           "text": "Historická paměť zde nefunguje jako dekorace — stává se emocionálním základem pro rezidenci, která je současná, diskrétní a materiálově ukotvená",
           "cards": [
             {
@@ -587,9 +587,9 @@ window.siteData = {
         "metaDescription": "Turbová — 22 бутиковые резиденции в Праге 5. Частный парк, велнес и архитектура из известняка. Завершение в 2026 году.",
         "hero": {
           "eyebrow": "Бутиковая резиденция | Прага 5",
-          "title": "Тихое поместье, скрытое в сердце города.",
+          "title": "Тихое поместье, скрытое в сердце города",
           "lead": "На зелёном склоне Праги 5, где приватность и тишина важнее масштаба",
-          "description": "Камерная бутиковая резиденция всего из 22 домов в обрамлении известняка, латуни и собственного парка — городское поместье для тех, кто предпочитает покой и уединение",
+          "description": "22 резиденции в обрамлении известняка, латуни и собственного парка — городское поместье для тех, кто ценит покой выше зрелищности",
           "primary": {
             "label": "Читать нашу историю",
             "href": "story.html"
@@ -606,8 +606,8 @@ window.siteData = {
           ],
           "media": [
             {
-              "src": "assets/images/lobby-wide.webp",
-              "alt": "Лобби Turbová"
+              "src": "assets/images/garden-terrace.webp",
+              "alt": "Садовая терраса Turbová"
             },
             {
               "src": "assets/images/garden-exterior.webp",
@@ -622,7 +622,7 @@ window.siteData = {
           },
           {
             "value": "22",
-            "label": "эксклюзивных апартамента"
+            "label": "резиденции"
           },
           {
             "value": "3",
@@ -633,7 +633,7 @@ window.siteData = {
             "label": "консьерж-сервис"
           }
         ],
-        "chaptersTitle": "Выберите главу",
+        "chaptersTitle": "Откройте свою главу",
         "chapters": [
           {
             "number": "01",
@@ -644,30 +644,30 @@ window.siteData = {
           {
             "number": "02",
             "title": "Резиденции",
-            "text": "Два здания, камерные пропорции, панорамное остекление и авторские интерьеры на чистом холсте",
+            "text": "Два здания, камерные пропорции, панорамное остекление — и чистый холст для вашего интерьера",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Велнес",
-            "text": "Подогреваемый бассейн, хаммам, сауна, лаунж-терраса и спокойное ритуальное пространство только для резидентов",
+            "text": "Подогреваемый бассейн, хаммам, сауна и лаунж-терраса — приватный велнес-клуб исключительно для резидентов",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Сады",
-            "text": "Каскадный частный сад, открытый фитнес, винный дом и ландшафт, отгораживающий город",
+            "text": "Каскадный сад, открытый фитнес, винный дом и ландшафт, где город остаётся за пределами",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Локация",
-            "text": "В сердце Праги 5, рядом со школами, Анделом, медициной и главными городскими магистралями",
+            "text": "В самом центре Праги 5 — в пешей доступности от Андела, ведущих школ, клиник и городских артерий",
             "href": "location.html"
           }
         ],
         "legacy": {
-          "title": "Прошлое и будущее занимают один и тот же склон.",
+          "title": "Прошлое и будущее занимают один и тот же склон",
           "text": "Историческая память здесь не декорация — она становится эмоциональной основой резиденции, современной, сдержанной и материально укоренённой",
           "cards": [
             {
@@ -692,9 +692,9 @@ window.siteData = {
         "metaDescription": "Turbová — 22 résidences boutique à Prague 5. Parc privé, bien-être et architecture en calcaire. Livraison en 2026.",
         "hero": {
           "eyebrow": "Résidence boutique | Prague 5",
-          "title": "Un domaine paisible caché au cœur de la ville.",
+          "title": "Un domaine paisible caché au cœur de la ville",
           "lead": "Sur un coteau vert de Prague 5, où l'intimité et le calme priment sur l'échelle",
-          "description": "Une résidence boutique intime de seulement 22 logements, encadrée de pierre calcaire, de laiton et d'un parc privé — un domaine urbain pensé pour ceux qui privilégient le calme et l'intimité",
+          "description": "22 résidences encadrées de pierre calcaire, de laiton et d'un parc privé — un domaine urbain pour ceux qui préfèrent le calme à l'apparat",
           "primary": {
             "label": "Lire notre histoire",
             "href": "story.html"
@@ -711,8 +711,8 @@ window.siteData = {
           ],
           "media": [
             {
-              "src": "assets/images/lobby-wide.webp",
-              "alt": "Hall d'entrée Turbová"
+              "src": "assets/images/garden-terrace.webp",
+              "alt": "Terrasse-jardin Turbová"
             },
             {
               "src": "assets/images/garden-exterior.webp",
@@ -727,7 +727,7 @@ window.siteData = {
           },
           {
             "value": "22",
-            "label": "appartements exclusifs"
+            "label": "résidences"
           },
           {
             "value": "3",
@@ -738,7 +738,7 @@ window.siteData = {
             "label": "présence de conciergerie"
           }
         ],
-        "chaptersTitle": "Choisissez un chapitre",
+        "chaptersTitle": "Ouvrez votre chapitre",
         "chapters": [
           {
             "number": "01",
@@ -749,30 +749,30 @@ window.siteData = {
           {
             "number": "02",
             "title": "Résidences",
-            "text": "Deux bâtiments, des proportions intimes, des baies panoramiques et des intérieurs d'auteur sur une toile vierge",
+            "text": "Deux bâtiments, des proportions intimes, des baies panoramiques — et une toile vierge pour votre intérieur",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Bien-être",
-            "text": "Une piscine chauffée, un hammam, un sauna, un salon-terrasse et un espace rituel paisible réservé aux résidents",
+            "text": "Une piscine chauffée, un hammam, un sauna et un salon-terrasse — un club bien-être privé réservé aux résidents",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Jardins",
-            "text": "Un jardin privé en cascade, du fitness en plein air, une maison du vin et un paysage qui tient la ville à distance",
+            "text": "Un jardin en cascade, du fitness en plein air, une maison du vin et un paysage où la ville reste hors de vue",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Emplacement",
-            "text": "Au cœur de Prague 5, proche des écoles, d'Anděl, des soins de santé et des grands axes de la ville",
+            "text": "Au cœur de Prague 5 — à quelques pas d'Anděl, des meilleures écoles, des cliniques et des artères de la ville",
             "href": "location.html"
           }
         ],
         "legacy": {
-          "title": "Le passé et l'avenir occupent le même coteau.",
+          "title": "Le passé et l'avenir occupent le même coteau",
           "text": "La mémoire historique n'est pas traitée comme un décor — elle devient le socle émotionnel d'une résidence contemporaine, discrète et ancrée dans la matière",
           "cards": [
             {

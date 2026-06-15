@@ -377,7 +377,7 @@ window.siteData = {
         "metaDescription": "Arrange a private viewing of Turbová residences. 22 boutique apartments in Prague 5 — intimate, discreet, completing 2026.",
         "hero": {
           "eyebrow": "06 | Contact",
-          "title": "Begin a private conversation.",
+          "title": "Begin a private conversation",
           "lead": "Share a few details and our team will reach out — everything you send stays confidential"
         },
         "form": {
@@ -471,7 +471,7 @@ window.siteData = {
           },
           "submitError": "Something went wrong while sending. Please check your connection and try again.",
           "success": {
-            "title": "Thank you — your enquiry is on its way.",
+            "title": "Thank you — your enquiry is on its way",
             "text": "Our team will be in touch shortly"
           }
         }
@@ -481,7 +481,7 @@ window.siteData = {
         "metaDescription": "Domluvte si soukromou prohlídku rezidencí Turbová. 22 butikových apartmánů v Praze 5 — komorní, diskrétní, dokončení 2026.",
         "hero": {
           "eyebrow": "06 | Kontakt",
-          "title": "Začněte soukromý rozhovor.",
+          "title": "Začněte soukromý rozhovor",
           "lead": "Sdělte nám několik údajů a náš tým se vám ozve — vše, co odešlete, zůstává důvěrné"
         },
         "form": {
@@ -575,7 +575,7 @@ window.siteData = {
           },
           "submitError": "Při odesílání došlo k chybě. Zkontrolujte prosím připojení a zkuste to znovu.",
           "success": {
-            "title": "Děkujeme — vaše poptávka je na cestě.",
+            "title": "Děkujeme — vaše poptávka je na cestě",
             "text": "Brzy od nás uslyšíte"
           }
         }
@@ -585,7 +585,7 @@ window.siteData = {
         "metaDescription": "Организуйте частный просмотр резиденций Turbová. 22 бутиковые апартаменты в Праге 5 — камерные, приватные, завершение в 2026 году.",
         "hero": {
           "eyebrow": "06 | Контакты",
-          "title": "Начните частный разговор.",
+          "title": "Начните частный разговор",
           "lead": "Поделитесь несколькими данными, и наша команда свяжется с вами — всё, что вы отправите, останется конфиденциальным"
         },
         "form": {
@@ -679,7 +679,7 @@ window.siteData = {
           },
           "submitError": "При отправке произошла ошибка. Проверьте подключение и попробуйте снова.",
           "success": {
-            "title": "Спасибо — ваш запрос отправлен.",
+            "title": "Спасибо — ваш запрос отправлен",
             "text": "Мы скоро выйдем на связь"
           }
         }
@@ -689,7 +689,7 @@ window.siteData = {
         "metaDescription": "Organisez une visite privée des résidences Turbová. 22 appartements boutique à Prague 5 — intimes, discrets, livraison en 2026.",
         "hero": {
           "eyebrow": "06 | Contact",
-          "title": "Entamez une conversation privée.",
+          "title": "Entamez une conversation privée",
           "lead": "Partagez quelques informations et notre équipe vous contactera — tout ce que vous envoyez reste confidentiel"
         },
         "form": {
@@ -783,7 +783,7 @@ window.siteData = {
           },
           "submitError": "Une erreur s'est produite lors de l'envoi. Vérifiez votre connexion et réessayez.",
           "success": {
-            "title": "Merci — votre demande est en route.",
+            "title": "Merci — votre demande est en route",
             "text": "Nous reviendrons vers vous très prochainement"
           }
         }

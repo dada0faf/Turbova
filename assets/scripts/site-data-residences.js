@@ -377,7 +377,7 @@ window.siteData = {
         "metaDescription": "22 exclusive apartments from 110 to 299 m² in two buildings. Shell & Core finish, panoramic glazing, private parking, and smart home. Prague 5.",
         "hero": {
           "eyebrow": "02 | Residences",
-          "title": "Two buildings. Twenty-two private worlds.",
+          "title": "Two buildings, twenty-two private worlds",
           "lead": "Each building holds 11 residences, all with terraces or balconies, panoramic glazing, and the freedom of Shell & Core handover",
           "media": [
             "assets/images/two-buildings-side-view.webp",
@@ -434,8 +434,8 @@ window.siteData = {
             "alt": "Decorative corridor"
           },
           {
-            "src": "assets/images/lobby-wide.webp",
-            "alt": "Lobby entrance with Turbová logo"
+            "src": "assets/images/garden-terrace.webp",
+            "alt": "Turbová garden terrace"
           },
           {
             "src": "assets/images/garage-parking.webp",
@@ -453,7 +453,7 @@ window.siteData = {
         "metaDescription": "22 exkluzivních apartmánů od 110 do 299 m² ve dvou budovách. Stav Shell & Core, panoramatické zasklení, soukromé parkování a smart home. Praha 5.",
         "hero": {
           "eyebrow": "02 | Rezidence",
-          "title": "Dvě budovy. Dvacet dva soukromých světů.",
+          "title": "Dvě budovy, dvacet dva soukromých světů",
           "lead": "Každá budova obsahuje 11 rezidencí, všechny s terasou nebo balkonem, panoramatickým prosklením a svobodou předání ve standardu Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
@@ -510,8 +510,8 @@ window.siteData = {
             "alt": "Dekorativní chodba"
           },
           {
-            "src": "assets/images/lobby-wide.webp",
-            "alt": "Lobby se znakem Turbová"
+            "src": "assets/images/garden-terrace.webp",
+            "alt": "Zahradní terasa Turbová"
           },
           {
             "src": "assets/images/garage-parking.webp",
@@ -529,7 +529,7 @@ window.siteData = {
         "metaDescription": "22 эксклюзивные апартаменты от 110 до 299 м² в двух зданиях. Отделка Shell & Core, панорамное остекление, частная парковка и умный дом. Прага 5.",
         "hero": {
           "eyebrow": "02 | Резиденции",
-          "title": "Два здания. Двадцать два частных мира.",
+          "title": "Два здания, двадцать два частных мира",
           "lead": "Каждое здание вмещает 11 резиденций, все с террасами или балконами, панорамным остеклением и свободой передачи в формате Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
@@ -586,8 +586,8 @@ window.siteData = {
             "alt": "Декоративный коридор"
           },
           {
-            "src": "assets/images/lobby-wide.webp",
-            "alt": "Вход в лобби с логотипом Turbová"
+            "src": "assets/images/garden-terrace.webp",
+            "alt": "Садовая терраса Turbová"
           },
           {
             "src": "assets/images/garage-parking.webp",
@@ -605,7 +605,7 @@ window.siteData = {
         "metaDescription": "22 appartements exclusifs de 110 à 299 m² dans deux bâtiments. Finition Shell & Core, vitrage panoramique, parking privé et maison connectée. Prague 5.",
         "hero": {
           "eyebrow": "02 | Résidences",
-          "title": "Deux bâtiments. Vingt-deux mondes privés.",
+          "title": "Deux bâtiments, vingt-deux mondes privés",
           "lead": "Chaque bâtiment compte 11 résidences, toutes avec terrasses ou balcons, baies panoramiques et la liberté d'une livraison Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
@@ -662,8 +662,8 @@ window.siteData = {
             "alt": "Couloir décoratif"
           },
           {
-            "src": "assets/images/lobby-wide.webp",
-            "alt": "Entrée du hall avec le logo Turbová"
+            "src": "assets/images/garden-terrace.webp",
+            "alt": "Terrasse-jardin Turbová"
           },
           {
             "src": "assets/images/garage-parking.webp",
