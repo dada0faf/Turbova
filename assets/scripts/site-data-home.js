@@ -407,8 +407,8 @@ window.siteData = {
         },
         "stats": [
           {
-            "value": "18th",
-            "label": "century estate origins"
+            "value": "2026",
+            "label": "completion"
           },
           {
             "value": "22",
@@ -512,8 +512,8 @@ window.siteData = {
         },
         "stats": [
           {
-            "value": "18.",
-            "label": "století původu areálu"
+            "value": "2026",
+            "label": "dokončení"
           },
           {
             "value": "22",
@@ -617,8 +617,8 @@ window.siteData = {
         },
         "stats": [
           {
-            "value": "XVIII",
-            "label": "век истоков поместья"
+            "value": "2026",
+            "label": "завершение"
           },
           {
             "value": "22",
@@ -722,8 +722,8 @@ window.siteData = {
         },
         "stats": [
           {
-            "value": "XVIIIe",
-            "label": "origines du domaine"
+            "value": "2026",
+            "label": "livraison"
           },
           {
             "value": "22",

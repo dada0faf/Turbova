@@ -387,15 +387,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "Prague 5",
-            "label": "strategic district"
+            "label": "Smíchov address"
           },
           {
             "value": "3",
             "label": "international schools nearby"
           },
           {
-            "value": "2026",
-            "label": "project completion"
+            "value": "Anděl",
+            "label": "metro, shops & business"
           }
         ],
         "story": {
@@ -458,15 +458,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "Praha 5",
-            "label": "strategická čtvrť"
+            "label": "adresa Smíchov"
           },
           {
             "value": "3",
             "label": "mezinárodní školy poblíž"
           },
           {
-            "value": "2026",
-            "label": "dokončení projektu"
+            "value": "Anděl",
+            "label": "metro, obchody, byznys"
           }
         ],
         "story": {
@@ -529,15 +529,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "Прага 5",
-            "label": "стратегический район"
+            "label": "адрес Смихов"
           },
           {
             "value": "3",
             "label": "международные школы рядом"
           },
           {
-            "value": "2026",
-            "label": "завершение проекта"
+            "value": "Андел",
+            "label": "метро, магазины, бизнес"
           }
         ],
         "story": {
@@ -600,15 +600,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "Prague 5",
-            "label": "quartier stratégique"
+            "label": "adresse Smíchov"
           },
           {
             "value": "3",
             "label": "écoles internationales à proximité"
           },
           {
-            "value": "2026",
-            "label": "achèvement du projet"
+            "value": "Anděl",
+            "label": "métro, commerces, affaires"
           }
         ],
         "story": {

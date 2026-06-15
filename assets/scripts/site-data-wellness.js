@@ -389,15 +389,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "heated pool sanctuary"
+            "label": "heated indoor pool"
           },
           {
             "value": "2",
-            "label": "deep-heat rituals"
+            "label": "sauna & hammam"
           },
           {
-            "value": "1",
-            "label": "terrace lounge retreat"
+            "value": "Private",
+            "label": "residents-only floor"
           }
         ],
         "story": {
@@ -462,15 +462,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "bazénová oáza"
+            "label": "vyhřívaný vnitřní bazén"
           },
           {
             "value": "2",
-            "label": "tepelné rituály"
+            "label": "sauna a hammam"
           },
           {
-            "value": "1",
-            "label": "terasové útočiště"
+            "value": "Soukromé",
+            "label": "patro jen pro rezidenty"
           }
         ],
         "story": {
@@ -535,15 +535,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "водный оазис"
+            "label": "крытый бассейн с подогревом"
           },
           {
             "value": "2",
-            "label": "термальных ритуала"
+            "label": "сауна и хаммам"
           },
           {
-            "value": "1",
-            "label": "уединение на террасе"
+            "value": "Приватный",
+            "label": "этаж только для резидентов"
           }
         ],
         "story": {
@@ -608,15 +608,15 @@ window.siteData = {
         "metrics": [
           {
             "value": "1",
-            "label": "sanctuaire aquatique"
+            "label": "piscine intérieure chauffée"
           },
           {
             "value": "2",
-            "label": "rituels thermiques"
+            "label": "sauna et hammam"
           },
           {
-            "value": "1",
-            "label": "retraite sur la terrasse"
+            "value": "Privé",
+            "label": "étage réservé aux résidents"
           }
         ],
         "story": {

@@ -421,16 +421,16 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "18th",
-            "label": "century lineage"
+            "value": "22",
+            "label": "private residences"
           },
           {
-            "value": "Jiří",
-            "label": "Trnka creative legacy"
+            "value": "110–299",
+            "label": "m² per residence"
           },
           {
-            "value": "Smíchov",
-            "label": "urban context"
+            "value": "2026",
+            "label": "completion"
           }
         ],
         "story": {
@@ -777,16 +777,16 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "18.",
-            "label": "století původu"
+            "value": "22",
+            "label": "soukromých rezidencí"
           },
           {
-            "value": "Jiří",
-            "label": "Trnka a tvůrčí odkaz"
+            "value": "110–299",
+            "label": "m² na rezidenci"
           },
           {
-            "value": "Smíchov",
-            "label": "městský kontext"
+            "value": "2026",
+            "label": "dokončení"
           }
         ],
         "story": {
@@ -1133,16 +1133,16 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "XVIII",
-            "label": "век родословной"
+            "value": "22",
+            "label": "частные резиденции"
           },
           {
-            "value": "Иржи",
-            "label": "Трнка, творческое наследие"
+            "value": "110–299",
+            "label": "м² на резиденцию"
           },
           {
-            "value": "Смихов",
-            "label": "городской контекст"
+            "value": "2026",
+            "label": "завершение"
           }
         ],
         "story": {
@@ -1489,16 +1489,16 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "XVIIIe",
-            "label": "lignée séculaire"
+            "value": "22",
+            "label": "résidences privées"
           },
           {
-            "value": "Jiří",
-            "label": "héritage créatif de Trnka"
+            "value": "110–299",
+            "label": "m² par résidence"
           },
           {
-            "value": "Smíchov",
-            "label": "contexte urbain"
+            "value": "2026",
+            "label": "livraison"
           }
         ],
         "story": {

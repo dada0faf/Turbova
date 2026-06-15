@@ -387,16 +387,16 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "1",
-            "label": "private park world"
-          },
-          {
             "value": "100+",
-            "label": "years of tree presence"
+            "label": "year-old trees"
           },
           {
             "value": "4",
-            "label": "garden experiences"
+            "label": "outdoor amenities"
+          },
+          {
+            "value": "Private",
+            "label": "residents-only park"
           }
         ],
         "story": {
@@ -455,16 +455,16 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "1",
-            "label": "svět soukromého parku"
-          },
-          {
             "value": "100+",
-            "label": "let přítomnosti stromů"
+            "label": "leté stromy"
           },
           {
             "value": "4",
-            "label": "zahradní zážitky"
+            "label": "venkovní vyžití"
+          },
+          {
+            "value": "Soukromý",
+            "label": "park jen pro rezidenty"
           }
         ],
         "story": {
@@ -523,16 +523,16 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "1",
-            "label": "мир частного парка"
-          },
-          {
             "value": "100+",
-            "label": "лет присутствия деревьев"
+            "label": "лет деревьям"
           },
           {
             "value": "4",
-            "label": "садовых впечатления"
+            "label": "зоны под открытым небом"
+          },
+          {
+            "value": "Приватный",
+            "label": "парк только для резидентов"
           }
         ],
         "story": {
@@ -591,16 +591,16 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "1",
-            "label": "monde de parc privé"
-          },
-          {
             "value": "100+",
-            "label": "ans de présence des arbres"
+            "label": "ans, arbres matures"
           },
           {
             "value": "4",
-            "label": "expériences de jardin"
+            "label": "espaces extérieurs"
+          },
+          {
+            "value": "Privé",
+            "label": "parc réservé aux résidents"
           }
         ],
         "story": {
