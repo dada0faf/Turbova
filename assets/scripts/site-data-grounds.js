@@ -337,7 +337,7 @@ window.siteData = {
         "contact": "Контакты"
       },
       "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно приватный адрес в Смихове",
+      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно частный адрес в Смихове",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
       "footerNote": "Два здания, один защищённый мир",
@@ -387,8 +387,8 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "100+",
-            "label": "year-old trees"
+            "value": "Playground",
+            "label": "safe space for families"
           },
           {
             "value": "4",
@@ -455,8 +455,8 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "100+",
-            "label": "leté stromy"
+            "value": "Hřiště",
+            "label": "bezpečné místo pro rodiny"
           },
           {
             "value": "4",
@@ -523,15 +523,15 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "100+",
-            "label": "лет деревьям"
+            "value": "Площадка",
+            "label": "безопасное место для семей"
           },
           {
             "value": "4",
             "label": "зоны под открытым небом"
           },
           {
-            "value": "Приватный",
+            "value": "Частный",
             "label": "парк только для резидентов"
           }
         ],
@@ -549,7 +549,7 @@ window.siteData = {
           },
           {
             "title": "Фитнес на открытом воздухе",
-            "text": "Оборудование размещено в зелени для тренировок на воздухе в приватности"
+            "text": "Оборудование размещено в зелени для тренировок на воздухе в уединении"
           },
           {
             "title": "Винотека",
@@ -591,8 +591,8 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "100+",
-            "label": "ans, arbres matures"
+            "value": "Aire de jeux",
+            "label": "un espace sûr pour les familles"
           },
           {
             "value": "4",
