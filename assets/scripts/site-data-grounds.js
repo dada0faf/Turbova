@@ -374,11 +374,11 @@ window.siteData = {
     "grounds": {
       "en": {
         "title": "Turbová | Grounds",
-        "metaDescription": "Turbová's private park: cascading gardens, century-old trees, outdoor fitness, a wine house, and a children's playground in Smíchov, Prague 5.",
+        "metaDescription": "Turbová's private park: cascading gardens, century-old trees, outdoor fitness, a wine house, and a terraced landscape in Smíchov, Prague 5.",
         "hero": {
           "eyebrow": "04 | Grounds",
           "title": "A private park that absorbs the city",
-          "lead": "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a playground for the youngest residents",
+          "lead": "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a terraced landscape that absorbs the city",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -387,8 +387,8 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "Playground",
-            "label": "safe space for families"
+            "value": "Terraced",
+            "label": "multi-level private landscape"
           },
           {
             "value": "4",
@@ -442,11 +442,11 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Zahrady",
-        "metaDescription": "Soukromý park Turbové: kaskádovité zahrady, staleté stromy, venkovní fitness, vinotéka a dětské hřiště na Smíchově, Praha 5.",
+        "metaDescription": "Soukromý park Turbové: kaskádovité zahrady, staleté stromy, venkovní fitness, vinotéka a terasovitá krajina na Smíchově, Praha 5.",
         "hero": {
           "eyebrow": "04 | Zahrady",
           "title": "Soukromý park, který pohlcuje město",
-          "lead": "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, venkovním fitness, vinotékou a hřištěm pro nejmladší rezidenty",
+          "lead": "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, venkovním fitness, vinotékou a terasovitým reliéfem, který pohlcuje město",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -455,8 +455,8 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "Hřiště",
-            "label": "bezpečné místo pro rodiny"
+            "value": "Terasovitý",
+            "label": "víceúrovňová soukromá krajina"
           },
           {
             "value": "4",
@@ -510,11 +510,11 @@ window.siteData = {
       },
       "ru": {
         "title": "Turbová | Сады",
-        "metaDescription": "Частный парк Turbová: каскадные сады, вековые деревья, фитнес на открытом воздухе, винотека и детская площадка в Смихове, Прага 5.",
+        "metaDescription": "Частный парк Turbová: каскадные сады, вековые деревья, фитнес на открытом воздухе, винотека и террасный ландшафт в Смихове, Прага 5.",
         "hero": {
           "eyebrow": "04 | Сады",
           "title": "Частный парк, поглощающий город",
-          "lead": "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, фитнесом на открытом воздухе, винотекой и площадкой для самых юных резидентов",
+          "lead": "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, фитнесом на открытом воздухе, винотекой и террасным рельефом, поглощающим город",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -523,8 +523,8 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "Площадка",
-            "label": "безопасное место для семей"
+            "value": "Террасный",
+            "label": "многоуровневый частный ландшафт"
           },
           {
             "value": "4",
@@ -578,11 +578,11 @@ window.siteData = {
       },
       "fr": {
         "title": "Turbová | Jardins",
-        "metaDescription": "Le parc privé de Turbová : jardins en cascade, arbres centenaires, fitness extérieur, une cave à vin et une aire de jeux à Smíchov, Prague 5.",
+        "metaDescription": "Le parc privé de Turbová : jardins en cascade, arbres centenaires, fitness extérieur, une cave à vin et un paysage en terrasses à Smíchov, Prague 5.",
         "hero": {
           "eyebrow": "04 | Jardins",
           "title": "Un parc privé qui absorbe la ville",
-          "lead": "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une cave à vin et une aire de jeu pour les plus jeunes résidents",
+          "lead": "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une cave à vin et un relief en terrasses qui absorbe la ville",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -591,8 +591,8 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "Aire de jeux",
-            "label": "un espace sûr pour les familles"
+            "value": "En terrasses",
+            "label": "paysage privé à plusieurs niveaux"
           },
           {
             "value": "4",
