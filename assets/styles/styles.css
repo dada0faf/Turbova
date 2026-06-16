@@ -1800,19 +1800,17 @@ p {
   }
 
   .metric-strip {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .metric-card {
-    padding: 1.6rem 1.2rem;
-  }
-
-  .metric-card:nth-child(odd) {
-    padding-left: 0;
-  }
-
-  .metric-card:nth-child(2) {
+    padding: 1.6rem 0;
     border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .metric-card:last-child {
+    border-bottom: 0;
   }
 
   .quote-panel p {
