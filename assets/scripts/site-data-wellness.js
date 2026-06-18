@@ -377,7 +377,7 @@ window.siteData = {
         "metaDescription": "Residents-only wellness at Turbová: heated pool, hammam, sauna, and terrace lounge. Private wellbeing in the heart of Prague 5.",
         "hero": {
           "eyebrow": "03 | Wellness",
-          "title": "A ritual zone reserved for residents",
+          "title": "A private wellness floor for residents only",
           "lead": "The internal wellness floor is designed as a slow, atmospheric sequence: heated pool, sauna, hammam, changing rooms, private kitchenette, and a terrace lounge",
           "media": [
             "assets/images/pool-dark.webp",
@@ -414,7 +414,7 @@ window.siteData = {
           },
           {
             "title": "Sauna and hammam",
-            "text": "A complete thermal ritual embedded inside the residence itself"
+            "text": "A full sauna-and-hammam circuit built into the residence itself"
           },
           {
             "title": "Private refreshments",
@@ -450,7 +450,7 @@ window.siteData = {
         "metaDescription": "Wellness pouze pro rezidenty Turbové: vyhřívaný bazén, hammam, sauna a odpočinková terasa. Soukromý wellness v srdci Prahy 5.",
         "hero": {
           "eyebrow": "03 | Wellness",
-          "title": "Rituální zóna vyhrazená rezidentům",
+          "title": "Soukromé wellness patro pouze pro rezidenty",
           "lead": "Interní wellness patro je navrženo jako pomalá, atmosférická sekvence: vyhřívaný bazén, sauna, hammam, šatny, soukromá kuchyňka a odpočinková terasa",
           "media": [
             "assets/images/pool-dark.webp",
@@ -487,7 +487,7 @@ window.siteData = {
           },
           {
             "title": "Sauna a hammam",
-            "text": "Kompletní tepelný rituál přímo uvnitř rezidence"
+            "text": "Kompletní okruh sauny a hammamu přímo uvnitř rezidence"
           },
           {
             "title": "Soukromé občerstvení",
@@ -523,7 +523,7 @@ window.siteData = {
         "metaDescription": "Велнес только для резидентов Turbová: подогреваемый бассейн, хаммам, сауна и лаунж-терраса. Частный отдых в сердце Праги 5.",
         "hero": {
           "eyebrow": "03 | Велнес",
-          "title": "Ритуальная зона, отведённая резидентам",
+          "title": "Частный велнес-этаж только для резидентов",
           "lead": "Внутренний велнес-этаж задуман как медленная атмосферная последовательность: подогреваемый бассейн, сауна, хаммам, раздевалки, отдельная кухонька и лаунж-терраса",
           "media": [
             "assets/images/pool-dark.webp",
@@ -560,7 +560,7 @@ window.siteData = {
           },
           {
             "title": "Сауна и хаммам",
-            "text": "Полный термальный ритуал, встроенный в саму резиденцию"
+            "text": "Полный контур сауны и хаммама, встроенный в саму резиденцию"
           },
           {
             "title": "Приватное угощение",
@@ -596,7 +596,7 @@ window.siteData = {
         "metaDescription": "Bien-être exclusif à Turbová : piscine chauffée, hammam, sauna et terrasse lounge. Un espace privé au cœur de Prague 5.",
         "hero": {
           "eyebrow": "03 | Bien-être",
-          "title": "Une zone rituelle réservée aux résidents",
+          "title": "Un étage bien-être privé, réservé aux résidents",
           "lead": "L'étage bien-être intérieur est conçu comme une séquence lente et atmosphérique : piscine chauffée, sauna, hammam, vestiaires, kitchenette privée et salon-terrasse",
           "media": [
             "assets/images/pool-dark.webp",
@@ -633,7 +633,7 @@ window.siteData = {
           },
           {
             "title": "Sauna et hammam",
-            "text": "Un rituel thermique complet intégré à la résidence elle-même"
+            "text": "Un circuit complet sauna-hammam intégré à la résidence elle-même"
           },
           {
             "title": "Rafraîchissements privés",

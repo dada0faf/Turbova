@@ -403,7 +403,7 @@ window.siteData = {
           "title": "Landscape as an amenity and a shield",
           "paragraphs": [
             "The garden is not ornamental residue. It performs acoustically, visually, and socially. It protects the residence from surrounding noise while creating places to gather, train, or simply disappear for a while.",
-            "The result is a softer form of luxury: not maximal programming, but the freedom to choose between movement, solitude, family time, and evening rituals outdoors."
+            "The result is a softer form of luxury: not maximal programming, but the freedom to choose between movement, solitude, family time, and quiet evenings on the terrace."
           ]
         },
         "pillars": [
@@ -471,7 +471,7 @@ window.siteData = {
           "title": "Krajina jako přednost i ochrana",
           "paragraphs": [
             "Zahrada zde není samoúčelnou dekorací. Funguje akusticky, vizuálně i společensky. Chrání rezidenci před okolním hlukem a zároveň vytváří místa pro setkávání, trénink nebo prosté zmizení na chvíli o samotě.",
-            "Výsledkem je měkčí forma luxusu: ne přemíra vybavení, ale svoboda volby mezi pohybem, samotou, rodinným časem a večerními rituály venku."
+            "Výsledkem je měkčí forma luxusu: ne přemíra vybavení, ale svoboda volby mezi pohybem, samotou, rodinným časem a klidnými večery na terase."
           ]
         },
         "pillars": [
@@ -539,7 +539,7 @@ window.siteData = {
           "title": "Ландшафт как удобство и как щит",
           "paragraphs": [
             "Сад здесь не декоративное излишество. Он работает акустически, визуально и социально. Он защищает резиденцию от окружающего шума, создавая места для встреч, тренировок или чтобы просто на время исчезнуть.",
-            "В итоге — более мягкая форма роскоши: не обилие функций, а свобода выбора между движением, уединением, семейным временем и вечерними ритуалами на воздухе."
+            "В итоге — более мягкая форма роскоши: не обилие функций, а свобода выбора между движением, уединением, семейным временем и тихими вечерами на террасе."
           ]
         },
         "pillars": [
@@ -607,7 +607,7 @@ window.siteData = {
           "title": "Le paysage comme agrément et comme bouclier",
           "paragraphs": [
             "Le jardin n'est pas un simple ornement. Il agit sur le plan acoustique, visuel et social. Il protège la résidence du bruit environnant tout en créant des lieux pour se réunir, s'entraîner ou simplement disparaître un moment.",
-            "Il en résulte une forme plus douce de luxe : non pas une programmation maximale, mais la liberté de choisir entre le mouvement, la solitude, le temps en famille et les rituels du soir en plein air."
+            "Il en résulte une forme plus douce de luxe : non pas une programmation maximale, mais la liberté de choisir entre le mouvement, la solitude, le temps en famille et des soirées calmes sur la terrasse."
           ]
         },
         "pillars": [

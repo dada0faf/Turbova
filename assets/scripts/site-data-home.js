@@ -466,7 +466,7 @@ window.siteData = {
             },
             {
               "title": "Brass details",
-              "text": "Warm metallic carving and panelling that turn shared spaces into a signature ritual"
+              "text": "Warm metallic carving and panelling that give every shared corridor the feel of a private lobby"
             },
             {
               "title": "Garden acoustics",
@@ -571,7 +571,7 @@ window.siteData = {
             },
             {
               "title": "Mosazné detaily",
-              "text": "Teplý kovový reliéf a panely, které proměňují společné prostory v charakteristický rituál"
+              "text": "Teplý kovový reliéf a panely, které dodávají každé společné chodbě atmosféru soukromého foyer"
             },
             {
               "title": "Akustika zahrady",
@@ -676,7 +676,7 @@ window.siteData = {
             },
             {
               "title": "Латунные детали",
-              "text": "Тёплая металлическая резьба и панели, превращающие общие пространства в фирменный ритуал"
+              "text": "Тёплая металлическая резьба и панели, придающие каждому общему коридору атмосферу частного фойе"
             },
             {
               "title": "Акустика сада",
@@ -781,7 +781,7 @@ window.siteData = {
             },
             {
               "title": "Détails en laiton",
-              "text": "Une ciselure et des panneaux de laiton chaleureux qui font des espaces communs un rituel à part entière"
+              "text": "Une ciselure et des panneaux de laiton chaleureux qui donnent à chaque couloir commun l'atmosphère d'un hall privé"
             },
             {
               "title": "Acoustique du jardin",

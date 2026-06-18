@@ -420,7 +420,7 @@ window.siteData = {
           },
           {
             "title": "Protected arrival",
-            "text": "Private parking, EV charging, and smooth building access turn convenience into a composed arrival ritual"
+            "text": "Private parking, EV charging, and direct building entry — from gate to front door without a single public corridor"
           }
         ],
         "gallery": [
@@ -491,7 +491,7 @@ window.siteData = {
           },
           {
             "title": "Chráněný příjezd",
-            "text": "Soukromé parkování, nabíjení elektromobilů a hladký vstup do budovy mění pohodlí v kultivovaný rituál příjezdu"
+            "text": "Soukromé parkování, nabíjení elektromobilů a přímý vstup do budovy — od brány ke dveřím bytu bez jediné veřejné chodby"
           }
         ],
         "gallery": [
@@ -562,7 +562,7 @@ window.siteData = {
           },
           {
             "title": "Защищённое прибытие",
-            "text": "Частная парковка, зарядка для электромобилей и плавный доступ в здание превращают удобство в выверенный ритуал прибытия"
+            "text": "Частная парковка, зарядка для электромобилей и прямой вход в здание — от ворот до квартиры без единого общего коридора"
           }
         ],
         "gallery": [
@@ -633,7 +633,7 @@ window.siteData = {
           },
           {
             "title": "Une arrivée protégée",
-            "text": "Parking privé, recharge VE et accès fluide au bâtiment font de la commodité un rituel d'arrivée maîtrisé"
+            "text": "Parking privé, recharge VE et entrée directe dans le bâtiment — du portail à votre porte sans aucun couloir public"
           }
         ],
         "gallery": [

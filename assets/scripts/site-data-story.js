@@ -379,7 +379,7 @@ window.siteData = {
           "eyebrow": "Our story",
           "title": "A quieter world",
           "lead": "Behind the gates of Turbová, an 18th-century estate is being recast as a private residence where history, greenery, and silence shape a rarer way of living in Prague 5",
-          "description": "The story starts with a hillside retreat, passes through the creative legacy of Jiří Trnka, and arrives at two contemporary buildings, 22 residences, wellness rituals, and a park that feels more like a secluded estate than an address in the city",
+          "description": "The story starts with a hillside retreat, passes through the creative legacy of Jiří Trnka, and arrives at two contemporary buildings, 22 residences, a private pool and spa floor, and a park that feels more like a secluded estate than an address in the city",
           "button": {
             "label": "Read our story",
             "href": "#story-intro"
@@ -621,9 +621,9 @@ window.siteData = {
           },
           {
             "number": "05",
-            "title": "A ritual floor beneath the residence",
+            "title": "A wellness floor beneath the residence",
             "paragraphs": [
-              "The wellness level is designed as a private ritual rather than an add-on amenity: heated pool, sauna, hammam, changing rooms, kitchenette, and a terrace lounge.",
+              "The wellness level is a dedicated residents-only floor — not an add-on amenity: heated pool, sauna, hammam, changing rooms, kitchenette, and a terrace lounge.",
               "Residents can move from water to heat to open air without leaving the protected world of the estate. The experience feels slow, inward, and complete."
             ],
             "points": [
@@ -735,7 +735,7 @@ window.siteData = {
           "eyebrow": "Náš příběh",
           "title": "Tišší svět",
           "lead": "Za branami Turbové se proměňuje panství z 18. století v soukromou rezidenci, kde historie, zeleň a ticho utvářejí vzácnější způsob bydlení na Praze 5",
-          "description": "Příběh začíná svahovým útočištěm, prochází tvůrčím odkazem Jiřího Trnky a ústí do dvou současných budov, 22 rezidencí, wellness rituálů a parku, který působí spíš jako skryté městské sídlo než další adresa ve městě",
+          "description": "Příběh začíná svahovým útočištěm, prochází tvůrčím odkazem Jiřího Trnky a ústí do dvou současných budov, 22 rezidencí, soukromého bazénu se spa patrem a parku, který působí spíš jako skryté městské sídlo než další adresa ve městě",
           "button": {
             "label": "Číst náš příběh",
             "href": "#story-intro"
@@ -977,9 +977,9 @@ window.siteData = {
           },
           {
             "number": "05",
-            "title": "Rituální patro uvnitř rezidence",
+            "title": "Wellness patro uvnitř rezidence",
             "paragraphs": [
-              "Wellness úroveň je navržena jako soukromý rituál, nikoli jako doplňková služba: vyhřívaný bazén, sauna, hammam, šatny, kuchyňka a terasový lounge.",
+              "Wellness úroveň je samostatné patro vyhrazené výhradně rezidentům — nikoli doplňková služba: vyhřívaný bazén, sauna, hammam, šatny, kuchyňka a terasový lounge.",
               "Rezidenti mohou přecházet z vody do tepla a na čerstvý vzduch, aniž by opustili chráněný svět areálu. Celý zážitek působí pomalu, niterně a kompletně."
             ],
             "points": [
@@ -1091,7 +1091,7 @@ window.siteData = {
           "eyebrow": "Наша история",
           "title": "Более тихий мир",
           "lead": "За воротами Turbová поместье XVIII века превращается в частную резиденцию, где история, зелень и тишина формируют более редкий образ жизни в Праге 5",
-          "description": "История начинается с уединения на склоне, проходит через творческое наследие Иржи Трнки и приводит к двум современным зданиям, 22 резиденциям, велнес-ритуалам и парку, который ощущается скорее как укромное поместье, чем адрес в городе",
+          "description": "История начинается с уединения на склоне, проходит через творческое наследие Иржи Трнки и приводит к двум современным зданиям, 22 резиденциям, частному бассейну со спа-этажом и парку, который ощущается скорее как укромное поместье, чем адрес в городе",
           "button": {
             "label": "Читать нашу историю",
             "href": "#story-intro"
@@ -1333,9 +1333,9 @@ window.siteData = {
           },
           {
             "number": "05",
-            "title": "Ритуальный этаж под резиденцией",
+            "title": "Велнес-этаж под резиденцией",
             "paragraphs": [
-              "Велнес-уровень задуман как частный ритуал, а не дополнительная опция: подогреваемый бассейн, сауна, хаммам, раздевалки, кухонька и лаунж-терраса.",
+              "Велнес-уровень — это отдельный этаж исключительно для резидентов, а не дополнительная опция: подогреваемый бассейн, сауна, хаммам, раздевалки, кухонька и лаунж-терраса.",
               "Резиденты могут переходить от воды к теплу и к открытому воздуху, не покидая защищённого мира поместья. Впечатление ощущается медленным, обращённым внутрь и завершённым."
             ],
             "points": [
@@ -1447,7 +1447,7 @@ window.siteData = {
           "eyebrow": "Notre histoire",
           "title": "Un monde plus calme",
           "lead": "Derrière les grilles de Turbová, un domaine du XVIIIe siècle se réinvente en résidence privée où l'histoire, la verdure et le silence façonnent une manière plus rare de vivre à Prague 5",
-          "description": "L'histoire commence par une retraite sur le coteau, traverse l'héritage créatif de Jiří Trnka et aboutit à deux bâtiments contemporains, 22 résidences, des rituels de bien-être et un parc qui tient davantage du domaine retiré que d'une adresse en ville",
+          "description": "L'histoire commence par une retraite sur le coteau, traverse l'héritage créatif de Jiří Trnka et aboutit à deux bâtiments contemporains, 22 résidences, une piscine privée avec étage spa, et un parc qui tient davantage du domaine retiré que d'une adresse en ville",
           "button": {
             "label": "Lire notre histoire",
             "href": "#story-intro"
@@ -1689,9 +1689,9 @@ window.siteData = {
           },
           {
             "number": "05",
-            "title": "Un étage rituel sous la résidence",
+            "title": "Un étage bien-être sous la résidence",
             "paragraphs": [
-              "Le niveau bien-être est conçu comme un rituel privé plutôt qu'un équipement annexe : piscine chauffée, sauna, hammam, vestiaires, kitchenette et salon-terrasse.",
+              "Le niveau bien-être est un étage dédié, réservé aux résidents — et non un équipement annexe : piscine chauffée, sauna, hammam, vestiaires, kitchenette et salon-terrasse.",
               "Les résidents peuvent passer de l'eau à la chaleur puis au plein air sans quitter le monde protégé du domaine. L'expérience est lente, intérieure et complète."
             ],
             "points": [
