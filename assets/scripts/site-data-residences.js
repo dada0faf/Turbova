@@ -405,8 +405,8 @@ window.siteData = {
         "metaDescription": "22 residences in two buildings, 110–299 m², Prague 5. Shell & Core delivery, private parking with EV charging, storage. Completion 2026.",
         "hero": {
           "eyebrow": "02 | Residences",
-          "title": "22 residences across two buildings",
-          "lead": "Each building holds 11 residences, all with a balcony or terrace, floor-to-ceiling glazing, and Shell & Core delivery",
+          "title": "Twenty-two homes in two distinct buildings",
+          "lead": "Eleven residences in each building, with generous glazing, private outdoor space and the freedom of Shell & Core delivery.",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -428,10 +428,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Two buildings, eleven residences each",
+          "title": "A framework for a personal interior",
           "paragraphs": [
-            "The two buildings hold 22 residences in total, sized from 110 to 299 m². Each has high ceilings, floor-to-ceiling glazing, and a private balcony or terrace.",
-            "Every residence is delivered Shell & Core, so the interior layout and finish are built to the owner's plan. Each apartment has 3 dedicated parking spaces with EV charging and a separate storage room."
+            "Homes range from 110 to 299 m², with high ceilings and floor-to-ceiling glazing that draws the garden into daily view.",
+            "Shell & Core delivery leaves the interior to its owner, while three EV-ready parking spaces and private storage make arrival and everyday life effortless."
           ]
         },
         "pillars": [
@@ -470,7 +470,7 @@ window.siteData = {
             "alt": "Underground parking with hand-painted artwork"
           }
         ],
-        "quote": "Every residence is delivered Shell & Core, with the interior layout left to the owner",
+        "quote": "A considered structure, ready for an interior of its owner's making",
         "next": {
           "href": "wellness.html",
           "label": "Continue to wellness"
@@ -550,8 +550,8 @@ window.siteData = {
           ]
         },
         "enquiry": {
-          "title": "See a residence",
-          "text": "See a residence in person and ask about layouts, delivery, and timing.",
+          "title": "Discover the residences",
+          "text": "Arrange a private viewing to discuss the available homes, layouts and delivery.",
           "label": "Arrange a viewing",
           "href": "contact.html"
         },
@@ -562,8 +562,8 @@ window.siteData = {
         "metaDescription": "22 rezidencí ve dvou budovách, 110–299 m², Praha 5. Předání Shell & Core, soukromé parkování s nabíjením EV, sklad. Dokončení 2026.",
         "hero": {
           "eyebrow": "02 | Rezidence",
-          "title": "22 rezidencí ve dvou budovách",
-          "lead": "Každá budova má 11 rezidencí, všechny s balkonem nebo terasou, prosklením od podlahy ke stropu a předáním ve standardu Shell & Core",
+          "title": "Dvacet dva domovů ve dvou osobitých budovách",
+          "lead": "Jedenáct rezidencí v každé budově s velkorysým prosklením, soukromým venkovním prostorem a svobodou standardu Shell & Core.",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -585,10 +585,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Dvě budovy, jedenáct rezidencí v každé",
+          "title": "Rámec pro osobitý interiér",
           "paragraphs": [
-            "Obě budovy dohromady nabízejí 22 rezidencí o velikosti 110 až 299 m². Každá má vysoké stropy, prosklení od podlahy ke stropu a soukromý balkon nebo terasu.",
-            "Každá rezidence se předává ve standardu Shell & Core, takže dispozici a finální úpravu interiéru určuje majitel. Ke každému bytu patří 3 vyhrazená parkovací stání s nabíjením elektromobilů a samostatná sklepní kóje."
+            "Domovy o rozloze 110 až 299 m² nabízejí vysoké stropy a prosklení od podlahy ke stropu, které přivádí zahradu do každodenního života.",
+            "Standard Shell & Core ponechává interiér na majiteli; tři parkovací stání s přípravou pro elektromobily a soukromý sklad usnadňují příjezd i běžný den."
           ]
         },
         "pillars": [
@@ -627,7 +627,7 @@ window.siteData = {
             "alt": "Podzemní parkování s ručně malovaným uměleckým dílem"
           }
         ],
-        "quote": "Každá rezidence se předává ve standardu Shell & Core, dispozici interiéru volí majitel",
+        "quote": "Promyšlená konstrukce připravená pro interiér podle představ majitele",
         "next": {
           "href": "wellness.html",
           "label": "Pokračovat k wellness"
@@ -707,8 +707,8 @@ window.siteData = {
           ]
         },
         "enquiry": {
-          "title": "Domluvte si prohlídku",
-          "text": "Prohlédněte si rezidenci osobně a zeptejte se na dispozice, předání a termíny.",
+          "title": "Poznejte rezidence",
+          "text": "Domluvte si soukromou prohlídku a proberte dostupné domovy, dispozice i předání.",
           "label": "Domluvit prohlídku",
           "href": "contact.html"
         },
@@ -719,8 +719,8 @@ window.siteData = {
         "metaDescription": "22 резиденции в двух зданиях, 110–299 м², Прага 5. Отделка Shell & Core, частная парковка с зарядкой для электромобилей. Завершение 2026.",
         "hero": {
           "eyebrow": "02 | Резиденции",
-          "title": "22 резиденции в двух зданиях",
-          "lead": "В каждом здании 11 резиденций, у всех есть балкон или терраса, панорамное остекление и отделка в формате Shell & Core",
+          "title": "Двадцать две резиденции в двух самобытных зданиях",
+          "lead": "По одиннадцать резиденций в каждом здании: просторное остекление, личное пространство на воздухе и свобода формата Shell & Core.",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -742,10 +742,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Два здания, по одиннадцать резиденций в каждом",
+          "title": "Основа для личного интерьера",
           "paragraphs": [
-            "Два здания вмещают 22 резиденции площадью от 110 до 299 м². В каждой — высокие потолки, панорамное остекление от пола до потолка и собственный балкон или терраса.",
-            "Каждая резиденция передаётся в формате Shell & Core, поэтому планировку и отделку интерьера определяет владелец. К каждой квартире прилагаются 3 отдельных парковочных места с зарядкой для электромобилей и отдельная кладовая."
+            "Площадь резиденций — от 110 до 299 м²; высокие потолки и панорамное остекление делают сад частью повседневного вида из окна.",
+            "Формат Shell & Core оставляет интерьер за владельцем, а три парковочных места с подготовкой для электромобилей и личная кладовая упрощают каждый день."
           ]
         },
         "pillars": [
@@ -784,7 +784,7 @@ window.siteData = {
             "alt": "Подземный паркинг с ручной художественной росписью"
           }
         ],
-        "quote": "Каждая резиденция передаётся в формате Shell & Core, планировку интерьера выбирает владелец",
+        "quote": "Продуманная основа для интерьера, созданного по замыслу владельца",
         "next": {
           "href": "wellness.html",
           "label": "Продолжить к велнесу"
@@ -864,8 +864,8 @@ window.siteData = {
           ]
         },
         "enquiry": {
-          "title": "Запишитесь на просмотр",
-          "text": "Осмотрите резиденцию лично и задайте вопросы о планировках, отделке и сроках.",
+          "title": "Познакомьтесь с резиденциями",
+          "text": "Запишитесь на частный просмотр, чтобы обсудить доступные варианты, планировки и сроки передачи.",
           "label": "Записаться на просмотр",
           "href": "contact.html"
         },
@@ -876,8 +876,8 @@ window.siteData = {
         "metaDescription": "22 résidences dans deux bâtiments, 110–299 m², Prague 5. Livraison Shell & Core, parking privé avec recharge VE, cave. Livraison 2026.",
         "hero": {
           "eyebrow": "02 | Résidences",
-          "title": "22 résidences réparties dans deux bâtiments",
-          "lead": "Chaque bâtiment compte 11 résidences, toutes avec balcon ou terrasse, baies vitrées du sol au plafond et livraison Shell & Core",
+          "title": "Vingt-deux résidences dans deux bâtiments singuliers",
+          "lead": "Onze résidences par bâtiment, avec de généreuses baies vitrées, un espace extérieur privé et la liberté du Shell & Core.",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -899,10 +899,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Deux bâtiments, onze résidences chacun",
+          "title": "Un cadre pour un intérieur personnel",
           "paragraphs": [
-            "Les deux bâtiments comptent 22 résidences au total, de 110 à 299 m². Chacune dispose de hauts plafonds, de baies vitrées du sol au plafond et d'un balcon ou d'une terrasse privée.",
-            "Chaque résidence est livrée en Shell & Core : l'agencement et les finitions intérieures reviennent au propriétaire. Chaque appartement dispose de 3 places de parking dédiées avec recharge VE et d'une cave séparée."
+            "De 110 à 299 m², les foyers associent hauts plafonds et baies vitrées du sol au plafond pour faire entrer le jardin dans le quotidien.",
+            "La livraison Shell & Core laisse l'intérieur à son propriétaire ; trois places prêtes pour la recharge VE et une cave privée facilitent les arrivées comme les jours ordinaires."
           ]
         },
         "pillars": [
@@ -941,7 +941,7 @@ window.siteData = {
             "alt": "Parking souterrain avec œuvre peinte à la main"
           }
         ],
-        "quote": "Chaque résidence est livrée en Shell & Core, l'agencement intérieur revient au propriétaire",
+        "quote": "Une structure pensée avec soin, prête pour l'intérieur imaginé par son propriétaire",
         "next": {
           "href": "wellness.html",
           "label": "Continuer vers le bien-être"
@@ -1021,8 +1021,8 @@ window.siteData = {
           ]
         },
         "enquiry": {
-          "title": "Voir une résidence",
-          "text": "Visitez une résidence en personne et posez vos questions sur les plans, la livraison et les délais.",
+          "title": "Découvrir les résidences",
+          "text": "Organisez une visite privée pour évoquer les foyers disponibles, les plans et la livraison.",
           "label": "Organiser une visite",
           "href": "contact.html"
         },

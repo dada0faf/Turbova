@@ -406,7 +406,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "03 | Wellness",
           "title": "A residents-only wellness floor",
-          "lead": "The wellness floor includes a heated indoor pool, sauna, hammam, changing rooms, a private kitchenette, and a lounge terrace",
+          "lead": "A heated indoor pool, sauna, hammam and terrace lounge — reserved for residents.",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -429,28 +429,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Everyday wellness, inside the residence",
+          "title": "A private ritual of water, warmth and rest",
           "paragraphs": [
-            "The wellness floor is for residents only, with direct access from inside the residence. It includes a heated indoor pool, sauna, and hammam.",
-            "Residents can move between the pool, sauna, hammam, and terrace without leaving the building or crossing public areas."
+            "Direct internal access makes the floor a natural part of the residence, from an early swim to an unhurried evening reset.",
+            "Changing rooms and a private kitchenette support a longer stay; the adjoining terrace extends the experience into the garden."
           ]
         },
         "pillars": [
           {
             "title": "Heated pool",
-            "text": "For swimming at any time of year"
+            "text": "A calm setting for an early swim or a slower end to the day"
           },
           {
             "title": "Sauna and hammam",
-            "text": "A full sauna and hammam, built into the wellness floor"
+            "text": "Dedicated heat rooms for a restorative pause close to home"
           },
           {
             "title": "Changing rooms and kitchenette",
-            "text": "For longer visits and small gatherings"
+            "text": "Thoughtfully equipped for privacy, comfort and a longer visit"
           },
           {
             "title": "Terrace lounge",
-            "text": "Connects directly to the wellness floor and opens onto the garden"
+            "text": "An outdoor room that brings fresh air and garden views into the ritual"
           }
         ],
         "gallery": [
@@ -467,14 +467,14 @@ window.siteData = {
             "alt": "Hammam interior"
           }
         ],
-        "quote": "The wellness floor is reserved for residents and their guests",
+          "quote": "A considered place to pause, without leaving home",
         "next": {
           "href": "grounds.html",
           "label": "Continue to grounds"
         },
         "enquiry": {
-          "title": "Ask about the wellness floor",
-          "text": "Arrange a viewing to see the pool, sauna, and hammam in person.",
+          "title": "Experience the wellness floor",
+          "text": "Arrange a private viewing and discover the atmosphere in person.",
           "label": "Arrange a viewing",
           "href": "contact.html"
         },
@@ -486,7 +486,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "03 | Wellness",
           "title": "Wellness patro jen pro rezidenty",
-          "lead": "Wellness patro zahrnuje vyhřívaný vnitřní bazén, saunu, hammam, šatny, soukromou kuchyňku a odpočinkovou terasu",
+          "lead": "Vyhřívaný vnitřní bazén, sauna, hammam a odpočinková terasa — výhradně pro rezidenty.",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -509,28 +509,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Wellness součástí rezidence",
+          "title": "Soukromý rituál vody, tepla a odpočinku",
           "paragraphs": [
-            "Wellness patro je jen pro rezidenty, s přímým přístupem přímo z rezidence. Zahrnuje vyhřívaný vnitřní bazén, saunu a hammam.",
-            "Rezidenti mohou přecházet mezi bazénem, saunou, hammamem a terasou, aniž by opustili budovu nebo prošli veřejným prostorem."
+            "Díky přímému přístupu z rezidence je wellness přirozenou součástí domova — pro ranní plavání i klidný večer.",
+            "Šatny a soukromá kuchyňka zpříjemňují delší pobyt; navazující terasa otevírá prostor do zahrady."
           ]
         },
         "pillars": [
           {
             "title": "Vyhřívaný bazén",
-            "text": "Pro plavání kdykoli během roku"
+            "text": "Klidné místo pro ranní plavání i pomalý závěr dne"
           },
           {
             "title": "Sauna a hammam",
-            "text": "Kompletní sauna a hammam přímo na wellness patře"
+            "text": "Prostor pro regeneraci a teplo v soukromí domova"
           },
           {
             "title": "Šatny a kuchyňka",
-            "text": "Pro delší pobyty a menší společenské setkání"
+            "text": "Promyšlené zázemí pro soukromí, pohodlí a delší návštěvu"
           },
           {
             "title": "Odpočinková terasa",
-            "text": "Navazuje přímo na wellness patro a otevírá se do zahrady"
+            "text": "Venkovní prostor, který propojuje odpočinek s čerstvým vzduchem a zahradou"
           }
         ],
         "gallery": [
@@ -547,14 +547,14 @@ window.siteData = {
             "alt": "Interiér hammamu"
           }
         ],
-        "quote": "Wellness patro je vyhrazeno rezidentům a jejich hostům",
+          "quote": "Promyšlené místo pro zastavení bez nutnosti opustit domov",
         "next": {
           "href": "grounds.html",
           "label": "Pokračovat k zahradám"
         },
         "enquiry": {
-          "title": "Zeptejte se na wellness patro",
-          "text": "Domluvte si prohlídku a podívejte se osobně na bazén, saunu a hammam.",
+          "title": "Poznejte wellness patro",
+          "text": "Domluvte si soukromou prohlídku a poznejte atmosféru osobně.",
           "label": "Domluvit prohlídku",
           "href": "contact.html"
         },
@@ -566,7 +566,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "03 | Велнес",
           "title": "Велнес-этаж только для резидентов",
-          "lead": "Велнес-этаж включает крытый бассейн с подогревом, сауну, хаммам, раздевалки, отдельную кухоньку и лаунж-террасу",
+          "lead": "Крытый бассейн с подогревом, сауна, хаммам и лаунж-терраса — только для резидентов.",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -589,28 +589,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Велнес внутри резиденции",
+          "title": "Личный ритуал воды, тепла и отдыха",
           "paragraphs": [
-            "Велнес-этаж доступен только резидентам, вход — прямо из резиденции. Здесь есть крытый бассейн с подогревом, сауна и хаммам.",
-            "Резиденты могут переходить между бассейном, сауной, хаммамом и террасой, не выходя из здания и не пересекая общественные зоны."
+            "Прямой внутренний доступ делает велнес естественной частью дома — для утреннего плавания и спокойного завершения дня.",
+            "Раздевалки и отдельная кухонька располагают к более долгому отдыху, а прилегающая терраса выводит его в сад."
           ]
         },
         "pillars": [
           {
             "title": "Бассейн с подогревом",
-            "text": "Для плавания в любое время года"
+            "text": "Спокойное пространство для утреннего плавания и отдыха в конце дня"
           },
           {
             "title": "Сауна и хаммам",
-            "text": "Полноценная сауна и хаммам прямо на велнес-этаже"
+            "text": "Отдельные пространства тепла и восстановления рядом с домом"
           },
           {
             "title": "Раздевалки и кухонька",
-            "text": "Для более долгих визитов и небольших встреч"
+            "text": "Продуманное оснащение для приватности, комфорта и долгого отдыха"
           },
           {
             "title": "Лаунж-терраса",
-            "text": "Соединена напрямую с велнес-этажом и выходит в сад"
+            "text": "Открытая гостиная со свежим воздухом и видом на сад"
           }
         ],
         "gallery": [
@@ -627,14 +627,14 @@ window.siteData = {
             "alt": "Интерьер хаммама"
           }
         ],
-        "quote": "Велнес-этаж предназначен только для резидентов и их гостей",
+          "quote": "Продуманное место для паузы, не выходя из дома",
         "next": {
           "href": "grounds.html",
           "label": "Продолжить к садам"
         },
         "enquiry": {
-          "title": "Узнайте больше о велнес-этаже",
-          "text": "Запишитесь на просмотр, чтобы увидеть бассейн, сауну и хаммам лично.",
+          "title": "Познакомьтесь с велнес-этажом",
+          "text": "Запишитесь на частный просмотр и почувствуйте атмосферу лично.",
           "label": "Записаться на просмотр",
           "href": "contact.html"
         },
@@ -646,7 +646,7 @@ window.siteData = {
         "hero": {
           "eyebrow": "03 | Bien-être",
           "title": "Un étage bien-être réservé aux résidents",
-          "lead": "L'étage bien-être comprend une piscine intérieure chauffée, un sauna, un hammam, des vestiaires, une kitchenette privée et un salon-terrasse",
+          "lead": "Piscine intérieure chauffée, sauna, hammam et salon-terrasse — réservés aux résidents.",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -669,28 +669,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Le bien-être, au sein même de la résidence",
+          "title": "Un rituel privé d'eau, de chaleur et de repos",
           "paragraphs": [
-            "L'étage bien-être est réservé aux résidents, avec un accès direct depuis la résidence. Il comprend une piscine intérieure chauffée, un sauna et un hammam.",
-            "Les résidents peuvent passer de la piscine au sauna, au hammam puis à la terrasse sans quitter le bâtiment ni traverser d'espace public."
+            "Son accès intérieur direct en fait un prolongement naturel du foyer, de la nage matinale au retour au calme du soir.",
+            "Vestiaires et kitchenette privée invitent à prolonger le moment ; la terrasse attenante ouvre l'expérience sur le jardin."
           ]
         },
         "pillars": [
           {
             "title": "Piscine chauffée",
-            "text": "Pour nager toute l'année"
+            "text": "Un cadre apaisé pour nager le matin ou ralentir en fin de journée"
           },
           {
             "title": "Sauna et hammam",
-            "text": "Un sauna et un hammam complets, intégrés à l'étage bien-être"
+            "text": "Des espaces de chaleur dédiés à la récupération, à deux pas de chez soi"
           },
           {
             "title": "Vestiaires et kitchenette",
-            "text": "Pour des séjours plus longs et de petites réunions"
+            "text": "Un équipement pensé pour l'intimité, le confort et les longues parenthèses"
           },
           {
             "title": "Salon-terrasse",
-            "text": "Relié directement à l'étage bien-être, ouvert sur le jardin"
+            "text": "Un salon extérieur qui introduit l'air frais et le jardin dans le rituel"
           }
         ],
         "gallery": [
@@ -707,14 +707,14 @@ window.siteData = {
             "alt": "Intérieur du hammam"
           }
         ],
-        "quote": "L'étage bien-être est réservé aux résidents et à leurs invités",
+          "quote": "Un lieu pensé pour faire une pause sans quitter son foyer",
         "next": {
           "href": "grounds.html",
           "label": "Continuer vers les jardins"
         },
         "enquiry": {
-          "title": "Renseignez-vous sur l'étage bien-être",
-          "text": "Organisez une visite pour découvrir la piscine, le sauna et le hammam en personne.",
+          "title": "Découvrir l'étage bien-être",
+          "text": "Organisez une visite privée pour en ressentir l'atmosphère.",
           "label": "Organiser une visite",
           "href": "contact.html"
         },

@@ -405,8 +405,8 @@ window.siteData = {
         "metaDescription": "Turbová's private garden: century-old trees, a wine house, outdoor training area, and children's playground, Prague 5.",
         "hero": {
           "eyebrow": "04 | Grounds",
-          "title": "A private garden around the residence",
-          "lead": "The garden is enclosed and fully secure. Century-old trees and cascading planting shelter the residence from street noise",
+          "title": "A private garden with room to retreat",
+          "lead": "A terraced, residents-only garden where mature trees soften the city and shared spaces invite time outdoors.",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -428,28 +428,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "A garden with more than one purpose",
+          "title": "Landscape designed for daily life",
           "paragraphs": [
-            "The garden is not purely decorative. Century-old trees and cascading planting form a sound barrier between the residence and the surrounding streets.",
-            "The grounds include a wine house pavilion, an outdoor training area, and a children's playground, all within the enclosed garden."
+            "Layered planting and mature trees create a sheltered setting with a distinctly quieter character than the streets beyond.",
+            "The Wine House pavilion, outdoor training area and children's playground give the landscape a place in everyday family life."
           ]
         },
         "pillars": [
           {
             "title": "Cascading garden",
-            "text": "Century-old trees and layered planting form a natural barrier around the residence"
+            "text": "Terraced planting and mature trees shape the garden into a sequence of private outdoor rooms"
           },
           {
             "title": "Outdoor training area",
-            "text": "An equipped outdoor fitness area within the garden"
+            "text": "A dedicated setting for movement in fresh air, framed by planting rather than streets"
           },
           {
             "title": "Wine House",
-            "text": "A private garden pavilion for gatherings and family celebrations"
+            "text": "A discreet pavilion for a long lunch, an evening gathering or a family celebration"
           },
           {
             "title": "Children's playground",
-            "text": "Enclosed and set within the garden, away from the street"
+            "text": "A place for younger residents to play within sight of the garden, away from the road"
           }
         ],
         "gallery": [
@@ -462,14 +462,14 @@ window.siteData = {
             "alt": "Garden terrace with hammock"
           }
         ],
-        "quote": "The garden is enclosed, and residents are the only ones who use it",
+          "quote": "A landscape that makes space for quiet, play and time together",
         "next": {
           "href": "location.html",
           "label": "Continue to location"
         },
         "enquiry": {
-          "title": "Visit the garden",
-          "text": "See the grounds and the Wine House pavilion in person.",
+          "title": "Walk the grounds",
+          "text": "Arrange a private visit to experience the garden and Wine House pavilion.",
           "label": "Arrange a viewing",
           "href": "contact.html"
         },
@@ -477,11 +477,11 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Zahrady",
-        "metaDescription": "Soukromá zahrada Turbové: staleté stromy, vinotéka, venkovní fitness a dětské hřiště, Praha 5.",
+        "metaDescription": "Soukromá zahrada Turbové: staleté stromy, pavilon Wine House, venkovní fitness a dětské hřiště v Praze 5.",
         "hero": {
           "eyebrow": "04 | Zahrady",
-          "title": "Soukromá zahrada kolem rezidence",
-          "lead": "Zahrada je oplocená a plně zabezpečená. Staleté stromy a kaskádová výsadba chrání rezidenci před hlukem ulice",
+          "title": "Soukromá zahrada pro klidný únik",
+          "lead": "Terasovitá zahrada jen pro rezidenty, kde vzrostlé stromy tlumí ruch města a vybízejí k pobytu venku.",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -503,28 +503,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Zahrada s víc než jednou funkcí",
+          "title": "Krajina pro každodenní život",
           "paragraphs": [
-            "Zahrada zde není jen dekorací. Staleté stromy a kaskádová výsadba vytvářejí zvukovou bariéru mezi rezidencí a okolními ulicemi.",
-            "Areál zahrnuje pavilon Wine House, venkovní fitness a dětské hřiště, vše uvnitř oploceného areálu."
+            "Vrstvená výsadba a vzrostlé stromy vytvářejí chráněné prostředí s výrazně klidnějším charakterem než okolní ulice.",
+            "Pavilon Wine House, venkovní fitness a dětské hřiště dávají zahradě přirozené místo v každodenním rodinném životě."
           ]
         },
         "pillars": [
           {
             "title": "Kaskádová zahrada",
-            "text": "Staleté stromy a vrstvená výsadba tvoří přirozenou bariéru kolem rezidence"
+            "text": "Terasovitá výsadba a vzrostlé stromy proměňují zahradu v řadu soukromých venkovních místností"
           },
           {
             "title": "Venkovní fitness",
-            "text": "Vybavená plocha pro cvičení v areálu zahrady"
+            "text": "Vyhrazené místo pro pohyb na čerstvém vzduchu, obklopené zelení místo ulic"
           },
           {
             "title": "Wine House",
-            "text": "Soukromý zahradní pavilon pro setkání a rodinné oslavy"
+            "text": "Nenápadný pavilon pro dlouhý oběd, večerní setkání nebo rodinnou oslavu"
           },
           {
             "title": "Dětské hřiště",
-            "text": "Oplocené a umístěné uvnitř zahrady, mimo dosah ulice"
+            "text": "Prostor pro nejmladší rezidenty, v dohledu zahrady a mimo ruch silnice"
           }
         ],
         "gallery": [
@@ -537,14 +537,14 @@ window.siteData = {
             "alt": "Zahradní terasa s houpací sítí"
           }
         ],
-        "quote": "Zahrada je oplocená a využívají ji pouze rezidenti",
+          "quote": "Krajina, která vytváří prostor pro klid, hru i společný čas",
         "next": {
           "href": "location.html",
           "label": "Pokračovat k lokalitě"
         },
         "enquiry": {
-          "title": "Navštivte zahradu",
-          "text": "Prohlédněte si areál a pavilon Wine House osobně.",
+          "title": "Projděte se zahradou",
+          "text": "Domluvte si soukromou návštěvu a poznejte zahradu i pavilon Wine House.",
           "label": "Domluvit prohlídku",
           "href": "contact.html"
         },
@@ -552,11 +552,11 @@ window.siteData = {
       },
       "ru": {
         "title": "Turbová | Сады",
-        "metaDescription": "Частный сад Turbová: вековые деревья, винный дом, площадка для тренировок и детская площадка, Прага 5.",
+        "metaDescription": "Частный сад Turbová: вековые деревья, павильон Wine House, тренировочная зона и детская площадка в Праге 5.",
         "hero": {
           "eyebrow": "04 | Сады",
-          "title": "Частный сад вокруг резиденции",
-          "lead": "Сад огорожен и полностью защищён. Вековые деревья и каскадные посадки защищают резиденцию от уличного шума",
+          "title": "Частный сад для тихого отдыха",
+          "lead": "Террасный сад только для резидентов: зрелые деревья смягчают городской шум, а общие зоны приглашают проводить время на воздухе.",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -578,28 +578,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Сад с несколькими функциями",
+          "title": "Ландшафт для повседневной жизни",
           "paragraphs": [
-            "Сад здесь не только для красоты. Вековые деревья и каскадные посадки образуют звуковой барьер между резиденцией и окружающими улицами.",
-            "На территории есть павильон Wine House, площадка для тренировок на воздухе и детская площадка — всё в пределах огороженного сада."
+            "Многоярусные посадки и зрелые деревья создают защищённую среду с заметно более тихим характером, чем у соседних улиц.",
+            "Павильон Wine House, открытая тренировочная зона и детская площадка делают сад естественной частью повседневной семейной жизни."
           ]
         },
         "pillars": [
           {
             "title": "Каскадный сад",
-            "text": "Вековые деревья и многоярусные посадки образуют естественный барьер вокруг резиденции"
+            "text": "Террасные посадки и зрелые деревья формируют череду приватных пространств под открытым небом"
           },
           {
             "title": "Площадка для тренировок",
-            "text": "Оборудованная зона для занятий спортом на территории сада"
+            "text": "Выделенное место для движения на свежем воздухе в окружении зелени, а не городских улиц"
           },
           {
             "title": "Wine House",
-            "text": "Частный садовый павильон для встреч и семейных праздников"
+            "text": "Небольшой павильон для долгого обеда, вечерней встречи или семейного праздника"
           },
           {
             "title": "Детская площадка",
-            "text": "Огороженная и расположенная внутри сада, вдали от улицы"
+            "text": "Пространство для маленьких резидентов в поле зрения сада и вдали от дороги"
           }
         ],
         "gallery": [
@@ -612,14 +612,14 @@ window.siteData = {
             "alt": "Садовая терраса с гамаком"
           }
         ],
-        "quote": "Сад огорожен, и им пользуются только резиденты",
+          "quote": "Ландшафт, в котором есть место для тишины, игры и времени вместе",
         "next": {
           "href": "location.html",
           "label": "Продолжить к локации"
         },
         "enquiry": {
-          "title": "Посетите сад",
-          "text": "Осмотрите территорию и павильон Wine House лично.",
+          "title": "Прогуляйтесь по саду",
+          "text": "Запишитесь на частный визит, чтобы познакомиться с садом и павильоном Wine House.",
           "label": "Записаться на просмотр",
           "href": "contact.html"
         },
@@ -627,11 +627,11 @@ window.siteData = {
       },
       "fr": {
         "title": "Turbová | Jardins",
-        "metaDescription": "Le jardin privé de Turbová : arbres centenaires, cave à vin, espace de fitness extérieur et aire de jeux, Prague 5.",
+        "metaDescription": "Le jardin privé de Turbová : arbres centenaires, pavillon Wine House, espace de fitness extérieur et aire de jeux à Prague 5.",
         "hero": {
           "eyebrow": "04 | Jardins",
-          "title": "Un jardin privé autour de la résidence",
-          "lead": "Le jardin est clos et entièrement sécurisé. Des arbres centenaires et des plantations en cascade protègent la résidence du bruit de la rue",
+          "title": "Un jardin privé où se retirer",
+          "lead": "Un jardin en terrasses réservé aux résidents, où les arbres matures apaisent la ville et les espaces partagés invitent au plein air.",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -653,28 +653,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Un jardin à plusieurs fonctions",
+          "title": "Un paysage pour la vie quotidienne",
           "paragraphs": [
-            "Le jardin n'est pas purement décoratif. Des arbres centenaires et des plantations en cascade forment une barrière sonore entre la résidence et les rues environnantes.",
-            "Le terrain comprend un pavillon Wine House, un espace de fitness extérieur et une aire de jeux pour enfants, le tout à l'intérieur du jardin clos."
+            "Plantations étagées et arbres matures composent un cadre protégé, sensiblement plus calme que les rues alentour.",
+            "Le pavillon Wine House, l'espace d'entraînement extérieur et l'aire de jeux inscrivent le jardin dans le quotidien des familles."
           ]
         },
         "pillars": [
           {
             "title": "Jardin en cascade",
-            "text": "Des arbres centenaires et des plantations étagées forment une barrière naturelle autour de la résidence"
+            "text": "Plantations en terrasses et arbres matures dessinent une succession de pièces extérieures privées"
           },
           {
             "title": "Espace de fitness extérieur",
-            "text": "Un espace équipé pour l'entraînement au sein du jardin"
+            "text": "Un lieu dédié au mouvement en plein air, entouré de végétation plutôt que de rues"
           },
           {
             "title": "Wine House",
-            "text": "Un pavillon de jardin privé pour les réunions et les fêtes de famille"
+            "text": "Un pavillon discret pour un long déjeuner, une soirée entre proches ou une fête de famille"
           },
           {
             "title": "Aire de jeux pour enfants",
-            "text": "Clôturée et située à l'intérieur du jardin, à l'écart de la rue"
+            "text": "Un espace pour les plus jeunes, au cœur du jardin et loin de la circulation"
           }
         ],
         "gallery": [
@@ -687,14 +687,14 @@ window.siteData = {
             "alt": "Terrasse de jardin avec hamac"
           }
         ],
-        "quote": "Le jardin est clos, et seuls les résidents l'utilisent",
+          "quote": "Un paysage qui laisse de la place au calme, au jeu et aux moments partagés",
         "next": {
           "href": "location.html",
           "label": "Continuer vers l'emplacement"
         },
         "enquiry": {
-          "title": "Visitez le jardin",
-          "text": "Découvrez le terrain et le pavillon Wine House en personne.",
+          "title": "Parcourir le jardin",
+          "text": "Organisez une visite privée pour découvrir le jardin et le pavillon Wine House.",
           "label": "Organiser une visite",
           "href": "contact.html"
         },
