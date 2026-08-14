@@ -405,8 +405,8 @@ window.siteData = {
         "metaDescription": "Turbová is in Prague 5, Smíchov, near Anděl, international schools, Canadian Medical Centre, and Motol University Hospital.",
         "hero": {
           "eyebrow": "05 | Location",
-          "title": "Prague 5, Smíchov: schools, healthcare, and transport nearby",
-          "lead": "Turbová is in Prague 5, Smíchov, within a few minutes of Anděl, international schools, and major routes into the city",
+          "title": "Quietly placed, well connected",
+          "lead": "In Prague 5, Smíchov, Turbová keeps Anděl, international schools and major city routes within easy reach.",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -427,10 +427,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Schools, healthcare, and transport nearby",
+          "title": "A connected address with room to breathe",
           "paragraphs": [
-            "Three international schools, healthcare, and everyday shopping are all within a few minutes of the residence.",
-            "Prague 5 connects to the rest of the city through Anděl and the surrounding road network."
+            "School runs, medical appointments and daily errands can stay close to home, with three international schools and essential services nearby.",
+            "Anděl provides a straightforward link to the centre by metro and tram, while the surrounding road network supports an easy arrival by car."
           ]
         },
         "pillars": [
@@ -514,8 +514,8 @@ window.siteData = {
         "metaDescription": "Turbová se nachází v Praze 5 na Smíchově, blízko Anděla, mezinárodních škol, Canadian Medical Centre a Fakultní nemocnice Motol.",
         "hero": {
           "eyebrow": "05 | Lokalita",
-          "title": "Praha 5, Smíchov: školy, zdravotní péče a doprava nablízku",
-          "lead": "Turbová leží v Praze 5 na Smíchově, pár minut od Anděla, mezinárodních škol a hlavních tras do centra",
+          "title": "V klidu, a přitom ve spojení",
+          "lead": "Turbová na pražském Smíchově udržuje Anděl, mezinárodní školy i hlavní městské trasy na dosah.",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -536,10 +536,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Školy, zdravotní péče a doprava nablízku",
+          "title": "Dobře propojená adresa s prostorem k nadechnutí",
           "paragraphs": [
-            "Tři mezinárodní školy, zdravotní péče i každodenní nákupy jsou od rezidence vzdálené jen pár minut.",
-            "Praha 5 se s centrem propojuje přes Anděl a okolní silniční síť."
+            "Školy, zdravotní péče i každodenní nákupy zůstávají blízko domova — včetně tří mezinárodních škol a základních služeb.",
+            "Anděl zajišťuje přímé spojení do centra metrem i tramvají, okolní silniční síť pak pohodlný příjezd autem."
           ]
         },
         "pillars": [
@@ -623,8 +623,8 @@ window.siteData = {
         "metaDescription": "Turbová расположена в Праге 5, Смихов, рядом с Анделом, международными школами, Canadian Medical Centre и больницей Motol.",
         "hero": {
           "eyebrow": "05 | Локация",
-          "title": "Прага 5, Смихов: школы, медицина и транспорт рядом",
-          "lead": "Turbová расположена в Праге 5, Смихов, в нескольких минутах от Андела, международных школ и основных магистралей в центр",
+          "title": "В тишине, но в центре связей",
+          "lead": "Turbová в пражском Смихове находится рядом с Анделом, международными школами и основными городскими маршрутами.",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -645,10 +645,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Школы, медицина и транспорт рядом",
+          "title": "Связанный с городом адрес, где легко дышится",
           "paragraphs": [
-            "Три международные школы, медицинские учреждения и повседневные магазины находятся в нескольких минутах от резиденции.",
-            "Прага 5 связана с остальным городом через Андел и прилегающую дорожную сеть."
+            "Школы, медицинские учреждения и повседневные покупки остаются рядом с домом — включая три международные школы и важные сервисы.",
+            "Андел обеспечивает прямое сообщение с центром на метро и трамвае, а окружающая дорожная сеть — удобный подъезд на автомобиле."
           ]
         },
         "pillars": [
@@ -732,8 +732,8 @@ window.siteData = {
         "metaDescription": "Turbová se situe à Prague 5, Smíchov, près d'Anděl, des écoles internationales, du Canadian Medical Centre et de l'hôpital de Motol.",
         "hero": {
           "eyebrow": "05 | Emplacement",
-          "title": "Prague 5, Smíchov : écoles, santé et transports à proximité",
-          "lead": "Turbová se situe à Prague 5, Smíchov, à quelques minutes d'Anděl, des écoles internationales et des grands axes vers le centre",
+          "title": "Au calme, parfaitement reliée",
+          "lead": "À Smíchov, Prague 5, Turbová garde Anděl, les écoles internationales et les grands axes urbains à portée de main.",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -754,10 +754,10 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Écoles, santé et transports à proximité",
+          "title": "Une adresse connectée, où l'on respire",
           "paragraphs": [
-            "Trois écoles internationales, des services de santé et des commerces du quotidien se trouvent à quelques minutes de la résidence.",
-            "Prague 5 est reliée au reste de la ville par Anděl et le réseau routier environnant."
+            "Écoles, soins et courses du quotidien restent proches du foyer, avec trois écoles internationales et les services essentiels dans le quartier.",
+            "Anděl relie directement le centre par métro et tramway, tandis que le réseau routier voisin facilite les arrivées en voiture."
           ]
         },
         "pillars": [

@@ -510,7 +510,7 @@ window.siteData = {
             {
               "title": "Creative studio",
               "subtitle": "Jiří Trnka",
-              "text": "Later, the grounds housed the studio of Czech artist and animator Jiří Trnka.",
+              "text": "In time, Jiří Trnka's studio gave the grounds a lasting place in Czech creative life.",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Aerial view of the Turbová grounds"
             }
@@ -527,7 +527,7 @@ window.siteData = {
           },
           {
             "year": "Trnka",
-            "label": "Studio of Jiří Trnka"
+            "label": "Trnka's creative legacy"
           },
           {
             "year": "Prague 5",
@@ -577,13 +577,13 @@ window.siteData = {
           },
           {
             "number": "02",
-            "title": "The studio of Jiří Trnka",
+            "title": "A studio for a singular imagination",
             "paragraphs": [
-              "Later, the grounds became the studio of Czech artist and animator Jiří Trnka.",
+              "Jiří Trnka brought a new creative chapter to the site, linking its quieter setting to Czech animation and art.",
               "Prague 5's Smíchov district grew up around the site, while the garden remained largely as it was."
             ],
             "points": [
-              "Studio of Jiří Trnka",
+              "A defining Czech creative legacy",
               "Smíchov, Prague 5",
               "Garden unchanged through the district's growth"
             ],
@@ -872,7 +872,7 @@ window.siteData = {
             {
               "title": "Tvůrčí ateliér",
               "subtitle": "Jiří Trnka",
-              "text": "Později se areál stal ateliérem českého výtvarníka a animátora Jiřího Trnky.",
+              "text": "Později zde působil ateliér Jiřího Trnky, který místu vtiskl trvalé místo v českém tvůrčím prostředí.",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Letecký pohled na areál Turbová"
             }
@@ -889,7 +889,7 @@ window.siteData = {
           },
           {
             "year": "Trnka",
-            "label": "Ateliér Jiřího Trnky"
+            "label": "Trnkův tvůrčí odkaz"
           },
           {
             "year": "Praha 5",
@@ -939,13 +939,13 @@ window.siteData = {
           },
           {
             "number": "02",
-            "title": "Ateliér Jiřího Trnky",
+            "title": "Ateliér pro jedinečnou imaginaci",
             "paragraphs": [
-              "Později se areál stal ateliérem českého výtvarníka a animátora Jiřího Trnky.",
+              "Jiří Trnka otevřel místu novou tvůrčí kapitolu a spojil jeho klidný charakter s českým výtvarným uměním a animací.",
               "Pražský Smíchov kolem místa postupně rostl, zatímco zahrada zůstávala z velké části beze změny."
             ],
             "points": [
-              "Ateliér Jiřího Trnky",
+              "Výrazný odkaz české tvorby",
               "Smíchov, Praha 5",
               "Zahrada beze změny během růstu čtvrti"
             ],
@@ -1234,7 +1234,7 @@ window.siteData = {
             {
               "title": "Творческая мастерская",
               "subtitle": "Иржи Трнка",
-              "text": "Позже территория стала мастерской чешского художника и аниматора Иржи Трнки.",
+              "text": "Со временем здесь появилась мастерская Иржи Трнки, закрепившая за этим местом особую роль в чешской творческой среде.",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Вид на территорию Turbová с высоты"
             }
@@ -1251,7 +1251,7 @@ window.siteData = {
           },
           {
             "year": "Трнка",
-            "label": "Мастерская Иржи Трнки"
+            "label": "Творческое наследие Трнки"
           },
           {
             "year": "Прага 5",
@@ -1301,13 +1301,13 @@ window.siteData = {
           },
           {
             "number": "02",
-            "title": "Мастерская Иржи Трнки",
+            "title": "Пространство для уникального воображения",
             "paragraphs": [
-              "Позже территория стала мастерской чешского художника и аниматора Иржи Трнки.",
+              "Иржи Трнка открыл для этого места новую творческую главу, связав его тихую атмосферу с чешским искусством и анимацией.",
               "Пражский район Смихов постепенно рос вокруг усадьбы, а сад оставался почти неизменным."
             ],
             "points": [
-              "Мастерская Иржи Трнки",
+              "Знаковое наследие чешского искусства",
               "Смихов, Прага 5",
               "Сад не менялся во время роста района"
             ],
@@ -1596,7 +1596,7 @@ window.siteData = {
             {
               "title": "Atelier créatif",
               "subtitle": "Jiří Trnka",
-              "text": "Plus tard, le domaine a accueilli l'atelier de l'artiste et animateur tchèque Jiří Trnka.",
+              "text": "L'atelier de Jiří Trnka a ensuite donné au domaine une place durable dans la vie créative tchèque.",
               "image": "assets/images/birds-eye-view.webp",
               "alt": "Vue aérienne du domaine de Turbová"
             }
@@ -1613,7 +1613,7 @@ window.siteData = {
           },
           {
             "year": "Trnka",
-            "label": "Atelier de Jiří Trnka"
+            "label": "Héritage créatif de Trnka"
           },
           {
             "year": "Prague 5",
@@ -1663,13 +1663,13 @@ window.siteData = {
           },
           {
             "number": "02",
-            "title": "L'atelier de Jiří Trnka",
+            "title": "Un atelier pour une imagination singulière",
             "paragraphs": [
-              "Plus tard, le domaine est devenu l'atelier de l'artiste et animateur tchèque Jiří Trnka.",
+              "Jiří Trnka a ouvert un nouveau chapitre créatif pour ce lieu, reliant son calme à l'art et à l'animation tchèques.",
               "Le quartier de Smíchov, à Prague 5, s'est développé autour du site, tandis que le jardin restait largement inchangé."
             ],
             "points": [
-              "Atelier de Jiří Trnka",
+              "Un héritage majeur de la création tchèque",
               "Smíchov, Prague 5",
               "Jardin inchangé malgré le développement du quartier"
             ],

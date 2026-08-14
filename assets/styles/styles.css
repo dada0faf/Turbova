@@ -4208,3 +4208,91 @@ p { line-height: 1.55; }
   .chapter-gallery { padding-bottom: 5rem; }
   .site-footer { grid-template-columns: 1fr; padding: 4rem 20px; }
 }
+
+/* ---------------------------------------------------------------------
+   Mobile finishing pass
+
+   These rules deliberately sit after the editorial system above. They make
+   the mobile composition predictable: the navigation always has an opaque
+   resting state after scroll, titles have enough measure for translated copy,
+   and dark editorial panels retain their intended contrast.  Keeping these
+   decisions together prevents a future desktop adjustment from reviving the
+   overlapping header and washed-out type visible in the previous build.
+   --------------------------------------------------------------------- */
+html,
+body { overflow-x: clip; }
+
+@media (max-width: 860px) {
+  .site-header.is-stuck {
+    position: fixed;
+    background: rgba(25, 26, 24, 0.98);
+    border-bottom-color: rgba(239, 236, 227, 0.22);
+  }
+
+  .site-header.is-stuck .brandmark,
+  .site-header.is-stuck .header-actions,
+  .site-header.is-stuck .menu-button {
+    color: #f5f1e8;
+  }
+
+  .arrival-hero__content {
+    /* Leave a real visual interval above the specification grid. */
+    margin-bottom: 9.25rem;
+  }
+
+  .arrival-hero__content h1 {
+    max-width: none;
+    text-wrap: balance;
+  }
+
+  .story-cover__copy h1,
+  .chapter-cover__copy h1,
+  .contact-cover__copy h1 {
+    max-width: 13ch;
+    text-wrap: balance;
+  }
+
+  .arrival-hero__facts {
+    bottom: 1.25rem;
+  }
+
+  .arrival-hero__facts span {
+    display: flex;
+    align-items: center;
+    min-height: 3.1rem;
+    padding: 0.65rem 0.7rem;
+    line-height: 1.35;
+  }
+
+  .home-split--grounds,
+  .home-split--grounds .home-split__copy {
+    background: #242521;
+    color: #ece8df;
+  }
+
+  .home-split--grounds h2,
+  .home-split--grounds .text-link { color: #f5f1e8; }
+
+  .home-split--grounds p { color: rgba(236, 232, 223, 0.8); }
+
+  .story-timeline {
+    grid-auto-columns: minmax(10.5rem, 52vw);
+    margin-top: 3.5rem;
+    scroll-snap-type: x mandatory;
+  }
+
+  .story-timeline__item {
+    min-height: 8.75rem;
+    padding: 1.15rem 1.1rem 1.25rem 0;
+    scroll-snap-align: start;
+  }
+
+  .story-timeline__item strong {
+    font-size: 1.45rem;
+    line-height: 1;
+  }
+
+  .story-timeline__item span {
+    line-height: 1.45;
+  }
+}

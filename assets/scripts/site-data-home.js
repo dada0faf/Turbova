@@ -405,9 +405,9 @@ window.siteData = {
         "metaDescription": "Turbová: 22 residences in two buildings, Prague 5, Smíchov. Private garden, resident-only wellness, 24/7 concierge. Completion 2026.",
         "hero": {
           "eyebrow": "Boutique Residence | Prague 5",
-          "title": "A quiet house beside a historic park",
-          "lead": "22 residences, a private park, resident-only wellness, and 24/7 concierge service, for family life in Prague 5",
-          "description": "The site was once an 18th-century estate. Construction completes in 2026.",
+          "title": "A quiet home beside a historic park",
+          "lead": "Twenty-two residences with a private garden, resident-only wellness and a 24/7 concierge in Prague 5.",
+          "description": "Rooted in an 18th-century estate; completion is planned for 2026.",
           "primary": {
             "label": "Read our story",
             "href": "story.html"
@@ -510,9 +510,9 @@ window.siteData = {
         "metaDescription": "Turbová: 22 rezidencí ve dvou budovách, Praha 5, Smíchov. Soukromá zahrada, wellness jen pro rezidenty, concierge 24/7. Dokončení 2026.",
         "hero": {
           "eyebrow": "Butiková rezidence | Praha 5",
-          "title": "Tiché sídlo u historického parku",
-          "lead": "22 rezidencí, soukromý park, wellness jen pro rezidenty a nepřetržitý concierge servis pro rodinný život v Praze 5",
-          "description": "Areál stával na místě panství z 18. století. Výstavba je dokončena v roce 2026.",
+          "title": "Klidný domov u historického parku",
+          "lead": "Dvacet dva domovů se soukromou zahradou, wellness jen pro rezidenty a concierge 24/7 v Praze 5.",
+          "description": "Projekt vyrůstá na místě panství z 18. století; dokončení je plánováno na rok 2026.",
           "primary": {
             "label": "Číst náš příběh",
             "href": "story.html"
@@ -616,8 +616,8 @@ window.siteData = {
         "hero": {
           "eyebrow": "Бутиковая резиденция | Прага 5",
           "title": "Тихий дом рядом с историческим парком",
-          "lead": "22 резиденции, частный парк, велнес только для резидентов и круглосуточный консьерж-сервис для семейной жизни в Праге 5",
-          "description": "Участок когда-то был частью усадьбы XVIII века. Завершение строительства — в 2026 году.",
+          "lead": "Двадцать две резиденции с частным садом, велнесом только для резидентов и круглосуточным консьерж-сервисом в Праге 5.",
+          "description": "Проект расположен на территории усадьбы XVIII века; завершение запланировано на 2026 год.",
           "primary": {
             "label": "Читать нашу историю",
             "href": "story.html"
@@ -720,9 +720,9 @@ window.siteData = {
         "metaDescription": "Turbová : 22 résidences dans deux bâtiments, Prague 5, Smíchov. Jardin privé, bien-être réservé aux résidents, conciergerie 24h/24. Livraison 2026.",
         "hero": {
           "eyebrow": "Résidence boutique | Prague 5",
-          "title": "Une demeure tranquille au bord d'un parc historique",
-          "lead": "22 résidences, un parc privé, un espace bien-être réservé aux résidents et une conciergerie 24h/24 pour la vie de famille à Prague 5",
-          "description": "Le site accueillait autrefois un domaine du XVIIIe siècle. Livraison en 2026.",
+          "title": "Une demeure paisible près d'un parc historique",
+          "lead": "Vingt-deux résidences avec jardin privé, espace bien-être réservé aux résidents et conciergerie 24 h/24 à Prague 5.",
+          "description": "Le projet prend place sur le site d'un domaine du XVIIIe siècle ; la livraison est prévue en 2026.",
           "primary": {
             "label": "Lire notre histoire",
             "href": "story.html"
