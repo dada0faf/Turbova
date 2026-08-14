@@ -100,6 +100,10 @@
 
   const arrow = '<span class="button__arrow" aria-hidden="true">&rarr;</span>';
 
+  // Chapter titles already carry the name at display scale. A compact numeric
+  // marker keeps the eyebrow useful without immediately repeating the heading.
+  const chapterMarker = (number) => `${number} / 05`;
+
   function getGlobal(locale) {
     return siteData.global[locale] || siteData.global.en;
   }
@@ -479,7 +483,7 @@
         </section>
 
         <section class="home-project-proof reveal" id="residences">
-          <p class="eyebrow">${residences.number} / ${residences.title}</p>
+          <p class="eyebrow">${chapterMarker(residences.number)}</p>
           <div class="home-project-proof__title">
             <span aria-hidden="true">22</span>
             <div>
@@ -495,7 +499,7 @@
             <img src="assets/images/new images/IMG_2254.webp" alt="${wellness.title}" width="1600" height="900" loading="lazy" decoding="async" />
           </figure>
           <div class="home-scene__overlay">
-            <p class="eyebrow">${wellness.number} / ${wellness.title}</p>
+            <p class="eyebrow">${chapterMarker(wellness.number)}</p>
             ${heading("h2", wellness.title)}
             <p>${wellness.text}</p>
             <a class="text-link text-link--light" href="${wellness.href}">${wellness.title}<span aria-hidden="true">&rarr;</span></a>
@@ -507,7 +511,7 @@
             <img src="assets/images/garden-exterior.webp" alt="${grounds.title}" width="1600" height="1066" loading="lazy" decoding="async" />
           </figure>
           <div class="home-split__copy">
-            <p class="eyebrow">${grounds.number} / ${grounds.title}</p>
+            <p class="eyebrow">${chapterMarker(grounds.number)}</p>
             ${heading("h2", grounds.title)}
             <p>${grounds.text}</p>
             <a class="text-link" href="${grounds.href}">${grounds.title}<span aria-hidden="true">&rarr;</span></a>
@@ -516,7 +520,7 @@
 
         <section class="home-split home-split--location reveal" id="location">
           <div class="home-split__copy">
-            <p class="eyebrow">${location.number} / ${location.title}</p>
+            <p class="eyebrow">${chapterMarker(location.number)}</p>
             ${heading("h2", location.title)}
             <p>${location.text}</p>
             <a class="text-link" href="${location.href}">${location.title}<span aria-hidden="true">&rarr;</span></a>
@@ -624,17 +628,21 @@
               )
               .join("")}
           </div>
-          <div class="story-timeline stagger" aria-label="Timeline">
-            ${data.timeline
-              .map(
-                (item) => `
-                  <article class="story-timeline__item">
-                    <strong>${item.year}</strong>
-                    <span>${item.label}</span>
-                  </article>
-                `
-              )
-              .join("")}
+          <div class="story-timeline-scroll" data-scroll-timeline>
+            <div class="story-timeline-scroll__sticky">
+              <div class="story-timeline stagger" aria-label="Timeline">
+                ${data.timeline
+                  .map(
+                    (item) => `
+                      <article class="story-timeline__item">
+                        <strong>${item.year}</strong>
+                        <span>${item.label}</span>
+                      </article>
+                    `
+                  )
+                  .join("")}
+              </div>
+            </div>
           </div>
         </section>
 
@@ -1210,6 +1218,72 @@
     });
   }
 
+  function bindScrollTimelines() {
+    document.querySelectorAll("[data-scroll-timeline]").forEach((scene) => {
+      const sticky = scene.querySelector(".story-timeline-scroll__sticky");
+      const track = scene.querySelector(".story-timeline");
+      if (!sticky || !track) return;
+
+      let travel = 0;
+      let frame = 0;
+      let active = true;
+
+      const sync = () => {
+        frame = 0;
+        if (!active || reduceMotion || travel <= 0) return;
+
+        const sceneRect = scene.getBoundingClientRect();
+        const stickyTop = Number.parseFloat(window.getComputedStyle(sticky).top) || 0;
+        const scrollDistance = Math.max(1, scene.offsetHeight - sticky.offsetHeight);
+        const progress = Math.min(1, Math.max(0, (stickyTop - sceneRect.top) / scrollDistance));
+
+        track.style.setProperty("--timeline-x", `${(-travel * progress).toFixed(2)}px`);
+        scene.style.setProperty("--timeline-progress", progress.toFixed(4));
+      };
+
+      const requestSync = () => {
+        if (!frame) frame = window.requestAnimationFrame(sync);
+      };
+
+      const measure = () => {
+        scene.classList.toggle("is-scroll-bound", !reduceMotion);
+        scene.style.removeProperty("height");
+        track.style.removeProperty("--timeline-x");
+
+        if (reduceMotion) {
+          travel = 0;
+          return;
+        }
+
+        travel = Math.max(0, track.scrollWidth - sticky.clientWidth);
+        scene.style.setProperty("--timeline-travel", `${travel.toFixed(2)}px`);
+        scene.style.height = `${Math.ceil(sticky.getBoundingClientRect().height + travel)}px`;
+        requestSync();
+      };
+
+      window.addEventListener("scroll", requestSync, { passive: true });
+      window.addEventListener("resize", measure);
+      window.visualViewport?.addEventListener("resize", measure);
+      window.requestAnimationFrame(measure);
+      document.fonts?.ready.then(() => {
+        if (active) measure();
+      });
+
+      cleanups.push(() => {
+        active = false;
+        if (frame) window.cancelAnimationFrame(frame);
+        window.removeEventListener("scroll", requestSync);
+        window.removeEventListener("resize", measure);
+        window.visualViewport?.removeEventListener("resize", measure);
+        scene.classList.remove("is-scroll-bound");
+        scene.style.removeProperty("height");
+        scene.style.removeProperty("--timeline-travel");
+        scene.style.removeProperty("--timeline-progress");
+        track.style.removeProperty("--timeline-x");
+      });
+    });
+  }
+
   function bindCarousels() {
     document.querySelectorAll("[data-carousel]").forEach((carousel) => {
       const track = carousel.querySelector(".img-carousel__track");
@@ -1271,6 +1345,8 @@
       };
 
       let timer = null;
+      let controlsTimer = null;
+      let controlsObserver = null;
       const start = () => {
         if (!reduceMotion) timer = setInterval(next, 5000);
       };
@@ -1279,18 +1355,58 @@
         start();
       };
 
+      const revealControls = () => {
+        carousel.classList.add("is-controls-visible");
+        if (controlsTimer) window.clearTimeout(controlsTimer);
+        controlsTimer = window.setTimeout(() => {
+          if (!carousel.matches(":focus-within")) carousel.classList.remove("is-controls-visible");
+        }, 2600);
+      };
+
+      const keepControlsForKeyboard = () => {
+        if (controlsTimer) window.clearTimeout(controlsTimer);
+        carousel.classList.add("is-controls-visible");
+      };
+
+      const resumeControlFade = () => {
+        if (carousel.matches(":focus-within")) return;
+        revealControls();
+      };
+
+      carousel.addEventListener("pointerenter", revealControls);
+      carousel.addEventListener("pointerdown", revealControls);
+      carousel.addEventListener("focusin", keepControlsForKeyboard);
+      carousel.addEventListener("focusout", resumeControlFade);
+
+      if ("IntersectionObserver" in window) {
+        controlsObserver = new IntersectionObserver(
+          (entries) => {
+            if (!entries.some((entry) => entry.isIntersecting)) return;
+            revealControls();
+            controlsObserver?.disconnect();
+            controlsObserver = null;
+          },
+          { threshold: 0.25 }
+        );
+        controlsObserver.observe(carousel);
+      } else {
+        revealControls();
+      }
+
       const prevButton = carousel.querySelector("[data-carousel-prev]");
       const nextButton = carousel.querySelector("[data-carousel-next]");
       if (prevButton) {
         prevButton.addEventListener("click", () => {
           prev();
           restart();
+          revealControls();
         });
       }
       if (nextButton) {
         nextButton.addEventListener("click", () => {
           next();
           restart();
+          revealControls();
         });
       }
 
@@ -1298,12 +1414,15 @@
         dot.addEventListener("click", () => {
           moveTo(i);
           restart();
+          revealControls();
         });
       });
 
       start();
       cleanups.push(() => {
         if (timer) clearInterval(timer);
+        if (controlsTimer) window.clearTimeout(controlsTimer);
+        controlsObserver?.disconnect();
       });
     });
   }
@@ -1548,6 +1667,7 @@
     bindTransitions();
     bindReveal();
     bindScrollProgress();
+    bindScrollTimelines();
     bindCarousels();
     bindGalleryLightbox();
     bindContactForm();

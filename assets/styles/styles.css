@@ -4296,3 +4296,307 @@ body { overflow-x: clip; }
     line-height: 1.45;
   }
 }
+
+/* ---------------------------------------------------------------------
+   Layout, carousel and timeline refinements
+
+   These rules intentionally close the stylesheet. Earlier art-direction
+   passes use high-specificity theme tokens, so the responsive grid is
+   resolved here at the same level instead of relying on source order alone.
+   --------------------------------------------------------------------- */
+:root:root:root:root {
+  --muted: #686b62;
+  --muted-rgb: 104, 107, 98;
+}
+
+:root:root:root:root[data-theme="trnka"] {
+  --muted: #59655b;
+  --muted-rgb: 89, 101, 91;
+  --brass: #7c6230;
+  --brass-rgb: 124, 98, 48;
+}
+
+.field__input::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+/* Carousel navigation reads as architectural side panels. It is introduced
+   on load by JavaScript, then gets out of the photography's way until hover,
+   touch or keyboard focus asks for it again. */
+.img-carousel .img-carousel__arrow {
+  width: clamp(3.75rem, 6vw, 5rem);
+  height: clamp(5rem, 9vw, 7rem);
+  border-radius: 0;
+  border-color: rgba(var(--media-light-rgb), 0.46);
+  color: rgb(var(--media-light-rgb));
+  background: rgba(var(--media-dark-rgb), 0.72);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 0.6s var(--ease-soft),
+    transform 0.6s var(--ease-soft),
+    background 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.img-carousel .img-carousel__arrow--prev {
+  left: 0;
+  border-left: 0;
+  transform: translate(-0.7rem, -50%);
+}
+
+.img-carousel .img-carousel__arrow--next {
+  right: 0;
+  border-right: 0;
+  transform: translate(0.7rem, -50%);
+}
+
+.img-carousel.is-controls-visible .img-carousel__arrow,
+.img-carousel:hover .img-carousel__arrow,
+.img-carousel .img-carousel__arrow:focus-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(0, -50%);
+}
+
+.img-carousel .img-carousel__arrow:hover {
+  background: rgba(var(--media-dark-rgb), 0.9);
+  border-color: rgb(var(--media-light-rgb));
+}
+
+.img-carousel .img-carousel__arrow span {
+  font-size: 1.2rem;
+}
+
+/* Vertical page travel drives a larger horizontal chronology. Reduced-motion
+   users retain a conventional, manually scrollable rail below. */
+.story-timeline-scroll {
+  position: relative;
+  width: 100%;
+  margin-top: clamp(5rem, 10vw, 10rem);
+}
+
+.story-timeline-scroll__sticky {
+  width: 100%;
+  overflow: hidden;
+}
+
+.story-timeline-scroll.is-scroll-bound .story-timeline-scroll__sticky {
+  position: sticky;
+  top: 76px;
+  height: calc(100svh - 96px);
+  min-height: 34rem;
+  display: grid;
+  align-items: center;
+}
+
+.story-timeline-scroll .story-timeline {
+  width: max-content;
+  margin: 0;
+  grid-auto-columns: clamp(17rem, 24vw, 23rem);
+  overflow: visible;
+  border-top-color: var(--line);
+  border-bottom: 1px solid var(--line);
+  transform: translate3d(var(--timeline-x, 0px), 0, 0);
+  will-change: transform;
+}
+
+.story-timeline-scroll .story-timeline__item {
+  min-height: clamp(22rem, 54svh, 32rem);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border-right-color: var(--line);
+}
+
+.story-timeline-scroll .story-timeline__item:first-child {
+  padding-left: clamp(1.5rem, 3vw, 2.5rem);
+  border-left: 1px solid var(--line);
+}
+
+.story-timeline-scroll .story-timeline__item strong {
+  color: var(--ink);
+  font-size: clamp(3rem, 5.5vw, 6rem);
+  line-height: 0.88;
+  letter-spacing: -0.065em;
+}
+
+.story-timeline-scroll .story-timeline__item span {
+  max-width: 19rem;
+  color: var(--ink-soft);
+  font-size: clamp(0.72rem, 1vw, 0.86rem);
+  line-height: 1.55;
+  letter-spacing: 0.12em;
+}
+
+.story-timeline-scroll:not(.is-scroll-bound) .story-timeline-scroll__sticky {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.story-timeline-scroll:not(.is-scroll-bound) .story-timeline {
+  transform: none;
+}
+
+/* Explicit dark-surface pairs prevent light-page tokens from leaking into
+   reverse story panels and other mineral sections. */
+.story-beat--reverse .story-beat__copy p {
+  color: rgba(247, 243, 236, 0.88);
+}
+
+.story-beat--reverse .story-beat__chips {
+  border-top-color: rgba(247, 243, 236, 0.32);
+}
+
+.story-beat--reverse .story-beat__chips span {
+  color: rgba(247, 243, 236, 0.9);
+  border-bottom-color: rgba(247, 243, 236, 0.2);
+}
+
+.story-beat--reverse .story-beat__chips span::before {
+  background: var(--brass-soft);
+}
+
+.chapter-feature p {
+  color: rgba(247, 243, 236, 0.82);
+}
+
+.page-chapter--location .chapter-feature p {
+  color: var(--ink-soft);
+}
+
+.home-history .section-copy,
+.home-history .detail-card p,
+.site-footer p,
+.site-footer .footer-note {
+  color: rgba(247, 243, 236, 0.78);
+}
+
+.home-split--grounds p {
+  color: rgba(247, 243, 236, 0.86);
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .img-carousel .img-carousel__arrow {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .img-carousel.is-controls-visible .img-carousel__arrow,
+  .img-carousel .img-carousel__arrow:focus-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(0, -50%);
+  }
+}
+
+@media (max-width: 860px) {
+  :root:root:root:root,
+  :root:root:root:root[data-theme="night"],
+  :root:root:root:root[data-theme="trnka"],
+  :root:root:root:root[data-theme="vineyard"] {
+    --gutter: 24px;
+    --container: calc(100vw - 48px);
+  }
+
+  .arrival-hero__content,
+  .story-cover__copy,
+  .chapter-cover__copy,
+  .contact-cover__copy {
+    width: var(--container);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .arrival-hero__facts {
+    right: var(--gutter);
+    left: var(--gutter);
+  }
+
+  .page-home .metric-strip {
+    padding-right: var(--gutter);
+    padding-left: var(--gutter);
+  }
+
+  .home-premise,
+  .home-project-proof,
+  .home-enquiry,
+  .home-scene__overlay,
+  .page-story .story-prologue,
+  .chapter-editorial,
+  .chapter-information,
+  .chapter-gallery,
+  .contact-shell,
+  .enquiry-band,
+  .quote-panel {
+    width: var(--container);
+  }
+
+  .page.page-story .story-beat {
+    width: 100%;
+  }
+
+  .page.page-story .story-beat .story-beat__copy {
+    padding-right: var(--gutter);
+    padding-left: var(--gutter);
+  }
+
+  .home-split--grounds .home-split__copy,
+  .home-split--location .home-split__copy,
+  .home-history__copy,
+  .story-beat__copy,
+  .chapter-features,
+  .site-footer {
+    padding-right: var(--gutter);
+    padding-left: var(--gutter);
+  }
+
+  .story-timeline-scroll {
+    margin-top: 4rem;
+  }
+
+  .story-timeline-scroll.is-scroll-bound .story-timeline-scroll__sticky {
+    top: 64px;
+    height: calc(100svh - 80px);
+    min-height: 31rem;
+  }
+
+  .story-timeline-scroll .story-timeline {
+    grid-auto-columns: clamp(15.5rem, 68vw, 18.5rem);
+    scroll-snap-type: none;
+  }
+
+  .story-timeline-scroll .story-timeline__item,
+  .story-timeline-scroll .story-timeline__item:first-child {
+    min-height: clamp(22rem, 58svh, 30rem);
+    padding: 1.6rem;
+  }
+
+  .story-timeline-scroll .story-timeline__item strong {
+    font-size: clamp(2.8rem, 14vw, 4.8rem);
+  }
+
+  .img-carousel .img-carousel__arrow {
+    width: 3.75rem;
+    height: 5.25rem;
+  }
+}
+
+@media (max-width: 359px) {
+  :root:root:root:root,
+  :root:root:root:root[data-theme="night"],
+  :root:root:root:root[data-theme="trnka"],
+  :root:root:root:root[data-theme="vineyard"] {
+    --gutter: 20px;
+    --container: calc(100vw - 40px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .img-carousel .img-carousel__arrow,
+  .story-timeline-scroll .story-timeline {
+    transition: none;
+  }
+}
