@@ -288,6 +288,34 @@
     `;
   }
 
+  function renderOpeningDetails({ lead, description = "", primary = null, secondary = null, variant = "page" }) {
+    const actions = [
+      primary
+        ? `<a class="button button-primary" href="${primary.href}">${primary.label}${arrow}</a>`
+        : "",
+      secondary
+        ? `<a class="button button-secondary" href="${secondary.href}">${secondary.label}</a>`
+        : "",
+    ]
+      .filter(Boolean)
+      .join("");
+    const hasAside = Boolean(description || actions);
+
+    return `
+      <section class="opening-details opening-details--${variant}${hasAside ? "" : " opening-details--solo"} reveal">
+        <p class="opening-details__lead">${lead}</p>
+        ${
+          hasAside
+            ? `<div class="opening-details__aside">
+                ${description ? `<p class="opening-details__description">${description}</p>` : ""}
+                ${actions ? `<div class="opening-details__actions">${actions}</div>` : ""}
+              </div>`
+            : ""
+        }
+      </section>
+    `;
+  }
+
   function renderGallery(items) {
     return `
       <div class="gallery-grid stagger">
@@ -456,19 +484,18 @@
           <div class="arrival-hero__content">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
-            <p class="lead">${data.hero.lead}</p>
-            <p class="description">${data.hero.description}</p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="${data.hero.primary.href}">${data.hero.primary.label}${arrow}</a>
-              <a class="button button-ghost" href="${data.hero.secondary.href}">${data.hero.secondary.label}</a>
-            </div>
-          </div>
-          <div class="arrival-hero__facts" aria-label="${globalData.brand}">
-            ${data.hero.badges.map((badge) => `<span>${badge}</span>`).join("")}
           </div>
         </section>
 
         ${renderMetricStrip(data.stats, "metric-strip metric-strip--arrival")}
+
+        ${renderOpeningDetails({
+          lead: data.hero.lead,
+          description: data.hero.description,
+          primary: data.hero.primary,
+          secondary: data.hero.secondary,
+          variant: "home",
+        })}
 
         <section class="home-premise reveal" id="project">
           <div class="home-premise__copy">
@@ -596,14 +623,16 @@
           <div class="story-cover__copy">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
-            <p class="lead">${data.hero.lead}</p>
-            <p class="description">${data.hero.description}</p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="${data.hero.button.href}">${data.hero.button.label}${arrow}</a>
-            </div>
           </div>
           <p class="story-cover__chapter" aria-hidden="true">01</p>
         </section>
+
+        ${renderOpeningDetails({
+          lead: data.hero.lead,
+          description: data.hero.description,
+          primary: data.hero.button,
+          variant: "story",
+        })}
 
         <section class="story-prologue reveal" id="story-intro">
           <div class="story-prologue__heading">
@@ -630,12 +659,12 @@
           </div>
           <div class="story-timeline-scroll" data-scroll-timeline>
             <div class="story-timeline-scroll__sticky">
-              <div class="story-timeline stagger" aria-label="Timeline">
+              <div class="story-timeline" aria-label="Timeline">
                 ${data.timeline
                   .map(
                     (item) => `
                       <article class="story-timeline__item">
-                        <strong>${item.year}</strong>
+                        <strong class="${Array.from(item.year).length > 10 ? "story-timeline__title--long" : ""}">${item.year}</strong>
                         <span>${item.label}</span>
                       </article>
                     `
@@ -766,11 +795,6 @@
           <div class="chapter-cover__copy">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
-            <p class="lead">${data.hero.lead}</p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="${data.next.href}">${data.next.label}${arrow}</a>
-              <a class="button button-ghost" href="#chapter-story">${data.story.title}</a>
-            </div>
           </div>
           <div class="chapter-cover__index" aria-hidden="true">
             <span>${pageNumber}</span>
@@ -780,6 +804,13 @@
         </section>
 
         ${renderMetricStrip(data.metrics, "metric-strip chapter-metrics")}
+
+        ${renderOpeningDetails({
+          lead: data.hero.lead,
+          primary: data.next,
+          secondary: { label: data.story.title, href: "#chapter-story" },
+          variant: pageId,
+        })}
 
         <section class="chapter-editorial reveal" id="chapter-story">
           <div class="chapter-editorial__copy">
@@ -880,9 +911,10 @@
           <div class="contact-cover__copy">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
-            <p class="lead">${data.hero.lead}</p>
           </div>
         </section>
+
+        ${renderOpeningDetails({ lead: data.hero.lead, variant: "contact" })}
 
         <section class="contact-shell reveal">
           <aside class="contact-shell__intro">
