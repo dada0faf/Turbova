@@ -446,6 +446,10 @@
             <img src="assets/images/new images/ZAB_2-2.webp" alt="${data.hero.media[0].alt}" width="1600" height="1066" fetchpriority="high" decoding="async" />
           </figure>
           <div class="arrival-hero__veil" aria-hidden="true"></div>
+          <span class="arrival-hero__wordmark" aria-hidden="true">TURBOVÁ</span>
+          <figure class="arrival-hero__archive" aria-hidden="true">
+            <img src="assets/images/turbova-old.webp" alt="" width="800" height="1023" loading="eager" decoding="async" />
+          </figure>
           <div class="arrival-hero__content">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
