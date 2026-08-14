@@ -96,9 +96,9 @@
 
   /* Vertical rhythm for page/section structure, replacing the arbitrary
      per-section margins that used to vary between 5rem and 9rem. */
-  --section-gap: clamp(4.5rem, 3.6rem + 4vw, 7rem);
-  --page-pad-top: clamp(2.5rem, 2rem + 2vw, 4rem);
-  --page-pad-bottom: clamp(4.5rem, 3.5rem + 4vw, 8rem);
+  --section-gap: clamp(3.75rem, 3rem + 3.1vw, 5.75rem);
+  --page-pad-top: clamp(2rem, 1.6rem + 1.6vw, 3.25rem);
+  --page-pad-bottom: clamp(4rem, 3.2rem + 3.2vw, 6.5rem);
 
   /* ---- Type scale (fluid, clamp-based) ---- */
   --fs-2xs: clamp(0.6rem, 0.58rem + 0.1vw, 0.66rem);
@@ -1197,7 +1197,7 @@ p {
 
 .hero-shell__copy {
   display: grid;
-  gap: 1.8rem;
+  gap: clamp(1.3rem, 1rem + 0.8vw, 1.8rem);
 }
 
 .hero-shell__copy h1 {
@@ -2169,6 +2169,94 @@ p {
   }
 }
 
+/* ---------- Full-bleed editorial media ----------
+   The project has enough photographic material to let the key moments occupy
+   the viewport. On wide screens the copy remains on the editorial grid while
+   the image resolves cleanly to the browser edge; this removes the stranded
+   slivers of background that made the largest elements feel undersized. */
+@media (min-width: 1101px) {
+  .page.page-home,
+  .page.page-chapter {
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .page.page-home > section:not(.hero-shell--home),
+  .page.page-chapter > section:not(.chapter-hero):not(.gallery-section) {
+    width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page.page-home .hero-shell--home,
+  .page.page-chapter .chapter-hero {
+    width: 100%;
+    min-height: max(44rem, calc(100svh - 6.25rem));
+    min-height: max(44rem, calc(100dvh - 6.25rem));
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0;
+    align-items: stretch;
+    margin-bottom: var(--section-gap);
+  }
+
+  .page.page-home .hero-shell--home .hero-shell__copy,
+  .page.page-chapter .chapter-hero__copy {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 50rem;
+    justify-self: end;
+    align-self: center;
+    padding: clamp(4rem, 7vh, 7rem) clamp(2rem, 4.5vw, 5rem) clamp(4rem, 7vh, 7rem) max(var(--gutter), calc((100vw - 1280px) / 2));
+  }
+
+  .page.page-home .hero-shell--home .hero-shell__copy h1 {
+    max-width: none;
+    font-size: clamp(4.35rem, 5.8vw, 5.45rem);
+    line-height: 1.02;
+    text-wrap: balance;
+  }
+
+  .page.page-home .collage,
+  .page.page-chapter .chapter-hero__media {
+    min-height: 100%;
+  }
+
+  .page.page-home .collage .img-carousel,
+  .page.page-chapter .chapter-hero__media .img-carousel {
+    height: 100%;
+    min-height: 100%;
+    aspect-ratio: auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .page.page-chapter .metric-strip--tight {
+    margin-top: 0;
+  }
+
+  .page.page-chapter .gallery-section {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .page.page-chapter .gallery-section .section-heading {
+    width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page.page-chapter .gallery-section > .img-carousel {
+    width: 100%;
+    height: min(78svh, 50rem);
+    height: min(78dvh, 50rem);
+    aspect-ratio: auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 1100px) {
   .hero-shell--home,
@@ -2345,6 +2433,67 @@ p {
   .hero-actions {
     gap: 0.7rem;
     padding-top: 0.5rem;
+  }
+
+  /* On small screens the image belongs to the viewport, not a narrow card.
+     Copy keeps a consistent inset and is deliberately separated from the
+     media, so a line of text never appears to sit against an image edge. */
+  .page.page-home .hero-shell--home,
+  .page.page-chapter .chapter-hero {
+    width: 100vw;
+    min-height: auto;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    gap: clamp(2rem, 7vw, 2.75rem);
+  }
+
+  .page.page-home .hero-shell--home {
+    margin-bottom: var(--section-gap);
+  }
+
+  .page.page-home .hero-shell--home .hero-shell__copy,
+  .page.page-chapter .chapter-hero__copy {
+    box-sizing: border-box;
+    width: 100%;
+    padding-inline: var(--gutter);
+  }
+
+  .page.page-home .collage,
+  .page.page-chapter .chapter-hero__media {
+    width: 100%;
+    min-height: 0;
+  }
+
+  .page.page-home .collage .img-carousel,
+  .page.page-chapter .chapter-hero__media .img-carousel {
+    height: min(76svh, 36rem);
+    height: min(76dvh, 36rem);
+    min-height: 25rem;
+    aspect-ratio: auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .page.page-chapter .metric-strip--tight {
+    margin-top: 0;
+  }
+
+  .page.page-chapter .gallery-section > .img-carousel,
+  .page .legacy-spotlight__media .img-carousel,
+  .page .story-beat__media .img-carousel {
+    width: 100vw;
+    height: min(70svh, 34rem);
+    height: min(70dvh, 34rem);
+    min-height: 22rem;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    aspect-ratio: auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .section-heading {
+    margin-bottom: var(--space-xl);
   }
 
   .collage,
