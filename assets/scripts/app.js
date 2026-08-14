@@ -516,7 +516,7 @@
             <div>
               ${heading("h2", residences.title)}
               <p>${residences.text}</p>
-              <a class="text-link" href="${residences.href}">${residences.title}<span aria-hidden="true">&rarr;</span></a>
+              <a class="text-link" href="${residences.href}">${residences.cta || residences.title}<span aria-hidden="true">&rarr;</span></a>
             </div>
           </div>
         </section>
@@ -529,7 +529,7 @@
             <p class="eyebrow">${chapterMarker(wellness.number)}</p>
             ${heading("h2", wellness.title)}
             <p>${wellness.text}</p>
-            <a class="text-link text-link--light" href="${wellness.href}">${wellness.title}<span aria-hidden="true">&rarr;</span></a>
+            <a class="text-link text-link--light" href="${wellness.href}">${wellness.cta || wellness.title}<span aria-hidden="true">&rarr;</span></a>
           </div>
         </section>
 
@@ -541,7 +541,7 @@
             <p class="eyebrow">${chapterMarker(grounds.number)}</p>
             ${heading("h2", grounds.title)}
             <p>${grounds.text}</p>
-            <a class="text-link" href="${grounds.href}">${grounds.title}<span aria-hidden="true">&rarr;</span></a>
+            <a class="text-link" href="${grounds.href}">${grounds.cta || grounds.title}<span aria-hidden="true">&rarr;</span></a>
           </div>
         </section>
 
@@ -550,7 +550,7 @@
             <p class="eyebrow">${chapterMarker(location.number)}</p>
             ${heading("h2", location.title)}
             <p>${location.text}</p>
-            <a class="text-link" href="${location.href}">${location.title}<span aria-hidden="true">&rarr;</span></a>
+            <a class="text-link" href="${location.href}">${location.cta || location.title}<span aria-hidden="true">&rarr;</span></a>
           </div>
           <figure class="home-split__media">
             <img src="assets/images/two-buildings-side-view.webp" alt="${location.title}" width="1600" height="1000" loading="lazy" decoding="async" />

@@ -457,30 +457,35 @@ window.siteData = {
             "number": "01",
             "title": "Story",
             "text": "From an 18th-century estate to the studio of Jiří Trnka",
+            "cta": "Discover the estate",
             "href": "story.html"
           },
           {
             "number": "02",
-            "title": "Residences",
-            "text": "22 residences in two buildings, 110–299 m², delivered Shell & Core",
+            "title": "Private homes",
+            "text": "Arranged across two buildings; floor plans range from 110 to 299 m², with the freedom of a bespoke Shell & Core interior",
+            "cta": "View floor plans",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Wellness",
             "text": "A heated pool, sauna, hammam, and terrace lounge for residents only",
+            "cta": "See the private facilities",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Grounds",
             "text": "A private garden, a wine house, and a playground on a century-old hillside",
+            "cta": "Explore the garden",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Location",
             "text": "Prague 5, near Anděl, international schools, and Motol Hospital",
+            "cta": "See what is nearby",
             "href": "location.html"
           }
         ],
@@ -562,30 +567,35 @@ window.siteData = {
             "number": "01",
             "title": "Příběh",
             "text": "Od panství z 18. století po ateliér Jiřího Trnky",
+            "cta": "Poznat historii místa",
             "href": "story.html"
           },
           {
             "number": "02",
-            "title": "Rezidence",
-            "text": "22 rezidencí ve dvou budovách, 110–299 m², předání Shell & Core",
+            "title": "Soukromých domovů",
+            "text": "Ve dvou budovách; dispozice od 110 do 299 m² nechávají volnost pro interiér ve standardu Shell & Core",
+            "cta": "Prohlédnout dispozice",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Wellness",
             "text": "Vyhřívaný bazén, sauna, hammam a terasa jen pro rezidenty",
+            "cta": "Prohlédnout soukromé zázemí",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Zahrady",
             "text": "Soukromá zahrada, vinotéka a dětské hřiště na stoletém svahu",
+            "cta": "Projít zahradu",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Lokalita",
             "text": "Praha 5, blízko Anděla, mezinárodních škol a nemocnice Motol",
+            "cta": "Co je v okolí",
             "href": "location.html"
           }
         ],
@@ -667,30 +677,35 @@ window.siteData = {
             "number": "01",
             "title": "История",
             "text": "От усадьбы XVIII века до мастерской Иржи Трнки",
+            "cta": "Открыть наследие усадьбы",
             "href": "story.html"
           },
           {
             "number": "02",
-            "title": "Резиденции",
-            "text": "22 резиденции в двух зданиях, 110–299 м², отделка Shell & Core",
+            "title": "Частных дома",
+            "text": "Расположены в двух зданиях; площадь — от 110 до 299 м², а формат Shell & Core оставляет свободу для интерьера",
+            "cta": "Смотреть планировки",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Велнес",
             "text": "Бассейн с подогревом, сауна, хаммам и терраса только для резидентов",
+            "cta": "Смотреть частные пространства",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Сады",
             "text": "Частный сад, винный дом и детская площадка на столетнем склоне",
+            "cta": "Прогуляться по саду",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Локация",
             "text": "Прага 5, рядом с Анделом, международными школами и больницей Motol",
+            "cta": "Что находится рядом",
             "href": "location.html"
           }
         ],
@@ -772,30 +787,35 @@ window.siteData = {
             "number": "01",
             "title": "Histoire",
             "text": "D'un domaine du XVIIIe siècle à l'atelier de Jiří Trnka",
+            "cta": "Découvrir le domaine",
             "href": "story.html"
           },
           {
             "number": "02",
-            "title": "Résidences",
-            "text": "22 résidences dans deux bâtiments, 110–299 m², livraison Shell & Core",
+            "title": "Logements privés",
+            "text": "Répartis entre deux bâtiments ; les plans vont de 110 à 299 m² et la livraison Shell & Core laisse toute liberté d'aménagement",
+            "cta": "Voir les plans",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Bien-être",
             "text": "Une piscine chauffée, un sauna, un hammam et une terrasse réservés aux résidents",
+            "cta": "Découvrir les espaces privés",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Jardins",
             "text": "Un jardin privé, une cave à vin et une aire de jeux sur un coteau centenaire",
+            "cta": "Parcourir le jardin",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Emplacement",
             "text": "Prague 5, près d'Anděl, des écoles internationales et de l'hôpital de Motol",
+            "cta": "Voir les environs",
             "href": "location.html"
           }
         ],
