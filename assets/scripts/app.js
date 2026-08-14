@@ -291,7 +291,10 @@
           .map(
             (item, index) => `
               <figure class="gallery-card ${index === 0 ? "gallery-card--wide" : ""}">
-                <img src="${item.src}" alt="${item.alt}" loading="lazy" decoding="async" />
+                <button class="gallery-card__trigger" type="button" data-lightbox-trigger data-lightbox-src="${item.src}" data-lightbox-alt="${item.alt}" aria-label="${item.alt}">
+                  <img src="${item.src}" alt="${item.alt}" loading="lazy" decoding="async" />
+                  <span class="gallery-card__expand" aria-hidden="true">+</span>
+                </button>
               </figure>
             `
           )
@@ -430,63 +433,103 @@
   function renderHome(locale) {
     const data = getPage(locale);
     const globalData = getGlobal(locale);
-    const collageItems = [
-      { src: data.hero.media[0].src, alt: data.hero.media[0].alt },
-      { src: data.hero.media[1].src, alt: data.hero.media[1].alt },
-    ];
+    const chapters = data.chapters || [];
+    const residences = chapters[1] || chapters[0];
+    const wellness = chapters[2] || chapters[0];
+    const grounds = chapters[3] || chapters[0];
+    const location = chapters[4] || chapters[0];
 
     return `
       <main class="page page-home">
-        <section class="hero-shell hero-shell--home reveal is-visible">
-          <div class="hero-shell__copy">
+        <section class="arrival-hero reveal is-visible">
+          <figure class="arrival-hero__media">
+            <img src="assets/images/new images/ZAB_2-2.webp" alt="${data.hero.media[0].alt}" width="1600" height="1066" fetchpriority="high" decoding="async" />
+          </figure>
+          <div class="arrival-hero__veil" aria-hidden="true"></div>
+          <div class="arrival-hero__content">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
             <p class="lead">${data.hero.lead}</p>
             <p class="description">${data.hero.description}</p>
             <div class="hero-actions">
               <a class="button button-primary" href="${data.hero.primary.href}">${data.hero.primary.label}${arrow}</a>
-              <a class="button button-secondary" href="${data.hero.secondary.href}">${data.hero.secondary.label}</a>
-            </div>
-            <div class="hero-badge-row">
-              ${data.hero.badges.map((badge) => `<span class="hero-badge">${badge}</span>`).join("")}
+              <a class="button button-ghost" href="${data.hero.secondary.href}">${data.hero.secondary.label}</a>
             </div>
           </div>
-          ${renderCollage(collageItems, "home", [])}
-        </section>
-
-        ${renderMetricStrip(data.stats)}
-
-        <section class="chapter-rail reveal">
-          <div class="section-heading">
-            <p class="eyebrow">${globalData.chapterLabel}</p>
-            ${heading("h2", data.chaptersTitle)}
-          </div>
-          <div class="chapter-list stagger">
-            ${data.chapters
-              .map(
-                (chapter) => `
-                  <a class="chapter-card" href="${chapter.href}">
-                    <span class="chapter-card__number">${chapter.number}</span>
-                    <h3>${chapter.title}</h3>
-                    <p>${chapter.text}</p>
-                    <span class="chapter-card__arrow" aria-hidden="true">&rarr;</span>
-                  </a>
-                `
-              )
-              .join("")}
+          <div class="arrival-hero__facts" aria-label="${globalData.brand}">
+            ${data.hero.badges.map((badge) => `<span>${badge}</span>`).join("")}
           </div>
         </section>
 
-        <section class="legacy-spotlight reveal">
-          <div class="legacy-spotlight__media">
-            ${renderImageCarousel([
-              { src: data.legacy.mediaLeft, alt: data.legacy.title },
-              { src: data.legacy.mediaRight, alt: data.legacy.title },
-            ])}
+        ${renderMetricStrip(data.stats, "metric-strip metric-strip--arrival")}
+
+        <section class="home-premise reveal" id="project">
+          <div class="home-premise__copy">
+            <p class="eyebrow">${globalData.brand}</p>
+            ${heading("h2", data.legacy.title)}
+            <p class="section-copy">${data.legacy.text}</p>
           </div>
-          <div class="legacy-spotlight__copy">
+          <figure class="home-premise__media">
+            <img src="assets/images/new images/IMG_2525.webp" alt="${data.hero.media[1].alt}" width="1600" height="900" loading="lazy" decoding="async" />
+            <figcaption>${data.legacy.cards[0].title}</figcaption>
+          </figure>
+        </section>
+
+        <section class="home-project-proof reveal" id="residences">
+          <p class="eyebrow">${residences.number} / ${residences.title}</p>
+          <div class="home-project-proof__title">
+            <span aria-hidden="true">22</span>
+            <div>
+              ${heading("h2", residences.title)}
+              <p>${residences.text}</p>
+              <a class="text-link" href="${residences.href}">${residences.title}<span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="home-scene home-scene--wellness reveal" id="wellness">
+          <figure class="home-scene__media">
+            <img src="assets/images/new images/IMG_2254.webp" alt="${wellness.title}" width="1600" height="900" loading="lazy" decoding="async" />
+          </figure>
+          <div class="home-scene__overlay">
+            <p class="eyebrow">${wellness.number} / ${wellness.title}</p>
+            ${heading("h2", wellness.title)}
+            <p>${wellness.text}</p>
+            <a class="text-link text-link--light" href="${wellness.href}">${wellness.title}<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </section>
+
+        <section class="home-split home-split--grounds reveal" id="grounds">
+          <figure class="home-split__media">
+            <img src="assets/images/garden-exterior.webp" alt="${grounds.title}" width="1600" height="1066" loading="lazy" decoding="async" />
+          </figure>
+          <div class="home-split__copy">
+            <p class="eyebrow">${grounds.number} / ${grounds.title}</p>
+            ${heading("h2", grounds.title)}
+            <p>${grounds.text}</p>
+            <a class="text-link" href="${grounds.href}">${grounds.title}<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </section>
+
+        <section class="home-split home-split--location reveal" id="location">
+          <div class="home-split__copy">
+            <p class="eyebrow">${location.number} / ${location.title}</p>
+            ${heading("h2", location.title)}
+            <p>${location.text}</p>
+            <a class="text-link" href="${location.href}">${location.title}<span aria-hidden="true">&rarr;</span></a>
+          </div>
+          <figure class="home-split__media">
+            <img src="assets/images/two-buildings-side-view.webp" alt="${location.title}" width="1600" height="1000" loading="lazy" decoding="async" />
+          </figure>
+        </section>
+
+        <section class="home-history reveal" id="heritage">
+          <figure class="home-history__media">
+            <img src="${data.legacy.mediaLeft}" alt="${data.legacy.title}" width="1600" height="1023" loading="lazy" decoding="async" />
+          </figure>
+          <div class="home-history__copy">
             <div class="section-heading">
-              <p class="eyebrow">${globalData.strap}</p>
+              <p class="eyebrow">${chapters[0].number} / ${chapters[0].title}</p>
               ${heading("h2", data.legacy.title)}
             </div>
             <p class="section-copy">${data.legacy.text}</p>
@@ -499,10 +542,18 @@
                       <p>${card.text}</p>
                     </article>
                   `
-                )
-                .join("")}
+              )
+              .join("")}
             </div>
+            <a class="text-link" href="${chapters[0].href}">${chapters[0].title}<span aria-hidden="true">&rarr;</span></a>
           </div>
+        </section>
+
+        <section class="home-enquiry reveal" id="enquire">
+          <p class="eyebrow">${globalData.strap}</p>
+          ${heading("h2", globalData.footerTitle)}
+          <p>${globalData.footerText}</p>
+          <a class="button button-primary" href="contact.html">${globalData.enquireLabel}${arrow}</a>
         </section>
       </main>
     `;
@@ -530,8 +581,12 @@
     const data = getPage(locale);
     return `
       <main class="page page-story">
-        <section class="hero-shell hero-shell--story reveal is-visible">
-          <div class="hero-shell__copy hero-shell__copy--story">
+        <section class="story-cover reveal is-visible">
+          <figure class="story-cover__media">
+            <img src="assets/images/turbova-old.webp" alt="${data.hero.title}" width="1600" height="1023" fetchpriority="high" decoding="async" />
+          </figure>
+          <div class="story-cover__scrim" aria-hidden="true"></div>
+          <div class="story-cover__copy">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
             <p class="lead">${data.hero.lead}</p>
@@ -540,23 +595,23 @@
               <a class="button button-primary" href="${data.hero.button.href}">${data.hero.button.label}${arrow}</a>
             </div>
           </div>
-          ${renderCollage(data.hero.collage, "story", data.hero.badges)}
+          <p class="story-cover__chapter" aria-hidden="true">01</p>
         </section>
 
-        <section class="story-introduction reveal" id="story-intro">
-          <div class="section-heading section-heading--center">
+        <section class="story-prologue reveal" id="story-intro">
+          <div class="story-prologue__heading">
             <p class="eyebrow">${data.intro.eyebrow}</p>
             ${heading("h2", data.intro.title)}
           </div>
-          <div class="story-introduction__grid stagger">
+          <div class="story-prologue__profiles stagger">
             ${data.intro.cards
               .map(
                 (card) => `
-                  <article class="story-profile-card">
-                    <figure class="story-profile-card__media">
+                  <article class="archive-card">
+                    <figure class="archive-card__media">
                       <img src="${card.image}" alt="${card.alt}" loading="lazy" decoding="async" />
                     </figure>
-                    <div class="story-profile-card__copy">
+                    <div class="archive-card__copy">
                       <p class="eyebrow">${card.subtitle}</p>
                       <h3>${card.title}</h3>
                       <p>${card.text}</p>
@@ -566,11 +621,11 @@
               )
               .join("")}
           </div>
-          <div class="timeline-strip stagger">
+          <div class="story-timeline stagger" aria-label="Timeline">
             ${data.timeline
               .map(
                 (item) => `
-                  <article class="timeline-item">
+                  <article class="story-timeline__item">
                     <strong>${item.year}</strong>
                     <span>${item.label}</span>
                   </article>
@@ -625,68 +680,137 @@
     `;
   }
 
+  const chapterArt = {
+    residences: {
+      hero: "assets/images/front-view.webp",
+      secondary: "assets/images/new images/View05.webp",
+      gallery: [
+        "assets/images/front-view.webp",
+        "assets/images/new images/View05.webp",
+        "assets/images/main-lobby-entrance-and-logo.webp",
+        "assets/images/lobby-wide.webp",
+        "assets/images/corridor-2.webp",
+        "assets/images/two-buildings-side-view.webp",
+      ],
+    },
+    wellness: {
+      hero: "assets/images/new images/IMG_2261.webp",
+      secondary: "assets/images/new images/IMG_2255.webp",
+      gallery: [
+        "assets/images/new images/IMG_2261.webp",
+        "assets/images/new images/IMG_2255.webp",
+        "assets/images/new images/IMG_2254.webp",
+        "assets/images/new images/IMG_2263.webp",
+        "assets/images/spa-relaxation.webp",
+        "assets/images/hammam.webp",
+      ],
+    },
+    grounds: {
+      hero: "assets/images/garden-exterior.webp",
+      secondary: "assets/images/garden-terrace.webp",
+      gallery: [
+        "assets/images/garden-exterior.webp",
+        "assets/images/terrace-hammock.webp",
+        "assets/images/garden-terrace.webp",
+        "assets/images/waterfall.webp",
+        "assets/images/terrace-3.webp",
+        "assets/images/birds-eye-view-2.webp",
+      ],
+    },
+    location: {
+      hero: "assets/images/birds-eye-view-2.webp",
+      secondary: "assets/images/garage-entrance.webp",
+      gallery: [
+        "assets/images/birds-eye-view-2.webp",
+        "assets/images/front-view.webp",
+        "assets/images/garage-entrance.webp",
+        "assets/images/two-buildings-side-view.webp",
+        "assets/images/birds-eye-view.webp",
+      ],
+    },
+  };
+
+  function renderChapterGallery(data, art) {
+    const sourceItems = data.gallery || [];
+    const expanded = art.gallery.map((src, index) => ({
+      src,
+      alt: (sourceItems[index] && sourceItems[index].alt) || `${data.hero.title} — ${index + 1}`,
+    }));
+    return renderGallery(expanded);
+  }
+
   function renderChapter(locale) {
     const data = getPage(locale);
     const globalData = getGlobal(locale);
-    const heroMedia = Array.isArray(data.hero.media) ? data.hero.media : [data.hero.media];
-    const secondaryMedia = heroMedia[1] || heroMedia[0];
+    const art = chapterArt[pageId] || chapterArt.residences;
+    const pageNumber = data.hero.eyebrow.split("|")[0].trim();
 
     return `
-      <main class="page page-chapter">
-        <section class="chapter-hero reveal is-visible">
-          <div class="chapter-hero__copy">
+      <main class="page page-chapter page-chapter--${pageId}">
+        <section class="chapter-cover reveal is-visible">
+          <figure class="chapter-cover__media">
+            <img src="${art.hero}" alt="${data.hero.title}" width="1600" height="1066" fetchpriority="high" decoding="async" />
+          </figure>
+          <div class="chapter-cover__scrim" aria-hidden="true"></div>
+          <div class="chapter-cover__copy">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
             <p class="lead">${data.hero.lead}</p>
             <div class="hero-actions">
               <a class="button button-primary" href="${data.next.href}">${data.next.label}${arrow}</a>
-              <a class="button button-secondary" href="story.html">${globalData.menu.story}</a>
+              <a class="button button-ghost" href="#chapter-story">${data.story.title}</a>
             </div>
           </div>
-          <div class="chapter-hero__media">
-            ${renderImageCarousel([
-              { src: heroMedia[0], alt: data.hero.title },
-              { src: secondaryMedia, alt: data.story.title },
-            ])}
+          <div class="chapter-cover__index" aria-hidden="true">
+            <span>${pageNumber}</span>
+            <i></i>
+            <span>05</span>
           </div>
         </section>
 
-        ${renderMetricStrip(data.metrics, "metric-strip metric-strip--tight")}
+        ${renderMetricStrip(data.metrics, "metric-strip chapter-metrics")}
 
-        ${renderSpecs(data)}
-
-        <section class="chapter-story reveal">
-          <div class="section-heading">
+        <section class="chapter-editorial reveal" id="chapter-story">
+          <div class="chapter-editorial__copy">
             <p class="eyebrow">${globalData.brand}</p>
             ${heading("h2", data.story.title)}
-          </div>
-          <div class="chapter-story__layout">
-            <div class="chapter-story__copy">
+            <div class="chapter-editorial__paragraphs">
               ${data.story.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
             </div>
-            <div class="pillar-grid stagger">
-              ${data.pillars
-                .map(
-                  (pillar) => `
-                    <article class="pillar-card">
-                      <h3>${pillar.title}</h3>
-                      <p>${pillar.text}</p>
-                    </article>
-                  `
-                )
-                .join("")}
-            </div>
+          </div>
+          <figure class="chapter-editorial__media">
+            <img src="${art.secondary}" alt="${data.story.title}" width="1600" height="900" loading="lazy" decoding="async" />
+            <figcaption>${data.hero.eyebrow}</figcaption>
+          </figure>
+        </section>
+
+        <section class="chapter-features reveal">
+          <div class="chapter-features__heading">
+            <p class="eyebrow">${globalData.chapterLabel}</p>
+            ${heading("h2", data.galleryTitle || data.hero.title)}
+          </div>
+          <div class="chapter-features__rail stagger">
+            ${data.pillars.map((pillar, index) => `
+              <article class="chapter-feature">
+                <span>0${index + 1}</span>
+                <h3>${pillar.title}</h3>
+                <p>${pillar.text}</p>
+              </article>
+            `).join("")}
           </div>
         </section>
 
-        ${renderDetailGroups(data)}
+        <div class="chapter-information">
+          ${renderSpecs(data)}
+          ${renderDetailGroups(data)}
+        </div>
 
-        <section class="gallery-section reveal">
+        <section class="gallery-section chapter-gallery reveal">
           <div class="section-heading">
             <p class="eyebrow">${globalData.chapterLabel}</p>
             ${heading("h2", data.galleryTitle || data.hero.title)}
           </div>
-          ${renderImageCarousel(data.gallery)}
+          ${renderChapterGallery(data, art)}
         </section>
 
         ${renderEnquiry(data)}
@@ -737,13 +861,29 @@
 
     return `
       <main class="page page-contact">
-        <section class="contact-hero reveal is-visible">
-          <p class="eyebrow">${data.hero.eyebrow}</p>
-          ${heading("h1", data.hero.title)}
-          <p class="lead">${data.hero.lead}</p>
+        <section class="contact-cover reveal is-visible">
+          <figure class="contact-cover__media">
+            <img src="assets/images/new images/View05.webp" alt="${data.hero.title}" width="1600" height="900" fetchpriority="high" decoding="async" />
+          </figure>
+          <div class="contact-cover__scrim" aria-hidden="true"></div>
+          <div class="contact-cover__copy">
+            <p class="eyebrow">${data.hero.eyebrow}</p>
+            ${heading("h1", data.hero.title)}
+            <p class="lead">${data.hero.lead}</p>
+          </div>
         </section>
 
         <section class="contact-shell reveal">
+          <aside class="contact-shell__intro">
+            <p class="eyebrow">${getGlobal(locale).availableLabel}</p>
+            <strong>${getGlobal(locale).availableValue}</strong>
+            <p>${getGlobal(locale).footerText}</p>
+            <ol>
+              <li><span>01</span>${form.detailsLegend}</li>
+              <li><span>02</span>${form.interestLegend}</li>
+              <li><span>03</span>${form.submit}</li>
+            </ol>
+          </aside>
           <form class="contact-form" data-contact-form novalidate>
             <fieldset class="contact-form__group">
               <legend class="contact-form__legend">${form.detailsLegend}</legend>
@@ -862,6 +1002,10 @@
       ${renderNavigation(locale)}
       ${pageMarkup}
       ${renderFooter(locale)}
+      <dialog class="image-lightbox" data-lightbox aria-label="Image preview">
+        <button class="image-lightbox__close" type="button" data-lightbox-close aria-label="Close image">&times;</button>
+        <img class="image-lightbox__image" data-lightbox-image alt="" />
+      </dialog>
     `;
     const pageData = getPage(locale);
     const globalData = getGlobal(locale);
@@ -872,6 +1016,11 @@
     setOgMeta("og:description", pageData.metaDescription);
     setOgMeta("og:type", "website");
     setOgMeta("og:site_name", globalData.brand);
+
+    if (window.location.hash) {
+      const anchor = shell.querySelector(window.location.hash);
+      if (anchor) window.requestAnimationFrame(() => anchor.scrollIntoView({ block: "start" }));
+    }
   }
 
   function bindLanguageSelect() {
@@ -967,11 +1116,24 @@
       menu.classList.toggle("is-open", open);
       toggle.setAttribute("aria-expanded", String(open));
       document.body.classList.toggle("menu-open", open);
+      if (open) window.requestAnimationFrame(() => close.focus());
     };
 
     toggle.addEventListener("click", () => setMenu(!menu.classList.contains("is-open")));
-    close.addEventListener("click", () => setMenu(false));
+    close.addEventListener("click", () => {
+      setMenu(false);
+      toggle.focus();
+    });
     menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMenu(false)));
+
+    const onKey = (event) => {
+      if (event.key === "Escape" && menu.classList.contains("is-open")) {
+        setMenu(false);
+        toggle.focus();
+      }
+    };
+    document.addEventListener("keydown", onKey);
+    cleanups.push(() => document.removeEventListener("keydown", onKey));
   }
 
   function bindTransitions() {
@@ -1340,6 +1502,39 @@
     });
   }
 
+  function bindGalleryLightbox() {
+    const dialog = shell.querySelector("[data-lightbox]");
+    const image = dialog?.querySelector("[data-lightbox-image]");
+    const close = dialog?.querySelector("[data-lightbox-close]");
+    const triggers = shell.querySelectorAll("[data-lightbox-trigger]");
+    if (!dialog || !image || !close || !triggers.length || typeof dialog.showModal !== "function") return;
+
+    let opener = null;
+    const hide = () => {
+      if (dialog.open) dialog.close();
+    };
+
+    triggers.forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        opener = trigger;
+        image.src = trigger.dataset.lightboxSrc || "";
+        image.alt = trigger.dataset.lightboxAlt || "";
+        dialog.showModal();
+        close.focus();
+      });
+    });
+
+    close.addEventListener("click", hide);
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) hide();
+    });
+    dialog.addEventListener("close", () => {
+      image.removeAttribute("src");
+      if (opener && document.contains(opener)) opener.focus();
+      opener = null;
+    });
+  }
+
   function bindInteractions() {
     cleanups.forEach((fn) => fn());
     cleanups = [];
@@ -1351,6 +1546,7 @@
     bindReveal();
     bindScrollProgress();
     bindCarousels();
+    bindGalleryLightbox();
     bindContactForm();
   }
 
