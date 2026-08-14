@@ -267,14 +267,14 @@ window.siteData = {
   "global": {
     "en": {
       "brand": "Turbová",
-      "strap": "Heritage of Silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Navigate",
       "closeLabel": "Close",
       "languageLabel": "Language",
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
+      "byline": "22 residences in Prague 5, Smíchov, with a private garden and resident-only wellness. Completion 2026.",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -284,23 +284,30 @@ window.siteData = {
         "location": "Location",
         "contact": "Contact"
       },
-      "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
+      "footerTitle": "Arrange a private viewing",
+      "footerText": "22 residences in two buildings, a private garden, and resident-only wellness in Prague 5, Smíchov.",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world",
-      "enquireLabel": "Enquire"
+      "footerNote": "22 residences, completing 2026",
+      "enquireLabel": "Enquire",
+      "themeLabel": "Theme",
+      "themes": {
+        "limestone": "Limestone",
+        "night": "Terrazzo Night",
+        "trnka": "Trnka Green",
+        "vineyard": "Vineyard"
+      }
     },
     "cs": {
       "brand": "Turbová",
-      "strap": "Dědictví ticha",
+      "strap": "Praha 5 · Smíchov",
       "menuLabel": "Navigace",
       "closeLabel": "Zavřít",
       "languageLabel": "Jazyk",
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
+      "byline": "22 rezidencí v Praze 5 na Smíchově, se soukromou zahradou a wellness jen pro rezidenty. Dokončení 2026.",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -310,23 +317,30 @@ window.siteData = {
         "location": "Lokalita",
         "contact": "Kontakt"
       },
-      "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerTitle": "Domluvte si soukromou prohlídku",
+      "footerText": "22 rezidencí ve dvou budovách, soukromá zahrada a wellness jen pro rezidenty v Praze 5 na Smíchově.",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět",
-      "enquireLabel": "Kontakt"
+      "footerNote": "22 rezidencí, dokončení 2026",
+      "enquireLabel": "Kontakt",
+      "themeLabel": "Motiv",
+      "themes": {
+        "limestone": "Vápenec",
+        "night": "Terrazzo Noc",
+        "trnka": "Trnka Zelená",
+        "vineyard": "Vinice"
+      }
     },
     "ru": {
       "brand": "Turbová",
-      "strap": "Наследие тишины",
+      "strap": "Прага 5 · Смихов",
       "menuLabel": "Навигация",
       "closeLabel": "Закрыть",
       "languageLabel": "Язык",
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
+      "byline": "22 резиденции в Праге 5, Смихов, с частным садом и велнесом только для резидентов. Завершение в 2026 году.",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -336,23 +350,30 @@ window.siteData = {
         "location": "Локация",
         "contact": "Контакты"
       },
-      "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно частный адрес в Смихове",
+      "footerTitle": "Запишитесь на частный показ",
+      "footerText": "22 резиденции в двух зданиях, частный сад и велнес только для резидентов в Праге 5, Смихов.",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир",
-      "enquireLabel": "Связаться"
+      "footerNote": "22 резиденции, завершение в 2026 году",
+      "enquireLabel": "Связаться",
+      "themeLabel": "Тема",
+      "themes": {
+        "limestone": "Известняк",
+        "night": "Терраццо Ночь",
+        "trnka": "Трнка Зелёный",
+        "vineyard": "Виноградник"
+      }
     },
     "fr": {
       "brand": "Turbová",
-      "strap": "Héritage du silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Naviguer",
       "closeLabel": "Fermer",
       "languageLabel": "Langue",
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
+      "byline": "22 résidences à Prague 5, Smíchov, avec un jardin privé et un espace bien-être réservé aux résidents. Livraison 2026.",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -362,23 +383,30 @@ window.siteData = {
         "location": "Emplacement",
         "contact": "Contact"
       },
-      "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
+      "footerTitle": "Organisez une visite privée",
+      "footerText": "22 résidences dans deux bâtiments, un jardin privé et un espace bien-être réservé aux résidents à Prague 5, Smíchov.",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé",
-      "enquireLabel": "S'informer"
+      "footerNote": "22 résidences, livraison 2026",
+      "enquireLabel": "S'informer",
+      "themeLabel": "Thème",
+      "themes": {
+        "limestone": "Calcaire",
+        "night": "Terrazzo Nuit",
+        "trnka": "Trnka Vert",
+        "vineyard": "Vignoble"
+      }
     }
   },
   "pages": {
     "contact": {
       "en": {
         "title": "Turbová | Contact",
-        "metaDescription": "Arrange a private viewing of Turbová residences. 22 boutique apartments in Prague 5 — intimate, discreet, completing 2026.",
+        "metaDescription": "Arrange a private viewing of Turbová, 22 residences in Prague 5, Smíchov. Completion 2026.",
         "hero": {
           "eyebrow": "06 | Contact",
-          "title": "Begin a private conversation",
-          "lead": "Share a few details and our team will reach out — everything you send stays confidential"
+          "title": "Arrange a viewing",
+          "lead": "Share a few details and our team will contact you. Everything you send stays confidential."
         },
         "form": {
           "detailsLegend": "Your details",
@@ -471,18 +499,18 @@ window.siteData = {
           },
           "submitError": "Something went wrong while sending. Please check your connection and try again.",
           "success": {
-            "title": "Thank you — your enquiry is on its way",
-            "text": "Our team will be in touch shortly"
+            "title": "Thank you. Your enquiry is on its way.",
+            "text": "Our team will be in touch shortly."
           }
         }
       },
       "cs": {
         "title": "Turbová | Kontakt",
-        "metaDescription": "Domluvte si soukromou prohlídku rezidencí Turbová. 22 butikových apartmánů v Praze 5 — komorní, diskrétní, dokončení 2026.",
+        "metaDescription": "Domluvte si prohlídku rezidence Turbová, 22 bytů v Praze 5, Smíchov. Dokončení 2026.",
         "hero": {
           "eyebrow": "06 | Kontakt",
-          "title": "Začněte soukromý rozhovor",
-          "lead": "Sdělte nám několik údajů a náš tým se vám ozve — vše, co odešlete, zůstává důvěrné"
+          "title": "Domluvit prohlídku",
+          "lead": "Sdělte nám několik údajů a náš tým se vám ozve. Vše, co odešlete, zůstává důvěrné."
         },
         "form": {
           "detailsLegend": "Vaše údaje",
@@ -575,18 +603,18 @@ window.siteData = {
           },
           "submitError": "Při odesílání došlo k chybě. Zkontrolujte prosím připojení a zkuste to znovu.",
           "success": {
-            "title": "Děkujeme — vaše poptávka je na cestě",
-            "text": "Brzy od nás uslyšíte"
+            "title": "Děkujeme. Vaše poptávka je na cestě.",
+            "text": "Brzy se vám ozveme."
           }
         }
       },
       "ru": {
         "title": "Turbová | Контакты",
-        "metaDescription": "Организуйте частный просмотр резиденций Turbová. 22 бутиковые апартаменты в Праге 5 — камерные, частные, завершение в 2026 году.",
+        "metaDescription": "Запишитесь на просмотр Turbová — 22 резиденции в Праге 5, Смихов. Завершение в 2026 году.",
         "hero": {
           "eyebrow": "06 | Контакты",
-          "title": "Начните частный разговор",
-          "lead": "Поделитесь несколькими данными, и наша команда свяжется с вами — всё, что вы отправите, останется конфиденциальным"
+          "title": "Записаться на просмотр",
+          "lead": "Поделитесь несколькими данными, и наша команда с вами свяжется. Всё, что вы отправите, остаётся конфиденциальным."
         },
         "form": {
           "detailsLegend": "Ваши данные",
@@ -679,18 +707,18 @@ window.siteData = {
           },
           "submitError": "При отправке произошла ошибка. Проверьте подключение и попробуйте снова.",
           "success": {
-            "title": "Спасибо — ваш запрос отправлен",
-            "text": "Мы скоро выйдем на связь"
+            "title": "Спасибо. Ваш запрос отправлен.",
+            "text": "Мы скоро свяжемся с вами."
           }
         }
       },
       "fr": {
         "title": "Turbová | Contact",
-        "metaDescription": "Organisez une visite privée des résidences Turbová. 22 appartements boutique à Prague 5 — intimes, discrets, livraison en 2026.",
+        "metaDescription": "Organisez une visite de Turbová, 22 résidences à Prague 5, Smíchov. Livraison en 2026.",
         "hero": {
           "eyebrow": "06 | Contact",
-          "title": "Entamez une conversation privée",
-          "lead": "Partagez quelques informations et notre équipe vous contactera — tout ce que vous envoyez reste confidentiel"
+          "title": "Organiser une visite",
+          "lead": "Partagez quelques informations et notre équipe vous contactera. Tout ce que vous envoyez reste confidentiel."
         },
         "form": {
           "detailsLegend": "Vos coordonnées",
@@ -783,8 +811,8 @@ window.siteData = {
           },
           "submitError": "Une erreur s'est produite lors de l'envoi. Vérifiez votre connexion et réessayez.",
           "success": {
-            "title": "Merci — votre demande est en route",
-            "text": "Nous reviendrons vers vous très prochainement"
+            "title": "Merci. Votre demande est en route.",
+            "text": "Nous vous recontacterons très prochainement."
           }
         }
       }

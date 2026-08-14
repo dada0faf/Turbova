@@ -5,6 +5,7 @@
 
   const pageId = document.body.dataset.page || "home";
   const languageKey = "turbova-language";
+  const themeKey = "turbova-theme";
   const transitionKey = "turbova-page-transition";
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const prefersDirectNavigation = reduceMotion || window.matchMedia("(hover: none), (pointer: coarse)").matches;
@@ -24,6 +25,49 @@
   const storedLang = localStorage.getItem(languageKey);
   const lang = validCodes.includes(storedLang) ? storedLang : "en";
   let cleanups = [];
+
+  // Theme system: four explicit themes plus "system" (clears the explicit
+  // choice and falls back to prefers-color-scheme). The swatch hexes below
+  // are for the dropdown preview only — they intentionally show each
+  // theme's real colours regardless of which theme is currently active, so
+  // they're literal values rather than the live CSS custom properties.
+  const validThemeCodes = ["limestone", "night", "trnka", "vineyard"];
+  const THEME_SWATCHES = {
+    limestone: { paper: "#f4efe7", brass: "#75592f" },
+    night: { paper: "#1c1815", brass: "#d9b877" },
+    trnka: { paper: "#eef1e6", brass: "#725a30" },
+    vineyard: { paper: "#14170f", brass: "#d4ac67" },
+    system: { paper: "#f4efe7", brass: "#1c1815" },
+  };
+  const FALLBACK_THEME_LABELS = {
+    themeLabel: "Theme",
+    themeSystemLabel: "System",
+    themes: {
+      limestone: "Limestone",
+      night: "Terrazzo Night",
+      trnka: "Trnka Green",
+      vineyard: "Vineyard",
+    },
+  };
+
+  function getStoredTheme() {
+    const stored = localStorage.getItem(themeKey);
+    return validThemeCodes.includes(stored) ? stored : null;
+  }
+
+  function applyTheme(choice) {
+    if (choice && validThemeCodes.includes(choice)) {
+      localStorage.setItem(themeKey, choice);
+      document.documentElement.setAttribute("data-theme", choice);
+    } else {
+      localStorage.removeItem(themeKey);
+      document.documentElement.removeAttribute("data-theme");
+    }
+  }
+
+  // Apply whatever the no-flash inline script in <head> already decided,
+  // so this render pass and any future re-render stay consistent with it.
+  applyTheme(getStoredTheme());
 
   function closeOpenMenu() {
     document.body.classList.remove("menu-open");
@@ -118,6 +162,65 @@
     `;
   }
 
+  function renderThemeSelect(globalData) {
+    const current = getStoredTheme();
+    const themeLabel = globalData.themeLabel || FALLBACK_THEME_LABELS.themeLabel;
+    const systemLabel = globalData.themeSystemLabel || FALLBACK_THEME_LABELS.themeSystemLabel;
+    const themeName = (key) =>
+      (globalData.themes && globalData.themes[key]) || FALLBACK_THEME_LABELS.themes[key];
+    const icon = `
+      <svg class="theme-globe__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="8.3" fill="none" stroke="currentColor" stroke-width="1.3"></circle>
+        <path d="M12 3.7a8.3 8.3 0 0 1 0 16.6z" fill="currentColor"></path>
+      </svg>`;
+    const optionRow = (key, label, isActive) => `
+      <li role="none">
+        <button class="theme-option ${isActive ? "is-active" : ""}" type="button" role="menuitemradio" aria-checked="${isActive}" data-theme-choice="${key}">
+          <span class="theme-option__swatch" aria-hidden="true" style="background: linear-gradient(135deg, ${THEME_SWATCHES[key].paper} 50%, ${THEME_SWATCHES[key].brass} 50%)"></span>
+          <span class="theme-option__label">${label}</span>
+          <span class="theme-option__check" aria-hidden="true">&#10003;</span>
+        </button>
+      </li>
+    `;
+    return `
+      <div class="theme-select" data-theme-select>
+        <button class="theme-globe" type="button" aria-haspopup="true" aria-expanded="false" aria-label="${themeLabel}">
+          ${icon}
+          <span class="theme-globe__chevron" aria-hidden="true"></span>
+        </button>
+        <ul class="theme-menu" role="menu">
+          ${validThemeCodes.map((key) => optionRow(key, themeName(key), current === key)).join("")}
+          <li role="none"><hr class="theme-menu__divider" /></li>
+          ${optionRow("system", systemLabel, current === null)}
+        </ul>
+      </div>
+    `;
+  }
+
+  // Reflects the current theme selection into every rendered theme-select
+  // instance (header + mobile menu) without touching the rest of the page —
+  // a theme change never needs to re-render text content, so it stays quiet
+  // instead of replaying the page's reveal-in animation like a language
+  // switch does.
+  function syncThemeSelectUI() {
+    const current = getStoredTheme();
+    shell.querySelectorAll("[data-theme-select]").forEach((select) => {
+      select.querySelectorAll(".theme-option").forEach((button) => {
+        const isActive = button.dataset.themeChoice === (current || "system");
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-checked", String(isActive));
+      });
+    });
+  }
+
+  function closeAllDropdowns() {
+    shell.querySelectorAll("[data-lang-select], [data-theme-select]").forEach((select) => {
+      select.classList.remove("is-open");
+      const trigger = select.querySelector(".lang-globe, .theme-globe");
+      if (trigger) trigger.setAttribute("aria-expanded", "false");
+    });
+  }
+
   function renderNavigation(locale) {
     const globalData = getGlobal(locale);
     return `
@@ -131,6 +234,7 @@
         </nav>
         <div class="header-actions">
           <a class="button button-enquire" href="contact.html">${globalData.enquireLabel}</a>
+          ${renderThemeSelect(globalData)}
           ${renderLanguageSelect(locale, globalData)}
           <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${globalData.menuLabel}">
             <span></span>
@@ -150,7 +254,14 @@
           ${renderNavLinks(locale, "mobile-nav-link")}
         </nav>
         <div class="mobile-menu__lang">
-          ${renderLanguageSelect(locale, globalData)}
+          <div class="mobile-menu__control">
+            <span class="mobile-menu__control-label">${globalData.themeLabel || FALLBACK_THEME_LABELS.themeLabel}</span>
+            ${renderThemeSelect(globalData)}
+          </div>
+          <div class="mobile-menu__control">
+            <span class="mobile-menu__control-label">${globalData.languageLabel}</span>
+            ${renderLanguageSelect(locale, globalData)}
+          </div>
         </div>
       </aside>
     `;
@@ -243,6 +354,76 @@
       <div class="collage collage--${variant}">
         ${renderImageCarousel(items)}
       </div>
+    `;
+  }
+
+  // ---- Optional sections (residences/location/wellness/grounds/story) ----
+  // The page-data files are being extended in parallel with these shapes;
+  // until a given page's data includes them, each renderer just returns an
+  // empty string so nothing on the site breaks.
+  //   data.specs        = { title, rows: [{ label, value }] }
+  //   data.detailGroups = { title, intro?, groups: [{ title, items: [string] }] }
+  //   data.enquiry      = { title, text, label, href }
+
+  function renderSpecs(data) {
+    if (!data.specs) return "";
+    return `
+      <section class="specs-panel reveal">
+        <div class="section-heading">
+          ${heading("h2", data.specs.title)}
+        </div>
+        <dl class="specs-table stagger">
+          ${data.specs.rows
+            .map(
+              (row) => `
+                <div class="specs-row">
+                  <dt>${row.label}</dt>
+                  <dd>${row.value}</dd>
+                </div>
+              `
+            )
+            .join("")}
+        </dl>
+      </section>
+    `;
+  }
+
+  function renderDetailGroups(data) {
+    if (!data.detailGroups) return "";
+    return `
+      <section class="detail-groups reveal">
+        <div class="section-heading">
+          ${heading("h2", data.detailGroups.title)}
+          ${data.detailGroups.intro ? `<p class="section-copy">${data.detailGroups.intro}</p>` : ""}
+        </div>
+        <div class="detail-groups__grid stagger">
+          ${data.detailGroups.groups
+            .map(
+              (group) => `
+                <div class="detail-group">
+                  <h3>${group.title}</h3>
+                  <ul class="detail-group__list">
+                    ${group.items.map((item) => `<li>${item}</li>`).join("")}
+                  </ul>
+                </div>
+              `
+            )
+            .join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderEnquiry(data) {
+    if (!data.enquiry) return "";
+    return `
+      <section class="enquiry-band reveal">
+        <div class="enquiry-band__copy">
+          <h3>${data.enquiry.title}</h3>
+          <p>${data.enquiry.text}</p>
+        </div>
+        <a class="button button-secondary" href="${data.enquiry.href}">${data.enquiry.label}</a>
+      </section>
     `;
   }
 
@@ -417,6 +598,8 @@
           </div>
         </section>
 
+        ${renderEnquiry(data)}
+
         <section class="cta-panel reveal">
           <div class="section-heading">
             <p class="eyebrow">${data.cta.eyebrow}</p>
@@ -470,6 +653,8 @@
 
         ${renderMetricStrip(data.metrics, "metric-strip metric-strip--tight")}
 
+        ${renderSpecs(data)}
+
         <section class="chapter-story reveal">
           <div class="section-heading">
             <p class="eyebrow">${globalData.brand}</p>
@@ -494,13 +679,17 @@
           </div>
         </section>
 
+        ${renderDetailGroups(data)}
+
         <section class="gallery-section reveal">
           <div class="section-heading">
             <p class="eyebrow">${globalData.chapterLabel}</p>
-            ${heading("h2", data.hero.title)}
+            ${heading("h2", data.galleryTitle || data.hero.title)}
           </div>
           ${renderImageCarousel(data.gallery)}
         </section>
+
+        ${renderEnquiry(data)}
 
         <section class="quote-panel reveal">
           <p>${data.quote}</p>
@@ -689,20 +878,13 @@
     const selects = shell.querySelectorAll("[data-lang-select]");
     if (!selects.length) return;
 
-    const closeAll = () => {
-      selects.forEach((s) => {
-        s.classList.remove("is-open");
-        s.querySelector(".lang-globe").setAttribute("aria-expanded", "false");
-      });
-    };
-
     selects.forEach((select) => {
       const globe = select.querySelector(".lang-globe");
 
       globe.addEventListener("click", (event) => {
         event.stopPropagation();
         const isOpen = select.classList.contains("is-open");
-        closeAll();
+        closeAllDropdowns();
         if (!isOpen) {
           select.classList.add("is-open");
           globe.setAttribute("aria-expanded", "true");
@@ -714,7 +896,7 @@
           const code = button.dataset.lang;
           if (!validCodes.includes(code)) return;
           localStorage.setItem(languageKey, code);
-          closeAll();
+          closeAllDropdowns();
           renderPage(code);
           bindInteractions();
         });
@@ -722,10 +904,50 @@
     });
 
     const onDocClick = (event) => {
-      if (![...selects].some((s) => s.contains(event.target))) closeAll();
+      if (![...selects].some((s) => s.contains(event.target))) closeAllDropdowns();
     };
     const onKey = (event) => {
-      if (event.key === "Escape") closeAll();
+      if (event.key === "Escape") closeAllDropdowns();
+    };
+    document.addEventListener("click", onDocClick);
+    document.addEventListener("keydown", onKey);
+    cleanups.push(() => {
+      document.removeEventListener("click", onDocClick);
+      document.removeEventListener("keydown", onKey);
+    });
+  }
+
+  function bindThemeSelect() {
+    const selects = shell.querySelectorAll("[data-theme-select]");
+    if (!selects.length) return;
+
+    selects.forEach((select) => {
+      const trigger = select.querySelector(".theme-globe");
+
+      trigger.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const isOpen = select.classList.contains("is-open");
+        closeAllDropdowns();
+        if (!isOpen) {
+          select.classList.add("is-open");
+          trigger.setAttribute("aria-expanded", "true");
+        }
+      });
+
+      select.querySelectorAll(".theme-option").forEach((button) => {
+        button.addEventListener("click", () => {
+          applyTheme(button.dataset.themeChoice);
+          closeAllDropdowns();
+          syncThemeSelectUI();
+        });
+      });
+    });
+
+    const onDocClick = (event) => {
+      if (![...selects].some((s) => s.contains(event.target))) closeAllDropdowns();
+    };
+    const onKey = (event) => {
+      if (event.key === "Escape") closeAllDropdowns();
     };
     document.addEventListener("click", onDocClick);
     document.addEventListener("keydown", onKey);
@@ -1123,6 +1345,7 @@
     cleanups = [];
 
     bindLanguageSelect();
+    bindThemeSelect();
     bindMenu();
     bindTransitions();
     bindReveal();

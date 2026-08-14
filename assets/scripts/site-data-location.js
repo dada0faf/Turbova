@@ -267,14 +267,14 @@ window.siteData = {
   "global": {
     "en": {
       "brand": "Turbová",
-      "strap": "Heritage of Silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Navigate",
       "closeLabel": "Close",
       "languageLabel": "Language",
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
+      "byline": "22 residences in Prague 5, Smíchov, with a private garden and resident-only wellness. Completion 2026.",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -284,23 +284,30 @@ window.siteData = {
         "location": "Location",
         "contact": "Contact"
       },
-      "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
+      "footerTitle": "Arrange a private viewing",
+      "footerText": "22 residences in two buildings, a private garden, and resident-only wellness in Prague 5, Smíchov.",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world",
-      "enquireLabel": "Enquire"
+      "footerNote": "22 residences, completing 2026",
+      "enquireLabel": "Enquire",
+      "themeLabel": "Theme",
+      "themes": {
+        "limestone": "Limestone",
+        "night": "Terrazzo Night",
+        "trnka": "Trnka Green",
+        "vineyard": "Vineyard"
+      }
     },
     "cs": {
       "brand": "Turbová",
-      "strap": "Dědictví ticha",
+      "strap": "Praha 5 · Smíchov",
       "menuLabel": "Navigace",
       "closeLabel": "Zavřít",
       "languageLabel": "Jazyk",
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
+      "byline": "22 rezidencí v Praze 5 na Smíchově, se soukromou zahradou a wellness jen pro rezidenty. Dokončení 2026.",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -310,23 +317,30 @@ window.siteData = {
         "location": "Lokalita",
         "contact": "Kontakt"
       },
-      "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerTitle": "Domluvte si soukromou prohlídku",
+      "footerText": "22 rezidencí ve dvou budovách, soukromá zahrada a wellness jen pro rezidenty v Praze 5 na Smíchově.",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět",
-      "enquireLabel": "Kontakt"
+      "footerNote": "22 rezidencí, dokončení 2026",
+      "enquireLabel": "Kontakt",
+      "themeLabel": "Motiv",
+      "themes": {
+        "limestone": "Vápenec",
+        "night": "Terrazzo Noc",
+        "trnka": "Trnka Zelená",
+        "vineyard": "Vinice"
+      }
     },
     "ru": {
       "brand": "Turbová",
-      "strap": "Наследие тишины",
+      "strap": "Прага 5 · Смихов",
       "menuLabel": "Навигация",
       "closeLabel": "Закрыть",
       "languageLabel": "Язык",
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
+      "byline": "22 резиденции в Праге 5, Смихов, с частным садом и велнесом только для резидентов. Завершение в 2026 году.",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -336,23 +350,30 @@ window.siteData = {
         "location": "Локация",
         "contact": "Контакты"
       },
-      "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно частный адрес в Смихове",
+      "footerTitle": "Запишитесь на частный показ",
+      "footerText": "22 резиденции в двух зданиях, частный сад и велнес только для резидентов в Праге 5, Смихов.",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир",
-      "enquireLabel": "Связаться"
+      "footerNote": "22 резиденции, завершение в 2026 году",
+      "enquireLabel": "Связаться",
+      "themeLabel": "Тема",
+      "themes": {
+        "limestone": "Известняк",
+        "night": "Терраццо Ночь",
+        "trnka": "Трнка Зелёный",
+        "vineyard": "Виноградник"
+      }
     },
     "fr": {
       "brand": "Turbová",
-      "strap": "Héritage du silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Naviguer",
       "closeLabel": "Fermer",
       "languageLabel": "Langue",
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
+      "byline": "22 résidences à Prague 5, Smíchov, avec un jardin privé et un espace bien-être réservé aux résidents. Livraison 2026.",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -362,23 +383,30 @@ window.siteData = {
         "location": "Emplacement",
         "contact": "Contact"
       },
-      "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
+      "footerTitle": "Organisez une visite privée",
+      "footerText": "22 résidences dans deux bâtiments, un jardin privé et un espace bien-être réservé aux résidents à Prague 5, Smíchov.",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé",
-      "enquireLabel": "S'informer"
+      "footerNote": "22 résidences, livraison 2026",
+      "enquireLabel": "S'informer",
+      "themeLabel": "Thème",
+      "themes": {
+        "limestone": "Calcaire",
+        "night": "Terrazzo Nuit",
+        "trnka": "Trnka Vert",
+        "vineyard": "Vignoble"
+      }
     }
   },
   "pages": {
     "location": {
       "en": {
         "title": "Turbová | Location",
-        "metaDescription": "Turbová is located in the heart of Prague 5, close to Anděl, international schools, healthcare, and major city routes.",
+        "metaDescription": "Turbová is in Prague 5, Smíchov, near Anděl, international schools, Canadian Medical Centre, and Motol University Hospital.",
         "hero": {
           "eyebrow": "05 | Location",
-          "title": "Connected to Prague, withdrawn from its noise",
-          "lead": "Turbová sits within Prague 5, close to the Anděl district and key city routes, while remaining buffered by its own hillside garden world",
+          "title": "Prague 5, Smíchov: schools, healthcare, and transport nearby",
+          "lead": "Turbová is in Prague 5, Smíchov, within a few minutes of Anděl, international schools, and major routes into the city",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -399,28 +427,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Immediate infrastructure, delayed stress",
+          "title": "Schools, healthcare, and transport nearby",
           "paragraphs": [
-            "Residents stay close to international education, daily retail, medical services, and major arteries without accepting the noise typically attached to such convenience.",
-            "This balance between access and withdrawal is what turns the address into a lifestyle advantage rather than just a map pin."
+            "Three international schools, healthcare, and everyday shopping are all within a few minutes of the residence.",
+            "Prague 5 connects to the rest of the city through Anděl and the surrounding road network."
           ]
         },
         "pillars": [
           {
-            "title": "Prestigious schools",
-            "text": "Lycée Français de Prague, Deutsche Schule Prag, and Park Lane International School are all within easy reach"
+            "title": "International schools",
+            "text": "Lycée Français de Prague, Deutsche Schule Prag, and Park Lane International School are all nearby"
           },
           {
-            "title": "Fast access",
-            "text": "Major road connections and the Anděl district keep business and culture close"
+            "title": "Anděl district",
+            "text": "Prague 5's business and transport hub, with metro access"
           },
           {
-            "title": "Daily essentials",
-            "text": "Healthcare, shopping, supermarkets, and dining sit within the immediate urban radius"
+            "title": "Healthcare and shopping",
+            "text": "Canadian Medical Centre, Motol University Hospital, and Nový Smíchov shopping centre are close by"
           },
           {
-            "title": "Protected arrival",
-            "text": "Private parking, EV charging, and direct building entry — from gate to front door without a single public corridor"
+            "title": "Private arrival",
+            "text": "Private parking with EV charging and direct building entry from the garage"
           }
         ],
         "gallery": [
@@ -437,19 +465,57 @@ window.siteData = {
             "alt": "Parking entrance tunnel"
           }
         ],
-        "quote": "The address works because it offers access on the map and retreat in the body",
+        "quote": "Turbová is minutes from Anděl and within reach of three international schools",
         "next": {
           "href": "index.html",
           "label": "Return home"
-        }
+        },
+        "detailGroups": {
+          "title": "Around the residence",
+          "intro": "Turbová sits in Prague 5, Smíchov, within easy reach of schools, healthcare, and the rest of the city.",
+          "groups": [
+            {
+              "title": "Schools",
+              "items": [
+                "Lycée Français de Prague",
+                "Deutsche Schule Prag",
+                "Park Lane International School"
+              ]
+            },
+            {
+              "title": "Healthcare & everyday",
+              "items": [
+                "Canadian Medical Centre",
+                "Motol University Hospital",
+                "Nový Smíchov shopping centre",
+                "Restaurants and everyday shops nearby"
+              ]
+            },
+            {
+              "title": "Transport & connections",
+              "items": [
+                "Anděl metro and tram interchange",
+                "Direct road access to central Prague",
+                "A few minutes from Prague's main arteries"
+              ]
+            }
+          ]
+        },
+        "enquiry": {
+          "title": "Ask about the location",
+          "text": "Arrange a visit and see the surrounding area for yourself.",
+          "label": "Arrange a viewing",
+          "href": "contact.html"
+        },
+        "galleryTitle": "The surroundings"
       },
       "cs": {
         "title": "Turbová | Lokalita",
-        "metaDescription": "Turbová leží v srdci Prahy 5, blízko Anděla, mezinárodních škol, zdravotní péče a hlavních městských tras.",
+        "metaDescription": "Turbová se nachází v Praze 5 na Smíchově, blízko Anděla, mezinárodních škol, Canadian Medical Centre a Fakultní nemocnice Motol.",
         "hero": {
           "eyebrow": "05 | Lokalita",
-          "title": "Napojena na Prahu, odtažena od jejího hluku",
-          "lead": "Turbová leží v Praze 5, v blízkosti Anděla a klíčových městských tras, a přitom zůstává chráněna vlastním zahradním svahem",
+          "title": "Praha 5, Smíchov: školy, zdravotní péče a doprava nablízku",
+          "lead": "Turbová leží v Praze 5 na Smíchově, pár minut od Anděla, mezinárodních škol a hlavních tras do centra",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -470,28 +536,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Veškerá infrastruktura na dosah, bez stresu",
+          "title": "Školy, zdravotní péče a doprava nablízku",
           "paragraphs": [
-            "Rezidenti zůstávají blízko mezinárodního vzdělávání, každodenních nákupů, zdravotních služeb i hlavních tahů, aniž by museli přijmout hluk, který s takovým komfortem obvykle přichází.",
-            "Právě tato rovnováha mezi dostupností a ústupem mění adresu v životní výhodu, nikoli jen bod na mapě."
+            "Tři mezinárodní školy, zdravotní péče i každodenní nákupy jsou od rezidence vzdálené jen pár minut.",
+            "Praha 5 se s centrem propojuje přes Anděl a okolní silniční síť."
           ]
         },
         "pillars": [
           {
-            "title": "Prestižní školy",
-            "text": "Lycée Français de Prague, Deutsche Schule Prag a Park Lane International School jsou snadno dosažitelné"
+            "title": "Mezinárodní školy",
+            "text": "Lycée Français de Prague, Deutsche Schule Prag a Park Lane International School jsou nablízku"
           },
           {
-            "title": "Rychlá dostupnost",
-            "text": "Hlavní komunikace i čtvrť Anděl drží byznys i kulturu nablízku"
+            "title": "Čtvrť Anděl",
+            "text": "Obchodní a dopravní uzel Prahy 5, s dostupností metra"
           },
           {
-            "title": "Každodenní služby",
-            "text": "Zdravotnictví, nákupy, supermarkety i gastronomie leží v bezprostředním městském okruhu"
+            "title": "Zdravotní péče a nákupy",
+            "text": "Canadian Medical Centre, Fakultní nemocnice Motol a obchodní centrum Nový Smíchov jsou blízko"
           },
           {
-            "title": "Chráněný příjezd",
-            "text": "Soukromé parkování, nabíjení elektromobilů a přímý vstup do budovy — od brány ke dveřím bytu bez jediné veřejné chodby"
+            "title": "Soukromý příjezd",
+            "text": "Soukromé parkování s nabíjením elektromobilů a přímý vstup do budovy z garáže"
           }
         ],
         "gallery": [
@@ -508,19 +574,57 @@ window.siteData = {
             "alt": "Tunel parkovacího příjezdu"
           }
         ],
-        "quote": "Tato adresa funguje, protože nabízí dostupnost na mapě a klid v prožitku",
+        "quote": "Turbová je pár minut od Anděla a v dosahu tří mezinárodních škol",
         "next": {
           "href": "index.html",
           "label": "Zpět domů"
-        }
+        },
+        "detailGroups": {
+          "title": "V okolí rezidence",
+          "intro": "Turbová leží v Praze 5 na Smíchově, v dosahu škol, zdravotní péče a zbytku města.",
+          "groups": [
+            {
+              "title": "Školy",
+              "items": [
+                "Lycée Français de Prague",
+                "Deutsche Schule Prag",
+                "Park Lane International School"
+              ]
+            },
+            {
+              "title": "Zdravotní péče a každodenní život",
+              "items": [
+                "Canadian Medical Centre",
+                "Fakultní nemocnice Motol",
+                "Obchodní centrum Nový Smíchov",
+                "Restaurace a obchody v okolí"
+              ]
+            },
+            {
+              "title": "Doprava a spojení",
+              "items": [
+                "Přestupní uzel metra a tramvají Anděl",
+                "Přímé silniční spojení do centra Prahy",
+                "Pár minut od hlavních tepen Prahy"
+              ]
+            }
+          ]
+        },
+        "enquiry": {
+          "title": "Zeptejte se na lokalitu",
+          "text": "Domluvte si prohlídku a prohlédněte si okolí osobně.",
+          "label": "Domluvit prohlídku",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Okolí"
       },
       "ru": {
         "title": "Turbová | Локация",
-        "metaDescription": "Turbová расположена в самом центре Праги 5, рядом с Анделом, международными школами, медицинскими учреждениями и основными городскими магистралями.",
+        "metaDescription": "Turbová расположена в Праге 5, Смихов, рядом с Анделом, международными школами, Canadian Medical Centre и больницей Motol.",
         "hero": {
           "eyebrow": "05 | Локация",
-          "title": "Связана с Прагой, отдалена от её шума",
-          "lead": "Turbová расположена в Праге 5, рядом с районом Андел и ключевыми городскими магистралями, оставаясь укрытой собственным садовым миром на склоне",
+          "title": "Прага 5, Смихов: школы, медицина и транспорт рядом",
+          "lead": "Turbová расположена в Праге 5, Смихов, в нескольких минутах от Андела, международных школ и основных магистралей в центр",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -541,28 +645,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Вся инфраструктура рядом — без суеты",
+          "title": "Школы, медицина и транспорт рядом",
           "paragraphs": [
-            "Резиденты остаются рядом с международным образованием, ежедневными покупками, медицинскими услугами и главными магистралями, не принимая шум, который обычно сопутствует такому удобству.",
-            "Именно этот баланс между доступностью и уединением превращает адрес в преимущество образа жизни, а не просто точку на карте."
+            "Три международные школы, медицинские учреждения и повседневные магазины находятся в нескольких минутах от резиденции.",
+            "Прага 5 связана с остальным городом через Андел и прилегающую дорожную сеть."
           ]
         },
         "pillars": [
           {
-            "title": "Престижные школы",
-            "text": "Lycée Français de Prague, Deutsche Schule Prag и Park Lane International School легко достижимы"
+            "title": "Международные школы",
+            "text": "Lycée Français de Prague, Deutsche Schule Prag и Park Lane International School находятся рядом"
           },
           {
-            "title": "Быстрая доступность",
-            "text": "Основные магистрали и район Андел держат бизнес и культуру рядом"
+            "title": "Район Андел",
+            "text": "Деловой и транспортный узел Праги 5, с доступом к метро"
           },
           {
-            "title": "Повседневные нужды",
-            "text": "Клиники, магазины, супермаркеты и рестораны — в непосредственном городском радиусе"
+            "title": "Медицина и покупки",
+            "text": "Canadian Medical Centre, университетская больница Motol и торговый центр Nový Smíchov находятся рядом"
           },
           {
-            "title": "Защищённое прибытие",
-            "text": "Частная парковка, зарядка для электромобилей и прямой вход в здание — от ворот до квартиры без единого общего коридора"
+            "title": "Частный въезд",
+            "text": "Частная парковка с зарядкой для электромобилей и прямой вход в здание из паркинга"
           }
         ],
         "gallery": [
@@ -579,19 +683,57 @@ window.siteData = {
             "alt": "Тоннель парковочного въезда"
           }
         ],
-        "quote": "Этот адрес работает, потому что предлагает доступность на карте и покой в ощущениях",
+        "quote": "Turbová находится в нескольких минутах от Андела и в пределах доступности трёх международных школ",
         "next": {
           "href": "index.html",
           "label": "Вернуться на главную"
-        }
+        },
+        "detailGroups": {
+          "title": "Рядом с резиденцией",
+          "intro": "Turbová расположена в Праге 5, Смихов, в пределах доступности школ, медицинских учреждений и остального города.",
+          "groups": [
+            {
+              "title": "Школы",
+              "items": [
+                "Lycée Français de Prague",
+                "Deutsche Schule Prag",
+                "Park Lane International School"
+              ]
+            },
+            {
+              "title": "Медицина и повседневные нужды",
+              "items": [
+                "Canadian Medical Centre",
+                "Университетская больница Motol",
+                "Торговый центр Nový Smíchov",
+                "Рестораны и магазины рядом"
+              ]
+            },
+            {
+              "title": "Транспорт и связь",
+              "items": [
+                "Пересадочный узел метро и трамваев Андел",
+                "Прямой выезд на центральные магистрали Праги",
+                "В нескольких минутах от главных артерий города"
+              ]
+            }
+          ]
+        },
+        "enquiry": {
+          "title": "Узнайте больше о локации",
+          "text": "Запишитесь на визит и осмотрите окрестности лично.",
+          "label": "Записаться на просмотр",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Окрестности"
       },
       "fr": {
         "title": "Turbová | Emplacement",
-        "metaDescription": "Turbová est situé au cœur de Prague 5, proche d'Anděl, des écoles internationales, des soins de santé et des principales voies de circulation.",
+        "metaDescription": "Turbová se situe à Prague 5, Smíchov, près d'Anděl, des écoles internationales, du Canadian Medical Centre et de l'hôpital de Motol.",
         "hero": {
           "eyebrow": "05 | Emplacement",
-          "title": "Reliée à Prague, retirée de son bruit",
-          "lead": "Turbová se situe à Prague 5, proche du quartier d'Anděl et des grands axes, tout en restant protégée par son propre monde de jardin sur le coteau",
+          "title": "Prague 5, Smíchov : écoles, santé et transports à proximité",
+          "lead": "Turbová se situe à Prague 5, Smíchov, à quelques minutes d'Anděl, des écoles internationales et des grands axes vers le centre",
           "media": [
             "assets/images/birds-eye-view.webp",
             "assets/images/garage-entrance.webp"
@@ -612,28 +754,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Toute l'infrastructure à portée, sans le stress",
+          "title": "Écoles, santé et transports à proximité",
           "paragraphs": [
-            "Les résidents restent proches de l'enseignement international, du commerce quotidien, des services médicaux et des grands axes, sans accepter le bruit habituellement attaché à une telle commodité.",
-            "C'est cet équilibre entre accès et retrait qui transforme l'adresse en avantage de vie plutôt qu'en simple point sur la carte."
+            "Trois écoles internationales, des services de santé et des commerces du quotidien se trouvent à quelques minutes de la résidence.",
+            "Prague 5 est reliée au reste de la ville par Anděl et le réseau routier environnant."
           ]
         },
         "pillars": [
           {
-            "title": "Écoles prestigieuses",
-            "text": "Le Lycée Français de Prague, la Deutsche Schule Prag et la Park Lane International School sont aisément accessibles"
+            "title": "Écoles internationales",
+            "text": "Le Lycée Français de Prague, la Deutsche Schule Prag et la Park Lane International School sont tout proches"
           },
           {
-            "title": "Accès rapide",
-            "text": "Les grandes liaisons routières et le quartier d'Anděl gardent les affaires et la culture à proximité"
+            "title": "Quartier d'Anděl",
+            "text": "Pôle d'affaires et de transport de Prague 5, avec accès au métro"
           },
           {
-            "title": "Essentiels du quotidien",
-            "text": "Santé, commerces, supermarchés et restauration se trouvent dans le rayon urbain immédiat"
+            "title": "Santé et commerces",
+            "text": "Le Canadian Medical Centre, l'hôpital universitaire de Motol et le centre commercial Nový Smíchov sont à proximité"
           },
           {
-            "title": "Une arrivée protégée",
-            "text": "Parking privé, recharge VE et entrée directe dans le bâtiment — du portail à votre porte sans aucun couloir public"
+            "title": "Arrivée privée",
+            "text": "Parking privé avec recharge VE et accès direct au bâtiment depuis le garage"
           }
         ],
         "gallery": [
@@ -650,11 +792,49 @@ window.siteData = {
             "alt": "Tunnel d'entrée du parking"
           }
         ],
-        "quote": "L'adresse fonctionne parce qu'elle offre l'accès sur la carte et l'apaisement au quotidien",
+        "quote": "Turbová se trouve à quelques minutes d'Anděl et à proximité de trois écoles internationales",
         "next": {
           "href": "index.html",
           "label": "Retour à l'accueil"
-        }
+        },
+        "detailGroups": {
+          "title": "Aux alentours de la résidence",
+          "intro": "Turbová se situe à Prague 5, Smíchov, à proximité des écoles, des services de santé et du reste de la ville.",
+          "groups": [
+            {
+              "title": "Écoles",
+              "items": [
+                "Lycée Français de Prague",
+                "Deutsche Schule Prag",
+                "Park Lane International School"
+              ]
+            },
+            {
+              "title": "Santé et quotidien",
+              "items": [
+                "Canadian Medical Centre",
+                "Hôpital universitaire de Motol",
+                "Centre commercial Nový Smíchov",
+                "Restaurants et commerces de proximité"
+              ]
+            },
+            {
+              "title": "Transports et liaisons",
+              "items": [
+                "Correspondance métro et tramway à Anděl",
+                "Accès routier direct au centre de Prague",
+                "À quelques minutes des grands axes de Prague"
+              ]
+            }
+          ]
+        },
+        "enquiry": {
+          "title": "Renseignez-vous sur l'emplacement",
+          "text": "Organisez une visite et découvrez les environs par vous-même.",
+          "label": "Organiser une visite",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Les environs"
       }
     }
   }

@@ -267,14 +267,14 @@ window.siteData = {
   "global": {
     "en": {
       "brand": "Turbová",
-      "strap": "Heritage of Silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Navigate",
       "closeLabel": "Close",
       "languageLabel": "Language",
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
+      "byline": "22 residences in Prague 5, Smíchov, with a private garden and resident-only wellness. Completion 2026.",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -284,23 +284,30 @@ window.siteData = {
         "location": "Location",
         "contact": "Contact"
       },
-      "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
+      "footerTitle": "Arrange a private viewing",
+      "footerText": "22 residences in two buildings, a private garden, and resident-only wellness in Prague 5, Smíchov.",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world",
-      "enquireLabel": "Enquire"
+      "footerNote": "22 residences, completing 2026",
+      "enquireLabel": "Enquire",
+      "themeLabel": "Theme",
+      "themes": {
+        "limestone": "Limestone",
+        "night": "Terrazzo Night",
+        "trnka": "Trnka Green",
+        "vineyard": "Vineyard"
+      }
     },
     "cs": {
       "brand": "Turbová",
-      "strap": "Dědictví ticha",
+      "strap": "Praha 5 · Smíchov",
       "menuLabel": "Navigace",
       "closeLabel": "Zavřít",
       "languageLabel": "Jazyk",
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
+      "byline": "22 rezidencí v Praze 5 na Smíchově, se soukromou zahradou a wellness jen pro rezidenty. Dokončení 2026.",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -310,23 +317,30 @@ window.siteData = {
         "location": "Lokalita",
         "contact": "Kontakt"
       },
-      "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerTitle": "Domluvte si soukromou prohlídku",
+      "footerText": "22 rezidencí ve dvou budovách, soukromá zahrada a wellness jen pro rezidenty v Praze 5 na Smíchově.",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět",
-      "enquireLabel": "Kontakt"
+      "footerNote": "22 rezidencí, dokončení 2026",
+      "enquireLabel": "Kontakt",
+      "themeLabel": "Motiv",
+      "themes": {
+        "limestone": "Vápenec",
+        "night": "Terrazzo Noc",
+        "trnka": "Trnka Zelená",
+        "vineyard": "Vinice"
+      }
     },
     "ru": {
       "brand": "Turbová",
-      "strap": "Наследие тишины",
+      "strap": "Прага 5 · Смихов",
       "menuLabel": "Навигация",
       "closeLabel": "Закрыть",
       "languageLabel": "Язык",
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
+      "byline": "22 резиденции в Праге 5, Смихов, с частным садом и велнесом только для резидентов. Завершение в 2026 году.",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -336,23 +350,30 @@ window.siteData = {
         "location": "Локация",
         "contact": "Контакты"
       },
-      "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно частный адрес в Смихове",
+      "footerTitle": "Запишитесь на частный показ",
+      "footerText": "22 резиденции в двух зданиях, частный сад и велнес только для резидентов в Праге 5, Смихов.",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир",
-      "enquireLabel": "Связаться"
+      "footerNote": "22 резиденции, завершение в 2026 году",
+      "enquireLabel": "Связаться",
+      "themeLabel": "Тема",
+      "themes": {
+        "limestone": "Известняк",
+        "night": "Терраццо Ночь",
+        "trnka": "Трнка Зелёный",
+        "vineyard": "Виноградник"
+      }
     },
     "fr": {
       "brand": "Turbová",
-      "strap": "Héritage du silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Naviguer",
       "closeLabel": "Fermer",
       "languageLabel": "Langue",
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
+      "byline": "22 résidences à Prague 5, Smíchov, avec un jardin privé et un espace bien-être réservé aux résidents. Livraison 2026.",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -362,23 +383,30 @@ window.siteData = {
         "location": "Emplacement",
         "contact": "Contact"
       },
-      "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
+      "footerTitle": "Organisez une visite privée",
+      "footerText": "22 résidences dans deux bâtiments, un jardin privé et un espace bien-être réservé aux résidents à Prague 5, Smíchov.",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé",
-      "enquireLabel": "S'informer"
+      "footerNote": "22 résidences, livraison 2026",
+      "enquireLabel": "S'informer",
+      "themeLabel": "Thème",
+      "themes": {
+        "limestone": "Calcaire",
+        "night": "Terrazzo Nuit",
+        "trnka": "Trnka Vert",
+        "vineyard": "Vignoble"
+      }
     }
   },
   "pages": {
     "residences": {
       "en": {
         "title": "Turbová | Residences",
-        "metaDescription": "22 exclusive apartments from 110 to 299 m² in two buildings. Shell & Core finish, panoramic glazing, private parking, and smart home. Prague 5.",
+        "metaDescription": "22 residences in two buildings, 110–299 m², Prague 5. Shell & Core delivery, private parking with EV charging, storage. Completion 2026.",
         "hero": {
           "eyebrow": "02 | Residences",
-          "title": "Two buildings, twenty-two private worlds",
-          "lead": "Each building holds 11 residences, all with terraces or balconies, panoramic glazing, and the freedom of Shell & Core handover",
+          "title": "22 residences across two buildings",
+          "lead": "Each building holds 11 residences, all with a balcony or terrace, floor-to-ceiling glazing, and Shell & Core delivery",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -392,46 +420,46 @@ window.siteData = {
           },
           {
             "value": "110–299",
-            "label": "m² residences"
+            "label": "m² per residence"
           },
           {
             "value": "3",
-            "label": "parking spaces each"
+            "label": "parking spaces per residence"
           }
         ],
         "story": {
-          "title": "Architecture that keeps its voice low",
+          "title": "Two buildings, eleven residences each",
           "paragraphs": [
-            "The project is intentionally compact. Its value comes from proportion, daylight, privacy, and the ability to make each interior entirely your own.",
-            "High ceilings and expansive windows connect the residences to surrounding greenery, while separate storage and premium vertical circulation keep practical life effortlessly hidden."
+            "The two buildings hold 22 residences in total, sized from 110 to 299 m². Each has high ceilings, floor-to-ceiling glazing, and a private balcony or terrace.",
+            "Every residence is delivered Shell & Core, so the interior layout and finish are built to the owner's plan. Each apartment has 3 dedicated parking spaces with EV charging and a separate storage room."
           ]
         },
         "pillars": [
           {
             "title": "Shell & Core delivery",
-            "text": "A blank canvas for fully bespoke living rather than pre-packaged luxury"
+            "text": "The structure and core are complete; interior layout and finish are left to the owner"
           },
           {
-            "title": "Natural material palette",
-            "text": "Natural limestone façades, terrazzo circulation floors, and carved brass communal details"
+            "title": "Natural materials",
+            "text": "Limestone façades, terrazzo floors in shared areas, and carved brass ceilings and window surrounds"
           },
           {
-            "title": "Smart living systems",
-            "text": "Loxone integration, contactless access, advanced heat recovery, and strong sound insulation"
+            "title": "Smart home systems",
+            "text": "Loxone home automation, contactless entry by smartphone or facial recognition, heat-recovery ventilation, and enhanced soundproofing"
           },
           {
-            "title": "Direct quiet movement",
-            "text": "Schindler elevators connect underground arrival with apartment entry in near silence"
+            "title": "Quiet vertical access",
+            "text": "Schindler lifts run from the underground garage to each apartment door"
           }
         ],
         "gallery": [
           {
             "src": "assets/images/two-buildings-side-view.webp",
-            "alt": "Side view of the Turbová buildings"
+            "alt": "Side view of the two Turbová buildings"
           },
           {
             "src": "assets/images/corridor.webp",
-            "alt": "Decorative corridor"
+            "alt": "Shared corridor with terrazzo flooring and brass details"
           },
           {
             "src": "assets/images/garden-terrace.webp",
@@ -439,22 +467,103 @@ window.siteData = {
           },
           {
             "src": "assets/images/garage-parking.webp",
-            "alt": "Parking gallery"
+            "alt": "Underground parking with hand-painted artwork"
           }
         ],
-        "quote": "Private living here is not about excess — it is about authorship, calm proportions, and materials that age with dignity",
+        "quote": "Every residence is delivered Shell & Core, with the interior layout left to the owner",
         "next": {
           "href": "wellness.html",
           "label": "Continue to wellness"
-        }
+        },
+        "specs": {
+          "title": "At a glance",
+          "rows": [
+            {
+              "label": "Residences",
+              "value": "22, across two buildings"
+            },
+            {
+              "label": "Sizes",
+              "value": "110–299 m²"
+            },
+            {
+              "label": "Delivery",
+              "value": "Shell & Core"
+            },
+            {
+              "label": "Outdoor space",
+              "value": "Balcony or terrace with every residence"
+            },
+            {
+              "label": "Parking",
+              "value": "3 spaces per apartment, with EV charging"
+            },
+            {
+              "label": "Storage",
+              "value": "Private storage room per apartment"
+            },
+            {
+              "label": "Lifts",
+              "value": "Schindler, from garage to apartment door"
+            },
+            {
+              "label": "Completion",
+              "value": "2026"
+            }
+          ]
+        },
+        "detailGroups": {
+          "title": "Materials and service",
+          "intro": "The shared spaces and technical systems follow the same standard throughout both buildings.",
+          "groups": [
+            {
+              "title": "Natural textures",
+              "items": [
+                "Limestone façade",
+                "Terrazzo floors in the lobby, corridors and stairs",
+                "Carved brass ceilings and window surrounds in shared areas"
+              ]
+            },
+            {
+              "title": "Artistic touches",
+              "items": [
+                "Hand-painted artwork in the underground parking, by a commissioned artist"
+              ]
+            },
+            {
+              "title": "Modern comfort",
+              "items": [
+                "Loxone smart home system",
+                "Silent Schindler lifts",
+                "Heat-recovery ventilation",
+                "Enhanced soundproofing"
+              ]
+            },
+            {
+              "title": "Service & security",
+              "items": [
+                "24/7 concierge",
+                "Contactless entry by smartphone or facial recognition",
+                "Fully enclosed grounds"
+              ]
+            }
+          ]
+        },
+        "enquiry": {
+          "title": "See a residence",
+          "text": "See a residence in person and ask about layouts, delivery, and timing.",
+          "label": "Arrange a viewing",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Inside the buildings"
       },
       "cs": {
         "title": "Turbová | Rezidence",
-        "metaDescription": "22 exkluzivních apartmánů od 110 do 299 m² ve dvou budovách. Stav Shell & Core, panoramatické zasklení, soukromé parkování a smart home. Praha 5.",
+        "metaDescription": "22 rezidencí ve dvou budovách, 110–299 m², Praha 5. Předání Shell & Core, soukromé parkování s nabíjením EV, sklad. Dokončení 2026.",
         "hero": {
           "eyebrow": "02 | Rezidence",
-          "title": "Dvě budovy, dvacet dva soukromých světů",
-          "lead": "Každá budova obsahuje 11 rezidencí, všechny s terasou nebo balkonem, panoramatickým prosklením a svobodou předání ve standardu Shell & Core",
+          "title": "22 rezidencí ve dvou budovách",
+          "lead": "Každá budova má 11 rezidencí, všechny s balkonem nebo terasou, prosklením od podlahy ke stropu a předáním ve standardu Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -468,46 +577,46 @@ window.siteData = {
           },
           {
             "value": "110–299",
-            "label": "m² rezidencí"
+            "label": "m² na rezidenci"
           },
           {
             "value": "3",
-            "label": "parkovací místa na rezidenci"
+            "label": "parkovací stání na rezidenci"
           }
         ],
         "story": {
-          "title": "Architektura, která mluví tiše",
+          "title": "Dvě budovy, jedenáct rezidencí v každé",
           "paragraphs": [
-            "Projekt je záměrně kompaktní. Jeho hodnota stojí na proporci, denním světle, soukromí a možnosti vytvořit si každý interiér zcela po svém.",
-            "Vysoké stropy a velkorysá okna propojují rezidence s okolní zelení, zatímco samostatné sklady a prémiová vertikální komunikace udržují praktický život nenápadně v pozadí."
+            "Obě budovy dohromady nabízejí 22 rezidencí o velikosti 110 až 299 m². Každá má vysoké stropy, prosklení od podlahy ke stropu a soukromý balkon nebo terasu.",
+            "Každá rezidence se předává ve standardu Shell & Core, takže dispozici a finální úpravu interiéru určuje majitel. Ke každému bytu patří 3 vyhrazená parkovací stání s nabíjením elektromobilů a samostatná sklepní kóje."
           ]
         },
         "pillars": [
           {
             "title": "Předání Shell & Core",
-            "text": "Čisté plátno pro skutečně autorské bydlení místo předem zabaleného luxusu"
+            "text": "Konstrukce a jádro jsou hotové, dispozici a povrchy interiéru volí majitel"
           },
           {
             "title": "Přírodní materiály",
-            "text": "Fasády z přírodního vápence, terrazzo ve společných prostorech a reliéfní mosazné detaily"
+            "text": "Fasády z vápence, terrazzo ve společných prostorech a reliéfní mosazné stropy a orámování oken"
           },
           {
             "title": "Systémy chytrého bydlení",
-            "text": "Integrace Loxone, bezkontaktní vstup, pokročilá rekuperace a důsledná zvuková izolace"
+            "text": "Domácí automatizace Loxone, bezkontaktní vstup přes smartphone nebo rozpoznání obličeje, rekuperace tepla a zesílená zvuková izolace"
           },
           {
-            "title": "Tichý pohyb",
-            "text": "Výtahy Schindler propojují podzemní příjezd s bytem téměř beze zvuku"
+            "title": "Tichý svislý přístup",
+            "text": "Výtahy Schindler vedou z podzemní garáže až ke dveřím bytu"
           }
         ],
         "gallery": [
           {
             "src": "assets/images/two-buildings-side-view.webp",
-            "alt": "Boční pohled na budovy Turbová"
+            "alt": "Boční pohled na obě budovy Turbová"
           },
           {
             "src": "assets/images/corridor.webp",
-            "alt": "Dekorativní chodba"
+            "alt": "Společná chodba s terrazzovou podlahou a mosaznými detaily"
           },
           {
             "src": "assets/images/garden-terrace.webp",
@@ -515,22 +624,103 @@ window.siteData = {
           },
           {
             "src": "assets/images/garage-parking.webp",
-            "alt": "Parkovací galerie"
+            "alt": "Podzemní parkování s ručně malovaným uměleckým dílem"
           }
         ],
-        "quote": "Soukromé bydlení zde nestojí na přebytku — stojí na autorství, klidných proporcích a materiálech, které stárnou s důstojností",
+        "quote": "Každá rezidence se předává ve standardu Shell & Core, dispozici interiéru volí majitel",
         "next": {
           "href": "wellness.html",
           "label": "Pokračovat k wellness"
-        }
+        },
+        "specs": {
+          "title": "Na první pohled",
+          "rows": [
+            {
+              "label": "Rezidence",
+              "value": "22, ve dvou budovách"
+            },
+            {
+              "label": "Velikosti",
+              "value": "110–299 m²"
+            },
+            {
+              "label": "Předání",
+              "value": "Shell & Core"
+            },
+            {
+              "label": "Venkovní prostor",
+              "value": "Balkon nebo terasa u každé rezidence"
+            },
+            {
+              "label": "Parkování",
+              "value": "3 stání na byt, s nabíjením EV"
+            },
+            {
+              "label": "Sklad",
+              "value": "Soukromá sklepní kóje ke každému bytu"
+            },
+            {
+              "label": "Výtahy",
+              "value": "Schindler, z garáže až ke dveřím bytu"
+            },
+            {
+              "label": "Dokončení",
+              "value": "2026"
+            }
+          ]
+        },
+        "detailGroups": {
+          "title": "Materiály a servis",
+          "intro": "Společné prostory a technické systémy mají v obou budovách stejný standard.",
+          "groups": [
+            {
+              "title": "Přírodní materiály",
+              "items": [
+                "Fasáda z vápence",
+                "Terrazzová podlaha ve foyer, na chodbách a schodištích",
+                "Reliéfní mosazné stropy a orámování oken ve společných prostorech"
+              ]
+            },
+            {
+              "title": "Umělecké prvky",
+              "items": [
+                "Ručně malované umělecké dílo v podzemním parkování, od najatého umělce"
+              ]
+            },
+            {
+              "title": "Moderní komfort",
+              "items": [
+                "Systém chytré domácnosti Loxone",
+                "Tiché výtahy Schindler",
+                "Rekuperace tepla",
+                "Zesílená zvuková izolace"
+              ]
+            },
+            {
+              "title": "Servis a bezpečnost",
+              "items": [
+                "Nepřetržitý concierge servis 24/7",
+                "Bezkontaktní vstup přes smartphone nebo rozpoznání obličeje",
+                "Zcela oplocený areál"
+              ]
+            }
+          ]
+        },
+        "enquiry": {
+          "title": "Domluvte si prohlídku",
+          "text": "Prohlédněte si rezidenci osobně a zeptejte se na dispozice, předání a termíny.",
+          "label": "Domluvit prohlídku",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Uvnitř budov"
       },
       "ru": {
         "title": "Turbová | Резиденции",
-        "metaDescription": "22 эксклюзивные апартаменты от 110 до 299 м² в двух зданиях. Отделка Shell & Core, панорамное остекление, частная парковка и умный дом. Прага 5.",
+        "metaDescription": "22 резиденции в двух зданиях, 110–299 м², Прага 5. Отделка Shell & Core, частная парковка с зарядкой для электромобилей. Завершение 2026.",
         "hero": {
           "eyebrow": "02 | Резиденции",
-          "title": "Два здания, двадцать два частных мира",
-          "lead": "Каждое здание вмещает 11 резиденций, все с террасами или балконами, панорамным остеклением и свободой передачи в формате Shell & Core",
+          "title": "22 резиденции в двух зданиях",
+          "lead": "В каждом здании 11 резиденций, у всех есть балкон или терраса, панорамное остекление и отделка в формате Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -544,7 +734,7 @@ window.siteData = {
           },
           {
             "value": "110–299",
-            "label": "м² резиденций"
+            "label": "м² на резиденцию"
           },
           {
             "value": "3",
@@ -552,38 +742,38 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Архитектура, говорящая тихо",
+          "title": "Два здания, по одиннадцать резиденций в каждом",
           "paragraphs": [
-            "Проект намеренно компактен. Его ценность — в пропорции, дневном свете, уединении и возможности сделать каждый интерьер полностью своим.",
-            "Высокие потолки и просторные окна связывают резиденции с окружающей зеленью, а отдельные кладовые и премиальные вертикальные коммуникации легко скрывают практическую сторону жизни."
+            "Два здания вмещают 22 резиденции площадью от 110 до 299 м². В каждой — высокие потолки, панорамное остекление от пола до потолка и собственный балкон или терраса.",
+            "Каждая резиденция передаётся в формате Shell & Core, поэтому планировку и отделку интерьера определяет владелец. К каждой квартире прилагаются 3 отдельных парковочных места с зарядкой для электромобилей и отдельная кладовая."
           ]
         },
         "pillars": [
           {
-            "title": "Передача Shell & Core",
-            "text": "Чистый холст для по-настоящему авторского жилья вместо готовой роскоши"
+            "title": "Отделка Shell & Core",
+            "text": "Конструктив и инженерные системы готовы, планировку и отделку интерьера выбирает владелец"
           },
           {
-            "title": "Палитра природных материалов",
-            "text": "Фасады из природного известняка, полы из терраццо в коммуникациях и резные латунные детали общих зон"
+            "title": "Природные материалы",
+            "text": "Фасады из известняка, полы из терраццо в общих зонах, резные латунные потолки и обрамления окон"
           },
           {
-            "title": "Системы умного жилья",
-            "text": "Интеграция Loxone, бесконтактный доступ, эффективная рекуперация тепла и высокая звукоизоляция"
+            "title": "Системы умного дома",
+            "text": "Автоматизация Loxone, бесконтактный доступ по смартфону или распознаванию лица, рекуперация тепла и усиленная звукоизоляция"
           },
           {
-            "title": "Бесшумные перемещения",
-            "text": "Лифты Schindler соединяют подземный паркинг со входом в квартиру почти бесшумно"
+            "title": "Бесшумный вертикальный доступ",
+            "text": "Лифты Schindler идут от подземного паркинга до двери квартиры"
           }
         ],
         "gallery": [
           {
             "src": "assets/images/two-buildings-side-view.webp",
-            "alt": "Боковой вид зданий Turbová"
+            "alt": "Вид сбоку на два здания Turbová"
           },
           {
             "src": "assets/images/corridor.webp",
-            "alt": "Декоративный коридор"
+            "alt": "Общий коридор с полом из терраццо и латунными деталями"
           },
           {
             "src": "assets/images/garden-terrace.webp",
@@ -591,22 +781,103 @@ window.siteData = {
           },
           {
             "src": "assets/images/garage-parking.webp",
-            "alt": "Парковочная галерея"
+            "alt": "Подземный паркинг с ручной художественной росписью"
           }
         ],
-        "quote": "Частная жизнь здесь не про избыток — она про авторство, спокойные пропорции и материалы, которые стареют достойно",
+        "quote": "Каждая резиденция передаётся в формате Shell & Core, планировку интерьера выбирает владелец",
         "next": {
           "href": "wellness.html",
           "label": "Продолжить к велнесу"
-        }
+        },
+        "specs": {
+          "title": "Кратко о проекте",
+          "rows": [
+            {
+              "label": "Резиденции",
+              "value": "22, в двух зданиях"
+            },
+            {
+              "label": "Площади",
+              "value": "110–299 м²"
+            },
+            {
+              "label": "Отделка",
+              "value": "Shell & Core"
+            },
+            {
+              "label": "Открытые пространства",
+              "value": "Балкон или терраса в каждой резиденции"
+            },
+            {
+              "label": "Парковка",
+              "value": "3 места на квартиру, с зарядкой для электромобилей"
+            },
+            {
+              "label": "Кладовая",
+              "value": "Отдельная кладовая на каждую квартиру"
+            },
+            {
+              "label": "Лифты",
+              "value": "Schindler, от паркинга до двери квартиры"
+            },
+            {
+              "label": "Завершение",
+              "value": "2026"
+            }
+          ]
+        },
+        "detailGroups": {
+          "title": "Материалы и сервис",
+          "intro": "Общие зоны и инженерные системы выполнены по единому стандарту в обоих зданиях.",
+          "groups": [
+            {
+              "title": "Природные материалы",
+              "items": [
+                "Фасад из известняка",
+                "Полы из терраццо в холле, коридорах и на лестницах",
+                "Резные латунные потолки и обрамления окон в общих зонах"
+              ]
+            },
+            {
+              "title": "Художественные детали",
+              "items": [
+                "Ручная художественная роспись в подземном паркинге, выполненная приглашённым художником"
+              ]
+            },
+            {
+              "title": "Современный комфорт",
+              "items": [
+                "Система умного дома Loxone",
+                "Бесшумные лифты Schindler",
+                "Вентиляция с рекуперацией тепла",
+                "Усиленная звукоизоляция"
+              ]
+            },
+            {
+              "title": "Сервис и безопасность",
+              "items": [
+                "Круглосуточный консьерж",
+                "Бесконтактный доступ по смартфону или распознаванию лица",
+                "Полностью огороженная территория"
+              ]
+            }
+          ]
+        },
+        "enquiry": {
+          "title": "Запишитесь на просмотр",
+          "text": "Осмотрите резиденцию лично и задайте вопросы о планировках, отделке и сроках.",
+          "label": "Записаться на просмотр",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Внутри зданий"
       },
       "fr": {
         "title": "Turbová | Résidences",
-        "metaDescription": "22 appartements exclusifs de 110 à 299 m² dans deux bâtiments. Finition Shell & Core, vitrage panoramique, parking privé et maison connectée. Prague 5.",
+        "metaDescription": "22 résidences dans deux bâtiments, 110–299 m², Prague 5. Livraison Shell & Core, parking privé avec recharge VE, cave. Livraison 2026.",
         "hero": {
           "eyebrow": "02 | Résidences",
-          "title": "Deux bâtiments, vingt-deux mondes privés",
-          "lead": "Chaque bâtiment compte 11 résidences, toutes avec terrasses ou balcons, baies panoramiques et la liberté d'une livraison Shell & Core",
+          "title": "22 résidences réparties dans deux bâtiments",
+          "lead": "Chaque bâtiment compte 11 résidences, toutes avec balcon ou terrasse, baies vitrées du sol au plafond et livraison Shell & Core",
           "media": [
             "assets/images/two-buildings-side-view.webp",
             "assets/images/corridor.webp",
@@ -620,7 +891,7 @@ window.siteData = {
           },
           {
             "value": "110–299",
-            "label": "m² de résidences"
+            "label": "m² par résidence"
           },
           {
             "value": "3",
@@ -628,38 +899,38 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Une architecture qui garde la voix basse",
+          "title": "Deux bâtiments, onze résidences chacun",
           "paragraphs": [
-            "Le projet est volontairement compact. Sa valeur vient de la proportion, de la lumière du jour, de l'intimité et de la possibilité de faire de chaque intérieur le vôtre.",
-            "De hauts plafonds et de larges fenêtres relient les résidences à la verdure environnante, tandis que des rangements séparés et une circulation verticale haut de gamme dissimulent sans effort le quotidien pratique."
+            "Les deux bâtiments comptent 22 résidences au total, de 110 à 299 m². Chacune dispose de hauts plafonds, de baies vitrées du sol au plafond et d'un balcon ou d'une terrasse privée.",
+            "Chaque résidence est livrée en Shell & Core : l'agencement et les finitions intérieures reviennent au propriétaire. Chaque appartement dispose de 3 places de parking dédiées avec recharge VE et d'une cave séparée."
           ]
         },
         "pillars": [
           {
             "title": "Livraison Shell & Core",
-            "text": "Une toile vierge pour un habitat sur mesure plutôt qu'un luxe préemballé"
+            "text": "La structure et le gros œuvre sont achevés ; l'agencement et les finitions reviennent au propriétaire"
           },
           {
-            "title": "Palette de matériaux naturels",
-            "text": "Façades en calcaire naturel, sols de circulation en terrazzo et détails communs en laiton ciselé"
+            "title": "Matériaux naturels",
+            "text": "Façades en calcaire, sols en terrazzo dans les parties communes, plafonds et encadrements de fenêtres en laiton ciselé"
           },
           {
-            "title": "Systèmes de maison intelligente",
-            "text": "Intégration Loxone, accès sans contact, récupération de chaleur avancée et forte isolation phonique"
+            "title": "Maison connectée",
+            "text": "Domotique Loxone, accès sans contact par smartphone ou reconnaissance faciale, ventilation à récupération de chaleur et isolation phonique renforcée"
           },
           {
-            "title": "Un déplacement direct et feutré",
-            "text": "Les ascenseurs Schindler relient l'arrivée souterraine à l'entrée de l'appartement dans un quasi-silence"
+            "title": "Circulation verticale silencieuse",
+            "text": "Les ascenseurs Schindler relient le garage souterrain à la porte de chaque appartement"
           }
         ],
         "gallery": [
           {
             "src": "assets/images/two-buildings-side-view.webp",
-            "alt": "Vue latérale des bâtiments Turbová"
+            "alt": "Vue latérale des deux bâtiments Turbová"
           },
           {
             "src": "assets/images/corridor.webp",
-            "alt": "Couloir décoratif"
+            "alt": "Couloir commun avec sol en terrazzo et détails en laiton"
           },
           {
             "src": "assets/images/garden-terrace.webp",
@@ -667,14 +938,95 @@ window.siteData = {
           },
           {
             "src": "assets/images/garage-parking.webp",
-            "alt": "Galerie de stationnement"
+            "alt": "Parking souterrain avec œuvre peinte à la main"
           }
         ],
-        "quote": "L'habitat privé ici n'est pas affaire d'excès — il est affaire d'écriture, de proportions calmes et de matériaux qui vieillissent avec dignité",
+        "quote": "Chaque résidence est livrée en Shell & Core, l'agencement intérieur revient au propriétaire",
         "next": {
           "href": "wellness.html",
           "label": "Continuer vers le bien-être"
-        }
+        },
+        "specs": {
+          "title": "En bref",
+          "rows": [
+            {
+              "label": "Résidences",
+              "value": "22, dans deux bâtiments"
+            },
+            {
+              "label": "Superficies",
+              "value": "110–299 m²"
+            },
+            {
+              "label": "Livraison",
+              "value": "Shell & Core"
+            },
+            {
+              "label": "Espace extérieur",
+              "value": "Balcon ou terrasse pour chaque résidence"
+            },
+            {
+              "label": "Parking",
+              "value": "3 places par appartement, avec recharge VE"
+            },
+            {
+              "label": "Cave",
+              "value": "Cave privée pour chaque appartement"
+            },
+            {
+              "label": "Ascenseurs",
+              "value": "Schindler, du garage à la porte de l'appartement"
+            },
+            {
+              "label": "Livraison",
+              "value": "2026"
+            }
+          ]
+        },
+        "detailGroups": {
+          "title": "Matériaux et services",
+          "intro": "Les parties communes et les systèmes techniques suivent le même standard dans les deux bâtiments.",
+          "groups": [
+            {
+              "title": "Matériaux naturels",
+              "items": [
+                "Façade en calcaire",
+                "Sols en terrazzo dans le hall, les couloirs et les escaliers",
+                "Plafonds et encadrements de fenêtres en laiton ciselé dans les parties communes"
+              ]
+            },
+            {
+              "title": "Touches artistiques",
+              "items": [
+                "Œuvre peinte à la main dans le parking souterrain, réalisée par un artiste commandité"
+              ]
+            },
+            {
+              "title": "Confort moderne",
+              "items": [
+                "Domotique Loxone",
+                "Ascenseurs Schindler silencieux",
+                "Ventilation à récupération de chaleur",
+                "Isolation phonique renforcée"
+              ]
+            },
+            {
+              "title": "Service et sécurité",
+              "items": [
+                "Conciergerie 24h/24",
+                "Accès sans contact par smartphone ou reconnaissance faciale",
+                "Terrain entièrement clos"
+              ]
+            }
+          ]
+        },
+        "enquiry": {
+          "title": "Voir une résidence",
+          "text": "Visitez une résidence en personne et posez vos questions sur les plans, la livraison et les délais.",
+          "label": "Organiser une visite",
+          "href": "contact.html"
+        },
+        "galleryTitle": "À l'intérieur des bâtiments"
       }
     }
   }

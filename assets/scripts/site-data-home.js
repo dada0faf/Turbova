@@ -267,14 +267,14 @@ window.siteData = {
   "global": {
     "en": {
       "brand": "Turbová",
-      "strap": "Heritage of Silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Navigate",
       "closeLabel": "Close",
       "languageLabel": "Language",
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
+      "byline": "22 residences in Prague 5, Smíchov, with a private garden and resident-only wellness. Completion 2026.",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -284,23 +284,30 @@ window.siteData = {
         "location": "Location",
         "contact": "Contact"
       },
-      "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
+      "footerTitle": "Arrange a private viewing",
+      "footerText": "22 residences in two buildings, a private garden, and resident-only wellness in Prague 5, Smíchov.",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world",
-      "enquireLabel": "Enquire"
+      "footerNote": "22 residences, completing 2026",
+      "enquireLabel": "Enquire",
+      "themeLabel": "Theme",
+      "themes": {
+        "limestone": "Limestone",
+        "night": "Terrazzo Night",
+        "trnka": "Trnka Green",
+        "vineyard": "Vineyard"
+      }
     },
     "cs": {
       "brand": "Turbová",
-      "strap": "Dědictví ticha",
+      "strap": "Praha 5 · Smíchov",
       "menuLabel": "Navigace",
       "closeLabel": "Zavřít",
       "languageLabel": "Jazyk",
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
+      "byline": "22 rezidencí v Praze 5 na Smíchově, se soukromou zahradou a wellness jen pro rezidenty. Dokončení 2026.",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -310,23 +317,30 @@ window.siteData = {
         "location": "Lokalita",
         "contact": "Kontakt"
       },
-      "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerTitle": "Domluvte si soukromou prohlídku",
+      "footerText": "22 rezidencí ve dvou budovách, soukromá zahrada a wellness jen pro rezidenty v Praze 5 na Smíchově.",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět",
-      "enquireLabel": "Kontakt"
+      "footerNote": "22 rezidencí, dokončení 2026",
+      "enquireLabel": "Kontakt",
+      "themeLabel": "Motiv",
+      "themes": {
+        "limestone": "Vápenec",
+        "night": "Terrazzo Noc",
+        "trnka": "Trnka Zelená",
+        "vineyard": "Vinice"
+      }
     },
     "ru": {
       "brand": "Turbová",
-      "strap": "Наследие тишины",
+      "strap": "Прага 5 · Смихов",
       "menuLabel": "Навигация",
       "closeLabel": "Закрыть",
       "languageLabel": "Язык",
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
+      "byline": "22 резиденции в Праге 5, Смихов, с частным садом и велнесом только для резидентов. Завершение в 2026 году.",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -336,23 +350,30 @@ window.siteData = {
         "location": "Локация",
         "contact": "Контакты"
       },
-      "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно частный адрес в Смихове",
+      "footerTitle": "Запишитесь на частный показ",
+      "footerText": "22 резиденции в двух зданиях, частный сад и велнес только для резидентов в Праге 5, Смихов.",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир",
-      "enquireLabel": "Связаться"
+      "footerNote": "22 резиденции, завершение в 2026 году",
+      "enquireLabel": "Связаться",
+      "themeLabel": "Тема",
+      "themes": {
+        "limestone": "Известняк",
+        "night": "Терраццо Ночь",
+        "trnka": "Трнка Зелёный",
+        "vineyard": "Виноградник"
+      }
     },
     "fr": {
       "brand": "Turbová",
-      "strap": "Héritage du silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Naviguer",
       "closeLabel": "Fermer",
       "languageLabel": "Langue",
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
+      "byline": "22 résidences à Prague 5, Smíchov, avec un jardin privé et un espace bien-être réservé aux résidents. Livraison 2026.",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -362,24 +383,31 @@ window.siteData = {
         "location": "Emplacement",
         "contact": "Contact"
       },
-      "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
+      "footerTitle": "Organisez une visite privée",
+      "footerText": "22 résidences dans deux bâtiments, un jardin privé et un espace bien-être réservé aux résidents à Prague 5, Smíchov.",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé",
-      "enquireLabel": "S'informer"
+      "footerNote": "22 résidences, livraison 2026",
+      "enquireLabel": "S'informer",
+      "themeLabel": "Thème",
+      "themes": {
+        "limestone": "Calcaire",
+        "night": "Terrazzo Nuit",
+        "trnka": "Trnka Vert",
+        "vineyard": "Vignoble"
+      }
     }
   },
   "pages": {
     "home": {
       "en": {
         "title": "Turbová | Home",
-        "metaDescription": "Turbová — 22 boutique residences in Prague 5. Private park, wellness, and limestone architecture. Urban estate completing 2026.",
+        "metaDescription": "Turbová: 22 residences in two buildings, Prague 5, Smíchov. Private garden, resident-only wellness, 24/7 concierge. Completion 2026.",
         "hero": {
           "eyebrow": "Boutique Residence | Prague 5",
-          "title": "A quiet estate hidden inside the city",
-          "lead": "Set on a green hillside in Prague 5, where privacy and stillness matter more than scale",
-          "description": "22 residences framed by limestone, brass, and a private park — an urban estate for those who value peace over spectacle",
+          "title": "A quiet house beside a historic park",
+          "lead": "22 residences, a private park, resident-only wellness, and 24/7 concierge service, for family life in Prague 5",
+          "description": "The site was once an 18th-century estate. Construction completes in 2026.",
           "primary": {
             "label": "Read our story",
             "href": "story.html"
@@ -391,7 +419,7 @@ window.siteData = {
           "badges": [
             "22 residences",
             "110–299 m²",
-            "Shell & Core freedom",
+            "Shell & Core delivery",
             "Private wellness"
           ],
           "media": [
@@ -420,57 +448,57 @@ window.siteData = {
           },
           {
             "value": "24/7",
-            "label": "concierge presence"
+            "label": "concierge service"
           }
         ],
-        "chaptersTitle": "Open your chapter",
+        "chaptersTitle": "Explore Turbová",
         "chapters": [
           {
             "number": "01",
             "title": "Story",
-            "text": "From royal advisor František of Turba to the creative legacy of Jiří Trnka",
+            "text": "From an 18th-century estate to the studio of Jiří Trnka",
             "href": "story.html"
           },
           {
             "number": "02",
             "title": "Residences",
-            "text": "Two buildings, intimate proportions, panoramic glazing — and a blank canvas for your interior",
+            "text": "22 residences in two buildings, 110–299 m², delivered Shell & Core",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Wellness",
-            "text": "A heated pool, hammam, sauna, and terrace lounge — a private wellness club for residents only",
+            "text": "A heated pool, sauna, hammam, and terrace lounge for residents only",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Grounds",
-            "text": "A cascading garden, outdoor fitness, a wine house, and a landscape where the city stays out of view",
+            "text": "A private garden, a wine house, and a playground on a century-old hillside",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Location",
-            "text": "In the heart of Prague 5 — steps from Anděl, leading schools, clinics, and the city's arteries",
+            "text": "Prague 5, near Anděl, international schools, and Motol Hospital",
             "href": "location.html"
           }
         ],
         "legacy": {
-          "title": "Past and future occupy the same hillside",
-          "text": "Historic memory is not treated as décor — it becomes the emotional groundwork for a residence that is contemporary, discreet, and materially grounded",
+          "title": "History and materials",
+          "text": "The estate dates to the 18th century. Its buildings and garden use the same materials found throughout the residence: limestone, brass, and mature planting.",
           "cards": [
             {
               "title": "Natural limestone",
-              "text": "A pale, calm façade that catches the shifting Prague light with restraint"
+              "text": "The façade is natural limestone."
             },
             {
               "title": "Brass details",
-              "text": "Warm metallic carving and panelling that give every shared corridor the feel of a private lobby"
+              "text": "Carved brass ceilings and window surrounds appear in the lobby, corridors, and stairs."
             },
             {
               "title": "Garden acoustics",
-              "text": "Centenary trees and cascading planting create a natural acoustic buffer around the estate"
+              "text": "Century-old trees and cascading planting shield the residence from street noise."
             }
           ],
           "mediaLeft": "assets/images/turbova-old.webp",
@@ -479,12 +507,12 @@ window.siteData = {
       },
       "cs": {
         "title": "Turbová | Domů",
-        "metaDescription": "Turbová — 22 butikových rezidencí v Praze 5. Soukromý park, wellness a architektura z vápence. Dokončení v roce 2026.",
+        "metaDescription": "Turbová: 22 rezidencí ve dvou budovách, Praha 5, Smíchov. Soukromá zahrada, wellness jen pro rezidenty, concierge 24/7. Dokončení 2026.",
         "hero": {
           "eyebrow": "Butiková rezidence | Praha 5",
-          "title": "Tiché sídlo skryté uprostřed města",
-          "lead": "Na zeleném svahu Prahy 5, kde soukromí a klid znamenají víc než měřítko",
-          "description": "22 rezidencí zasazených do vápence, mosazi a soukromého parku — městské sídlo pro ty, kdo si cení klidu víc než okázalosti",
+          "title": "Tiché sídlo u historického parku",
+          "lead": "22 rezidencí, soukromý park, wellness jen pro rezidenty a nepřetržitý concierge servis pro rodinný život v Praze 5",
+          "description": "Areál stával na místě panství z 18. století. Výstavba je dokončena v roce 2026.",
           "primary": {
             "label": "Číst náš příběh",
             "href": "story.html"
@@ -496,7 +524,7 @@ window.siteData = {
           "badges": [
             "22 rezidencí",
             "110–299 m²",
-            "Svoboda Shell & Core",
+            "Předání Shell & Core",
             "Soukromé wellness"
           ],
           "media": [
@@ -528,54 +556,54 @@ window.siteData = {
             "label": "concierge servis"
           }
         ],
-        "chaptersTitle": "Otevřete svou kapitolu",
+        "chaptersTitle": "Prozkoumejte Turbovou",
         "chapters": [
           {
             "number": "01",
             "title": "Příběh",
-            "text": "Od královského rady Františka z Turby po tvůrčí odkaz Jiřího Trnky",
+            "text": "Od panství z 18. století po ateliér Jiřího Trnky",
             "href": "story.html"
           },
           {
             "number": "02",
             "title": "Rezidence",
-            "text": "Dvě budovy, komorní měřítko, panoramatické prosklení — a čisté plátno pro váš interiér",
+            "text": "22 rezidencí ve dvou budovách, 110–299 m², předání Shell & Core",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Wellness",
-            "text": "Vyhřívaný bazén, hammam, sauna a terasa — soukromý wellness klub jen pro rezidenty",
+            "text": "Vyhřívaný bazén, sauna, hammam a terasa jen pro rezidenty",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Zahrady",
-            "text": "Kaskádová zahrada, venkovní fitness, vinotéka a krajina, kde město zůstává za jeho hranicí",
+            "text": "Soukromá zahrada, vinotéka a dětské hřiště na stoletém svahu",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Lokalita",
-            "text": "V srdci Prahy 5 — pár kroků od Anděla, předních škol, klinik a městských tepen",
+            "text": "Praha 5, blízko Anděla, mezinárodních škol a nemocnice Motol",
             "href": "location.html"
           }
         ],
         "legacy": {
-          "title": "Minulost a budoucnost obývají stejný svah",
-          "text": "Historická paměť zde nefunguje jako dekorace — stává se emocionálním základem pro rezidenci, která je současná, diskrétní a materiálově ukotvená",
+          "title": "Historie a materiály",
+          "text": "Areál pochází z 18. století. Budovy i zahrada používají stejné materiály, které najdete v celé rezidenci: vápenec, mosaz a vzrostlou zeleň.",
           "cards": [
             {
               "title": "Přírodní vápenec",
-              "text": "Světlá, klidná fasáda, která s jemností zachycuje proměnlivé pražské světlo"
+              "text": "Fasáda je z přírodního vápence."
             },
             {
               "title": "Mosazné detaily",
-              "text": "Teplý kovový reliéf a panely, které dodávají každé společné chodbě atmosféru soukromého foyer"
+              "text": "Reliéfní mosazné stropy a orámování oken najdete ve foyer, na chodbách a schodištích."
             },
             {
               "title": "Akustika zahrady",
-              "text": "Stoleté stromy a kaskádová výsadba vytvářejí kolem areálu přirozenou zvukovou clonu"
+              "text": "Stoleté stromy a kaskádová výsadba chrání rezidenci před hlukem ulice."
             }
           ],
           "mediaLeft": "assets/images/turbova-old.webp",
@@ -584,12 +612,12 @@ window.siteData = {
       },
       "ru": {
         "title": "Turbová | Главная",
-        "metaDescription": "Turbová — 22 бутиковые резиденции в Праге 5. Частный парк, велнес и архитектура из известняка. Завершение в 2026 году.",
+        "metaDescription": "Turbová: 22 резиденции в двух зданиях, Прага 5, Смихов. Частный сад, велнес только для резидентов, консьерж 24/7. Завершение в 2026 году.",
         "hero": {
           "eyebrow": "Бутиковая резиденция | Прага 5",
-          "title": "Тихое поместье, скрытое в сердце города",
-          "lead": "На зелёном склоне Праги 5, где уединение и тишина важнее масштаба",
-          "description": "22 резиденции в обрамлении известняка, латуни и собственного парка — городское поместье для тех, кому покой дороже показного блеска",
+          "title": "Тихий дом рядом с историческим парком",
+          "lead": "22 резиденции, частный парк, велнес только для резидентов и круглосуточный консьерж-сервис для семейной жизни в Праге 5",
+          "description": "Участок когда-то был частью усадьбы XVIII века. Завершение строительства — в 2026 году.",
           "primary": {
             "label": "Читать нашу историю",
             "href": "story.html"
@@ -601,7 +629,7 @@ window.siteData = {
           "badges": [
             "22 резиденции",
             "110–299 м²",
-            "Свобода Shell & Core",
+            "Отделка Shell & Core",
             "Частный велнес"
           ],
           "media": [
@@ -633,54 +661,54 @@ window.siteData = {
             "label": "консьерж-сервис"
           }
         ],
-        "chaptersTitle": "Откройте свою главу",
+        "chaptersTitle": "Узнайте больше о Turbová",
         "chapters": [
           {
             "number": "01",
             "title": "История",
-            "text": "От королевского советника Франтишека из Турбы до творческого наследия Иржи Трнки",
+            "text": "От усадьбы XVIII века до мастерской Иржи Трнки",
             "href": "story.html"
           },
           {
             "number": "02",
             "title": "Резиденции",
-            "text": "Два здания, камерные пропорции, панорамное остекление — и чистый холст для вашего интерьера",
+            "text": "22 резиденции в двух зданиях, 110–299 м², отделка Shell & Core",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Велнес",
-            "text": "Подогреваемый бассейн, хаммам, сауна и лаунж-терраса — частный велнес-клуб исключительно для резидентов",
+            "text": "Бассейн с подогревом, сауна, хаммам и терраса только для резидентов",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Сады",
-            "text": "Каскадный сад, фитнес на открытом воздухе, винотека и ландшафт, который оставляет город за своими пределами",
+            "text": "Частный сад, винный дом и детская площадка на столетнем склоне",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Локация",
-            "text": "В самом центре Праги 5 — в пешей доступности от Андела, ведущих школ, клиник и городских артерий",
+            "text": "Прага 5, рядом с Анделом, международными школами и больницей Motol",
             "href": "location.html"
           }
         ],
         "legacy": {
-          "title": "Прошлое и будущее занимают один и тот же склон",
-          "text": "Историческая память здесь не декорация — она становится эмоциональной основой резиденции — современной, сдержанной и укоренённой в материале",
+          "title": "История и материалы",
+          "text": "Усадьба относится к XVIII веку. В её зданиях и саду использованы те же материалы, что и во всей резиденции: известняк, латунь и зрелые посадки.",
           "cards": [
             {
               "title": "Природный известняк",
-              "text": "Светлый, спокойный фасад, сдержанно улавливающий переменчивый пражский свет"
+              "text": "Фасад выполнен из природного известняка."
             },
             {
               "title": "Латунные детали",
-              "text": "Тёплая металлическая резьба и панели, придающие каждому общему коридору атмосферу частного фойе"
+              "text": "Резные латунные потолки и обрамления окон встречаются в холле, коридорах и на лестницах."
             },
             {
               "title": "Акустика сада",
-              "text": "Столетние деревья и каскадные посадки создают естественный звуковой барьер вокруг поместья"
+              "text": "Столетние деревья и каскадные посадки защищают резиденцию от уличного шума."
             }
           ],
           "mediaLeft": "assets/images/turbova-old.webp",
@@ -689,12 +717,12 @@ window.siteData = {
       },
       "fr": {
         "title": "Turbová | Accueil",
-        "metaDescription": "Turbová — 22 résidences boutique à Prague 5. Parc privé, bien-être et architecture en calcaire. Livraison en 2026.",
+        "metaDescription": "Turbová : 22 résidences dans deux bâtiments, Prague 5, Smíchov. Jardin privé, bien-être réservé aux résidents, conciergerie 24h/24. Livraison 2026.",
         "hero": {
           "eyebrow": "Résidence boutique | Prague 5",
-          "title": "Un domaine paisible caché au cœur de la ville",
-          "lead": "Sur un coteau verdoyant de Prague 5, où l'intimité et le calme comptent plus que l'ampleur",
-          "description": "22 résidences encadrées de pierre calcaire, de laiton et d'un parc privé — un domaine urbain pour ceux qui préfèrent le calme à l'apparat",
+          "title": "Une demeure tranquille au bord d'un parc historique",
+          "lead": "22 résidences, un parc privé, un espace bien-être réservé aux résidents et une conciergerie 24h/24 pour la vie de famille à Prague 5",
+          "description": "Le site accueillait autrefois un domaine du XVIIIe siècle. Livraison en 2026.",
           "primary": {
             "label": "Lire notre histoire",
             "href": "story.html"
@@ -706,7 +734,7 @@ window.siteData = {
           "badges": [
             "22 résidences",
             "110–299 m²",
-            "Liberté Shell & Core",
+            "Livraison Shell & Core",
             "Bien-être privé"
           ],
           "media": [
@@ -738,54 +766,54 @@ window.siteData = {
             "label": "service de conciergerie"
           }
         ],
-        "chaptersTitle": "Ouvrez votre chapitre",
+        "chaptersTitle": "Découvrir Turbová",
         "chapters": [
           {
             "number": "01",
             "title": "Histoire",
-            "text": "Du conseiller royal František de Turba à l'héritage créatif de Jiří Trnka",
+            "text": "D'un domaine du XVIIIe siècle à l'atelier de Jiří Trnka",
             "href": "story.html"
           },
           {
             "number": "02",
             "title": "Résidences",
-            "text": "Deux bâtiments, des proportions intimes, des baies panoramiques — et une toile vierge pour votre intérieur",
+            "text": "22 résidences dans deux bâtiments, 110–299 m², livraison Shell & Core",
             "href": "residences.html"
           },
           {
             "number": "03",
             "title": "Bien-être",
-            "text": "Une piscine chauffée, un hammam, un sauna et un salon-terrasse — un club bien-être privé réservé aux résidents",
+            "text": "Une piscine chauffée, un sauna, un hammam et une terrasse réservés aux résidents",
             "href": "wellness.html"
           },
           {
             "number": "04",
             "title": "Jardins",
-            "text": "Un jardin en cascade, du fitness en plein air, une cave à vin et un paysage qui tient la ville hors de vue",
+            "text": "Un jardin privé, une cave à vin et une aire de jeux sur un coteau centenaire",
             "href": "grounds.html"
           },
           {
             "number": "05",
             "title": "Emplacement",
-            "text": "Au cœur de Prague 5 — à quelques pas d'Anděl, des meilleures écoles, des cliniques et des artères de la ville",
+            "text": "Prague 5, près d'Anděl, des écoles internationales et de l'hôpital de Motol",
             "href": "location.html"
           }
         ],
         "legacy": {
-          "title": "Le passé et l'avenir occupent le même coteau",
-          "text": "La mémoire historique n'est pas traitée comme un décor — elle devient le socle émotionnel d'une résidence contemporaine, discrète et ancrée dans la matière",
+          "title": "Histoire et matériaux",
+          "text": "Le domaine date du XVIIIe siècle. Ses bâtiments et son jardin reprennent les mêmes matériaux que l'ensemble de la résidence : pierre calcaire, laiton et plantations matures.",
           "cards": [
             {
               "title": "Pierre calcaire naturelle",
-              "text": "Une façade pâle et sereine qui capte avec retenue la lumière changeante de Prague"
+              "text": "La façade est en pierre calcaire naturelle."
             },
             {
               "title": "Détails en laiton",
-              "text": "Une ciselure et des panneaux de laiton chaleureux qui donnent à chaque couloir commun l'atmosphère d'un hall privé"
+              "text": "Des plafonds et encadrements de fenêtres en laiton ciselé ornent le hall, les couloirs et les escaliers."
             },
             {
               "title": "Acoustique du jardin",
-              "text": "Des arbres centenaires et des plantations en cascade créent un tampon acoustique naturel autour du domaine"
+              "text": "Des arbres centenaires et des plantations en cascade protègent la résidence du bruit de la rue."
             }
           ],
           "mediaLeft": "assets/images/turbova-old.webp",

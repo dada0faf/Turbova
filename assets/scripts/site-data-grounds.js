@@ -267,14 +267,14 @@ window.siteData = {
   "global": {
     "en": {
       "brand": "Turbová",
-      "strap": "Heritage of Silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Navigate",
       "closeLabel": "Close",
       "languageLabel": "Language",
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
+      "byline": "22 residences in Prague 5, Smíchov, with a private garden and resident-only wellness. Completion 2026.",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -284,23 +284,30 @@ window.siteData = {
         "location": "Location",
         "contact": "Contact"
       },
-      "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
+      "footerTitle": "Arrange a private viewing",
+      "footerText": "22 residences in two buildings, a private garden, and resident-only wellness in Prague 5, Smíchov.",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world",
-      "enquireLabel": "Enquire"
+      "footerNote": "22 residences, completing 2026",
+      "enquireLabel": "Enquire",
+      "themeLabel": "Theme",
+      "themes": {
+        "limestone": "Limestone",
+        "night": "Terrazzo Night",
+        "trnka": "Trnka Green",
+        "vineyard": "Vineyard"
+      }
     },
     "cs": {
       "brand": "Turbová",
-      "strap": "Dědictví ticha",
+      "strap": "Praha 5 · Smíchov",
       "menuLabel": "Navigace",
       "closeLabel": "Zavřít",
       "languageLabel": "Jazyk",
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
+      "byline": "22 rezidencí v Praze 5 na Smíchově, se soukromou zahradou a wellness jen pro rezidenty. Dokončení 2026.",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -310,23 +317,30 @@ window.siteData = {
         "location": "Lokalita",
         "contact": "Kontakt"
       },
-      "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerTitle": "Domluvte si soukromou prohlídku",
+      "footerText": "22 rezidencí ve dvou budovách, soukromá zahrada a wellness jen pro rezidenty v Praze 5 na Smíchově.",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět",
-      "enquireLabel": "Kontakt"
+      "footerNote": "22 rezidencí, dokončení 2026",
+      "enquireLabel": "Kontakt",
+      "themeLabel": "Motiv",
+      "themes": {
+        "limestone": "Vápenec",
+        "night": "Terrazzo Noc",
+        "trnka": "Trnka Zelená",
+        "vineyard": "Vinice"
+      }
     },
     "ru": {
       "brand": "Turbová",
-      "strap": "Наследие тишины",
+      "strap": "Прага 5 · Смихов",
       "menuLabel": "Навигация",
       "closeLabel": "Закрыть",
       "languageLabel": "Язык",
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
+      "byline": "22 резиденции в Праге 5, Смихов, с частным садом и велнесом только для резидентов. Завершение в 2026 году.",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -336,23 +350,30 @@ window.siteData = {
         "location": "Локация",
         "contact": "Контакты"
       },
-      "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно частный адрес в Смихове",
+      "footerTitle": "Запишитесь на частный показ",
+      "footerText": "22 резиденции в двух зданиях, частный сад и велнес только для резидентов в Праге 5, Смихов.",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир",
-      "enquireLabel": "Связаться"
+      "footerNote": "22 резиденции, завершение в 2026 году",
+      "enquireLabel": "Связаться",
+      "themeLabel": "Тема",
+      "themes": {
+        "limestone": "Известняк",
+        "night": "Терраццо Ночь",
+        "trnka": "Трнка Зелёный",
+        "vineyard": "Виноградник"
+      }
     },
     "fr": {
       "brand": "Turbová",
-      "strap": "Héritage du silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Naviguer",
       "closeLabel": "Fermer",
       "languageLabel": "Langue",
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
+      "byline": "22 résidences à Prague 5, Smíchov, avec un jardin privé et un espace bien-être réservé aux résidents. Livraison 2026.",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -362,23 +383,30 @@ window.siteData = {
         "location": "Emplacement",
         "contact": "Contact"
       },
-      "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
+      "footerTitle": "Organisez une visite privée",
+      "footerText": "22 résidences dans deux bâtiments, un jardin privé et un espace bien-être réservé aux résidents à Prague 5, Smíchov.",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé",
-      "enquireLabel": "S'informer"
+      "footerNote": "22 résidences, livraison 2026",
+      "enquireLabel": "S'informer",
+      "themeLabel": "Thème",
+      "themes": {
+        "limestone": "Calcaire",
+        "night": "Terrazzo Nuit",
+        "trnka": "Trnka Vert",
+        "vineyard": "Vignoble"
+      }
     }
   },
   "pages": {
     "grounds": {
       "en": {
         "title": "Turbová | Grounds",
-        "metaDescription": "Turbová's private park: cascading gardens, century-old trees, outdoor fitness, a wine house, and a terraced landscape in Smíchov, Prague 5.",
+        "metaDescription": "Turbová's private garden: century-old trees, a wine house, outdoor training area, and children's playground, Prague 5.",
         "hero": {
           "eyebrow": "04 | Grounds",
-          "title": "A private park that absorbs the city",
-          "lead": "The garden grounds form a self-contained landscape with mature trees, cascading planting, outdoor fitness, a wine house, and a terraced landscape that absorbs the city",
+          "title": "A private garden around the residence",
+          "lead": "The garden is enclosed and fully secure. Century-old trees and cascading planting shelter the residence from street noise",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -388,7 +416,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "Terraced",
-            "label": "multi-level private landscape"
+            "label": "garden across the hillside"
           },
           {
             "value": "4",
@@ -400,28 +428,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Landscape as an amenity and a shield",
+          "title": "A garden with more than one purpose",
           "paragraphs": [
-            "The garden is not ornamental residue. It performs acoustically, visually, and socially. It protects the residence from surrounding noise while creating places to gather, train, or simply disappear for a while.",
-            "The result is a softer form of luxury: not maximal programming, but the freedom to choose between movement, solitude, family time, and quiet evenings on the terrace."
+            "The garden is not purely decorative. Century-old trees and cascading planting form a sound barrier between the residence and the surrounding streets.",
+            "The grounds include a wine house pavilion, an outdoor training area, and a children's playground, all within the enclosed garden."
           ]
         },
         "pillars": [
           {
-            "title": "Cascading private garden",
-            "text": "Layered topography and mature planting form a natural envelope around the residence"
+            "title": "Cascading garden",
+            "text": "Century-old trees and layered planting form a natural barrier around the residence"
           },
           {
-            "title": "Venkovní fitness",
-            "text": "Equipment placed in greenery for open-air training with privacy"
+            "title": "Outdoor training area",
+            "text": "An equipped outdoor fitness area within the garden"
           },
           {
-            "title": "Wine house",
-            "text": "A social hub for residents' gatherings and small private events"
+            "title": "Wine House",
+            "text": "A private garden pavilion for gatherings and family celebrations"
           },
           {
-            "title": "Children's play space",
-            "text": "A calm and secure outdoor setting removed from the city bustle"
+            "title": "Children's playground",
+            "text": "Enclosed and set within the garden, away from the street"
           }
         ],
         "gallery": [
@@ -434,19 +462,26 @@ window.siteData = {
             "alt": "Garden terrace with hammock"
           }
         ],
-        "quote": "The rarest amenity may simply be stepping outside to hear leaves instead of traffic",
+        "quote": "The garden is enclosed, and residents are the only ones who use it",
         "next": {
           "href": "location.html",
           "label": "Continue to location"
-        }
+        },
+        "enquiry": {
+          "title": "Visit the garden",
+          "text": "See the grounds and the Wine House pavilion in person.",
+          "label": "Arrange a viewing",
+          "href": "contact.html"
+        },
+        "galleryTitle": "The garden"
       },
       "cs": {
         "title": "Turbová | Zahrady",
-        "metaDescription": "Soukromý park Turbové: kaskádovité zahrady, staleté stromy, venkovní fitness, vinotéka a terasovitá krajina na Smíchově, Praha 5.",
+        "metaDescription": "Soukromá zahrada Turbové: staleté stromy, vinotéka, venkovní fitness a dětské hřiště, Praha 5.",
         "hero": {
           "eyebrow": "04 | Zahrady",
-          "title": "Soukromý park, který pohlcuje město",
-          "lead": "Zahradní areál vytváří uzavřenou krajinu se vzrostlými stromy, kaskádovou výsadbou, venkovním fitness, vinotékou a terasovitým reliéfem, který pohlcuje město",
+          "title": "Soukromá zahrada kolem rezidence",
+          "lead": "Zahrada je oplocená a plně zabezpečená. Staleté stromy a kaskádová výsadba chrání rezidenci před hlukem ulice",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -455,8 +490,8 @@ window.siteData = {
         },
         "metrics": [
           {
-            "value": "Terasovitý",
-            "label": "víceúrovňová soukromá krajina"
+            "value": "Terasovitá",
+            "label": "zahrada na svahu"
           },
           {
             "value": "4",
@@ -468,28 +503,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Krajina jako přednost i ochrana",
+          "title": "Zahrada s víc než jednou funkcí",
           "paragraphs": [
-            "Zahrada zde není samoúčelnou dekorací. Funguje akusticky, vizuálně i společensky. Chrání rezidenci před okolním hlukem a zároveň vytváří místa pro setkávání, trénink nebo prosté zmizení na chvíli o samotě.",
-            "Výsledkem je měkčí forma luxusu: ne přemíra vybavení, ale svoboda volby mezi pohybem, samotou, rodinným časem a klidnými večery na terase."
+            "Zahrada zde není jen dekorací. Staleté stromy a kaskádová výsadba vytvářejí zvukovou bariéru mezi rezidencí a okolními ulicemi.",
+            "Areál zahrnuje pavilon Wine House, venkovní fitness a dětské hřiště, vše uvnitř oploceného areálu."
           ]
         },
         "pillars": [
           {
-            "title": "Kaskádová soukromá zahrada",
-            "text": "Vrstvená topografie a vzrostlá zeleň tvoří přirozený obal kolem rezidence"
+            "title": "Kaskádová zahrada",
+            "text": "Staleté stromy a vrstvená výsadba tvoří přirozenou bariéru kolem rezidence"
           },
           {
             "title": "Venkovní fitness",
-            "text": "Vybavení zasazené do zeleně pro soukromý trénink na čerstvém vzduchu"
+            "text": "Vybavená plocha pro cvičení v areálu zahrady"
           },
           {
-            "title": "Vinotéka",
-            "text": "Společenské místo pro setkávání rezidentů a menší soukromé akce"
+            "title": "Wine House",
+            "text": "Soukromý zahradní pavilon pro setkání a rodinné oslavy"
           },
           {
             "title": "Dětské hřiště",
-            "text": "Klidné a bezpečné venkovní prostředí vzdálené městskému ruchu"
+            "text": "Oplocené a umístěné uvnitř zahrady, mimo dosah ulice"
           }
         ],
         "gallery": [
@@ -502,19 +537,26 @@ window.siteData = {
             "alt": "Zahradní terasa s houpací sítí"
           }
         ],
-        "quote": "Nejvzácnější službou může být prostě možnost vyjít ven a slyšet listí místo dopravy",
+        "quote": "Zahrada je oplocená a využívají ji pouze rezidenti",
         "next": {
           "href": "location.html",
           "label": "Pokračovat k lokalitě"
-        }
+        },
+        "enquiry": {
+          "title": "Navštivte zahradu",
+          "text": "Prohlédněte si areál a pavilon Wine House osobně.",
+          "label": "Domluvit prohlídku",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Zahrada"
       },
       "ru": {
         "title": "Turbová | Сады",
-        "metaDescription": "Частный парк Turbová: каскадные сады, вековые деревья, фитнес на открытом воздухе, винотека и террасный ландшафт в Смихове, Прага 5.",
+        "metaDescription": "Частный сад Turbová: вековые деревья, винный дом, площадка для тренировок и детская площадка, Прага 5.",
         "hero": {
           "eyebrow": "04 | Сады",
-          "title": "Частный парк, поглощающий город",
-          "lead": "Садовая территория образует самодостаточный ландшафт со зрелыми деревьями, каскадными посадками, фитнесом на открытом воздухе, винотекой и террасным рельефом, поглощающим город",
+          "title": "Частный сад вокруг резиденции",
+          "lead": "Сад огорожен и полностью защищён. Вековые деревья и каскадные посадки защищают резиденцию от уличного шума",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -524,7 +566,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "Террасный",
-            "label": "многоуровневый частный ландшафт"
+            "label": "сад на склоне"
           },
           {
             "value": "4",
@@ -536,28 +578,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Ландшафт как удобство и как щит",
+          "title": "Сад с несколькими функциями",
           "paragraphs": [
-            "Сад здесь не декоративное излишество. Он работает акустически, визуально и социально. Он защищает резиденцию от окружающего шума, создавая места для встреч, тренировок или чтобы просто на время исчезнуть.",
-            "В итоге — более мягкая форма роскоши: не обилие функций, а свобода выбора между движением, уединением, семейным временем и тихими вечерами на террасе."
+            "Сад здесь не только для красоты. Вековые деревья и каскадные посадки образуют звуковой барьер между резиденцией и окружающими улицами.",
+            "На территории есть павильон Wine House, площадка для тренировок на воздухе и детская площадка — всё в пределах огороженного сада."
           ]
         },
         "pillars": [
           {
-            "title": "Каскадный частный сад",
-            "text": "Слоистый рельеф и зрелые посадки образуют естественную оболочку вокруг резиденции"
+            "title": "Каскадный сад",
+            "text": "Вековые деревья и многоярусные посадки образуют естественный барьер вокруг резиденции"
           },
           {
-            "title": "Фитнес на открытом воздухе",
-            "text": "Оборудование размещено в зелени для тренировок на воздухе в уединении"
+            "title": "Площадка для тренировок",
+            "text": "Оборудованная зона для занятий спортом на территории сада"
           },
           {
-            "title": "Винотека",
-            "text": "Место для встреч резидентов и небольших частных событий"
+            "title": "Wine House",
+            "text": "Частный садовый павильон для встреч и семейных праздников"
           },
           {
             "title": "Детская площадка",
-            "text": "Спокойная и безопасная открытая среда вдали от городской суеты"
+            "text": "Огороженная и расположенная внутри сада, вдали от улицы"
           }
         ],
         "gallery": [
@@ -570,19 +612,26 @@ window.siteData = {
             "alt": "Садовая терраса с гамаком"
           }
         ],
-        "quote": "Самой редкой услугой может быть просто возможность выйти наружу и слышать листву вместо транспорта",
+        "quote": "Сад огорожен, и им пользуются только резиденты",
         "next": {
           "href": "location.html",
           "label": "Продолжить к локации"
-        }
+        },
+        "enquiry": {
+          "title": "Посетите сад",
+          "text": "Осмотрите территорию и павильон Wine House лично.",
+          "label": "Записаться на просмотр",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Сад"
       },
       "fr": {
         "title": "Turbová | Jardins",
-        "metaDescription": "Le parc privé de Turbová : jardins en cascade, arbres centenaires, fitness extérieur, une cave à vin et un paysage en terrasses à Smíchov, Prague 5.",
+        "metaDescription": "Le jardin privé de Turbová : arbres centenaires, cave à vin, espace de fitness extérieur et aire de jeux, Prague 5.",
         "hero": {
           "eyebrow": "04 | Jardins",
-          "title": "Un parc privé qui absorbe la ville",
-          "lead": "Le parc forme un paysage autonome avec des arbres matures, des plantations en cascade, du fitness en plein air, une cave à vin et un relief en terrasses qui absorbe la ville",
+          "title": "Un jardin privé autour de la résidence",
+          "lead": "Le jardin est clos et entièrement sécurisé. Des arbres centenaires et des plantations en cascade protègent la résidence du bruit de la rue",
           "media": [
             "assets/images/terrace.webp",
             "assets/images/terrace-hammock.webp",
@@ -592,7 +641,7 @@ window.siteData = {
         "metrics": [
           {
             "value": "En terrasses",
-            "label": "paysage privé à plusieurs niveaux"
+            "label": "jardin à flanc de coteau"
           },
           {
             "value": "4",
@@ -604,28 +653,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Le paysage comme agrément et comme bouclier",
+          "title": "Un jardin à plusieurs fonctions",
           "paragraphs": [
-            "Le jardin n'est pas un simple ornement. Il agit sur le plan acoustique, visuel et social. Il protège la résidence du bruit environnant tout en créant des lieux pour se réunir, s'entraîner ou simplement disparaître un moment.",
-            "Il en résulte une forme plus douce de luxe : non pas une programmation maximale, mais la liberté de choisir entre le mouvement, la solitude, le temps en famille et des soirées calmes sur la terrasse."
+            "Le jardin n'est pas purement décoratif. Des arbres centenaires et des plantations en cascade forment une barrière sonore entre la résidence et les rues environnantes.",
+            "Le terrain comprend un pavillon Wine House, un espace de fitness extérieur et une aire de jeux pour enfants, le tout à l'intérieur du jardin clos."
           ]
         },
         "pillars": [
           {
-            "title": "Jardin privé en cascade",
-            "text": "Une topographie en strates et des plantations matures forment une enveloppe naturelle autour de la résidence"
+            "title": "Jardin en cascade",
+            "text": "Des arbres centenaires et des plantations étagées forment une barrière naturelle autour de la résidence"
           },
           {
-            "title": "Fitness en plein air",
-            "text": "Des équipements placés dans la verdure pour s'entraîner au grand air en toute intimité"
+            "title": "Espace de fitness extérieur",
+            "text": "Un espace équipé pour l'entraînement au sein du jardin"
           },
           {
-            "title": "Cave à vin",
-            "text": "Un lieu de convivialité pour les rassemblements de résidents et les petits événements privés"
+            "title": "Wine House",
+            "text": "Un pavillon de jardin privé pour les réunions et les fêtes de famille"
           },
           {
-            "title": "Espace de jeu pour enfants",
-            "text": "Un cadre extérieur calme et sûr, à l'écart de l'agitation de la ville"
+            "title": "Aire de jeux pour enfants",
+            "text": "Clôturée et située à l'intérieur du jardin, à l'écart de la rue"
           }
         ],
         "gallery": [
@@ -638,11 +687,18 @@ window.siteData = {
             "alt": "Terrasse de jardin avec hamac"
           }
         ],
-        "quote": "L'agrément le plus rare est peut-être simplement de pouvoir sortir et entendre les feuilles plutôt que la circulation",
+        "quote": "Le jardin est clos, et seuls les résidents l'utilisent",
         "next": {
           "href": "location.html",
           "label": "Continuer vers l'emplacement"
-        }
+        },
+        "enquiry": {
+          "title": "Visitez le jardin",
+          "text": "Découvrez le terrain et le pavillon Wine House en personne.",
+          "label": "Organiser une visite",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Le jardin"
       }
     }
   }

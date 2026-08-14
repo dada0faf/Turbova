@@ -267,14 +267,14 @@ window.siteData = {
   "global": {
     "en": {
       "brand": "Turbová",
-      "strap": "Heritage of Silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Navigate",
       "closeLabel": "Close",
       "languageLabel": "Language",
       "chapterLabel": "Chapters",
       "availableLabel": "Project completion",
       "availableValue": "2026",
-      "byline": "A boutique residence in Prague 5 where limestone, brass, gardens, and silence shape a new urban estate",
+      "byline": "22 residences in Prague 5, Smíchov, with a private garden and resident-only wellness. Completion 2026.",
       "menu": {
         "home": "Home",
         "story": "Story",
@@ -284,23 +284,30 @@ window.siteData = {
         "location": "Location",
         "contact": "Contact"
       },
-      "footerTitle": "Private presentation by appointment",
-      "footerText": "An intimate collection of 22 residences, private park grounds, curated wellness, and a highly discreet address in Smíchov",
+      "footerTitle": "Arrange a private viewing",
+      "footerText": "22 residences in two buildings, a private garden, and resident-only wellness in Prague 5, Smíchov.",
       "footerPrimary": "Explore residences",
       "footerSecondary": "Read the story",
-      "footerNote": "Two buildings, one protected world",
-      "enquireLabel": "Enquire"
+      "footerNote": "22 residences, completing 2026",
+      "enquireLabel": "Enquire",
+      "themeLabel": "Theme",
+      "themes": {
+        "limestone": "Limestone",
+        "night": "Terrazzo Night",
+        "trnka": "Trnka Green",
+        "vineyard": "Vineyard"
+      }
     },
     "cs": {
       "brand": "Turbová",
-      "strap": "Dědictví ticha",
+      "strap": "Praha 5 · Smíchov",
       "menuLabel": "Navigace",
       "closeLabel": "Zavřít",
       "languageLabel": "Jazyk",
       "chapterLabel": "Kapitoly",
       "availableLabel": "Dokončení projektu",
       "availableValue": "2026",
-      "byline": "Komorní rezidence v Praze 5, kde vápenec, mosaz, zahrady a ticho utvářejí nové městské sídlo",
+      "byline": "22 rezidencí v Praze 5 na Smíchově, se soukromou zahradou a wellness jen pro rezidenty. Dokončení 2026.",
       "menu": {
         "home": "Domů",
         "story": "Příběh",
@@ -310,23 +317,30 @@ window.siteData = {
         "location": "Lokalita",
         "contact": "Kontakt"
       },
-      "footerTitle": "Soukromá prezentace na vyžádání",
-      "footerText": "Komorní kolekce 22 rezidencí, soukromý park, pečlivě navržené wellness a mimořádně diskrétní adresa na Smíchově",
+      "footerTitle": "Domluvte si soukromou prohlídku",
+      "footerText": "22 rezidencí ve dvou budovách, soukromá zahrada a wellness jen pro rezidenty v Praze 5 na Smíchově.",
       "footerPrimary": "Prozkoumat rezidence",
       "footerSecondary": "Číst příběh",
-      "footerNote": "Dvě budovy, jeden chráněný svět",
-      "enquireLabel": "Kontakt"
+      "footerNote": "22 rezidencí, dokončení 2026",
+      "enquireLabel": "Kontakt",
+      "themeLabel": "Motiv",
+      "themes": {
+        "limestone": "Vápenec",
+        "night": "Terrazzo Noc",
+        "trnka": "Trnka Zelená",
+        "vineyard": "Vinice"
+      }
     },
     "ru": {
       "brand": "Turbová",
-      "strap": "Наследие тишины",
+      "strap": "Прага 5 · Смихов",
       "menuLabel": "Навигация",
       "closeLabel": "Закрыть",
       "languageLabel": "Язык",
       "chapterLabel": "Главы",
       "availableLabel": "Завершение проекта",
       "availableValue": "2026",
-      "byline": "Бутиковая резиденция в Праге 5, где известняк, латунь, сады и тишина создают новое городское поместье",
+      "byline": "22 резиденции в Праге 5, Смихов, с частным садом и велнесом только для резидентов. Завершение в 2026 году.",
       "menu": {
         "home": "Главная",
         "story": "История",
@@ -336,23 +350,30 @@ window.siteData = {
         "location": "Локация",
         "contact": "Контакты"
       },
-      "footerTitle": "Частная презентация по записи",
-      "footerText": "Камерная коллекция из 22 резиденций, собственный парк, продуманный велнес и исключительно частный адрес в Смихове",
+      "footerTitle": "Запишитесь на частный показ",
+      "footerText": "22 резиденции в двух зданиях, частный сад и велнес только для резидентов в Праге 5, Смихов.",
       "footerPrimary": "Смотреть резиденции",
       "footerSecondary": "Читать историю",
-      "footerNote": "Два здания, один защищённый мир",
-      "enquireLabel": "Связаться"
+      "footerNote": "22 резиденции, завершение в 2026 году",
+      "enquireLabel": "Связаться",
+      "themeLabel": "Тема",
+      "themes": {
+        "limestone": "Известняк",
+        "night": "Терраццо Ночь",
+        "trnka": "Трнка Зелёный",
+        "vineyard": "Виноградник"
+      }
     },
     "fr": {
       "brand": "Turbová",
-      "strap": "Héritage du silence",
+      "strap": "Prague 5 · Smíchov",
       "menuLabel": "Naviguer",
       "closeLabel": "Fermer",
       "languageLabel": "Langue",
       "chapterLabel": "Chapitres",
       "availableLabel": "Achèvement du projet",
       "availableValue": "2026",
-      "byline": "Une résidence boutique à Prague 5 où la pierre calcaire, le laiton, les jardins et le silence façonnent un nouveau domaine urbain",
+      "byline": "22 résidences à Prague 5, Smíchov, avec un jardin privé et un espace bien-être réservé aux résidents. Livraison 2026.",
       "menu": {
         "home": "Accueil",
         "story": "Histoire",
@@ -362,23 +383,30 @@ window.siteData = {
         "location": "Emplacement",
         "contact": "Contact"
       },
-      "footerTitle": "Présentation privée sur rendez-vous",
-      "footerText": "Une collection intime de 22 résidences, un parc privé, un espace bien-être soigné et une adresse d'une grande discrétion à Smíchov",
+      "footerTitle": "Organisez une visite privée",
+      "footerText": "22 résidences dans deux bâtiments, un jardin privé et un espace bien-être réservé aux résidents à Prague 5, Smíchov.",
       "footerPrimary": "Découvrir les résidences",
       "footerSecondary": "Lire l'histoire",
-      "footerNote": "Deux bâtiments, un monde protégé",
-      "enquireLabel": "S'informer"
+      "footerNote": "22 résidences, livraison 2026",
+      "enquireLabel": "S'informer",
+      "themeLabel": "Thème",
+      "themes": {
+        "limestone": "Calcaire",
+        "night": "Terrazzo Nuit",
+        "trnka": "Trnka Vert",
+        "vineyard": "Vignoble"
+      }
     }
   },
   "pages": {
     "wellness": {
       "en": {
         "title": "Turbová | Wellness",
-        "metaDescription": "Residents-only wellness at Turbová: heated pool, hammam, sauna, and terrace lounge. Private wellbeing in the heart of Prague 5.",
+        "metaDescription": "Turbová's wellness floor is for residents only: heated pool, sauna, hammam, and terrace lounge, Prague 5, Smíchov.",
         "hero": {
           "eyebrow": "03 | Wellness",
-          "title": "A private wellness floor for residents only",
-          "lead": "The internal wellness floor is designed as a slow, atmospheric sequence: heated pool, sauna, hammam, changing rooms, private kitchenette, and a terrace lounge",
+          "title": "A residents-only wellness floor",
+          "lead": "The wellness floor includes a heated indoor pool, sauna, hammam, changing rooms, a private kitchenette, and a lounge terrace",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -401,28 +429,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Well-being without leaving home",
+          "title": "Everyday wellness, inside the residence",
           "paragraphs": [
-            "The wellness layer is conceived less like a gym annex and more like a private members' retreat. Lighting is warm, surfaces are tactile, and the water sequence becomes part of the identity.",
-            "Residents can move from swim to steam to terrace without crossing public space, turning restoration into a daily habit rather than a planned outing."
+            "The wellness floor is for residents only, with direct access from inside the residence. It includes a heated indoor pool, sauna, and hammam.",
+            "Residents can move between the pool, sauna, hammam, and terrace without leaving the building or crossing public areas."
           ]
         },
         "pillars": [
           {
             "title": "Heated pool",
-            "text": "For morning laps, evening decompression, and year-round calm"
+            "text": "For swimming at any time of year"
           },
           {
             "title": "Sauna and hammam",
-            "text": "A full sauna-and-hammam circuit built into the residence itself"
+            "text": "A full sauna and hammam, built into the wellness floor"
           },
           {
-            "title": "Private refreshments",
-            "text": "Changing rooms and a kitchenette support longer, more social stays"
+            "title": "Changing rooms and kitchenette",
+            "text": "For longer visits and small gatherings"
           },
           {
-            "title": "Outdoor release",
-            "text": "The terrace lounge extends the experience into planted open air"
+            "title": "Terrace lounge",
+            "text": "Connects directly to the wellness floor and opens onto the garden"
           }
         ],
         "gallery": [
@@ -432,26 +460,33 @@ window.siteData = {
           },
           {
             "src": "assets/images/pool-sauna-view.webp",
-            "alt": "Spa lounge"
+            "alt": "Wellness lounge"
           },
           {
             "src": "assets/images/hammam.webp",
             "alt": "Hammam interior"
           }
         ],
-        "quote": "Luxury here is the ability to restore your energy inside the same protected world you call home",
+        "quote": "The wellness floor is reserved for residents and their guests",
         "next": {
           "href": "grounds.html",
           "label": "Continue to grounds"
-        }
+        },
+        "enquiry": {
+          "title": "Ask about the wellness floor",
+          "text": "Arrange a viewing to see the pool, sauna, and hammam in person.",
+          "label": "Arrange a viewing",
+          "href": "contact.html"
+        },
+        "galleryTitle": "The wellness floor"
       },
       "cs": {
         "title": "Turbová | Wellness",
-        "metaDescription": "Wellness pouze pro rezidenty Turbové: vyhřívaný bazén, hammam, sauna a odpočinková terasa. Soukromý wellness v srdci Prahy 5.",
+        "metaDescription": "Wellness patro Turbové jen pro rezidenty: vyhřívaný bazén, sauna, hammam a terasa, Praha 5, Smíchov.",
         "hero": {
           "eyebrow": "03 | Wellness",
-          "title": "Soukromé wellness patro pouze pro rezidenty",
-          "lead": "Interní wellness patro je navrženo jako pomalá, atmosférická sekvence: vyhřívaný bazén, sauna, hammam, šatny, soukromá kuchyňka a odpočinková terasa",
+          "title": "Wellness patro jen pro rezidenty",
+          "lead": "Wellness patro zahrnuje vyhřívaný vnitřní bazén, saunu, hammam, šatny, soukromou kuchyňku a odpočinkovou terasu",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -474,28 +509,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Péče o sebe bez nutnosti opouštět domov",
+          "title": "Wellness součástí rezidence",
           "paragraphs": [
-            "Wellness zde není doplňkem k posilovně, ale spíš soukromým klubovým útočištěm. Osvětlení je teplé, povrchy hmatové a vodní sekvence se stává součástí identity projektu.",
-            "Rezidenti mohou přejít z plavání do páry a na terasu bez průchodu veřejným prostorem, takže obnova sil se mění v denní návyk místo plánovaného výletu."
+            "Wellness patro je jen pro rezidenty, s přímým přístupem přímo z rezidence. Zahrnuje vyhřívaný vnitřní bazén, saunu a hammam.",
+            "Rezidenti mohou přecházet mezi bazénem, saunou, hammamem a terasou, aniž by opustili budovu nebo prošli veřejným prostorem."
           ]
         },
         "pillars": [
           {
             "title": "Vyhřívaný bazén",
-            "text": "Pro ranní plavání, večerní uvolnění i celoroční klid"
+            "text": "Pro plavání kdykoli během roku"
           },
           {
             "title": "Sauna a hammam",
-            "text": "Kompletní okruh sauny a hammamu přímo uvnitř rezidence"
+            "text": "Kompletní sauna a hammam přímo na wellness patře"
           },
           {
-            "title": "Soukromé občerstvení",
-            "text": "Šatny a kuchyňka podporují delší a společenské pobyty"
+            "title": "Šatny a kuchyňka",
+            "text": "Pro delší pobyty a menší společenské setkání"
           },
           {
-            "title": "Venkovní uvolnění",
-            "text": "Odpočinková terasa přenáší wellness i ven, do zeleně"
+            "title": "Odpočinková terasa",
+            "text": "Navazuje přímo na wellness patro a otevírá se do zahrady"
           }
         ],
         "gallery": [
@@ -505,26 +540,33 @@ window.siteData = {
           },
           {
             "src": "assets/images/pool-sauna-view.webp",
-            "alt": "Spa lounge"
+            "alt": "Wellness lounge"
           },
           {
             "src": "assets/images/hammam.webp",
             "alt": "Interiér hammamu"
           }
         ],
-        "quote": "Luxus zde znamená možnost obnovit energii uvnitř stejného chráněného světa, který nazýváte domovem",
+        "quote": "Wellness patro je vyhrazeno rezidentům a jejich hostům",
         "next": {
           "href": "grounds.html",
           "label": "Pokračovat k zahradám"
-        }
+        },
+        "enquiry": {
+          "title": "Zeptejte se na wellness patro",
+          "text": "Domluvte si prohlídku a podívejte se osobně na bazén, saunu a hammam.",
+          "label": "Domluvit prohlídku",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Wellness patro"
       },
       "ru": {
         "title": "Turbová | Велнес",
-        "metaDescription": "Велнес только для резидентов Turbová: подогреваемый бассейн, хаммам, сауна и лаунж-терраса. Частный отдых в сердце Праги 5.",
+        "metaDescription": "Велнес-этаж Turbová только для резидентов: бассейн с подогревом, сауна, хаммам и терраса, Прага 5, Смихов.",
         "hero": {
           "eyebrow": "03 | Велнес",
-          "title": "Частный велнес-этаж только для резидентов",
-          "lead": "Внутренний велнес-этаж задуман как медленная атмосферная последовательность: подогреваемый бассейн, сауна, хаммам, раздевалки, отдельная кухонька и лаунж-терраса",
+          "title": "Велнес-этаж только для резидентов",
+          "lead": "Велнес-этаж включает крытый бассейн с подогревом, сауну, хаммам, раздевалки, отдельную кухоньку и лаунж-террасу",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -547,28 +589,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Забота о себе, не покидая дома",
+          "title": "Велнес внутри резиденции",
           "paragraphs": [
-            "Велнес здесь задуман не как пристройка к спортзалу, а как частное клубное пространство для отдыха. Свет тёплый, поверхности тактильны, а водная последовательность становится частью идентичности.",
-            "Резиденты могут переходить от плавания к пару и к террасе, не пересекая общественных зон, превращая восстановление в ежедневную привычку, а не запланированный выход."
+            "Велнес-этаж доступен только резидентам, вход — прямо из резиденции. Здесь есть крытый бассейн с подогревом, сауна и хаммам.",
+            "Резиденты могут переходить между бассейном, сауной, хаммамом и террасой, не выходя из здания и не пересекая общественные зоны."
           ]
         },
         "pillars": [
           {
-            "title": "Подогреваемый бассейн",
-            "text": "Для утренних заплывов, вечерней разгрузки и круглогодичного спокойствия"
+            "title": "Бассейн с подогревом",
+            "text": "Для плавания в любое время года"
           },
           {
             "title": "Сауна и хаммам",
-            "text": "Полный контур сауны и хаммама, встроенный в саму резиденцию"
+            "text": "Полноценная сауна и хаммам прямо на велнес-этаже"
           },
           {
-            "title": "Приватное угощение",
-            "text": "Раздевалки и кухонька поддерживают более долгие и общительные визиты"
+            "title": "Раздевалки и кухонька",
+            "text": "Для более долгих визитов и небольших встреч"
           },
           {
-            "title": "Выход на воздух",
-            "text": "Лаунж-терраса продолжает этот опыт под открытым небом, среди зелени"
+            "title": "Лаунж-терраса",
+            "text": "Соединена напрямую с велнес-этажом и выходит в сад"
           }
         ],
         "gallery": [
@@ -578,26 +620,33 @@ window.siteData = {
           },
           {
             "src": "assets/images/pool-sauna-view.webp",
-            "alt": "Спа-лаунж"
+            "alt": "Велнес-лаундж"
           },
           {
             "src": "assets/images/hammam.webp",
             "alt": "Интерьер хаммама"
           }
         ],
-        "quote": "Роскошь здесь — это возможность восстановить силы внутри того же защищённого мира, который вы называете домом",
+        "quote": "Велнес-этаж предназначен только для резидентов и их гостей",
         "next": {
           "href": "grounds.html",
           "label": "Продолжить к садам"
-        }
+        },
+        "enquiry": {
+          "title": "Узнайте больше о велнес-этаже",
+          "text": "Запишитесь на просмотр, чтобы увидеть бассейн, сауну и хаммам лично.",
+          "label": "Записаться на просмотр",
+          "href": "contact.html"
+        },
+        "galleryTitle": "Велнес-зона"
       },
       "fr": {
         "title": "Turbová | Bien-être",
-        "metaDescription": "Bien-être exclusif à Turbová : piscine chauffée, hammam, sauna et terrasse lounge. Un espace privé au cœur de Prague 5.",
+        "metaDescription": "L'étage bien-être de Turbová, réservé aux résidents : piscine chauffée, sauna, hammam et terrasse, Prague 5, Smíchov.",
         "hero": {
           "eyebrow": "03 | Bien-être",
-          "title": "Un étage bien-être privé, réservé aux résidents",
-          "lead": "L'étage bien-être intérieur est conçu comme une séquence lente et atmosphérique : piscine chauffée, sauna, hammam, vestiaires, kitchenette privée et salon-terrasse",
+          "title": "Un étage bien-être réservé aux résidents",
+          "lead": "L'étage bien-être comprend une piscine intérieure chauffée, un sauna, un hammam, des vestiaires, une kitchenette privée et un salon-terrasse",
           "media": [
             "assets/images/pool-dark.webp",
             "assets/images/pool-sauna-view.webp",
@@ -620,28 +669,28 @@ window.siteData = {
           }
         ],
         "story": {
-          "title": "Le bien-être sans quitter son foyer",
+          "title": "Le bien-être, au sein même de la résidence",
           "paragraphs": [
-            "Le bien-être est ici pensé moins comme une annexe de salle de sport que comme une retraite privée réservée aux résidents. La lumière est chaude, les surfaces tactiles, et la séquence aquatique fait partie de l'identité.",
-            "Les résidents peuvent passer de la nage à la vapeur puis à la terrasse sans traverser d'espace public, faisant de la récupération une habitude quotidienne plutôt qu'une sortie planifiée."
+            "L'étage bien-être est réservé aux résidents, avec un accès direct depuis la résidence. Il comprend une piscine intérieure chauffée, un sauna et un hammam.",
+            "Les résidents peuvent passer de la piscine au sauna, au hammam puis à la terrasse sans quitter le bâtiment ni traverser d'espace public."
           ]
         },
         "pillars": [
           {
             "title": "Piscine chauffée",
-            "text": "Pour les longueurs du matin, la décompression du soir et le calme toute l'année"
+            "text": "Pour nager toute l'année"
           },
           {
             "title": "Sauna et hammam",
-            "text": "Un circuit complet sauna-hammam intégré à la résidence elle-même"
+            "text": "Un sauna et un hammam complets, intégrés à l'étage bien-être"
           },
           {
-            "title": "Rafraîchissements privés",
-            "text": "Vestiaires et kitchenette permettent des séjours plus longs et conviviaux"
+            "title": "Vestiaires et kitchenette",
+            "text": "Pour des séjours plus longs et de petites réunions"
           },
           {
-            "title": "Échappée extérieure",
-            "text": "Le salon-terrasse prolonge l'expérience vers un extérieur verdoyant"
+            "title": "Salon-terrasse",
+            "text": "Relié directement à l'étage bien-être, ouvert sur le jardin"
           }
         ],
         "gallery": [
@@ -651,18 +700,25 @@ window.siteData = {
           },
           {
             "src": "assets/images/pool-sauna-view.webp",
-            "alt": "Salon spa"
+            "alt": "Salon bien-être"
           },
           {
             "src": "assets/images/hammam.webp",
             "alt": "Intérieur du hammam"
           }
         ],
-        "quote": "Le luxe ici, c'est de pouvoir restaurer son énergie dans le même monde protégé que l'on appelle foyer",
+        "quote": "L'étage bien-être est réservé aux résidents et à leurs invités",
         "next": {
           "href": "grounds.html",
           "label": "Continuer vers les jardins"
-        }
+        },
+        "enquiry": {
+          "title": "Renseignez-vous sur l'étage bien-être",
+          "text": "Organisez une visite pour découvrir la piscine, le sauna et le hammam en personne.",
+          "label": "Organiser une visite",
+          "href": "contact.html"
+        },
+        "galleryTitle": "L'espace bien-être"
       }
     }
   }
