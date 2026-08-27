@@ -487,16 +487,6 @@
           </div>
         </section>
 
-        ${renderMetricStrip(data.stats, "metric-strip metric-strip--arrival")}
-
-        ${renderOpeningDetails({
-          lead: data.hero.lead,
-          description: data.hero.description,
-          primary: data.hero.primary,
-          secondary: data.hero.secondary,
-          variant: "home",
-        })}
-
         <section class="home-premise reveal" id="project">
           <div class="home-premise__copy">
             <p class="eyebrow">${globalData.brand}</p>
@@ -557,32 +547,6 @@
           </figure>
         </section>
 
-        <section class="home-history reveal" id="heritage">
-          <figure class="home-history__media">
-            <img src="${data.legacy.mediaLeft}" alt="${data.legacy.title}" width="1600" height="1023" loading="lazy" decoding="async" />
-          </figure>
-          <div class="home-history__copy">
-            <div class="section-heading">
-              <p class="eyebrow">${chapters[0].number} / ${chapters[0].title}</p>
-              ${heading("h2", data.legacy.title)}
-            </div>
-            <p class="section-copy">${data.legacy.text}</p>
-            <div class="detail-card-grid stagger">
-              ${data.legacy.cards
-                .map(
-                  (card) => `
-                    <article class="detail-card">
-                      <h3>${card.title}</h3>
-                      <p>${card.text}</p>
-                    </article>
-                  `
-              )
-              .join("")}
-            </div>
-            <a class="text-link" href="${chapters[0].href}">${chapters[0].title}<span aria-hidden="true">&rarr;</span></a>
-          </div>
-        </section>
-
         <section class="home-enquiry reveal" id="enquire">
           <p class="eyebrow">${globalData.strap}</p>
           ${heading("h2", globalData.footerTitle)}
@@ -627,13 +591,6 @@
           <p class="story-cover__chapter" aria-hidden="true">01</p>
         </section>
 
-        ${renderOpeningDetails({
-          lead: data.hero.lead,
-          description: data.hero.description,
-          primary: data.hero.button,
-          variant: "story",
-        })}
-
         <section class="story-prologue reveal" id="story-intro">
           <div class="story-prologue__heading">
             <p class="eyebrow">${data.intro.eyebrow}</p>
@@ -677,11 +634,6 @@
 
         ${data.beats.map((beat, index) => renderStoryBeat(beat, index)).join("")}
 
-        <section class="quote-panel quote-panel--story reveal">
-          <p>${data.quote}</p>
-          <a class="button button-secondary" href="${data.next.href}">${data.next.label}</a>
-        </section>
-
         <section class="mission-block reveal">
           <div class="section-heading section-heading--center">
             <p class="eyebrow">${data.mission.eyebrow}</p>
@@ -692,8 +644,6 @@
             <span class="mission-block__note">${data.mission.note}</span>
           </div>
         </section>
-
-        ${renderEnquiry(data)}
 
         <section class="cta-panel reveal">
           <div class="section-heading">
@@ -803,15 +753,6 @@
           </div>
         </section>
 
-        ${renderMetricStrip(data.metrics, "metric-strip chapter-metrics")}
-
-        ${renderOpeningDetails({
-          lead: data.hero.lead,
-          primary: data.next,
-          secondary: { label: data.story.title, href: "#chapter-story" },
-          variant: pageId,
-        })}
-
         <section class="chapter-editorial reveal" id="chapter-story">
           <div class="chapter-editorial__copy">
             <p class="eyebrow">${globalData.brand}</p>
@@ -829,7 +770,6 @@
         <section class="chapter-features reveal">
           <div class="chapter-features__heading">
             <p class="eyebrow">${globalData.chapterLabel}</p>
-            ${heading("h2", data.galleryTitle || data.hero.title)}
           </div>
           <div class="chapter-features__rail stagger">
             ${data.pillars.map((pillar, index) => `
@@ -842,11 +782,6 @@
           </div>
         </section>
 
-        <div class="chapter-information">
-          ${renderSpecs(data)}
-          ${renderDetailGroups(data)}
-        </div>
-
         <section class="gallery-section chapter-gallery reveal">
           <div class="section-heading">
             <p class="eyebrow">${globalData.chapterLabel}</p>
@@ -856,11 +791,6 @@
         </section>
 
         ${renderEnquiry(data)}
-
-        <section class="quote-panel reveal">
-          <p>${data.quote}</p>
-          <a class="button button-primary" href="${data.next.href}">${data.next.label}${arrow}</a>
-        </section>
       </main>
     `;
   }
@@ -913,8 +843,6 @@
             ${heading("h1", data.hero.title)}
           </div>
         </section>
-
-        ${renderOpeningDetails({ lead: data.hero.lead, variant: "contact" })}
 
         <section class="contact-shell reveal">
           <aside class="contact-shell__intro">
