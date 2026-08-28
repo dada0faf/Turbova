@@ -4408,6 +4408,7 @@ body { overflow-x: clip; }
   min-height: clamp(22rem, 54svh, 32rem);
   padding: clamp(1.5rem, 3vw, 2.5rem);
   border-right-color: var(--line);
+  container-type: inline-size;
 }
 
 .story-timeline-scroll .story-timeline__item:first-child {
@@ -4700,20 +4701,28 @@ body { overflow-x: clip; }
   background: transparent;
 }
 
-/* Long translated chronology labels must remain inside their own panel. */
+/* Timeline display type scales against the panel rather than the viewport.
+   This keeps every translated label intact even after the panel width caps. */
 .story-timeline-scroll .story-timeline__item strong {
   display: block;
   min-width: 0;
   max-width: 100%;
-  overflow-wrap: anywhere;
-  hyphens: auto;
-  text-wrap: balance;
+  font-size: clamp(3rem, 28cqi, 6rem);
+  overflow-wrap: normal;
+  hyphens: none;
+  text-wrap: nowrap;
+  white-space: nowrap;
 }
 
-.story-timeline-scroll .story-timeline__title--long {
-  font-size: clamp(2.35rem, 3.4vw, 3.25rem);
+.story-timeline-scroll .story-timeline__item .story-timeline__title--medium {
+  font-size: clamp(2.65rem, 22cqi, 4.6rem);
+  line-height: 0.92;
+}
+
+.story-timeline-scroll .story-timeline__item .story-timeline__title--long {
+  font-size: clamp(2.1rem, 15cqi, 3.25rem);
   line-height: 0.96;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.075em;
 }
 
 @media (max-width: 860px) {
@@ -4757,11 +4766,15 @@ body { overflow-x: clip; }
   }
 
   .story-timeline-scroll .story-timeline__item strong {
-    font-size: clamp(2.7rem, 12vw, 4.8rem);
+    font-size: clamp(2.7rem, 28cqi, 4.8rem);
   }
 
-  .story-timeline-scroll .story-timeline__title--long {
-    font-size: clamp(2.1rem, 8.5vw, 2.65rem);
+  .story-timeline-scroll .story-timeline__item .story-timeline__title--medium {
+    font-size: clamp(2.5rem, 22cqi, 4.25rem);
+  }
+
+  .story-timeline-scroll .story-timeline__item .story-timeline__title--long {
+    font-size: clamp(2rem, 15cqi, 2.65rem);
     line-height: 1;
   }
 }

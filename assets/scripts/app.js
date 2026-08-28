@@ -619,12 +619,22 @@
               <div class="story-timeline" aria-label="Timeline">
                 ${data.timeline
                   .map(
-                    (item) => `
+                    (item) => {
+                      const titleLength = Array.from(item.year).length;
+                      const titleSizeClass =
+                        titleLength > 10
+                          ? "story-timeline__title--long"
+                          : titleLength > 6
+                            ? "story-timeline__title--medium"
+                            : "";
+
+                      return `
                       <article class="story-timeline__item">
-                        <strong class="${Array.from(item.year).length > 10 ? "story-timeline__title--long" : ""}">${item.year}</strong>
+                        <strong class="${titleSizeClass}">${item.year}</strong>
                         <span>${item.label}</span>
                       </article>
-                    `
+                    `;
+                    }
                   )
                   .join("")}
               </div>
