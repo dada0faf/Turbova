@@ -486,6 +486,8 @@
     const story = chapters[0] || {};
     const residences = chapters[1] || chapters[0];
     const wellness = chapters[2] || chapters[0];
+    const grounds = chapters[3] || chapters[0];
+    const location = chapters[4] || chapters[0];
 
     return `
       <main class="page page-home">
@@ -501,18 +503,6 @@
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
           </div>
-        </section>
-
-        <section class="home-premise reveal" id="story">
-          <div class="home-premise__copy">
-            <p class="eyebrow">${story.title || globalData.brand}</p>
-            ${heading("h2", data.legacy.title)}
-            <p class="section-copy">${data.legacy.text}</p>
-          </div>
-          <figure class="home-premise__media">
-            <img src="assets/images/turbova-old.webp" alt="${story.text || data.legacy.title}" width="1200" height="1535" loading="lazy" decoding="async" />
-            <figcaption>${story.text || data.legacy.cards[0].title}</figcaption>
-          </figure>
         </section>
 
         <section class="home-project-proof reveal" id="residences">
@@ -540,6 +530,31 @@
             <p>${wellness.text}</p>
             <a class="text-link text-link--light" href="contact.html">${globalData.enquireLabel}<span aria-hidden="true">&rarr;</span></a>
           </div>
+        </section>
+
+        <section class="home-split home-split--grounds home-split--combined reveal" id="grounds-preview">
+          <figure class="home-split__media">
+            <img src="assets/images/garden-exterior.webp" alt="${grounds.title}" width="1600" height="1066" loading="lazy" decoding="async" />
+          </figure>
+          <div class="home-split__copy">
+            <p class="eyebrow">${navigationLabel(globalData, primaryNavigation[1])}</p>
+            ${heading("h2", grounds.title)}
+            <p>${grounds.text}</p>
+            <p class="home-split__location-note"><strong>${location.title}</strong><span>${location.text}</span></p>
+            <a class="text-link" href="grounds.html">${navigationLabel(globalData, primaryNavigation[1])}<span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </section>
+
+        <section class="home-premise home-premise--history reveal" id="story">
+          <div class="home-premise__copy">
+            <p class="eyebrow">${story.title || globalData.brand}</p>
+            ${heading("h2", data.legacy.title)}
+            <p class="section-copy">${data.legacy.text}</p>
+          </div>
+          <figure class="home-premise__media">
+            <img src="assets/images/turbova-old.webp" alt="${story.text || data.legacy.title}" width="1200" height="1535" loading="lazy" decoding="async" />
+            <figcaption>${story.text || data.legacy.cards[0].title}</figcaption>
+          </figure>
         </section>
 
         <section class="home-enquiry reveal" id="enquire">
@@ -863,12 +878,15 @@
             </div>
           </div>
           <div class="location-map-section__frame">
-            <iframe
-              title="${mapUi.frame}"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=14.370%2C50.055%2C14.410%2C50.085&amp;layer=mapnik&amp;marker=50.070%2C14.390"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <div class="location-map-section__map">
+              <iframe
+                title="${mapUi.frame}"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=14.370%2C50.055%2C14.410%2C50.085&amp;layer=mapnik&amp;marker=50.070%2C14.390"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <span class="location-map-section__coordinates" aria-hidden="true">50.070° N &nbsp; 14.390° E</span>
+            </div>
             <div class="location-map-section__card">
               <p class="eyebrow">${mapUi.eyebrow}</p>
               <h3 id="location-map-title">${mapUi.title}</h3>
