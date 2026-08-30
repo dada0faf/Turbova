@@ -483,6 +483,7 @@
     const data = getPage(locale);
     const globalData = getGlobal(locale);
     const chapters = data.chapters || [];
+    const enquiryImageAlt = data.hero.media?.[0]?.alt || globalData.footerTitle;
     const story = chapters[0] || {};
     const residences = chapters[1] || chapters[0];
     const wellness = chapters[2] || chapters[0];
@@ -558,10 +559,15 @@
         </section>
 
         <section class="home-enquiry reveal" id="enquire">
-          <p class="eyebrow">${globalData.strap}</p>
-          ${heading("h2", globalData.footerTitle)}
-          <p>${globalData.footerText}</p>
-          <a class="button button-primary" href="contact.html">${globalData.enquireLabel}${arrow}</a>
+          <figure class="home-enquiry__media">
+            <img src="assets/images/terrace-hammock.webp" alt="${enquiryImageAlt}" width="1600" height="1066" loading="lazy" decoding="async" />
+          </figure>
+          <div class="home-enquiry__copy">
+            <p class="eyebrow">${globalData.strap}</p>
+            ${heading("h2", globalData.footerTitle)}
+            <p>${globalData.footerText}</p>
+            <a class="button button-primary" href="contact.html">${globalData.enquireLabel}${arrow}</a>
+          </div>
         </section>
       </main>
     `;
@@ -881,10 +887,16 @@
             <div class="location-map-section__map">
               <iframe
                 title="${mapUi.frame}"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=14.370%2C50.055%2C14.410%2C50.085&amp;layer=mapnik&amp;marker=50.070%2C14.390"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=14.340%2C50.032%2C14.440%2C50.108&amp;layer=mapnik"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
+              <span class="location-map-section__marker" aria-hidden="true">
+                <svg viewBox="0 0 36 48" focusable="false">
+                  <path d="M18 47C14.7 41.5 4 29.8 4 18A14 14 0 0 1 32 18c0 11.8-10.7 23.5-14 29Z" fill="currentColor" />
+                  <circle cx="18" cy="18" r="5.25" fill="#f7f3ec" />
+                </svg>
+              </span>
               <span class="location-map-section__coordinates" aria-hidden="true">50.070° N &nbsp; 14.390° E</span>
             </div>
             <div class="location-map-section__card">
@@ -949,6 +961,7 @@
           <div class="contact-cover__copy">
             <p class="eyebrow">${data.hero.eyebrow}</p>
             ${heading("h1", data.hero.title)}
+            <p class="lead">${data.hero.lead}</p>
           </div>
         </section>
 
@@ -965,7 +978,7 @@
           </aside>
           <form class="contact-form" data-contact-form novalidate>
             <fieldset class="contact-form__group">
-              <legend class="contact-form__legend">${form.detailsLegend}</legend>
+              <legend class="contact-form__legend"><span class="contact-form__step" aria-hidden="true">01</span>${form.detailsLegend}</legend>
               <div class="field-grid">
                 <label class="field">
                   <span class="field__label">${form.firstName.label}</span>
@@ -1000,7 +1013,7 @@
             </fieldset>
 
             <fieldset class="contact-form__group">
-              <legend class="contact-form__legend">${form.interestLegend}</legend>
+              <legend class="contact-form__legend"><span class="contact-form__step" aria-hidden="true">02</span>${form.interestLegend}</legend>
               <div class="choice-stack">
                 ${renderRadioGroup("intent", form.intent)}
                 ${renderRadioGroup("apartmentSize", form.apartmentSize)}
