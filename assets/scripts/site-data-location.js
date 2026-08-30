@@ -1,4 +1,4 @@
-window.siteData = {
+window.locationSiteData = {
   "languages": [
     {
       "code": "en",

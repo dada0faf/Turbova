@@ -401,8 +401,8 @@ window.siteData = {
   "pages": {
     "grounds": {
       "en": {
-        "title": "Turbová | Grounds",
-        "metaDescription": "Turbová's private garden: century-old trees, a wine house, outdoor training area, and children's playground, Prague 5.",
+        "title": "Turbová | Grounds & Location",
+        "metaDescription": "Explore Turbová's private garden and its location near Anděl, schools and city connections in Prague 5.",
         "hero": {
           "eyebrow": "04 | Grounds",
           "title": "A private garden with room to retreat",
@@ -476,8 +476,8 @@ window.siteData = {
         "galleryTitle": "The garden"
       },
       "cs": {
-        "title": "Turbová | Zahrady",
-        "metaDescription": "Soukromá zahrada Turbové: staleté stromy, pavilon Wine House, venkovní fitness a dětské hřiště v Praze 5.",
+        "title": "Turbová | Zahrady a lokalita",
+        "metaDescription": "Poznejte soukromou zahradu Turbové a její polohu poblíž Anděla, škol a městských spojení v Praze 5.",
         "hero": {
           "eyebrow": "04 | Zahrady",
           "title": "Soukromá zahrada pro klidný únik",
@@ -551,8 +551,8 @@ window.siteData = {
         "galleryTitle": "Zahrada"
       },
       "ru": {
-        "title": "Turbová | Сады",
-        "metaDescription": "Частный сад Turbová: вековые деревья, павильон Wine House, тренировочная зона и детская площадка в Праге 5.",
+        "title": "Turbová | Сады и локация",
+        "metaDescription": "Познакомьтесь с частным садом Turbová и расположением рядом с Анделом, школами и городскими маршрутами в Праге 5.",
         "hero": {
           "eyebrow": "04 | Сады",
           "title": "Частный сад для тихого отдыха",
@@ -626,8 +626,8 @@ window.siteData = {
         "galleryTitle": "Сад"
       },
       "fr": {
-        "title": "Turbová | Jardins",
-        "metaDescription": "Le jardin privé de Turbová : arbres centenaires, pavillon Wine House, espace de fitness extérieur et aire de jeux à Prague 5.",
+        "title": "Turbová | Jardins et emplacement",
+        "metaDescription": "Découvrez le jardin privé de Turbová et son emplacement près d'Anděl, des écoles et des connexions urbaines à Prague 5.",
         "hero": {
           "eyebrow": "04 | Jardins",
           "title": "Un jardin privé où se retirer",

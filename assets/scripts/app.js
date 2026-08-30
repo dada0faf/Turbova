@@ -3,6 +3,15 @@
   const siteData = window.siteData;
   if (!shell || !siteData) return;
 
+  // The public site has three primary destinations. The page-data modules
+  // still retain the former chapter labels for translated copy, but they no
+  // longer control the information architecture.
+  const primaryNavigation = [
+    { slug: "home", href: "index.html" },
+    { slug: "grounds", href: "grounds.html" },
+    { slug: "contact", href: "contact.html" },
+  ];
+
   const pageId = document.body.dataset.page || "home";
   const languageKey = "turbova-language";
   const themeKey = "turbova-theme";
@@ -100,16 +109,24 @@
 
   const arrow = '<span class="button__arrow" aria-hidden="true">&rarr;</span>';
 
-  // Chapter titles already carry the name at display scale. A compact numeric
-  // marker keeps the eyebrow useful without immediately repeating the heading.
-  const chapterMarker = (number) => `${number} / 05`;
-
   function getGlobal(locale) {
     return siteData.global[locale] || siteData.global.en;
   }
 
   function getPage(locale) {
     return siteData.pages[pageId][locale] || siteData.pages[pageId].en;
+  }
+
+  function getLocationPage(locale) {
+    const pages = window.locationSiteData?.pages?.location;
+    return pages ? pages[locale] || pages.en : null;
+  }
+
+  function navigationLabel(globalData, item) {
+    if (item.slug === "grounds") {
+      return `${globalData.menu.grounds} & ${globalData.menu.location}`;
+    }
+    return globalData.menu[item.slug];
   }
 
   // Wrap heading text in line-reveal masks (split on spaces into balanced lines is overkill;
@@ -121,14 +138,14 @@
 
   function renderNavLinks(locale, className) {
     const globalData = getGlobal(locale);
-    return siteData.navigation
+    return primaryNavigation
       .map((item, index) => {
         const activeClass = item.slug === pageId ? " is-active" : "";
         const indexAttr =
           className === "mobile-nav-link"
             ? ` data-index="0${index + 1}"`
             : "";
-        return `<a class="${className}${activeClass}"${indexAttr} href="${item.href}">${globalData.menu[item.slug]}</a>`;
+        return `<a class="${className}${activeClass}"${indexAttr} href="${item.href}">${navigationLabel(globalData, item)}</a>`;
       })
       .join("");
   }
@@ -466,16 +483,15 @@
     const data = getPage(locale);
     const globalData = getGlobal(locale);
     const chapters = data.chapters || [];
+    const story = chapters[0] || {};
     const residences = chapters[1] || chapters[0];
     const wellness = chapters[2] || chapters[0];
-    const grounds = chapters[3] || chapters[0];
-    const location = chapters[4] || chapters[0];
 
     return `
       <main class="page page-home">
         <section class="arrival-hero reveal is-visible">
           <figure class="arrival-hero__media">
-            <img src="assets/images/new images/ZAB_2-2.webp" alt="${data.hero.media[0].alt}" width="1600" height="1066" fetchpriority="high" decoding="async" />
+            <img src="assets/images/ZAB_2-2.webp" alt="${data.hero.media[0].alt}" width="1600" height="1066" fetchpriority="high" decoding="async" />
           </figure>
           <div class="arrival-hero__veil" aria-hidden="true"></div>
           <figure class="arrival-hero__archive" aria-hidden="true">
@@ -487,64 +503,43 @@
           </div>
         </section>
 
-        <section class="home-premise reveal" id="project">
+        <section class="home-premise reveal" id="story">
           <div class="home-premise__copy">
-            <p class="eyebrow">${globalData.brand}</p>
+            <p class="eyebrow">${story.title || globalData.brand}</p>
             ${heading("h2", data.legacy.title)}
             <p class="section-copy">${data.legacy.text}</p>
           </div>
           <figure class="home-premise__media">
-            <img src="assets/images/new images/IMG_2525.webp" alt="${data.hero.media[1].alt}" width="1600" height="900" loading="lazy" decoding="async" />
-            <figcaption>${data.legacy.cards[0].title}</figcaption>
+            <img src="assets/images/turbova-old.webp" alt="${story.text || data.legacy.title}" width="1200" height="1535" loading="lazy" decoding="async" />
+            <figcaption>${story.text || data.legacy.cards[0].title}</figcaption>
           </figure>
         </section>
 
         <section class="home-project-proof reveal" id="residences">
-          <p class="eyebrow">${chapterMarker(residences.number)}</p>
+          <p class="eyebrow">${residences.title}</p>
           <div class="home-project-proof__title">
             <span aria-hidden="true">22</span>
             <div>
               ${heading("h2", residences.title)}
               <p>${residences.text}</p>
-              <a class="text-link" href="${residences.href}">${residences.cta || residences.title}<span aria-hidden="true">&rarr;</span></a>
+              <ul class="home-project-proof__facts" aria-label="${residences.title}">
+                ${data.hero.badges.map((badge) => `<li>${badge}</li>`).join("")}
+              </ul>
+              <a class="text-link" href="contact.html">${globalData.enquireLabel}<span aria-hidden="true">&rarr;</span></a>
             </div>
           </div>
         </section>
 
         <section class="home-scene home-scene--wellness reveal" id="wellness">
           <figure class="home-scene__media">
-            <img src="assets/images/new images/IMG_2254.webp" alt="${wellness.title}" width="1600" height="900" loading="lazy" decoding="async" />
+            <img src="assets/images/IMG_2254.webp" alt="${wellness.title}" width="1600" height="900" loading="lazy" decoding="async" />
           </figure>
           <div class="home-scene__overlay">
-            <p class="eyebrow">${chapterMarker(wellness.number)}</p>
+            <p class="eyebrow">${wellness.title}</p>
             ${heading("h2", wellness.title)}
             <p>${wellness.text}</p>
-            <a class="text-link text-link--light" href="${wellness.href}">${wellness.cta || wellness.title}<span aria-hidden="true">&rarr;</span></a>
+            <a class="text-link text-link--light" href="contact.html">${globalData.enquireLabel}<span aria-hidden="true">&rarr;</span></a>
           </div>
-        </section>
-
-        <section class="home-split home-split--grounds reveal" id="grounds">
-          <figure class="home-split__media">
-            <img src="assets/images/garden-exterior.webp" alt="${grounds.title}" width="1600" height="1066" loading="lazy" decoding="async" />
-          </figure>
-          <div class="home-split__copy">
-            <p class="eyebrow">${chapterMarker(grounds.number)}</p>
-            ${heading("h2", grounds.title)}
-            <p>${grounds.text}</p>
-            <a class="text-link" href="${grounds.href}">${grounds.cta || grounds.title}<span aria-hidden="true">&rarr;</span></a>
-          </div>
-        </section>
-
-        <section class="home-split home-split--location reveal" id="location">
-          <div class="home-split__copy">
-            <p class="eyebrow">${chapterMarker(location.number)}</p>
-            ${heading("h2", location.title)}
-            <p>${location.text}</p>
-            <a class="text-link" href="${location.href}">${location.cta || location.title}<span aria-hidden="true">&rarr;</span></a>
-          </div>
-          <figure class="home-split__media">
-            <img src="assets/images/two-buildings-side-view.webp" alt="${location.title}" width="1600" height="1000" loading="lazy" decoding="async" />
-          </figure>
         </section>
 
         <section class="home-enquiry reveal" id="enquire">
@@ -683,10 +678,10 @@
   const chapterArt = {
     residences: {
       hero: "assets/images/front-view.webp",
-      secondary: "assets/images/new images/View05.webp",
+      secondary: "assets/images/View05.webp",
       gallery: [
         "assets/images/front-view.webp",
-        "assets/images/new images/View05.webp",
+        "assets/images/View05.webp",
         "assets/images/main-lobby-entrance-and-logo.webp",
         "assets/images/lobby-wide.webp",
         "assets/images/corridor-2.webp",
@@ -694,13 +689,13 @@
       ],
     },
     wellness: {
-      hero: "assets/images/new images/IMG_2261.webp",
-      secondary: "assets/images/new images/IMG_2255.webp",
+      hero: "assets/images/IMG_2261.webp",
+      secondary: "assets/images/IMG_2255.webp",
       gallery: [
-        "assets/images/new images/IMG_2261.webp",
-        "assets/images/new images/IMG_2255.webp",
-        "assets/images/new images/IMG_2254.webp",
-        "assets/images/new images/IMG_2263.webp",
+        "assets/images/IMG_2261.webp",
+        "assets/images/IMG_2255.webp",
+        "assets/images/IMG_2254.webp",
+        "assets/images/IMG_2263.webp",
         "assets/images/spa-relaxation.webp",
         "assets/images/hammam.webp",
       ],
@@ -805,6 +800,91 @@
     `;
   }
 
+  function renderGroundsLocation(locale) {
+    const data = getPage(locale);
+    const location = getLocationPage(locale);
+    if (!location) return renderChapter(locale);
+
+    const globalData = getGlobal(locale);
+    const mapUi = {
+      en: { eyebrow: "Find Turbová", title: "Prague 5, Smíchov", link: "Open a larger map", frame: "Map showing Turbová in Prague 5" },
+      cs: { eyebrow: "Najděte Turbovou", title: "Praha 5, Smíchov", link: "Otevřít větší mapu", frame: "Mapa Turbové v Praze 5" },
+      ru: { eyebrow: "Найдите Turbová", title: "Прага 5, Смихов", link: "Открыть большую карту", frame: "Карта Turbová в Праге 5" },
+      fr: { eyebrow: "Trouver Turbová", title: "Prague 5, Smíchov", link: "Ouvrir la carte", frame: "Carte de Turbová à Prague 5" },
+    }[locale] || null;
+
+    return `
+      <main class="page page-chapter page-grounds-location">
+        <section class="chapter-cover reveal is-visible">
+          <figure class="chapter-cover__media">
+            <img src="assets/images/terrace.webp" alt="${data.hero.title}" width="1600" height="1066" fetchpriority="high" decoding="async" />
+          </figure>
+          <div class="chapter-cover__scrim" aria-hidden="true"></div>
+          <div class="chapter-cover__copy">
+            <p class="eyebrow">${navigationLabel(globalData, primaryNavigation[1])}</p>
+            ${heading("h1", data.hero.title)}
+          </div>
+          <div class="chapter-cover__index" aria-hidden="true"><span>02</span><i></i><span>03</span></div>
+        </section>
+
+        <section class="chapter-editorial reveal" id="grounds">
+          <div class="chapter-editorial__copy">
+            <p class="eyebrow">${globalData.menu.grounds}</p>
+            ${heading("h2", data.story.title)}
+            <div class="chapter-editorial__paragraphs">
+              ${data.story.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+            </div>
+          </div>
+          <figure class="chapter-editorial__media">
+            <img src="assets/images/terrace-hammock.webp" alt="${data.story.title}" width="1600" height="900" loading="lazy" decoding="async" />
+            <figcaption>${data.galleryTitle}</figcaption>
+          </figure>
+        </section>
+
+        <section class="chapter-features reveal" aria-label="${data.story.title}">
+          <div class="chapter-features__heading"><p class="eyebrow">${globalData.chapterLabel}</p></div>
+          <div class="chapter-features__rail stagger">
+            ${data.pillars.map((pillar, index) => `
+              <article class="chapter-feature">
+                <span>0${index + 1}</span>
+                <h3>${pillar.title}</h3>
+                <p>${pillar.text}</p>
+              </article>
+            `).join("")}
+          </div>
+        </section>
+
+        <section class="location-map-section reveal" id="location" aria-labelledby="location-map-title">
+          <div class="location-map-section__intro">
+            <p class="eyebrow">${globalData.menu.location}</p>
+            ${heading("h2", location.hero.title, "location-map-section__title")}
+            <div class="location-map-section__copy">
+              ${location.story.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+            </div>
+          </div>
+          <div class="location-map-section__frame">
+            <iframe
+              title="${mapUi.frame}"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=14.370%2C50.055%2C14.410%2C50.085&amp;layer=mapnik&amp;marker=50.070%2C14.390"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="location-map-section__card">
+              <p class="eyebrow">${mapUi.eyebrow}</p>
+              <h3 id="location-map-title">${mapUi.title}</h3>
+              <dl>
+                ${location.metrics.map((metric) => `<div><dt>${metric.value}</dt><dd>${metric.label}</dd></div>`).join("")}
+              </dl>
+              <a class="text-link" href="https://www.openstreetmap.org/?mlat=50.070&amp;mlon=14.390#map=15/50.070/14.390" target="_blank" rel="noreferrer">${mapUi.link}<span aria-hidden="true">&nearr;</span></a>
+            </div>
+          </div>
+        </section>
+
+        ${renderEnquiry(data)}
+      </main>
+    `;
+  }
+
   function renderRadioGroup(name, field) {
     return `
       <fieldset class="field field--choice">
@@ -845,7 +925,7 @@
       <main class="page page-contact">
         <section class="contact-cover reveal is-visible">
           <figure class="contact-cover__media">
-            <img src="assets/images/new images/View05.webp" alt="${data.hero.title}" width="1600" height="900" fetchpriority="high" decoding="async" />
+            <img src="assets/images/View05.webp" alt="${data.hero.title}" width="1600" height="900" fetchpriority="high" decoding="async" />
           </figure>
           <div class="contact-cover__scrim" aria-hidden="true"></div>
           <div class="contact-cover__copy">
@@ -937,18 +1017,16 @@
       <footer class="site-footer reveal stagger">
         <div class="footer-brand">
           <p class="eyebrow">${globalData.availableLabel} ${globalData.availableValue}</p>
-          <h2>${globalData.footerTitle}</h2>
-          <p>${globalData.footerText}</p>
+          <h2>${globalData.brand}</h2>
+          <p>${globalData.footerNote}</p>
         </div>
         <nav class="footer-links" aria-label="${globalData.menuLabel}">
-          ${siteData.navigation
-            .map((item) => `<a class="footer-link" href="${item.href}">${globalData.menu[item.slug]}</a>`)
+          ${primaryNavigation
+            .map((item) => `<a class="footer-link" href="${item.href}">${navigationLabel(globalData, item)}</a>`)
             .join("")}
         </nav>
         <div class="footer-actions">
-          <a class="button button-primary" href="residences.html">${globalData.footerPrimary}${arrow}</a>
-          <a class="button button-secondary" href="story.html">${globalData.footerSecondary}</a>
-          <p class="footer-note">${globalData.footerNote}</p>
+          <a class="button button-primary" href="contact.html">${globalData.enquireLabel}${arrow}</a>
         </div>
       </footer>
     `;
@@ -970,11 +1048,13 @@
     const pageMarkup =
       pageId === "home"
         ? renderHome(locale)
-        : pageId === "story"
-          ? renderStory(locale)
-          : pageId === "contact"
-            ? renderContact(locale)
-            : renderChapter(locale);
+        : pageId === "grounds"
+          ? renderGroundsLocation(locale)
+          : pageId === "story"
+            ? renderStory(locale)
+            : pageId === "contact"
+              ? renderContact(locale)
+              : renderChapter(locale);
     shell.innerHTML = `
       <div class="scroll-progress" aria-hidden="true"></div>
       <div class="ambient ambient--one"></div>
@@ -1314,16 +1394,8 @@
         }
       };
 
-      let timer = null;
       let controlsTimer = null;
       let controlsObserver = null;
-      const start = () => {
-        if (!reduceMotion) timer = setInterval(next, 5000);
-      };
-      const restart = () => {
-        if (timer) clearInterval(timer);
-        start();
-      };
 
       const revealControls = () => {
         carousel.classList.add("is-controls-visible");
@@ -1368,14 +1440,12 @@
       if (prevButton) {
         prevButton.addEventListener("click", () => {
           prev();
-          restart();
           revealControls();
         });
       }
       if (nextButton) {
         nextButton.addEventListener("click", () => {
           next();
-          restart();
           revealControls();
         });
       }
@@ -1383,14 +1453,11 @@
       dots.forEach((dot, i) => {
         dot.addEventListener("click", () => {
           moveTo(i);
-          restart();
           revealControls();
         });
       });
 
-      start();
       cleanups.push(() => {
-        if (timer) clearInterval(timer);
         if (controlsTimer) window.clearTimeout(controlsTimer);
         controlsObserver?.disconnect();
       });

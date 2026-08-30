@@ -2417,6 +2417,172 @@ p {
   }
 }
 
+/* ---------------------------------------------------------------------
+   Three-page edit: concise residence facts and the combined location map
+   --------------------------------------------------------------------- */
+.home-project-proof__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: clamp(2rem, 4vw, 3rem) 0 1.5rem;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.home-project-proof__facts li {
+  flex: 1 1 11rem;
+  padding: 1rem 1.25rem 1rem 0;
+  color: var(--ink-soft);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line);
+}
+
+.location-map-section {
+  box-sizing: border-box;
+  width: min(1440px, calc(100vw - 64px));
+  margin: 0 auto;
+  padding: clamp(6rem, 11vw, 11rem) 0;
+}
+
+.location-map-section__intro {
+  display: grid;
+  grid-template-columns: minmax(9rem, 3fr) minmax(0, 9fr);
+  gap: 2rem;
+  margin-bottom: clamp(2.5rem, 5vw, 5rem);
+}
+
+.location-map-section__intro > .eyebrow {
+  margin-top: 0.7rem;
+}
+
+.location-map-section__title {
+  max-width: 11ch;
+  margin: 0;
+  font-size: clamp(2.75rem, 5.4vw, 6.5rem);
+  line-height: 0.96;
+  text-wrap: balance;
+}
+
+.location-map-section__copy {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.5rem, 4vw, 4rem);
+  max-width: 58rem;
+}
+
+.location-map-section__copy p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--fs-base);
+  line-height: 1.75;
+}
+
+.location-map-section__frame {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 25rem);
+  min-height: clamp(34rem, 58vw, 46rem);
+  overflow: hidden;
+  background: var(--paper-deep);
+  box-shadow: var(--shadow-soft), var(--media-ring);
+}
+
+.location-map-section__frame iframe {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  border: 0;
+  filter: grayscale(0.72) sepia(0.14) saturate(0.8) contrast(0.96);
+}
+
+.location-map-section__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(2rem, 4vw, 4rem);
+  color: #f7f3ec;
+  background: var(--forest-deep);
+}
+
+.location-map-section__card .eyebrow,
+.location-map-section__card .text-link {
+  color: #e9d5b0;
+}
+
+.location-map-section__card h3 {
+  margin: 0 0 clamp(2rem, 4vw, 3.5rem);
+  color: inherit;
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+  line-height: 1;
+  text-wrap: balance;
+}
+
+.location-map-section__card dl {
+  margin: 0 0 clamp(2rem, 4vw, 3.5rem);
+}
+
+.location-map-section__card dl div {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, 0.8fr) minmax(0, 1.2fr);
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(247, 243, 236, 0.22);
+}
+
+.location-map-section__card dt,
+.location-map-section__card dd {
+  margin: 0;
+}
+
+.location-map-section__card dt {
+  color: #f7f3ec;
+  font-family: var(--serif);
+  font-size: var(--fs-lg);
+}
+
+.location-map-section__card dd {
+  color: rgba(247, 243, 236, 0.75);
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+}
+
+@media (max-width: 860px) {
+  .location-map-section {
+    width: calc(100vw - 40px);
+    padding: 5rem 0;
+  }
+
+  .location-map-section__intro,
+  .location-map-section__copy,
+  .location-map-section__frame {
+    grid-template-columns: 1fr;
+  }
+
+  .location-map-section__copy {
+    grid-column: auto;
+  }
+
+  .location-map-section__frame iframe {
+    min-height: 28rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .location-map-section__frame iframe {
+    min-height: 22rem;
+  }
+
+  .location-map-section__card dl div {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+}
+
 @media (max-width: 640px) {
   :root {
     --gutter: 5vw;
@@ -5214,5 +5380,26 @@ html[lang="ru"] .button {
   html[lang="ru"] .line-reveal > span {
     letter-spacing: -0.006em;
     line-height: 1.08;
+  }
+}
+
+/* The full-screen mobile menu owns the top layer while open. */
+body.menu-open .site-header {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (max-width: 860px) {
+  .mobile-menu__head .eyebrow {
+    display: none;
+  }
+
+  .mobile-menu__head h2 {
+    margin-top: 0;
+  }
+
+  .mobile-menu .mobile-close {
+    color: #f7f3ec;
+    border-color: rgba(247, 243, 236, 0.45);
   }
 }
